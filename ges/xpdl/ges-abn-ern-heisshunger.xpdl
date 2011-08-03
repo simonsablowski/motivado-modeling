@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="eaf6bca8-6023-4ef6-b8f7-43017ed65627" Name="ges-abn-ern-heisshunger" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-26T16:09:25.8228003+02:00</Created>
+    <ModificationDate>2011-07-08T13:51:24.078125+02:00</ModificationDate>
+    <Description>ges-abn-ern-heisshunger</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-27T09:58:08.859375Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-27T10:40:58.21875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-29T12:50:34.390625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-29T13:12:15.546875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-30T13:23:30.484375Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-05T13:12:23.765625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-08T11:37:16.15625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-08T11:51:24.078125Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="58f6f6c6-8504-481e-870b-70d8c755f6f7" Process="500cc21d-f61d-4e22-86e4-062012a793e4" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="c39b3754-35f6-4ccf-8ab5-608c9139709f" Name="Process 1" Process="dfa7aa9a-d777-4b5a-b9ff-1320b0d9e0f3" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="361" Width="1263" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="500cc21d-f61d-4e22-86e4-062012a793e4" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-08T13:52:11.46875+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="dfa7aa9a-d777-4b5a-b9ff-1320b0d9e0f3" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-08T13:52:11.46875+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="3b3eccd9-4841-49b5-b780-edda55f9a488" Name="Der Heißhunger ist immer noch da.">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="100" YCoordinate="103" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7d431532-15ba-4581-b15c-b5ea5c6da327" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1105" YCoordinate="310" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0440427e-9547-4214-b84f-6df0c002cdc1" Name="Weniger als zwei Gläser.">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="516" YCoordinate="42" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8cb4ad8e-ed01-42ed-9acd-90f90cb7825e" Name="Ungefähr drei bis vier Gläser.">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="517" YCoordinate="117" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1dc6fc41-0bf2-46f8-a7e4-abdcffa2b188" Name="Fünf Gläser oder mehr.">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="518" YCoordinate="198" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="adadb179-f67f-449b-bfdf-19fc193a1b72" Name="Das ist sehr wenig! Eigentlich sollten Sie für jede Kalorie, die Sie zu sich nehmen, einen Mililiter Wasser trinken. Bei 1800 Kalorien wären das 1,8 Liter. Mit zwei Gläsern haben Sie nicht einmal ein Drittel dieser Menge erreicht. Das hat ernstzunehmende Folgen für Ihren Körper. Z.B. ist Ihr Blut dicker und Ihr Herz muss sich viel mehr anstrengen, um diese schwerfällige Masse durch den Körper zu pumpen. Wenn Sie hingegen ausreichend trinken, können Sie alle Giftstoffe, die beim Fettabbau entstehen, aus dem Körper spülen.&#xD;&#xA;Selbst wenn Sie keinen Durst verspüren, bedeutet das nicht, dass Ihr Körper die Flüssigkeit nicht braucht. Oft fühlt sich Durst auch wie Hunger an. Greifen Sie also das nächste Mal, wenn Sie Hunger haben, zu einem großen Glas Wasser, ungesüßten Tee oder stark verdünnte Saftschorle (ohne Zuckerzusatz). Und am besten stehen Sie gleich jetzt auf und holen sich etwas zu trinken. Ich warte solange hier auf Sie!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="58" Width="93" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="634" YCoordinate="43" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d270545a-c684-42f3-9b5b-6705ec6e3c93" Name="Drei bis vier Gläser pro Tag sind schon ein guter Anfang, aber noch nicht genug, um Ihre Gesundheit und Ihren Abnehmprozess wirklich zu fördern. Die Faustregel ist: Für jede Kalorie, die Sie zu sich nehmen, sollten Sie einen Mililiter Wasser trinken. Bei 1800 Kalorien wären das 1,8 liter. Wenn Ihre Gläser nicht gerade einen halben Liter fassen, können Sie sich hier noch steigern. &#xD;&#xA;Selbst wenn Sie keinen Durst verspüren, bedeutet das nicht, dass Ihr Körper die Flüssigkeit nicht braucht. Oft fühlt sich Durst auch wie Hunger an. Greifen Sie also das nächste Mal, wenn Sie Hunger haben, zu einem großen Glas Wasser, ungesüßten Tee oder stark verdünnte Saftschorle (ohne Zuckerzusatz). Und am besten stehen Sie gleich jetzt auf und holen sich etwas zu trinken. Ich warte solange hier auf Sie!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="57" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="633" YCoordinate="118.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="275b611d-5e98-4465-a535-5bc38dbc429c" Name="Sehr gut, Sie scheinen Ihrem Körper schon ausreichend Flüssigkeit zuzuführen. Die Faustregel ist: Für jede Kalorie, die Sie zu sich nehmen, sollten Sie einen Mililiter Wasser trinken. Bei 1800 Kalorien wären das 1,8 liter.&#xD;&#xA;Mit fünf großen Gläsern reichen Sie daran also schon an. &#xD;&#xA;Allerdings können sich gerade in Getränken mit Zuckerzusätzen viele Kalorien verstecken. Achten Sie also darauf, dass sich Ihre fünf Gläser oder mehr aus Wasser, ungesüßtem Tee und stark verdünnten Saftschorlen (ohne Zuckerzusatz) zusammensetzen. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="59" Width="88" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="636" YCoordinate="198.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="21dbbfbc-2062-429b-b247-63d7b30f2f6e" Name="">
+          <Description>$Video("video":{"url":"DIC_Heisshunger2_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_Heisshunger2_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="42" Width="70" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="133" YCoordinate="97" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="288988fb-216a-4711-b96c-f1abcf095d8d" Name="Heißhunger-Regeln">
+          <Description>$BulletPoints("video":{"url":"DIC_Heisshunger2_V2.flv"},"elements":[{"element":"Regel Nr. 1: Keine fettigen/zuckrigen Sachen im Haus haben!","second":11},{"element":"Regel Nr. 2: Halten Sie gesunde Alternativen bereit!","second":16}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_Heisshunger2_V2.flv"},"elements":[{"element":"Regel Nr. 1: Keine fettigen/zuckrigen Sachen im Haus haben!","second":11},{"element":"Regel Nr. 2: Halten Sie gesunde Alternativen bereit!","second":16}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="210" YCoordinate="88" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2d53bdb7-bbd3-47a7-8ffe-e86855cd623e" Name="Noch mehr Tricks gegen Heißhunger">
+          <Description>$BulletPoints("video":{"url":"DIC_Heisshunger2_V5.flv"},"elements":[{"element":"1. Zähne putzen!","second":7},{"element":"2. Lassen Sie nicht zu viel Zeit zwischen den Mahlzeiten (4 Stunden). ","second":20}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_Heisshunger2_V5.flv"},"elements":[{"element":"1. Zähne putzen!","second":7},{"element":"2. Lassen Sie nicht zu viel Zeit zwischen den Mahlzeiten (4 Stunden). ","second":20}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="755" YCoordinate="117" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="de812674-fded-4641-a5bf-4f9ee765d719" Name="Veränderungen fühlen sich immer erst einmal seltsam an, aber:">
+          <Description>$Text("video":{"url":"DIC_Heisshunger2_V6.flv"})
+Bis zur Übelkeit essen haben wir uns doch auch angewöhnt?!
+Große Mengen Zucker sind für unseren Körper Gift! Unsere Leber kann große Mengen nicht abbauen. Die Folgen sind Vergiftungserscheinungen und uns wird schlecht. Dann schaffen Sie es jetzt auch sich gesünderes Verhalten anzugewöhnen!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_Heisshunger2_V6.flv"})
+Bis zur Übelkeit essen haben wir uns doch auch angewöhnt?!
+Große Mengen Zucker sind für unseren Körper Gift! Unsere Leber kann große Mengen nicht abbauen. Die Folgen sind Vergiftungserscheinungen und uns wird schlecht. Dann schaffen Sie es jetzt auch sich gesünderes Verhalten anzugewöhnen!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="870" YCoordinate="117" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="efefabab-ebcf-4be4-8399-60e0a59efb12" Name="Was werden Sie das nächste Mal anders machen, wenn der Heißunger kommen sollte?">
+          <Description>$Text("video":{"url":"DIC_Heisshunger2_V7.flv","delay":17})
+
+Schreiben Sie es auf:
+"Wenn das nächste Mal der Heißhunger kommt, dann werde ich ... machen/tun."
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_Heisshunger2_V7.flv","delay":17})
+
+Schreiben Sie es auf:
+"Wenn das nächste Mal der Heißhunger kommt, dann werde ich ... machen/tun."
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="986" YCoordinate="117" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a34119fb-02ee-4cf0-913c-bc6631780b4e" Name="">
+          <Description>$Video("video":{"url":"DIC_Heisshunger2Outro_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_Heisshunger2Outro_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1099" YCoordinate="117" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2ade9111-efdb-4d50-9fd2-2cf060ef517c" Name="Hier können Sie sich die Zusammenfassung des Coachings runterladen:">
+          <Description>$DocumentDownload("documents":[{"name":"Coaching-Zusammenfassung","file":"Zusammenfassung-Heißhunger.pdf"}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$DocumentDownload("documents":[{"name":"Coaching-Zusammenfassung","file":"Zusammenfassung-Heißhunger.pdf"}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1099" YCoordinate="217" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1ab3e474-b826-4c05-8ab1-c399227067cd" Name="Wieviele Gläser Wasser/Tee/Fruchtschorle haben Sie heute ungefähr getrunken?">
+          <Description>$Options:DIC_WievielGetrunken("video":{"url":"DIC_Heisshunger2_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Options:DIC_WievielGetrunken("video":{"url":"DIC_Heisshunger2_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="63" Width="89" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="379" YCoordinate="115.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f2de84f7-0d9a-4cae-b86e-2a45e99fee44" Name="Es geht gar nicht ohne Süßes? ">
+          <Description>$Text()
+Es geht gar nicht ohne Süßes? Dann beachten Sie folgende Regeln: 
+
+1. Nie große Packungen kaufen! Immer nur einzeln abgepackte und kleine Portionen.
+2. Räumen Sie sich am Tag 200Kcal ein für Dinge, auf die Sie nicht verzichten möchten. Gestalten Sie diese dann jedoch so gesund, wie möglich (anstatt Vollmilchschokolade -&gt; Schokolade mit mindestens 70% Kakao, etc.)</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Es geht gar nicht ohne Süßes? Dann beachten Sie folgende Regeln: 
+
+1. Nie große Packungen kaufen! Immer nur einzeln abgepackte und kleine Portionen.
+2. Räumen Sie sich am Tag 200Kcal ein für Dinge, auf die Sie nicht verzichten möchten. Gestalten Sie diese dann jedoch so gesund, wie möglich (anstatt Vollmilchschokolade -&gt; Schokolade mit mindestens 70% Kakao, etc.)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="333" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="460f5856-f42b-41ea-81ea-edccc2e302a1" From="1ab3e474-b826-4c05-8ab1-c399227067cd" To="0440427e-9547-4214-b84f-6df0c002cdc1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="468" YCoordinate="146" />
+              <Coordinates XCoordinate="495.5" YCoordinate="146" />
+              <Coordinates XCoordinate="495.5" YCoordinate="72" />
+              <Coordinates XCoordinate="516" YCoordinate="72" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ff141b5d-fd83-49f4-be46-565dbebe4f14" From="1ab3e474-b826-4c05-8ab1-c399227067cd" To="8cb4ad8e-ed01-42ed-9acd-90f90cb7825e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="468" YCoordinate="146" />
+              <Coordinates XCoordinate="492.5" YCoordinate="146" />
+              <Coordinates XCoordinate="492.5" YCoordinate="147" />
+              <Coordinates XCoordinate="517" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2142b762-7648-482d-bf92-0fe13bc638f6" From="1ab3e474-b826-4c05-8ab1-c399227067cd" To="1dc6fc41-0bf2-46f8-a7e4-abdcffa2b188" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="468" YCoordinate="146" />
+              <Coordinates XCoordinate="493" YCoordinate="146" />
+              <Coordinates XCoordinate="493" YCoordinate="228" />
+              <Coordinates XCoordinate="518" YCoordinate="228" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4a2a6bf3-cbe3-41fd-981c-56a41bb041cc" From="0440427e-9547-4214-b84f-6df0c002cdc1" To="adadb179-f67f-449b-bfdf-19fc193a1b72" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="606" YCoordinate="72" />
+              <Coordinates XCoordinate="634" YCoordinate="72" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1571a8c6-139a-41aa-a28e-061a61ecd56b" From="8cb4ad8e-ed01-42ed-9acd-90f90cb7825e" To="d270545a-c684-42f3-9b5b-6705ec6e3c93" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="607" YCoordinate="147" />
+              <Coordinates XCoordinate="620" YCoordinate="147" />
+              <Coordinates XCoordinate="620" YCoordinate="146" />
+              <Coordinates XCoordinate="633" YCoordinate="146" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="cfe0de3d-c39a-4ddb-9d1b-0bf656c96140" From="1dc6fc41-0bf2-46f8-a7e4-abdcffa2b188" To="275b611d-5e98-4465-a535-5bc38dbc429c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="608" YCoordinate="228" />
+              <Coordinates XCoordinate="621.5" YCoordinate="228" />
+              <Coordinates XCoordinate="621.5" YCoordinate="227" />
+              <Coordinates XCoordinate="636" YCoordinate="227" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bcf5dce0-26a9-4505-a5eb-c7351d2b94b0" From="3b3eccd9-4841-49b5-b780-edda55f9a488" To="21dbbfbc-2062-429b-b247-63d7b30f2f6e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="130" YCoordinate="118" />
+              <Coordinates XCoordinate="133" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f8802e1e-d129-4651-87af-cb0851b2582b" From="21dbbfbc-2062-429b-b247-63d7b30f2f6e" To="288988fb-216a-4711-b96c-f1abcf095d8d" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="203" YCoordinate="118" />
+              <Coordinates XCoordinate="210" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="79444621-4e78-41e0-ae4d-d54bdbcffcf3" From="adadb179-f67f-449b-bfdf-19fc193a1b72" To="2d53bdb7-bbd3-47a7-8ffe-e86855cd623e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="727" YCoordinate="72" />
+              <Coordinates XCoordinate="741" YCoordinate="72" />
+              <Coordinates XCoordinate="741" YCoordinate="147" />
+              <Coordinates XCoordinate="755" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8e52043a-f78c-4074-8ba4-b89e598888d7" From="d270545a-c684-42f3-9b5b-6705ec6e3c93" To="2d53bdb7-bbd3-47a7-8ffe-e86855cd623e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="723" YCoordinate="146" />
+              <Coordinates XCoordinate="738" YCoordinate="146" />
+              <Coordinates XCoordinate="738" YCoordinate="147" />
+              <Coordinates XCoordinate="755" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2ea37ecc-5087-4e48-a433-ab2a385a5469" From="275b611d-5e98-4465-a535-5bc38dbc429c" To="2d53bdb7-bbd3-47a7-8ffe-e86855cd623e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="724" YCoordinate="227" />
+              <Coordinates XCoordinate="738.5" YCoordinate="227" />
+              <Coordinates XCoordinate="738.5" YCoordinate="147" />
+              <Coordinates XCoordinate="755" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="44d3f645-0e88-4562-94f8-6c87d1430e40" From="2d53bdb7-bbd3-47a7-8ffe-e86855cd623e" To="de812674-fded-4641-a5bf-4f9ee765d719" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="845" YCoordinate="147" />
+              <Coordinates XCoordinate="870" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="523e46b5-9b39-442a-86ec-3a1783e4167d" From="de812674-fded-4641-a5bf-4f9ee765d719" To="efefabab-ebcf-4be4-8399-60e0a59efb12" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="960" YCoordinate="147" />
+              <Coordinates XCoordinate="986" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="38fd84c0-e680-4e8e-8863-bc2288e11098" From="efefabab-ebcf-4be4-8399-60e0a59efb12" To="a34119fb-02ee-4cf0-913c-bc6631780b4e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1076" YCoordinate="147" />
+              <Coordinates XCoordinate="1099" YCoordinate="147" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="27bc71a7-800c-4bf9-b1e6-581d5944db52" From="2ade9111-efdb-4d50-9fd2-2cf060ef517c" To="7d431532-15ba-4581-b15c-b5ea5c6da327" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1144" YCoordinate="277" />
+              <Coordinates XCoordinate="1144" YCoordinate="293.5" />
+              <Coordinates XCoordinate="1120" YCoordinate="293.5" />
+              <Coordinates XCoordinate="1120" YCoordinate="310" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8b0c5b03-c207-486a-9ff0-8dea12a7b9f8" From="a34119fb-02ee-4cf0-913c-bc6631780b4e" To="2ade9111-efdb-4d50-9fd2-2cf060ef517c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1144" YCoordinate="177" />
+              <Coordinates XCoordinate="1144" YCoordinate="217" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1c3b935e-8550-4284-a161-5090947b9ded" From="288988fb-216a-4711-b96c-f1abcf095d8d" To="f2de84f7-0d9a-4cae-b86e-2a45e99fee44" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="300" YCoordinate="118" />
+              <Coordinates XCoordinate="316.5" YCoordinate="118" />
+              <Coordinates XCoordinate="316.5" YCoordinate="71" />
+              <Coordinates XCoordinate="333" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f55d1686-7921-41d1-bb21-3b5dddb9864d" From="f2de84f7-0d9a-4cae-b86e-2a45e99fee44" To="1ab3e474-b826-4c05-8ab1-c399227067cd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="378" YCoordinate="101" />
+              <Coordinates XCoordinate="378" YCoordinate="108" />
+              <Coordinates XCoordinate="423" YCoordinate="108" />
+              <Coordinates XCoordinate="423" YCoordinate="115" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

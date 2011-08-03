@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="4e59ec0f-5176-4f27-a2f6-d061bf4b0430" Name="ges-abn-ern-langeweile" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-18T19:28:14.6556867+02:00</Created>
+    <ModificationDate>2011-07-14T11:45:26.765625+02:00</ModificationDate>
+    <Description>ges-abn-ern-langeweile</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-07-14T09:08:19.6875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-14T09:28:23.984375Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-14T09:45:26.765625Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="2c977e09-802d-40e1-bfea-2d098f99cbcd" Process="f3f1570a-e68a-4aa7-9d0c-51da921d05e6" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="bc6ad9df-731a-494a-ac3c-de9aee1afb27" Name="Process 1" Process="8b2aa0fe-0440-43e2-8ef1-655bcb630c37" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="382" Width="966" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="39" YCoordinate="40" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="f3f1570a-e68a-4aa7-9d0c-51da921d05e6" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-14T11:45:55.234375+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="8b2aa0fe-0440-43e2-8ef1-655bcb630c37" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-14T11:45:55.234375+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="ba1f2813-baba-4028-977c-1c8a2d36b7c9" Name="Emotionaler Esser II">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="116" YCoordinate="93.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="32f69939-5b48-4fc1-9a4d-6c80658d35f5" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="928" YCoordinate="179" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7cdaad2a-dee0-4748-a5ad-e38bb88c2c2c" Name="Essen aus Langeweile">
+          <Description>$Text()
+Es gibt verschiedene emotionale Zustände, in denen man zum Essen greift
+
+Langeweile gehört zu den häufigsten. 
+
+Nehmen Sie sich für diesen Coaching ca. 20 Minuten Zeit!</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Es gibt verschiedene emotionale Zustände, in denen man zum Essen greift
+
+Langeweile gehört zu den häufigsten. 
+
+Nehmen Sie sich für diesen Coaching ca. 20 Minuten Zeit!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="93" Width="96" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="203" YCoordinate="62" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7e9281cc-b04e-4c1b-85b6-a83ced75282c" Name="Drei Fragen, die Sie sich stellen sollten:">
+          <Description>$BulletPoints("video":{"url":"DIC_EmotioEsser2C_V1.flv"},"elements":[{"element":"Ist mir in bestimmten Situationen langweilig?","second":48},{"element":"Reagiere ich immer mit Essen auf die Langeweile?","second":51},{"element":"Wenn ja, habe ich tatsächlich Hunger oder Appetit?","second":60}])
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_EmotioEsser2C_V1.flv"},"elements":[{"element":"Ist mir in bestimmten Situationen langweilig?","second":48},{"element":"Reagiere ich immer mit Essen auf die Langeweile?","second":51},{"element":"Wenn ja, habe ich tatsächlich Hunger oder Appetit?","second":60}])
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="328" YCoordinate="78" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7909f9ce-f59c-41ba-8faf-b7e8a1028a2c" Name="Physiologischer Hunger oder Appetit?">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser2C_V2.flv","delay":51})
+
+Das echte, physiologische Hungergefühl kennen wir gar nicht mehr.
+In den meisten Fällen haben wir bloß Appetit, weil wir uns angewöhnt haben in einer bestimmten Situation oder zu einer bestimmten Uhrzeit zu essen.
+Das gleiche gilt für das Essen aus Langeweile!
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser2C_V2.flv","delay":51})
+
+Das echte, physiologische Hungergefühl kennen wir gar nicht mehr.
+In den meisten Fällen haben wir bloß Appetit, weil wir uns angewöhnt haben in einer bestimmten Situation oder zu einer bestimmten Uhrzeit zu essen.
+Das gleiche gilt für das Essen aus Langeweile!
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="442" YCoordinate="78" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="091c5f3f-24bf-41c0-bd67-4b81244c620c" Name="">
+          <Description>$Video("video":{"url":"DIC_EmotioEsser2C_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_EmotioEsser2C_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="52" Width="54" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="563" YCoordinate="82" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6ec35e0e-d237-4f38-be31-3aae8c63fec5" Name="Drei Strategien gegen das Essen aus Langeweile:">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser2C_V4.flv"})
+
+1. Erstellen Sie sich eine Liste mit Dingen, die Sie schon immer einmal erledingen wollten.
+Wird Ihnen langweilig, schnappen Sie sich die Liste und haken Sie eine Aufgabe ab.
+
+2. Erstellen Sie sich eine Wohlfühlliste mit lauter schönen Dingen, die Sie tun können, wenn Sie die Langeweile überkommt.
+
+3. Schaffen Sie sich Rituale! Ist Ihnen immer an bestimmten Tagen langweilig, dann überlegen Sie sich, was Sie an diesem Tag regelmäßig machen können. Zum Beispiel jeden Sonntag mit einer Freundin/einem Freund spazieren gehen, sich zum Kaffee verabreden, etc..
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser2C_V4.flv"})
+
+1. Erstellen Sie sich eine Liste mit Dingen, die Sie schon immer einmal erledingen wollten.
+Wird Ihnen langweilig, schnappen Sie sich die Liste und haken Sie eine Aufgabe ab.
+
+2. Erstellen Sie sich eine Wohlfühlliste mit lauter schönen Dingen, die Sie tun können, wenn Sie die Langeweile überkommt.
+
+3. Schaffen Sie sich Rituale! Ist Ihnen immer an bestimmten Tagen langweilig, dann überlegen Sie sich, was Sie an diesem Tag regelmäßig machen können. Zum Beispiel jeden Sonntag mit einer Freundin/einem Freund spazieren gehen, sich zum Kaffee verabreden, etc..
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="641" YCoordinate="78" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="22e58717-72da-4309-8df9-092414a892c2" Name="Nie wieder Langeweile! Wir beschäftigen Sie!">
+          <Description>
+$DocumentDownload("video":{"url":"DIC_EmotioEsser2C_V5.flv"},"documents":[{"name":"To-Do Liste","file":"to-do-liste.pdf"},{"name":"Wohlfühlliste","file":"wohlfuehlliste.pdf"}])
+
+Laden Sie sich hier die Vorlagen für Ihre To-Do Liste und Ihre Wohlfühlliste runter.
+Drucken Sie sie aus, füllen Sie sie aus und arbeiten Sie Ihre Listen nach und nach ab, jedes Mal, wenn die Langeweile droht.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+$DocumentDownload("video":{"url":"DIC_EmotioEsser2C_V5.flv"},"documents":[{"name":"To-Do Liste","file":"to-do-liste.pdf"},{"name":"Wohlfühlliste","file":"wohlfuehlliste.pdf"}])
+
+Laden Sie sich hier die Vorlagen für Ihre To-Do Liste und Ihre Wohlfühlliste runter.
+Drucken Sie sie aus, füllen Sie sie aus und arbeiten Sie Ihre Listen nach und nach ab, jedes Mal, wenn die Langeweile droht.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="786" YCoordinate="78" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="68550ce1-c797-4853-a954-65cdd4b2290a" Name="Hat Ihnen dieses Coaching geholfen? ">
+          <Description>$Text()
+Sollte Ihnen dieses Coaching nicht geholfen haben, rufen Sie uns an und vereinbaren Sie einen Termin für ein Telefoncoaching. Wir werden versuchen Ihnen alle Fragen zu beantworten</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Sollte Ihnen dieses Coaching nicht geholfen haben, rufen Sie uns an und vereinbaren Sie einen Termin für ein Telefoncoaching. Wir werden versuchen Ihnen alle Fragen zu beantworten</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="41" Width="52" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="917" YCoordinate="87.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="ab718b50-ad03-49cc-a9fb-6f6308f619e6" From="ba1f2813-baba-4028-977c-1c8a2d36b7c9" To="7cdaad2a-dee0-4748-a5ad-e38bb88c2c2c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="146" YCoordinate="108" />
+              <Coordinates XCoordinate="203" YCoordinate="108" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="65386c1d-6a23-4144-afcd-093eacd355a7" From="7cdaad2a-dee0-4748-a5ad-e38bb88c2c2c" To="7e9281cc-b04e-4c1b-85b6-a83ced75282c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="299" YCoordinate="108" />
+              <Coordinates XCoordinate="328" YCoordinate="108" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5fbd18fe-16aa-45b0-b421-c664aabc118e" From="7e9281cc-b04e-4c1b-85b6-a83ced75282c" To="7909f9ce-f59c-41ba-8faf-b7e8a1028a2c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="418" YCoordinate="108" />
+              <Coordinates XCoordinate="442" YCoordinate="108" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8822b076-8c12-450d-b3ab-eef6a166461d" From="7909f9ce-f59c-41ba-8faf-b7e8a1028a2c" To="091c5f3f-24bf-41c0-bd67-4b81244c620c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="532" YCoordinate="108" />
+              <Coordinates XCoordinate="563" YCoordinate="108" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e0b062a3-9e61-46bd-9607-076e4fe36197" From="091c5f3f-24bf-41c0-bd67-4b81244c620c" To="6ec35e0e-d237-4f38-be31-3aae8c63fec5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="617" YCoordinate="108" />
+              <Coordinates XCoordinate="641" YCoordinate="108" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="38b53cd4-d73f-45e8-ae2c-ea8ea387e335" From="6ec35e0e-d237-4f38-be31-3aae8c63fec5" To="22e58717-72da-4309-8df9-092414a892c2" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="731" YCoordinate="108" />
+              <Coordinates XCoordinate="786" YCoordinate="108" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f097ba6e-2914-42c7-8b29-92cc1de6ee39" From="22e58717-72da-4309-8df9-092414a892c2" To="68550ce1-c797-4853-a954-65cdd4b2290a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="876" YCoordinate="108" />
+              <Coordinates XCoordinate="896" YCoordinate="108" />
+              <Coordinates XCoordinate="896" YCoordinate="107" />
+              <Coordinates XCoordinate="917" YCoordinate="107" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1c9fd5ef-0239-446f-978c-738d2d3a194d" From="68550ce1-c797-4853-a954-65cdd4b2290a" To="32f69939-5b48-4fc1-9a4d-6c80658d35f5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="943" YCoordinate="128" />
+              <Coordinates XCoordinate="943" YCoordinate="179" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

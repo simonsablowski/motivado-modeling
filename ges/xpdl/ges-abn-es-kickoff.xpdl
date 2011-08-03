@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="84507396-d2f2-4d43-8d9c-c2624ac75679" Name="ges-abn-es-kickoff" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-30T14:15:23.2112378+02:00</Created>
+    <ModificationDate>2011-06-29T12:33:43.140625+02:00</ModificationDate>
+    <Description>ges-abn-es-kickoff</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-29T10:33:43.140625Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="f0ea5dfa-1816-42e5-b506-01bac771bded" Name="Main Process" Process="afee345c-5110-4e9b-84f6-44bd339eac54" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="31611bf7-b03f-451f-a4b4-9b4f6f2ca7cb" Name="Process 1" Process="73d93f0b-a6ea-4716-b0a7-509fc8d976a6" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="446" Width="1020" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="28" YCoordinate="29" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="afee345c-5110-4e9b-84f6-44bd339eac54" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-06-29T12:36:29.765625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="73d93f0b-a6ea-4716-b0a7-509fc8d976a6" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-06-29T12:36:29.765625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets>
+        <ActivitySet Id="b7595d0c-2cd6-4451-948a-1240dc53f60c" Name="zeichen-setzen">
+          <Activities>
+            <Activity Id="38e997e2-20b5-4a7e-a0f6-d7b9db5bdc36" Name="">
+              <Description />
+              <Event>
+                <StartEvent Trigger="None" />
+              </Event>
+              <Documentation />
+              <ExtendedAttributes />
+              <NodeGraphicsInfos>
+                <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+                  <Coordinates XCoordinate="128" YCoordinate="178" />
+                </NodeGraphicsInfo>
+              </NodeGraphicsInfos>
+            </Activity>
+            <Activity Id="b2ffc0b3-d8ca-44b0-b78f-7632cfc1bfbb" Name="Sie meinen es ernst? Wir auch!">
+              <Description>$DocumentDownload("documents":[{"name":"Psychologischer Vertrag","file":"PsychoContract.pdf"}])
+
+Sie haben sich entschieden die Aufgabe auf sich zu nehmen und dieses Mal wirklich erfolgreich abzunehmen.
+Machen Sie es offiziell!
+Hier können Sie eine Art Vertrag unterschreiben, in dem wir Ihnen versprechen Sie nach all unseren Kräften beim Abnehmen zu unterstützen und in dem Sie sich selbst versprechen dieses Mal alles zu geben, um endlich Ihr Wunschgewicht zu erreichen!
+Laden Sie sich diesen psychologischen Vertrag hier runter und unterschreiben Sie Ihn.
+Ich habe Ihn bereits unterschrieben, jetzt sind Sie dran!
+
+Hiermit beginnt heute Ihre Reise in Richtung Wunschgewicht! Freuen Sie sich!
+Setzen Sie sich ein Zeichen und unterschreiben Sie den Vertrag.
+Auf geht's!
+
+Keine Sorge, dieser Vertrag ist nicht rechtskräftig. Es ist lediglich ein Vertrag mit Ihrem "Gewissen".
+
+</Description>
+              <Implementation>
+                <Task>
+                  <TaskManual />
+                </Task>
+              </Implementation>
+              <Performers />
+              <Documentation>$DocumentDownload("documents":[{"name":"Psychologischer Vertrag","file":"PsychoContract.pdf"}])
+
+Sie haben sich entschieden die Aufgabe auf sich zu nehmen und dieses Mal wirklich erfolgreich abzunehmen.
+Machen Sie es offiziell!
+Hier können Sie eine Art Vertrag unterschreiben, in dem wir Ihnen versprechen Sie nach all unseren Kräften beim Abnehmen zu unterstützen und in dem Sie sich selbst versprechen dieses Mal alles zu geben, um endlich Ihr Wunschgewicht zu erreichen!
+Laden Sie sich diesen psychologischen Vertrag hier runter und unterschreiben Sie Ihn.
+Ich habe Ihn bereits unterschrieben, jetzt sind Sie dran!
+
+Hiermit beginnt heute Ihre Reise in Richtung Wunschgewicht! Freuen Sie sich!
+Setzen Sie sich ein Zeichen und unterschreiben Sie den Vertrag.
+Auf geht's!
+
+Keine Sorge, dieser Vertrag ist nicht rechtskräftig. Es ist lediglich ein Vertrag mit Ihrem "Gewissen".
+
+</Documentation>
+              <ExtendedAttributes />
+              <NodeGraphicsInfos>
+                <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-4214065" BorderVisible="false" FillColor="-4214065">
+                  <Coordinates XCoordinate="553" YCoordinate="164" />
+                </NodeGraphicsInfo>
+              </NodeGraphicsInfos>
+            </Activity>
+            <Activity Id="0a7b4baf-d701-4ea0-94f1-05d4ee529c1e" Name="">
+              <Description />
+              <Event>
+                <EndEvent />
+              </Event>
+              <Documentation />
+              <ExtendedAttributes />
+              <NodeGraphicsInfos>
+                <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+                  <Coordinates XCoordinate="749" YCoordinate="179" />
+                </NodeGraphicsInfo>
+              </NodeGraphicsInfos>
+            </Activity>
+            <Activity Id="52d4a3d6-1a4d-4d3c-b491-643d0402a37d" Name="Bereiten Sie sich einen Kick-Start in Ihre letzte Abnehm-Phase!">
+              <Description>$Text()
+
+Sie haben nun alles, was Sie für einen perfekten Start in Ihre Abnehm-Zeit brauchen.
+Sie wissen, wie Ihr Ziel aussieht, wann Sie es erreiche haben werden und vor allem auch auf welchem Weg Sie es erreichen werden.
+Sie wollen es unbedingt oder? Endlich Ihr Wunschgewicht erreichen?
+Sind bereit einige Veränderungen auf sich zu nehmen und freuen sich schon auf die ersten Erfolge auf der Waage vor?
+Genießen Sie dieses Gefühl!
+Über "weiter" geht's weiter!</Description>
+              <Implementation>
+                <Task>
+                  <TaskManual />
+                </Task>
+              </Implementation>
+              <Performers />
+              <Documentation>$Text()
+
+Sie haben nun alles, was Sie für einen perfekten Start in Ihre Abnehm-Zeit brauchen.
+Sie wissen, wie Ihr Ziel aussieht, wann Sie es erreiche haben werden und vor allem auch auf welchem Weg Sie es erreichen werden.
+Sie wollen es unbedingt oder? Endlich Ihr Wunschgewicht erreichen?
+Sind bereit einige Veränderungen auf sich zu nehmen und freuen sich schon auf die ersten Erfolge auf der Waage vor?
+Genießen Sie dieses Gefühl!
+Über "weiter" geht's weiter!</Documentation>
+              <ExtendedAttributes />
+              <NodeGraphicsInfos>
+                <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="83" Width="113" BorderColor="-4214065" BorderVisible="false" FillColor="-4214065">
+                  <Coordinates XCoordinate="197" YCoordinate="151.5" />
+                </NodeGraphicsInfo>
+              </NodeGraphicsInfos>
+            </Activity>
+            <Activity Id="fffa7291-a10c-426c-92f1-32a4a759a783" Name="">
+              <Description>$Text()
+
+Dieses Mal wird alles anders, beweisen Sie es sich, dass Sie es auch so meinen!
+
+Aber mal ganz ehrlich:
+Waren Sie nicht vielleicht schon einmal an genau diesem Punkt, wollten unbedingt abnehmen und sind dann doch gescheitert?
+Vielleicht.
+Aber dieses Mal haben Sie nicht nur den Willen abzunehmen, sondern auch einen Plan, wie Sie es schaffen können und Unterstützung von Freunden und uns, dem Motivado Team!
+Sie haben also eine große Chance, dass dies hier heute der Start in das aller letzte Mal abnehmen für Sie ist!
+Das müssen Sie sich unbedingt bewusst machen!
+
+Dies ist kein unsicheres Stolpern in ein unstrukturiertes Abnehm-Programm, sondern Sie sind motiviert und mit einem klaren Ziel vor Augen auf dem Weg in Richtung Wunschgewicht.
+
+Also setzen Sie sich ein klares Zeichen, dass dieses Mal alles anders ist!
+Beweisen Sie sich und allen anderen, dass Sie es dieses Mal wirklich ernst meinen.
+Machen Sie was Verrücktes! Gehen Sie gleich nachdem Sie dieses Coaching abgeschlossen haben an Ihren Kühlschrank, an Ihren Vorratsschrank, Ihren Schreibtisch und schmeißen Sie alles, wirklich ALLES an Süßigkeiten, fettigen und salzigen Snacks weg!
+
+Ein anderes Beispiel: Sind Sie mutig, dann machen Sie es öffentlich! Teilen Sie in einem Ihrer sozialen Netzwerke allen Ihren Freunden mit, dass Sie heute das letzte Mal ein Abnehm-Programm starten werden und in xx-Monaten Ihre Wunschfigur haben werden.
+
+Kramen Sie Ihre Lieblingsjeans, in die Sie schon lange nicht mehr passen aus den Untiefen Ihres Kleiderschranks hervor und hängen Sie die in die Küche! Sie wollen bei der nächsten Heißhunger-Attacke wieder über den Kühlschrank herfallen? Dann zwingen Sie sich, sich zuerst in die alte Jeans zu quetschen - danach überlegen Sie sich zwei Mal, ob Sie es mit diesem Futteranfall noch schlimmer machen wollen.
+
+Am besten machen Sie alles oder denken sich selber noch etwas aus!
+Hauptsache Sie beweisen sich, dass dieses Mal alles anders wird!</Description>
+              <Implementation>
+                <Task>
+                  <TaskManual />
+                </Task>
+              </Implementation>
+              <Performers />
+              <Documentation>$Text()
+
+Dieses Mal wird alles anders, beweisen Sie es sich, dass Sie es auch so meinen!
+
+Aber mal ganz ehrlich:
+Waren Sie nicht vielleicht schon einmal an genau diesem Punkt, wollten unbedingt abnehmen und sind dann doch gescheitert?
+Vielleicht.
+Aber dieses Mal haben Sie nicht nur den Willen abzunehmen, sondern auch einen Plan, wie Sie es schaffen können und Unterstützung von Freunden und uns, dem Motivado Team!
+Sie haben also eine große Chance, dass dies hier heute der Start in das aller letzte Mal abnehmen für Sie ist!
+Das müssen Sie sich unbedingt bewusst machen!
+
+Dies ist kein unsicheres Stolpern in ein unstrukturiertes Abnehm-Programm, sondern Sie sind motiviert und mit einem klaren Ziel vor Augen auf dem Weg in Richtung Wunschgewicht.
+
+Also setzen Sie sich ein klares Zeichen, dass dieses Mal alles anders ist!
+Beweisen Sie sich und allen anderen, dass Sie es dieses Mal wirklich ernst meinen.
+Machen Sie was Verrücktes! Gehen Sie gleich nachdem Sie dieses Coaching abgeschlossen haben an Ihren Kühlschrank, an Ihren Vorratsschrank, Ihren Schreibtisch und schmeißen Sie alles, wirklich ALLES an Süßigkeiten, fettigen und salzigen Snacks weg!
+
+Ein anderes Beispiel: Sind Sie mutig, dann machen Sie es öffentlich! Teilen Sie in einem Ihrer sozialen Netzwerke allen Ihren Freunden mit, dass Sie heute das letzte Mal ein Abnehm-Programm starten werden und in xx-Monaten Ihre Wunschfigur haben werden.
+
+Kramen Sie Ihre Lieblingsjeans, in die Sie schon lange nicht mehr passen aus den Untiefen Ihres Kleiderschranks hervor und hängen Sie die in die Küche! Sie wollen bei der nächsten Heißhunger-Attacke wieder über den Kühlschrank herfallen? Dann zwingen Sie sich, sich zuerst in die alte Jeans zu quetschen - danach überlegen Sie sich zwei Mal, ob Sie es mit diesem Futteranfall noch schlimmer machen wollen.
+
+Am besten machen Sie alles oder denken sich selber noch etwas aus!
+Hauptsache Sie beweisen sich, dass dieses Mal alles anders wird!</Documentation>
+              <ExtendedAttributes />
+              <NodeGraphicsInfos>
+                <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="85" Width="116" BorderColor="-4214065" BorderVisible="false" FillColor="-4214065">
+                  <Coordinates XCoordinate="361" YCoordinate="151.5" />
+                </NodeGraphicsInfo>
+              </NodeGraphicsInfos>
+            </Activity>
+          </Activities>
+          <Transitions>
+            <Transition Id="896bcca2-6344-4450-af37-e8d619997aad" From="38e997e2-20b5-4a7e-a0f6-d7b9db5bdc36" To="52d4a3d6-1a4d-4d3c-b491-643d0402a37d" Name="">
+              <Condition />
+              <Description />
+              <ExtendedAttributes />
+              <ConnectorGraphicsInfos>
+                <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+                  <Coordinates XCoordinate="158" YCoordinate="193" />
+                  <Coordinates XCoordinate="177.5" YCoordinate="193" />
+                  <Coordinates XCoordinate="177.5" YCoordinate="192" />
+                  <Coordinates XCoordinate="197" YCoordinate="192" />
+                </ConnectorGraphicsInfo>
+              </ConnectorGraphicsInfos>
+            </Transition>
+            <Transition Id="66c723e2-0418-4634-a71f-dda61fcb55ba" From="b2ffc0b3-d8ca-44b0-b78f-7632cfc1bfbb" To="0a7b4baf-d701-4ea0-94f1-05d4ee529c1e" Name="">
+              <Condition />
+              <Description />
+              <ExtendedAttributes />
+              <ConnectorGraphicsInfos>
+                <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+                  <Coordinates XCoordinate="643" YCoordinate="194" />
+                  <Coordinates XCoordinate="749" YCoordinate="194" />
+                </ConnectorGraphicsInfo>
+              </ConnectorGraphicsInfos>
+            </Transition>
+            <Transition Id="729ea656-d10c-4fef-a19f-b37bb0600176" From="fffa7291-a10c-426c-92f1-32a4a759a783" To="b2ffc0b3-d8ca-44b0-b78f-7632cfc1bfbb" Name="">
+              <Condition />
+              <Description />
+              <ExtendedAttributes />
+              <ConnectorGraphicsInfos>
+                <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+                  <Coordinates XCoordinate="477" YCoordinate="193" />
+                  <Coordinates XCoordinate="515" YCoordinate="193" />
+                  <Coordinates XCoordinate="515" YCoordinate="194" />
+                  <Coordinates XCoordinate="553" YCoordinate="194" />
+                </ConnectorGraphicsInfo>
+              </ConnectorGraphicsInfos>
+            </Transition>
+            <Transition Id="3804d3c2-8384-4cc5-850a-a6670638d35a" From="52d4a3d6-1a4d-4d3c-b491-643d0402a37d" To="fffa7291-a10c-426c-92f1-32a4a759a783" Name="">
+              <Condition />
+              <Description />
+              <ExtendedAttributes />
+              <ConnectorGraphicsInfos>
+                <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+                  <Coordinates XCoordinate="310" YCoordinate="192" />
+                  <Coordinates XCoordinate="335.5" YCoordinate="192" />
+                  <Coordinates XCoordinate="335.5" YCoordinate="193" />
+                  <Coordinates XCoordinate="361" YCoordinate="193" />
+                </ConnectorGraphicsInfo>
+              </ConnectorGraphicsInfos>
+            </Transition>
+          </Transitions>
+        </ActivitySet>
+      </ActivitySets>
+      <Activities>
+        <Activity Id="5c364c50-e66b-4443-993f-1c87c95385f5" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="90" YCoordinate="224" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7b4409a8-9559-4122-a40f-eb520d93a8ac" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="989" YCoordinate="260" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5e157cfd-ae4b-43e9-b842-77db747a8530" Name="Möchten Sie sich jetzt den Kick-Start in Ihre letzte Abnehm-Zeit holen?">
+          <Description>$Options:KickOffMachen("video":{"url":"DIC_KickOff_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Options:KickOffMachen("video":{"url":"DIC_KickOff_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="86" Width="135" BorderColor="-4214065" BorderVisible="false" FillColor="-4214065">
+              <Coordinates XCoordinate="162" YCoordinate="196" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="29adcdea-d1be-474f-bac7-a5ebad86a4c1" Name="Ich möchte die Kick-Start Übung jetzt machen">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="73" Width="124" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="369" YCoordinate="296" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9d7e3335-683b-4d93-a22c-2d672be7624c" Name="SetValue">
+          <Description>
+$SetValue:DIC_KickOffDone("value":"y")</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+$SetValue:DIC_KickOffDone("value":"y")</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-4214065" BorderVisible="false" FillColor="-4214065">
+              <Coordinates XCoordinate="644" YCoordinate="302.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="24468f6d-6cbe-4a28-8bdb-f36adcbebe0b" Name="Ich möchte die Übung ein anderes Mal machen.">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="369" YCoordinate="138" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f81dd563-53bd-4f71-8021-c0665002f10b" Name="Sie wollen in Ihre Abnehmwoche starten? Auf geht's!&#xA;Denken Sie an die Aufgaben, die Sie mit auf den Weg bekommen haben. Wenn Sie sich wieder anmelden, machen wir weiter mit dem nächsten Coaching. &#xA;Bis dann!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="140" BorderColor="-4214065" BorderVisible="false" FillColor="-4214065">
+              <Coordinates XCoordinate="801" YCoordinate="185" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b7595d0c-2cd6-4451-948a-1240dc53f60c" Name="zeichen-setzen">
+          <Description />
+          <BlockActivity ActivitySetId="b7595d0c-2cd6-4451-948a-1240dc53f60c" />
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281" Expanded="false" ExpandedWidth="270" ExpandedHeight="180">
+              <Coordinates XCoordinate="519" YCoordinate="302.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="1822810d-7df1-4789-ac82-612d2e0b4f5a" From="5e157cfd-ae4b-43e9-b842-77db747a8530" To="29adcdea-d1be-474f-bac7-a5ebad86a4c1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="297" YCoordinate="239" />
+              <Coordinates XCoordinate="333" YCoordinate="239" />
+              <Coordinates XCoordinate="333" YCoordinate="332" />
+              <Coordinates XCoordinate="369" YCoordinate="332" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="391e0f2a-7c36-469b-bcda-0b8b5dbd6dd5" From="29adcdea-d1be-474f-bac7-a5ebad86a4c1" To="b7595d0c-2cd6-4451-948a-1240dc53f60c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="493" YCoordinate="332" />
+              <Coordinates XCoordinate="519" YCoordinate="332" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="da34ebdc-d0af-4e0f-b1eb-256a418821f8" From="5e157cfd-ae4b-43e9-b842-77db747a8530" To="24468f6d-6cbe-4a28-8bdb-f36adcbebe0b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="297" YCoordinate="239" />
+              <Coordinates XCoordinate="333" YCoordinate="239" />
+              <Coordinates XCoordinate="333" YCoordinate="168" />
+              <Coordinates XCoordinate="369" YCoordinate="168" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3c2f3277-7140-4e3e-bafd-56f64210b3f5" From="b7595d0c-2cd6-4451-948a-1240dc53f60c" To="9d7e3335-683b-4d93-a22c-2d672be7624c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="609" YCoordinate="332" />
+              <Coordinates XCoordinate="644" YCoordinate="332" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="85e2c0ab-735a-4117-905e-d1001874597f" From="24468f6d-6cbe-4a28-8bdb-f36adcbebe0b" To="f81dd563-53bd-4f71-8021-c0665002f10b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="459" YCoordinate="168" />
+              <Coordinates XCoordinate="707" YCoordinate="168" />
+              <Coordinates XCoordinate="707" YCoordinate="275" />
+              <Coordinates XCoordinate="801" YCoordinate="275" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6250ee5a-6573-4c88-b6e1-327f1b549f43" From="9d7e3335-683b-4d93-a22c-2d672be7624c" To="f81dd563-53bd-4f71-8021-c0665002f10b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="734" YCoordinate="332" />
+              <Coordinates XCoordinate="768" YCoordinate="332" />
+              <Coordinates XCoordinate="768" YCoordinate="275" />
+              <Coordinates XCoordinate="801" YCoordinate="275" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e058453e-bd8c-4711-96c5-0bde60e8eca6" From="f81dd563-53bd-4f71-8021-c0665002f10b" To="7b4409a8-9559-4122-a40f-eb520d93a8ac" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="941" YCoordinate="275" />
+              <Coordinates XCoordinate="989" YCoordinate="275" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a57ee804-c9ba-42ba-937b-16fb2645d323" From="5c364c50-e66b-4443-993f-1c87c95385f5" To="5e157cfd-ae4b-43e9-b842-77db747a8530" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="120" YCoordinate="239" />
+              <Coordinates XCoordinate="162" YCoordinate="239" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

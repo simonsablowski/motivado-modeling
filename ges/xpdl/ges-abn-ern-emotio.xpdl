@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="93da08c4-a157-49f1-979d-2c2d1884962f" Name="ges-abn-ern-emotio" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-23T19:29:50.0806195+02:00</Created>
+    <ModificationDate>2011-06-27T10:19:16.75+02:00</ModificationDate>
+    <Description>ges-abn-ern-emotio</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-27T08:19:16.75Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>BizAgi Process Modeler.</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="3e33764b-85f8-4d4b-a684-e5891c98f5ff" Name="Main Process" Process="c24060de-ac77-4d7c-a99e-855d4a907e24" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="9b9bb8dc-c216-439a-98b1-e7bdcb5ee6a4" Name="Process 1" Process="26883794-f07e-4e49-8fb7-34f4d802339a" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="496" Width="911" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="c24060de-ac77-4d7c-a99e-855d4a907e24" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-06-27T10:21:20.421875+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="26883794-f07e-4e49-8fb7-34f4d802339a" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-06-27T10:21:20.421875+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="4122d997-1d7f-4624-a6ee-cb7b4a3addba" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="107" YCoordinate="140" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bd70a139-6bae-45de-9be0-5dcb907b6409" Name="">
+          <Description>$Video("video":{"url":"DIC_EmotioEsser3_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_EmotioEsser3_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="282" YCoordinate="125" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f7baa03e-b4b9-4057-b716-429ab2a7bc31" Name="">
+          <Description>$Video("video":{"url":"DIC_EmotioEsser3_V8.flv"})
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_EmotioEsser3_V8.flv"})
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="694" YCoordinate="252" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="77ddda8d-ac31-4974-95ab-53ca977bf75f" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="868" YCoordinate="267" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c05e90dc-3bfa-477e-92d7-820f174623b3" Name="Schritt 1: Snacks wegschmeißen">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser3_V2.flv"})
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser3_V2.flv"})
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="401" YCoordinate="125" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a6ef2e3e-65da-4219-9c1c-4223fb226410" Name="Schritt 2: Sorgen Sie dafür, dass Sie gesunde Alternativen im Haus haben.">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser3_V3.flv"})
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser3_V3.flv"})
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="89" Width="102" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="518" YCoordinate="110.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e0384999-0c14-4666-abaf-6307d0414df5" Name="Schritt 3: Stop! Stehen Sie auf, gehen Sie raus aus dieser Situation!">
+          <Description>
+$Text("video":{"url":"DIC_EmotioEsser3_V4.flv","delay":64})
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+$Text("video":{"url":"DIC_EmotioEsser3_V4.flv","delay":64})
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="84" Width="92" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="650" YCoordinate="113" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e85d462a-9c45-455a-8418-091eb3ff1c34" Name="Schritt 4: Stop-Zeichen setzen üben">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser3_V5.flv"})
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser3_V5.flv"})
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="776" YCoordinate="125" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="fb1d4e67-cb0e-4b65-b188-3ef2dad173c8" From="bd70a139-6bae-45de-9be0-5dcb907b6409" To="c05e90dc-3bfa-477e-92d7-820f174623b3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="372" YCoordinate="155" />
+              <Coordinates XCoordinate="401" YCoordinate="155" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a562b350-4829-4dca-b1d9-1f16f1bbb75c" From="c05e90dc-3bfa-477e-92d7-820f174623b3" To="a6ef2e3e-65da-4219-9c1c-4223fb226410" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="491" YCoordinate="155" />
+              <Coordinates XCoordinate="504.5" YCoordinate="155" />
+              <Coordinates XCoordinate="504.5" YCoordinate="154" />
+              <Coordinates XCoordinate="518" YCoordinate="154" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="69507a6f-1d37-4de0-9ab4-ab4c0f9d3d5c" From="a6ef2e3e-65da-4219-9c1c-4223fb226410" To="e0384999-0c14-4666-abaf-6307d0414df5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="620" YCoordinate="154" />
+              <Coordinates XCoordinate="635" YCoordinate="154" />
+              <Coordinates XCoordinate="635" YCoordinate="155" />
+              <Coordinates XCoordinate="650" YCoordinate="155" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bcb5e1b3-a855-46ae-acf1-4921a42e01db" From="e0384999-0c14-4666-abaf-6307d0414df5" To="e85d462a-9c45-455a-8418-091eb3ff1c34" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="742" YCoordinate="155" />
+              <Coordinates XCoordinate="776" YCoordinate="155" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8e156090-be0a-43dc-a273-fefc9ac0e6ea" From="f7baa03e-b4b9-4057-b716-429ab2a7bc31" To="77ddda8d-ac31-4974-95ab-53ca977bf75f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="784" YCoordinate="282" />
+              <Coordinates XCoordinate="868" YCoordinate="282" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="63f14990-725b-40f9-93af-2c59cf42fe68" From="4122d997-1d7f-4624-a6ee-cb7b4a3addba" To="bd70a139-6bae-45de-9be0-5dcb907b6409" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="137" YCoordinate="155" />
+              <Coordinates XCoordinate="282" YCoordinate="155" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b1fe3394-2bd7-487c-add3-3dba55be15ae" From="e85d462a-9c45-455a-8418-091eb3ff1c34" To="f7baa03e-b4b9-4057-b716-429ab2a7bc31" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="821" YCoordinate="185" />
+              <Coordinates XCoordinate="821" YCoordinate="218.5" />
+              <Coordinates XCoordinate="739" YCoordinate="218.5" />
+              <Coordinates XCoordinate="739" YCoordinate="252" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

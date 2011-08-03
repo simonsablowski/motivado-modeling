@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="11e4532f-345c-46ce-8e89-704b228cc9e9" Name="ges-abn-bew-lust" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-31T17:01:00.27341+02:00</Created>
+    <ModificationDate>2011-07-13T11:55:22.34375+02:00</ModificationDate>
+    <Description>ges-abn-bew-lust</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-28T07:44:02.75Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-29T11:44:57Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-29T12:37:59.953125Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-29T14:05:46.484375Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-05T11:22:03.421875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-13T09:55:22.34375Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="db1482fa-1787-42ba-b338-85f6ecbe5237" Process="1c92d973-46fb-4a61-aefa-da82a9cba9c6" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="1d15a256-14df-425e-8445-15fc933bfaea" Name="Process 1" Process="c1440856-0674-4bfa-828e-aeb554165222" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="371" Width="1001" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="1c92d973-46fb-4a61-aefa-da82a9cba9c6" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-13T11:57:23.734375+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="c1440856-0674-4bfa-828e-aeb554165222" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-13T11:57:23.734375+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="e50b77f5-2370-4efb-bdb0-e4a7401d7563" Name="Keine Lust  auf das Abnehmen bei Frust.">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="100" YCoordinate="60" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="afba7d04-4a09-436d-82c7-7f756085cc18" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="940" YCoordinate="195" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c5c15ca0-9d57-4246-b7e8-8e46fd7146cb" Name="">
+          <Description>$Video("video":{"url":"DIC_KeineLustBFrust_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_KeineLustBFrust_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="288" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2f26263c-1136-4b46-9150-028562cbb9b5" Name="">
+          <Description>$Video("video":{"url":"DIC_KeineLustBFrust_V7.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_KeineLustBFrust_V7.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="763" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d1c7fbf6-789d-4c7d-ae1c-e0a746dc4790" Name="Belohnen Sie sich (aber nicht mit Essen)!">
+          <Description>$Text("video":{"url":"DIC_KeineLustBFrust_V4.flv","delay":25})
+
+
+Sie wissen selbst am besten, was Sie glücklich macht, also überlegen Sie sich etwas! 
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_KeineLustBFrust_V4.flv","delay":25})
+
+
+Sie wissen selbst am besten, was Sie glücklich macht, also überlegen Sie sich etwas! 
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="515" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3ec5ed68-8105-4ced-b988-1eff165fc5fd" Name="">
+          <Description>$Text("video":{"url":"DIC_KeineLustBFrust_V5.flv","delay":15})
+
+Beweisen Sie sich, dass Sie wirklich abnehmen wollen und holen Sie Ihre Sporteinheit gleich heute noch nach! </Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_KeineLustBFrust_V5.flv","delay":15})
+
+Beweisen Sie sich, dass Sie wirklich abnehmen wollen und holen Sie Ihre Sporteinheit gleich heute noch nach! </Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="633" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9726e758-354b-4f19-b1f2-a1e657fa6e60" Name="Willkommen im Coaching &quot;Keine Lust bei Frust&quot;!">
+          <Description>$Text("video":{"url":"DIC_KeineLustBFrust_V1.flv"})
+
+Hier wollen wir einmal dem Frust zu Leibe rücken und gemeinsam überlegen, was man gegen lustlose Frustsituationen machen könnte.
+
+Nehmen Sie sich für dieses Coaching ungefähr 15 Minuten Zeit.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_KeineLustBFrust_V1.flv"})
+
+Hier wollen wir einmal dem Frust zu Leibe rücken und gemeinsam überlegen, was man gegen lustlose Frustsituationen machen könnte.
+
+Nehmen Sie sich für dieses Coaching ungefähr 15 Minuten Zeit.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="162" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="02bdfbae-cb9b-4153-b4b0-580c0f55c8fd" Name="">
+          <Description>$Text("video":{"url":"DIC_KeineLustBFrust_V3.flv"})
+
+Haben Sie viel gegessen ist Ihre Verdauung sehr aktiv und alle anderen Prozesse werden heruntergefahren. Was sich wie Entspannung anfühlt, kommt eher einer Betäubung gleich.
+Lohnt sich der Frust nach einer Futterattacke und die Angst vor der Waage für den kurzen Beruhigungs-Effekt nach einem stressigen Tag? </Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_KeineLustBFrust_V3.flv"})
+
+Haben Sie viel gegessen ist Ihre Verdauung sehr aktiv und alle anderen Prozesse werden heruntergefahren. Was sich wie Entspannung anfühlt, kommt eher einer Betäubung gleich.
+Lohnt sich der Frust nach einer Futterattacke und die Angst vor der Waage für den kurzen Beruhigungs-Effekt nach einem stressigen Tag? </Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="405" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="c49d3707-9cdb-49a5-b6f8-ac057b588c52" From="e50b77f5-2370-4efb-bdb0-e4a7401d7563" To="9726e758-354b-4f19-b1f2-a1e657fa6e60" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="130" YCoordinate="75" />
+              <Coordinates XCoordinate="148" YCoordinate="75" />
+              <Coordinates XCoordinate="148" YCoordinate="210" />
+              <Coordinates XCoordinate="162" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="48de37c3-c425-4f7a-bdd9-cbf92681bfcb" From="9726e758-354b-4f19-b1f2-a1e657fa6e60" To="c5c15ca0-9d57-4246-b7e8-8e46fd7146cb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="252" YCoordinate="210" />
+              <Coordinates XCoordinate="288" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f1e7a585-8c7c-4a39-917e-e9fe9baafb6e" From="c5c15ca0-9d57-4246-b7e8-8e46fd7146cb" To="02bdfbae-cb9b-4153-b4b0-580c0f55c8fd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="378" YCoordinate="210" />
+              <Coordinates XCoordinate="405" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4ba66b7c-84c8-4d7a-8984-263775c0b6bb" From="02bdfbae-cb9b-4153-b4b0-580c0f55c8fd" To="d1c7fbf6-789d-4c7d-ae1c-e0a746dc4790" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="495" YCoordinate="210" />
+              <Coordinates XCoordinate="515" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f3aaf916-ab5e-43c0-8f80-bc532e98e267" From="d1c7fbf6-789d-4c7d-ae1c-e0a746dc4790" To="3ec5ed68-8105-4ced-b988-1eff165fc5fd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="605" YCoordinate="210" />
+              <Coordinates XCoordinate="633" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0aabfc0c-6a96-40a6-98b4-42cd67ae5f64" From="3ec5ed68-8105-4ced-b988-1eff165fc5fd" To="2f26263c-1136-4b46-9150-028562cbb9b5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="723" YCoordinate="210" />
+              <Coordinates XCoordinate="763" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c16f45d0-4276-46ba-85b7-5ddb04a15979" From="2f26263c-1136-4b46-9150-028562cbb9b5" To="afba7d04-4a09-436d-82c7-7f756085cc18" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="853" YCoordinate="210" />
+              <Coordinates XCoordinate="940" YCoordinate="210" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

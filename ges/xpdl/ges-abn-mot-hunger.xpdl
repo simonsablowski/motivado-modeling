@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="4f683936-84c6-4dd2-9d31-eec13ad576ee" Name="ges-abn-mot-hunger" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-18T19:00:36.046875+02:00</Created>
+    <ModificationDate>2011-07-05T12:21:46.203125+02:00</ModificationDate>
+    <Description>ges-abn-mot-hunger</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-22T08:58:38.3125Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-05T10:21:46.203125Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="d8323626-5faf-4ec7-a78c-2f0630b77444" Name="Main Process" Process="5a9e0153-b730-40ce-84b1-8244dba7df98" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="1195cb99-1636-41bd-bb85-78d565543a4f" Name="Process 1" Process="99ae901f-cb70-4d87-86eb-de20dbf25dc3" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="530" Width="1100" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="19" YCoordinate="20" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="5a9e0153-b730-40ce-84b1-8244dba7df98" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-05T12:23:47.65625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="99ae901f-cb70-4d87-86eb-de20dbf25dc3" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-05T12:23:47.65625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="afc194ce-176d-420f-ae25-0b0d1fe227ee" Name="Tipps">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V9.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V9.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="356" YCoordinate="225" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6caf9149-0db3-40dc-953f-03841f9ef921" Name="Hunger akzeptieren - Körpersignale verzerrt">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V8.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V8.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="100" Width="114" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="120" YCoordinate="205" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="281bca02-4699-4602-8007-18e02b1f971f" Name="Outro">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V12.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V12.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="68" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="927" YCoordinate="235" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2fa19130-0182-47cc-84c3-00abebc3cd0a" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1060" YCoordinate="240" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="536e2559-eea7-4163-951d-596733d70e9d" Name="">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="66" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="205" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e47b746f-8705-4633-a0de-d863fec72642" Name="Übersicht">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="48" Width="79" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="378" YCoordinate="37" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="56b7b3d2-c904-4cad-93d5-463a75f69d04" Name="Was ist Hunger?">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="50" Width="74" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="501" YCoordinate="36" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5cb24698-d197-4a57-8195-c0f58e5fbf97" Name="Zurückdenken Entscheidungsmoment">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V4.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V4.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="602" YCoordinate="31" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="82563751-82e4-4dc1-92cd-2d13f0301f51" Name="Hunger leichter zu ertragen als Übergewicht">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V5.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V5.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="713" YCoordinate="31" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4603edfb-2587-452e-b52c-e9270615ed98" Name="Habe Hunger - muss essen">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V6.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V6.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="833" YCoordinate="31" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5ebc37b6-a52b-4f15-a775-394d9b32d919" Name="Hilfreicher Gedanke">
+          <Description>$Video("video":{"url":"DIC_HungerReframen_V7.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_HungerReframen_V7.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="976" YCoordinate="31" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e3be7a9d-d3ca-43a8-a514-683965236aa9" Name="Was tun mit dem Hungergefühl?">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="89" YCoordinate="108" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="469c2ea2-890b-480b-aa77-6085fa199b49" Name="Aufgabe zu dem Coaching &quot;Was tun mit dem Hungergefühl?&quot;">
+          <Description>$Text("video":{"url":" DIC_HungerReframen_V10.flv"})
+
+Jetzt heißt es, sich auf das nächste Mal echten Hunger zu freuen.
+Greifen Sie ruhig auf die Tricks zurück, mit denen es andere vor Ihnen auch schon geschafft haben. 
+Machen Sie sich eine Liste mit Ihren Top 5 der besten Tricks, die Ihnen gegen das Hungergefühl helfen. 
+Üben Sie diese Punkte so oft es geht bis zum nächsten Mal.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":" DIC_HungerReframen_V10.flv"})
+
+Jetzt heißt es, sich auf das nächste Mal echten Hunger zu freuen.
+Greifen Sie ruhig auf die Tricks zurück, mit denen es andere vor Ihnen auch schon geschafft haben. 
+Machen Sie sich eine Liste mit Ihren Top 5 der besten Tricks, die Ihnen gegen das Hungergefühl helfen. 
+Üben Sie diese Punkte so oft es geht bis zum nächsten Mal.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="132" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="548" YCoordinate="211" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="287c303d-b180-414c-9553-21c8089e6e3a" From="281bca02-4699-4602-8007-18e02b1f971f" To="2fa19130-0182-47cc-84c3-00abebc3cd0a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="995" YCoordinate="255" />
+              <Coordinates XCoordinate="1060" YCoordinate="255" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="774aba6f-96f8-4d9b-9140-cb5735c8a354" From="536e2559-eea7-4163-951d-596733d70e9d" To="e47b746f-8705-4633-a0de-d863fec72642" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="271" YCoordinate="61" />
+              <Coordinates XCoordinate="378" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a6eccc41-c4a2-40be-b558-bc49bc1ad627" From="e47b746f-8705-4633-a0de-d863fec72642" To="56b7b3d2-c904-4cad-93d5-463a75f69d04" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="457" YCoordinate="61" />
+              <Coordinates XCoordinate="501" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fc3b71d2-599a-4cef-acbe-9c345fd09af3" From="56b7b3d2-c904-4cad-93d5-463a75f69d04" To="5cb24698-d197-4a57-8195-c0f58e5fbf97" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="575" YCoordinate="61" />
+              <Coordinates XCoordinate="602" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="246e8cb8-f5c1-4b1d-af08-3e703cfedc4f" From="5cb24698-d197-4a57-8195-c0f58e5fbf97" To="82563751-82e4-4dc1-92cd-2d13f0301f51" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="692" YCoordinate="61" />
+              <Coordinates XCoordinate="713" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="05538a96-19e6-4e29-bde1-f66db61e33f2" From="82563751-82e4-4dc1-92cd-2d13f0301f51" To="4603edfb-2587-452e-b52c-e9270615ed98" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="803" YCoordinate="61" />
+              <Coordinates XCoordinate="833" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e9300f67-7583-4854-8976-1671b7248d47" From="4603edfb-2587-452e-b52c-e9270615ed98" To="5ebc37b6-a52b-4f15-a775-394d9b32d919" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="923" YCoordinate="61" />
+              <Coordinates XCoordinate="976" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="98a74066-95ee-4ba2-a6c5-84c9ea51af89" From="e3be7a9d-d3ca-43a8-a514-683965236aa9" To="536e2559-eea7-4163-951d-596733d70e9d" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="119" YCoordinate="123" />
+              <Coordinates XCoordinate="133" YCoordinate="123" />
+              <Coordinates XCoordinate="133" YCoordinate="61" />
+              <Coordinates XCoordinate="205" YCoordinate="61" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5bfa7550-8606-4fbd-a8df-4290789e1bce" From="5ebc37b6-a52b-4f15-a775-394d9b32d919" To="6caf9149-0db3-40dc-953f-03841f9ef921" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1021" YCoordinate="91" />
+              <Coordinates XCoordinate="1021" YCoordinate="148.5" />
+              <Coordinates XCoordinate="177" YCoordinate="148.5" />
+              <Coordinates XCoordinate="177" YCoordinate="205" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bb7c4da8-ef83-4cf1-8644-44a102309eb7" From="6caf9149-0db3-40dc-953f-03841f9ef921" To="afc194ce-176d-420f-ae25-0b0d1fe227ee" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="234" YCoordinate="255" />
+              <Coordinates XCoordinate="356" YCoordinate="255" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0d6d73a1-8938-4850-a50d-d61e56f09dff" From="afc194ce-176d-420f-ae25-0b0d1fe227ee" To="469c2ea2-890b-480b-aa77-6085fa199b49" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="446" YCoordinate="255" />
+              <Coordinates XCoordinate="548" YCoordinate="255" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="64d76675-51a6-41f9-a7b9-d41dd50e8034" From="469c2ea2-890b-480b-aa77-6085fa199b49" To="281bca02-4699-4602-8007-18e02b1f971f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="680" YCoordinate="255" />
+              <Coordinates XCoordinate="927" YCoordinate="255" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

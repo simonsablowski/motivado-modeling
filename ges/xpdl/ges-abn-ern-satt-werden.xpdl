@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="60567109-2b04-4bd0-8351-2412e228eb59" Name="ges-abn-ern-satt-werden" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-24T20:10:25.2904745+02:00</Created>
+    <ModificationDate>2011-06-28T13:58:06.21875+02:00</ModificationDate>
+    <Description>ges-abn-ern-satt-werden</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-28T11:58:06.21875Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="26652bad-f0b1-4bf0-afe0-b3dd26109735" Name="Main Process" Process="5e73dfa4-1ce0-4489-84db-1c1783529c22" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="79a0577d-ad8c-46c7-b3f5-ac34811c2ea0" Name="Process 1" Process="61e163ca-be3f-4ca5-9e8e-631f40f1077e" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="528" Width="1024" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="29" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="5e73dfa4-1ce0-4489-84db-1c1783529c22" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-06-28T13:58:49.453125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="61e163ca-be3f-4ca5-9e8e-631f40f1077e" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-06-28T13:58:49.453125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="3ea7232e-082b-48e4-a96d-b61ee182f1cb" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="91" YCoordinate="142" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d73f4d19-c87e-4cc5-a302-555785f7f52c" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="975" YCoordinate="336" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="acc20190-1f38-48bb-86e2-61c6a84922fd" Name="Sie sorgen sich nicht satt zu werden?">
+          <Description>$DocumentDownload("documents":[{"name":"Sattmachertricks","file":"Sattmachertricks.pdf"}])
+
+Dann laden Sie jetzt hier unsere Sattmachertricks herunten!
+
+Satt werden und trotzdem abnehmen kann ganz einfach sein, wenn Sie die Regeln aus diesem Coaching beachten.
+Gehen Sie am besten direkt im Anschluss an dieses Coaching mit Hilfe unserer Tipps einkaufen und bereiten Sie Ihren Kühlschrank auf eine schlanke, genussvolle Woche vor!
+Viel Erfolg!
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$DocumentDownload("documents":[{"name":"Sattmachertricks","file":"Sattmachertricks.pdf"}])
+
+Dann laden Sie jetzt hier unsere Sattmachertricks herunten!
+
+Satt werden und trotzdem abnehmen kann ganz einfach sein, wenn Sie die Regeln aus diesem Coaching beachten.
+Gehen Sie am besten direkt im Anschluss an dieses Coaching mit Hilfe unserer Tipps einkaufen und bereiten Sie Ihren Kühlschrank auf eine schlanke, genussvolle Woche vor!
+Viel Erfolg!
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="775" YCoordinate="321" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e4213790-763a-4c42-9dfa-ee34c9b5bee8" Name="Die 5 Grundregeln">
+          <Description>$Text()
+
+Hier also die fünf Grundregeln für eine gesunde, schlanke Ernährung:
+
+1. Halten Sie sich an drei Mahlzeiten mit maximal zwei gesunden Zwischenmahlzeiten am Tag, besser nur eine oder keine Zwischenmahlzeit. Essen Sie zu häufig zwischen den Hauptmahlzeiten, wird es schwierig genug Zeit zwischen Snack und Hauptmahlzeit verstreichen zu lassen, sodass Ihr Stoffwechsel in den Fettverbrennungsmodus geht. 
+
+2. Das bedeutet: Lassen Sie immer genug Zeit zwischen den Hauptmahlzeiten, um Ihrem Darm eine Chance zu geben, mit der Verdauung hinterher zu kommen (ca. 4 Stunden).
+3. Trinken Sie immer ausreichend. Mindestens zwei Liter pro Tag (Wasser, ungesüßten Tee, stark verdünnte Fruchtschorlen).
+
+4. Genießen Sie Ihr Essen. Richten Sie es sich appetitlich an, kauen Sie langsam und essen Sie nie abgelenkt.
+
+5. Ernähren Sie sich ausgewogen. Was genau das bedeutet, erfahren Sie, wenn Sie auf "Weiter" klicken.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Hier also die fünf Grundregeln für eine gesunde, schlanke Ernährung:
+
+1. Halten Sie sich an drei Mahlzeiten mit maximal zwei gesunden Zwischenmahlzeiten am Tag, besser nur eine oder keine Zwischenmahlzeit. Essen Sie zu häufig zwischen den Hauptmahlzeiten, wird es schwierig genug Zeit zwischen Snack und Hauptmahlzeit verstreichen zu lassen, sodass Ihr Stoffwechsel in den Fettverbrennungsmodus geht. 
+
+2. Das bedeutet: Lassen Sie immer genug Zeit zwischen den Hauptmahlzeiten, um Ihrem Darm eine Chance zu geben, mit der Verdauung hinterher zu kommen (ca. 4 Stunden).
+3. Trinken Sie immer ausreichend. Mindestens zwei Liter pro Tag (Wasser, ungesüßten Tee, stark verdünnte Fruchtschorlen).
+
+4. Genießen Sie Ihr Essen. Richten Sie es sich appetitlich an, kauen Sie langsam und essen Sie nie abgelenkt.
+
+5. Ernähren Sie sich ausgewogen. Was genau das bedeutet, erfahren Sie, wenn Sie auf "Weiter" klicken.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="314" YCoordinate="127" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="04c4dab1-bcfc-4a51-88f6-23531a68d84c" Name="Was bedeutet es ausgewogen zu essen?">
+          <Description>$Text()
+
+Ausgewogene Ernährung - das haben Sie bestimmt schon oft gehört. Aber was bedeutet „ausgewogen“ eigentlich? 
+
+Eine ausgewogene Ernährung ist die Basis für ein gesundes Leben, denn nur wer sich ausgewogen ernährt, bleibt langfristig gesund, schlank und somit beweglich und geistig fit.
+
+Eine ausgewogene Ernährung umfasst 
+- ausreichend Eiweiße
+- ausreichend Kohlenhydrate 
+- Fette nur in Maßen 
+
+Mehr zu den einzelnen Punkten, wenn Sie auf "Weiter" klicken.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Ausgewogene Ernährung - das haben Sie bestimmt schon oft gehört. Aber was bedeutet „ausgewogen“ eigentlich? 
+
+Eine ausgewogene Ernährung ist die Basis für ein gesundes Leben, denn nur wer sich ausgewogen ernährt, bleibt langfristig gesund, schlank und somit beweglich und geistig fit.
+
+Eine ausgewogene Ernährung umfasst 
+- ausreichend Eiweiße
+- ausreichend Kohlenhydrate 
+- Fette nur in Maßen 
+
+Mehr zu den einzelnen Punkten, wenn Sie auf "Weiter" klicken.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="480" YCoordinate="127" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bbd27e40-cac7-4827-81ba-0bbb97829854" Name="Eiweiß">
+          <Description>$Text()
+
+Eiweiß ist sehr wichtig und macht satt:
+Ungefähr 20% Ihrer täglichen Energiezufuhr sollte über Proteine abgedeckt werden. Vor allem wenn Sie abnehmen möchten, sollten Sie darauf achten, dass Sie immer genügend Proteine zu sich nehmen. So entgehen Sie der Gefahr, nicht nur Fett, sondern auch Muskeln abzubauen. Und Muskeln brauchen Sie, um Ihren Abnehmprozess zu beschleunigen und Ihr Gewicht auf lange Sicht stabil zu halten. Eiweiß liegt relativ lange im Magen und hält aus diesem Grund lange satt. 
+
+Was sind also gute Eiweißlieferanten? 
+Hier sollten Sie sich an magere Milchprodukte halten. Magerquark und Joghurt mit einem geringen Fettgehalt machen satt und haben einen relativ hohen Proteingehalt. Gute Eiweißlieferanten sind auch magerer Fisch und mageres Fleisch (mit Geflügel liegen Sie immer richtig). Halten Sie sich hingegen fern von Salami, Mortadella, Teewurst und Leberwurst, besser geeignet ist Aufschnitt, der aus einem Stück besteht, wie Putenbrustaufschnitt, Kassler, Bratenaufschnitt und Schinken ohne Fettrand.  Hülsenfrüchte sind ebenfalls ein guter Eiweißlieferant und sind sehr sättigend. Je fettärmer ein Lebensmittel ist, desto mehr Eiweiß ist enthalten. 
+
+Wer es würzig mag, darf zum Beispiel ruhig beim Harzer Käse zuschlagen. Auf 100 Gramm kommen nur ca. 125Kalorien, 0,7 Gramm Fett und ganze 30 Gramm Eiweiß!</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Eiweiß ist sehr wichtig und macht satt:
+Ungefähr 20% Ihrer täglichen Energiezufuhr sollte über Proteine abgedeckt werden. Vor allem wenn Sie abnehmen möchten, sollten Sie darauf achten, dass Sie immer genügend Proteine zu sich nehmen. So entgehen Sie der Gefahr, nicht nur Fett, sondern auch Muskeln abzubauen. Und Muskeln brauchen Sie, um Ihren Abnehmprozess zu beschleunigen und Ihr Gewicht auf lange Sicht stabil zu halten. Eiweiß liegt relativ lange im Magen und hält aus diesem Grund lange satt. 
+
+Was sind also gute Eiweißlieferanten? 
+Hier sollten Sie sich an magere Milchprodukte halten. Magerquark und Joghurt mit einem geringen Fettgehalt machen satt und haben einen relativ hohen Proteingehalt. Gute Eiweißlieferanten sind auch magerer Fisch und mageres Fleisch (mit Geflügel liegen Sie immer richtig). Halten Sie sich hingegen fern von Salami, Mortadella, Teewurst und Leberwurst, besser geeignet ist Aufschnitt, der aus einem Stück besteht, wie Putenbrustaufschnitt, Kassler, Bratenaufschnitt und Schinken ohne Fettrand.  Hülsenfrüchte sind ebenfalls ein guter Eiweißlieferant und sind sehr sättigend. Je fettärmer ein Lebensmittel ist, desto mehr Eiweiß ist enthalten. 
+
+Wer es würzig mag, darf zum Beispiel ruhig beim Harzer Käse zuschlagen. Auf 100 Gramm kommen nur ca. 125Kalorien, 0,7 Gramm Fett und ganze 30 Gramm Eiweiß!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="638" YCoordinate="127" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="89e2f0e5-6cee-4022-a15b-4f87ba45c199" Name="Fette">
+          <Description>$Text()
+
+Fette nur in Maßen genießen!
+
+Der Fettanteil Ihrer täglichen Energiezufuhr sollte nur bei ca. 25% liegen. Immerhin hat Fett mehr als doppelt soviele Kilokalorien wie Kohlenhydrate oder Eiweiß.
+Zu empfehlen sind hier nur die mehrfach ungesättigten Fettsäuren. Diese braucht unser Körper tatsächlich. Beispiele sind hier Fischfette (z.B. in Lachs, Tunfisch oder Makrele) und einige Pflanzenöle, wie Oliven- oder Rapsöl.
+Auch ein Esslöffel voll Nüsse im Müsli oder Salat kann mehr als ausreichend für die tägliche Fettzufuhr sein.
+Mehrfach gesättigte Fettsäuren, wie sie in Butter, aber vor allem auch im Fleisch enthalten sind, braucht der Körper nicht. Greifen Sie daher nur beschränkt auf tierische Produkte als Eiweißquelle zurück. Geflügel besteht immerhin zu großen Teilen aus ungesättigten Fettsäuren. Versuchen Sie trotzdem, wenn Sie es täglich verzehren, dies nur in kleinen Mengen zu tun.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Fette nur in Maßen genießen!
+
+Der Fettanteil Ihrer täglichen Energiezufuhr sollte nur bei ca. 25% liegen. Immerhin hat Fett mehr als doppelt soviele Kilokalorien wie Kohlenhydrate oder Eiweiß.
+Zu empfehlen sind hier nur die mehrfach ungesättigten Fettsäuren. Diese braucht unser Körper tatsächlich. Beispiele sind hier Fischfette (z.B. in Lachs, Tunfisch oder Makrele) und einige Pflanzenöle, wie Oliven- oder Rapsöl.
+Auch ein Esslöffel voll Nüsse im Müsli oder Salat kann mehr als ausreichend für die tägliche Fettzufuhr sein.
+Mehrfach gesättigte Fettsäuren, wie sie in Butter, aber vor allem auch im Fleisch enthalten sind, braucht der Körper nicht. Greifen Sie daher nur beschränkt auf tierische Produkte als Eiweißquelle zurück. Geflügel besteht immerhin zu großen Teilen aus ungesättigten Fettsäuren. Versuchen Sie trotzdem, wenn Sie es täglich verzehren, dies nur in kleinen Mengen zu tun.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="800" YCoordinate="127" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bd9ad044-a7e8-4d60-9d96-0c98a1cfab8f" Name="Kohlenhydrate">
+          <Description>$Text()
+
+50% Ihrer täglichen Kalorienzufuhr sollten aus Kohlenhydraten bestehen. 
+Aber Achtung! 
+
+Kohlenhydrate bedeuten nicht Zucker oder Weißmehl, sondern Obst, Hülsenfrüchte und Gemüse und ein kleiner Teil Vollkornprodukte! 
+Möchten Sie zum Beispiel einen Teil Ihres täglichen Kohlenhydratbedarfs über Müsli decken, sollten Sie immer darauf achten, dass der Kohlenhydratanteil nur zu einem sehr geringen Teil aus Zucker besteht (Immer Nährwertangaben auf der Packung lesen)! Darüber hinaus ist hier das richtige Verhältnis für ein gutes Frühstück: Obst und magerer Joghurt/Magerquark/fettarme Milch zu gleichen Anteilen. Dazu ein kleinerer Anteil (Vollkorn-) Müsli. 
+
+Vollwertiges Getreide liefert darüber hinaus Vitamin B1 und B6, Magnesium, Eisen und noch viel mehr.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+50% Ihrer täglichen Kalorienzufuhr sollten aus Kohlenhydraten bestehen. 
+Aber Achtung! 
+
+Kohlenhydrate bedeuten nicht Zucker oder Weißmehl, sondern Obst, Hülsenfrüchte und Gemüse und ein kleiner Teil Vollkornprodukte! 
+Möchten Sie zum Beispiel einen Teil Ihres täglichen Kohlenhydratbedarfs über Müsli decken, sollten Sie immer darauf achten, dass der Kohlenhydratanteil nur zu einem sehr geringen Teil aus Zucker besteht (Immer Nährwertangaben auf der Packung lesen)! Darüber hinaus ist hier das richtige Verhältnis für ein gutes Frühstück: Obst und magerer Joghurt/Magerquark/fettarme Milch zu gleichen Anteilen. Dazu ein kleinerer Anteil (Vollkorn-) Müsli. 
+
+Vollwertiges Getreide liefert darüber hinaus Vitamin B1 und B6, Magnesium, Eisen und noch viel mehr.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="236" YCoordinate="321" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="224cff2b-3abe-4c59-8992-fd8c47c479ef" Name="Obst und Gemüse">
+          <Description>$Text()
+
+Obst und Gemüse zählen ebenfalls zu den Kohlenhydraten.
+Allerdings sind dies die Kohlenhydrate, an denen Sie sich satt essen dürfen!
+Denn pflanzliche Lebensmittel sind Alleskönner! Sie liefern nicht nur wenige Kalorien sondern füllen auch noch den Magen und machen also satt ohne zu viel Kalorien auf die Waage zu bringen. 
+Noch dazu liefern sie auch noch viele Vitamine, Kohlenhydrate, Ballaststoffe, Mineralstoffe und sekundäre Pflanzenstoffe. Gemüse und Obst sollten ein Hauptbestandteil Ihrer Ernährung sein und mehrmals täglich verzehrt werden.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Obst und Gemüse zählen ebenfalls zu den Kohlenhydraten.
+Allerdings sind dies die Kohlenhydrate, an denen Sie sich satt essen dürfen!
+Denn pflanzliche Lebensmittel sind Alleskönner! Sie liefern nicht nur wenige Kalorien sondern füllen auch noch den Magen und machen also satt ohne zu viel Kalorien auf die Waage zu bringen. 
+Noch dazu liefern sie auch noch viele Vitamine, Kohlenhydrate, Ballaststoffe, Mineralstoffe und sekundäre Pflanzenstoffe. Gemüse und Obst sollten ein Hauptbestandteil Ihrer Ernährung sein und mehrmals täglich verzehrt werden.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="352" YCoordinate="321" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="63103444-58f6-4c78-836a-aa59a7946527" Name="Zucker">
+          <Description>$Text()
+
+Zucker gehört auch zu den Kohlenhydraten und hier ist besondere Vorsicht geboten!
+Zucker hat bei gesunder Ernährung eigentlich keine Daseinsberechtigung!
+
+Zucker braucht der Körper nicht. Im Gegenteil, Zucker richtet im Körper an unzähligen Stellen Schaden an. 
+
+Zucker :
+- unterstützt und verstärkt Mangelerscheinungen (Haarausfall, graue Haare, kann sogar zu Depressionen führen)
+- beeinträchtigt die Verdauung
+- zerstört die Darmflora
+- beeinträchtigt die Vitamin C Aufnahme (Anfälligkeit für Erkältungen ist die Folge)
+- beeinträchtigt die Kalziumaufnahme
+- greift den Zahnschmelz an
+- beeinträchtigt das Konzentrationsvermögen. 
+
+Und wenn Sie diese Folgen noch nicht überzeugen, völlig auf Zucker zu verzichten, dann schränken Sie Ihren Konsum wenigstens so stark wie möglich ein. Zucker darf maximal 10% der täglichen Energiezufuhr ausmachen. Denken Sie hier immer daran: die 10% gelten nicht nur für Industriezucker, sondern auch für Honig, für den Zucker im Kaffee, für den Zucker in Fertigprodukten, aber auch für den Zucker im Obst oder im Müsli. Zucker ist in sehr vielen Lebensmitteln, darum noch einmal: Lesen Sie immer die Nährwertangaben auf der Verpackung!
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Zucker gehört auch zu den Kohlenhydraten und hier ist besondere Vorsicht geboten!
+Zucker hat bei gesunder Ernährung eigentlich keine Daseinsberechtigung!
+
+Zucker braucht der Körper nicht. Im Gegenteil, Zucker richtet im Körper an unzähligen Stellen Schaden an. 
+
+Zucker :
+- unterstützt und verstärkt Mangelerscheinungen (Haarausfall, graue Haare, kann sogar zu Depressionen führen)
+- beeinträchtigt die Verdauung
+- zerstört die Darmflora
+- beeinträchtigt die Vitamin C Aufnahme (Anfälligkeit für Erkältungen ist die Folge)
+- beeinträchtigt die Kalziumaufnahme
+- greift den Zahnschmelz an
+- beeinträchtigt das Konzentrationsvermögen. 
+
+Und wenn Sie diese Folgen noch nicht überzeugen, völlig auf Zucker zu verzichten, dann schränken Sie Ihren Konsum wenigstens so stark wie möglich ein. Zucker darf maximal 10% der täglichen Energiezufuhr ausmachen. Denken Sie hier immer daran: die 10% gelten nicht nur für Industriezucker, sondern auch für Honig, für den Zucker im Kaffee, für den Zucker in Fertigprodukten, aber auch für den Zucker im Obst oder im Müsli. Zucker ist in sehr vielen Lebensmitteln, darum noch einmal: Lesen Sie immer die Nährwertangaben auf der Verpackung!
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="476" YCoordinate="321" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e34d3d50-d9dc-4042-ba7d-72c2e32b8818" Name="Übersicht im E-Book">
+          <Description>$Text()
+
+Diese wenigen Regeln sind alles, was Sie brauchen, um erfolgreich abzunehmen.
+
+Hier noch einmal die Kurzform zur Erinnerung: 
+* 3+max. 2 Mahlzeiten
+* 4 Std. Pause
+* 2 Liter Trinken
+* Genießen
+* Ausgewogen essen
+
+Eine Übersicht mit „empfehlenswerten“ und „weniger empfehlenswerten“ Lebensmitteln finden Sie in dem E-Book "Gute und Böse Lebensmittel". Sie finden es in Ihrem persönlichen Bereich, nachdem Sie sich auf der Motivado-Seite eingeloggt haben. In dem E-Book finden Sie auch ein Rezept-Beispiel, wie eine gesunde Mahlzeit aussehen kann.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Diese wenigen Regeln sind alles, was Sie brauchen, um erfolgreich abzunehmen.
+
+Hier noch einmal die Kurzform zur Erinnerung: 
+* 3+max. 2 Mahlzeiten
+* 4 Std. Pause
+* 2 Liter Trinken
+* Genießen
+* Ausgewogen essen
+
+Eine Übersicht mit „empfehlenswerten“ und „weniger empfehlenswerten“ Lebensmitteln finden Sie in dem E-Book "Gute und Böse Lebensmittel". Sie finden es in Ihrem persönlichen Bereich, nachdem Sie sich auf der Motivado-Seite eingeloggt haben. In dem E-Book finden Sie auch ein Rezept-Beispiel, wie eine gesunde Mahlzeit aussehen kann.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="612" YCoordinate="321" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2f6d6b53-9537-4381-97fe-d3e6e8bd2af4" Name="Wie werde ich richtig satt?">
+          <Description>$Text("video":{"url":"DIC_IntroRichtigSattWerden_V1.flv"})
+
+Sie halten sich an Ihre Mahlzeiten und haben immer noch Hunger? 
+Willkommen im Coaching "Wie werde ich richtig satt?"</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_IntroRichtigSattWerden_V1.flv"})
+
+Sie halten sich an Ihre Mahlzeiten und haben immer noch Hunger? 
+Willkommen im Coaching "Wie werde ich richtig satt?"</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="151" YCoordinate="127" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="b18747ff-bbca-498f-9fdd-4d2f6fedbb29" From="e34d3d50-d9dc-4042-ba7d-72c2e32b8818" To="acc20190-1f38-48bb-86e2-61c6a84922fd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="702" YCoordinate="351" />
+              <Coordinates XCoordinate="775" YCoordinate="351" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="315942fb-3963-45ec-9344-f3c9e5b72cec" From="acc20190-1f38-48bb-86e2-61c6a84922fd" To="d73f4d19-c87e-4cc5-a302-555785f7f52c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="865" YCoordinate="351" />
+              <Coordinates XCoordinate="975" YCoordinate="351" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c53acbf1-b44c-42b4-9e9c-19261fe29053" From="04c4dab1-bcfc-4a51-88f6-23531a68d84c" To="bbd27e40-cac7-4827-81ba-0bbb97829854" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="570" YCoordinate="157" />
+              <Coordinates XCoordinate="638" YCoordinate="157" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8cf4c9de-b677-4e12-b02a-f3aeb91cd927" From="bbd27e40-cac7-4827-81ba-0bbb97829854" To="89e2f0e5-6cee-4022-a15b-4f87ba45c199" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="728" YCoordinate="157" />
+              <Coordinates XCoordinate="800" YCoordinate="157" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a5a4377e-a02f-492f-8439-89c469f39ef4" From="89e2f0e5-6cee-4022-a15b-4f87ba45c199" To="bd9ad044-a7e8-4d60-9d96-0c98a1cfab8f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="845" YCoordinate="187" />
+              <Coordinates XCoordinate="845" YCoordinate="254" />
+              <Coordinates XCoordinate="281" YCoordinate="254" />
+              <Coordinates XCoordinate="281" YCoordinate="321" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e0028a76-23e7-412d-9bca-2a6be7f9ddb8" From="bd9ad044-a7e8-4d60-9d96-0c98a1cfab8f" To="224cff2b-3abe-4c59-8992-fd8c47c479ef" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="326" YCoordinate="351" />
+              <Coordinates XCoordinate="352" YCoordinate="351" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7663ded0-568c-482b-9f99-e1144f1496c3" From="224cff2b-3abe-4c59-8992-fd8c47c479ef" To="63103444-58f6-4c78-836a-aa59a7946527" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="442" YCoordinate="351" />
+              <Coordinates XCoordinate="476" YCoordinate="351" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="35123561-bb0b-45c4-bc45-dbd496d3625d" From="63103444-58f6-4c78-836a-aa59a7946527" To="e34d3d50-d9dc-4042-ba7d-72c2e32b8818" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="566" YCoordinate="351" />
+              <Coordinates XCoordinate="612" YCoordinate="351" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="36912e96-56be-4bb3-bc34-64671f891d94" From="3ea7232e-082b-48e4-a96d-b61ee182f1cb" To="2f6d6b53-9537-4381-97fe-d3e6e8bd2af4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="121" YCoordinate="157" />
+              <Coordinates XCoordinate="151" YCoordinate="157" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7f722df9-15ee-40b7-bcfb-e39daaa5362a" From="2f6d6b53-9537-4381-97fe-d3e6e8bd2af4" To="e4213790-763a-4c42-9dfa-ee34c9b5bee8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="241" YCoordinate="157" />
+              <Coordinates XCoordinate="314" YCoordinate="157" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4375db34-9de2-4208-bc13-e26941886dfd" From="e4213790-763a-4c42-9dfa-ee34c9b5bee8" To="04c4dab1-bcfc-4a51-88f6-23531a68d84c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="404" YCoordinate="157" />
+              <Coordinates XCoordinate="480" YCoordinate="157" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

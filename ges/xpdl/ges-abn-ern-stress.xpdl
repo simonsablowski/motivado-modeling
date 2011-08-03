@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="4e59ec0f-5176-4f27-a2f6-d061bf4b0430" Name="ges-abn-ern-stress" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-17T17:42:06.767359+02:00</Created>
+    <ModificationDate>2011-07-08T14:03:29.203125+02:00</ModificationDate>
+    <Description>ges-abn-ern-stress</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-28T12:11:46.421875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-05T13:19:37.28125Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-08T12:03:29.203125Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="2c977e09-802d-40e1-bfea-2d098f99cbcd" Process="f3f1570a-e68a-4aa7-9d0c-51da921d05e6" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="bc6ad9df-731a-494a-ac3c-de9aee1afb27" Name="Process 1" Process="8b2aa0fe-0440-43e2-8ef1-655bcb630c37" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="422" Width="1024" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="40" YCoordinate="40" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="f3f1570a-e68a-4aa7-9d0c-51da921d05e6" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-08T14:04:06.5+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="8b2aa0fe-0440-43e2-8ef1-655bcb630c37" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-08T14:04:06.5+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="ba1f2813-baba-4028-977c-1c8a2d36b7c9" Name="Essen aus Stress">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="109" YCoordinate="159" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="32f69939-5b48-4fc1-9a4d-6c80658d35f5" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="997" YCoordinate="159" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f92b8d5b-eab1-4068-95aa-284114425763" Name="Stress-Frust-Essen">
+          <Description>$BulletPoints("video":{"url":"DIC_EmotioEsser2A_V1.flv"},"elements":[{"element":"1. In Stresssituationen wird Adrenalin und Cortisol ausgeschüttet.","second":29},{"element":"2. Kalorienreiches Essen stresst den Körper zusätzlich.","second":90}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_EmotioEsser2A_V1.flv"},"elements":[{"element":"1. In Stresssituationen wird Adrenalin und Cortisol ausgeschüttet.","second":29},{"element":"2. Kalorienreiches Essen stresst den Körper zusätzlich.","second":90}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="307" YCoordinate="144" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="36e41e7e-2833-4f5f-9539-48d155b8e963" Name="Warum essen Sie also in stressigen Situationen?">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser2A_V2.flv"})
+
+Stress-Essen ist Gewohnheitssache!
+
+Der kalorienreiche Snack sorgt kurz für vermeintliche Entspannung. An diesen Effekt erinnern wir uns und machen es das nächste Mal wieder genauso.
+Das Völlegefühl, die Übelkeit und das schlechte Gewissen hingegen nur eine halbe Stunde später verdrängen wir sofort wieder.
+Frust- und Stressessen macht dick!
+Aber wie kommt man aus diesem Teufelskreis nun heraus?
+
+Mehr dazu im nächsten Video.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser2A_V2.flv"})
+
+Stress-Essen ist Gewohnheitssache!
+
+Der kalorienreiche Snack sorgt kurz für vermeintliche Entspannung. An diesen Effekt erinnern wir uns und machen es das nächste Mal wieder genauso.
+Das Völlegefühl, die Übelkeit und das schlechte Gewissen hingegen nur eine halbe Stunde später verdrängen wir sofort wieder.
+Frust- und Stressessen macht dick!
+Aber wie kommt man aus diesem Teufelskreis nun heraus?
+
+Mehr dazu im nächsten Video.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="64" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="438" YCoordinate="142" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="425bbedc-370f-460e-8a97-390f3163faed" Name="Was können Sie anders machen?">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser2A_V3.flv"})
+
+Überlegen Sie sich jetzt schon einmal eine Taktik, was Sie das nächste Mal anstatt zu essen tun können, wenn Sie in eine stressige Situation geraten.
+Beispiele sind:
+- eine gute Freundin/einen guten Freund anrufen
+- Bewegen Sie sich! Machen Sie einen Spaziergang, gehen Sie zum Sport
+- schaffen Sie sich gesunde Rituale (zum Feierabend erst einen Tee kochen/Eine Runde um den Block laufen/ein paar Seiten im neuen Buch lesen/etc).
+
+Bringen Sie sich aus der Situation unbedingt über den Kühlschrank herfallen zu müssen raus, indem Sie weg gehen!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser2A_V3.flv"})
+
+Überlegen Sie sich jetzt schon einmal eine Taktik, was Sie das nächste Mal anstatt zu essen tun können, wenn Sie in eine stressige Situation geraten.
+Beispiele sind:
+- eine gute Freundin/einen guten Freund anrufen
+- Bewegen Sie sich! Machen Sie einen Spaziergang, gehen Sie zum Sport
+- schaffen Sie sich gesunde Rituale (zum Feierabend erst einen Tee kochen/Eine Runde um den Block laufen/ein paar Seiten im neuen Buch lesen/etc).
+
+Bringen Sie sich aus der Situation unbedingt über den Kühlschrank herfallen zu müssen raus, indem Sie weg gehen!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="566" YCoordinate="144" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="253a6c7d-2843-43e8-9c25-babee8206386" Name="Planen Sie Ihre Alternative bis ins kleinste Detail!">
+          <Description>$Text("video":{"url":"DIC_EmotioEsser2A_V4.flv"})
+
+Neigen Sie zu bestimmten Tageszeiten dazu aus Frust oder Stress zu essen?
+
+Dann ist Ihre Aufgabe jetzt für genau diese Momente einen Plan zu erstellen mit einer ganze genauen Strategie, was Sie in diesen Momenten anderes tun können, sodass das Stress-Ess-Bedürfnis erst gar nicht aufkommt.
+Schreiben Sie diesen Plan unbedingt auf und bereiten Sie Ihn noch heute vor!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_EmotioEsser2A_V4.flv"})
+
+Neigen Sie zu bestimmten Tageszeiten dazu aus Frust oder Stress zu essen?
+
+Dann ist Ihre Aufgabe jetzt für genau diese Momente einen Plan zu erstellen mit einer ganze genauen Strategie, was Sie in diesen Momenten anderes tun können, sodass das Stress-Ess-Bedürfnis erst gar nicht aufkommt.
+Schreiben Sie diesen Plan unbedingt auf und bereiten Sie Ihn noch heute vor!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="76" Width="100" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="704" YCoordinate="136" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8949308c-d8d1-46b8-b3e8-d93f8bb186dd" Name="Viel Erfolg in den kommenden Tagen!">
+          <Description>$Text()
+Wir müssen lang antrainierte Verhaltensweisen durchbrechen. Es wird nicht immer leicht sein, von jetzt an, nicht mehr mit Essen auf Stress zu reagieren.
+Mit guter Vorbereitung und Durchhaltevermögen werden Sie jedoch merken, wie es von Mal zu Mal einfacher wird dem Stress-Essen die kalte Schulter zu zeigen!
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Wir müssen lang antrainierte Verhaltensweisen durchbrechen. Es wird nicht immer leicht sein, von jetzt an, nicht mehr mit Essen auf Stress zu reagieren.
+Mit guter Vorbereitung und Durchhaltevermögen werden Sie jedoch merken, wie es von Mal zu Mal einfacher wird dem Stress-Essen die kalte Schulter zu zeigen!
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="65" Width="95" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="848" YCoordinate="141.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="ae8746e6-c9a1-4fc2-b297-50f37d5dc3d7" From="ba1f2813-baba-4028-977c-1c8a2d36b7c9" To="f92b8d5b-eab1-4068-95aa-284114425763" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="139" YCoordinate="174" />
+              <Coordinates XCoordinate="307" YCoordinate="174" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="04635d22-e1db-422b-909a-ab5a8b1eb5aa" From="f92b8d5b-eab1-4068-95aa-284114425763" To="36e41e7e-2833-4f5f-9539-48d155b8e963" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="397" YCoordinate="174" />
+              <Coordinates XCoordinate="438" YCoordinate="174" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f449c430-18f4-4e80-8713-e11db9d0e44f" From="36e41e7e-2833-4f5f-9539-48d155b8e963" To="425bbedc-370f-460e-8a97-390f3163faed" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="528" YCoordinate="174" />
+              <Coordinates XCoordinate="566" YCoordinate="174" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8292038d-9565-4754-8d80-7bd2ab148445" From="425bbedc-370f-460e-8a97-390f3163faed" To="253a6c7d-2843-43e8-9c25-babee8206386" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="656" YCoordinate="174" />
+              <Coordinates XCoordinate="704" YCoordinate="174" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d11d6595-3bc6-41e8-9106-22ab3b34071f" From="253a6c7d-2843-43e8-9c25-babee8206386" To="8949308c-d8d1-46b8-b3e8-d93f8bb186dd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="804" YCoordinate="174" />
+              <Coordinates XCoordinate="826" YCoordinate="174" />
+              <Coordinates XCoordinate="826" YCoordinate="173" />
+              <Coordinates XCoordinate="848" YCoordinate="173" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1bdd4dea-8b97-4c06-bf53-02d1530ab5cd" From="8949308c-d8d1-46b8-b3e8-d93f8bb186dd" To="32f69939-5b48-4fc1-9a4d-6c80658d35f5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="943" YCoordinate="173" />
+              <Coordinates XCoordinate="970" YCoordinate="173" />
+              <Coordinates XCoordinate="970" YCoordinate="174" />
+              <Coordinates XCoordinate="997" YCoordinate="174" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

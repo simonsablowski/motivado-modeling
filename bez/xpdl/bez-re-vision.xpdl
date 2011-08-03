@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="85473353-32c8-4b6c-9311-b7999e906aea" Name="re-vision" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-02T17:28:40.7906563+02:00</Created>
+    <Description>re-vision</Description>
+    <Documentation />
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="04eb4fa4-6703-4faa-81be-3678fccf77b7" Name="Main Process" Process="9e2c930e-10b2-4826-8908-21b39af6731c" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="1703e225-0d3b-4d26-9664-eef21eff64d7" Name="Process 1" Process="c77bc263-598d-4925-b90d-23ed5375779a" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="339" Width="1306" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="9e2c930e-10b2-4826-8908-21b39af6731c" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-05-02T17:28:40.7906563+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author>BizAgi Process Modeler.</Author>
+        <Version>1.0</Version>
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="c77bc263-598d-4925-b90d-23ed5375779a" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-05-02T17:28:40.7906563+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author>BizAgi Process Modeler.</Author>
+        <Version>1.0</Version>
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="e625199a-14b4-4d93-aec4-6029d07bb907">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" FillColor="-1638505">
+              <Coordinates XCoordinate="127" YCoordinate="174" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="9267e9b5-2093-4869-8248-3eafe4994283">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" FillColor="-1135958">
+              <Coordinates XCoordinate="1126" YCoordinate="177" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="48ec0051-fb49-494c-b18e-e1655ab84757" Name="Bitte schreiben Sie das Bild auf, das Ihnen spontan einfällt!">
+          <Description>$TextInput:rel_rueckVision_bild("video":{"url":"REL_ExZurueck_Vision_V1.flv"},"type":"none")</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$TextInput:rel_rueckVision_bild("video":{"url":"REL_ExZurueck_Vision_V1.flv"},"type":"none")</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="66" Width="253" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="173" YCoordinate="156" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="d55899db-fe30-43fe-88fb-e70136974c02" Name="Bitte planen Sie jetzt, wann und wo Sie täglich min. 15 Minuten an Ihrer Vision arbeiten können.&#xD;&#xA;Ihre Vision besteht aus dem Satz, den Sie notiert haben (&quot;Ich halte es für möglich, meinen Partner zurückzuerobern&quot; und Ihrem Zielbild (z.B. wir spazieren gemeinsam durch den Park).&#xD;&#xA;Ganz wichtig ist, dass Sie sich bei der Visionsarbeit bewegen, am besten Sport machen, zumindest aber stramm spazieren gehen!&#xD;&#xA;Für Rückfragen wenden Sie sich bitte an unser Rückeroberungsteam. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="124" Width="220" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="840" YCoordinate="130" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="75c5c771-f304-4e22-82e9-26b5104f7d53" Name="Bild vertiefen">
+          <Description>$Video("video":{"url":"REL_ExZurueck_Vision_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_ExZurueck_Vision_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="459" YCoordinate="159" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="357bfa5b-5431-4d31-8977-27d54b41a59f" Name="Falle des Bildes">
+          <Description>$Video("video":{"url":"REL_ExZurueck_Vision_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_ExZurueck_Vision_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="585" YCoordinate="159" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="a373e136-8350-4de1-90ab-3b941f17c4ae" Name="Jetzt umsetzen!">
+          <Description>$Video("video":{"url":"REL_ExZurueck_Vision_V4.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_ExZurueck_Vision_V4.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="710" YCoordinate="159" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="7fc32fc2-7dd6-45c1-bae6-fc73725bda6e" From="e625199a-14b4-4d93-aec4-6029d07bb907" To="48ec0051-fb49-494c-b18e-e1655ab84757" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="157" YCoordinate="189" />
+              <Coordinates XCoordinate="173" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fb5fe241-496a-4b4a-bc66-91980f121576" From="d55899db-fe30-43fe-88fb-e70136974c02" To="9267e9b5-2093-4869-8248-3eafe4994283" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1060" YCoordinate="192" />
+              <Coordinates XCoordinate="1126" YCoordinate="192" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8c54ec21-e573-4e03-a403-9e184592c252" From="a373e136-8350-4de1-90ab-3b941f17c4ae" To="d55899db-fe30-43fe-88fb-e70136974c02" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="800" YCoordinate="189" />
+              <Coordinates XCoordinate="816.5" YCoordinate="189" />
+              <Coordinates XCoordinate="816.5" YCoordinate="192" />
+              <Coordinates XCoordinate="840" YCoordinate="192" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="235f914f-0f4f-4b91-95a2-1983440fc5e1" From="48ec0051-fb49-494c-b18e-e1655ab84757" To="75c5c771-f304-4e22-82e9-26b5104f7d53" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="426" YCoordinate="189" />
+              <Coordinates XCoordinate="459" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9ef3a07c-3663-4d8b-9bdd-2164f172467a" From="75c5c771-f304-4e22-82e9-26b5104f7d53" To="357bfa5b-5431-4d31-8977-27d54b41a59f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="549" YCoordinate="189" />
+              <Coordinates XCoordinate="585" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="27732582-b0b9-4bb8-92e2-3c4e649cf299" From="357bfa5b-5431-4d31-8977-27d54b41a59f" To="a373e136-8350-4de1-90ab-3b941f17c4ae" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="675" YCoordinate="189" />
+              <Coordinates XCoordinate="710" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

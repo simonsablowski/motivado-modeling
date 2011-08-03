@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="e7ce68a4-5b94-47eb-b6ae-5ba61f316d0e" Name="ges-abn-bew-aufraffen2" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-27T09:41:25.3879597+02:00</Created>
+    <ModificationDate>2011-07-26T13:20:50.453125+02:00</ModificationDate>
+    <Description>ges-abn-bew-aufraffen2</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-24T11:13:20.671875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-24T11:47:10.265625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-26T11:20:50.453125Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="b0f98365-1d90-48f7-8399-f0ca39c0360c" Process="3953b48d-94f0-4fae-8ceb-0fbb6f1be19d" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="42e6d196-e738-483c-ba85-d8048a565537" Name="Process 1" Process="3dd0a91f-bbf1-4859-9a0a-a667bdaac2c0" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="262" Width="923" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="3953b48d-94f0-4fae-8ceb-0fbb6f1be19d" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-26T13:21:35.40625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="3dd0a91f-bbf1-4859-9a0a-a667bdaac2c0" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-26T13:21:35.40625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="d1eaa9cb-ef88-4925-897c-20a507fe5fa5" Name="Kann mich zum Sport nicht aufraffen">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="93" YCoordinate="91.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="64858bc6-e842-4c97-bb61-1aabb515fb32" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="881" YCoordinate="91.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1c7bc05f-6b7a-40f6-a605-3436deaa1678" Name="Willkommen im Coaching &quot;Ich kann mich zum Sport nicht aufraffen&quot;">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport2_V1.flv"})
+
+Am Ende dieses Coachings werden Sie sich auf Ihre nächste Sporteinheit freuen!
+Das erreichen wir mit der Hilfe eines Belohnungssystems.
+Mehr dazu im Folgenden.
+
+Nehmen Sie sich für dieses Coaching ca. 15 Minuten Zeit.
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport2_V1.flv"})
+
+Am Ende dieses Coachings werden Sie sich auf Ihre nächste Sporteinheit freuen!
+Das erreichen wir mit der Hilfe eines Belohnungssystems.
+Mehr dazu im Folgenden.
+
+Nehmen Sie sich für dieses Coaching ca. 15 Minuten Zeit.
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="85" Width="99" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="353" YCoordinate="64" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="61ec2abb-0d9e-41fa-a3ff-fdf8ec19eef3" Name="">
+          <Description>$Video("video":{"url":"DIC_AufraffenSport2_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_AufraffenSport2_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="36" Width="42" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="518" YCoordinate="88.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4c62fecb-cbe8-48e9-807c-31025c6abd9f" Name="">
+          <Description>$Video("video":{"url":"DIC_AufraffenSport2_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_AufraffenSport2_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="45" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="577" YCoordinate="86.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1882e5ad-34a6-4a3b-9970-8d22f7ba1ac0" Name="Aufgabe zu dem Coaching &quot;Kann mich zum Sport nicht aufraffen&quot;">
+          <Description>$DocumentDownload("video":{"url":"DIC_AufraffenSport2_V4.flv"},"documents":[{"name":"Belohnungssystem","file":"Belohnungssystem.pdf"}])
+
+Denken Sie sich ein Belohnungssystem aus, das zu Ihnen passt. Planen Sie eine komplette Woche inklusive aller Trainingseinheiten und Belohnung am Ende der Woche.
+
+Sie Können sich hier eine Vorlage mit Beispielen für ein solches Belohnungssystem herunter laden.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$DocumentDownload("video":{"url":"DIC_AufraffenSport2_V4.flv"},"documents":[{"name":"Belohnungssystem","file":"Belohnungssystem.pdf"}])
+
+Denken Sie sich ein Belohnungssystem aus, das zu Ihnen passt. Planen Sie eine komplette Woche inklusive aller Trainingseinheiten und Belohnung am Ende der Woche.
+
+Sie Können sich hier eine Vorlage mit Beispielen für ein solches Belohnungssystem herunter laden.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="63" Width="91" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="640" YCoordinate="75" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d0e81543-7d6f-4171-a9fc-33b9d1f9d825" Name="">
+          <Description>$Video("video":{"url":"DIC_AufraffenSport2_V6.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_AufraffenSport2_V6.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="42" Width="53" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="774" YCoordinate="85.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="48131baf-8817-41e1-b906-968d93f4e376" From="1c7bc05f-6b7a-40f6-a605-3436deaa1678" To="61ec2abb-0d9e-41fa-a3ff-fdf8ec19eef3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="452" YCoordinate="106" />
+              <Coordinates XCoordinate="518" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c0e5cc3c-ace2-45f8-b135-477064117cc1" From="61ec2abb-0d9e-41fa-a3ff-fdf8ec19eef3" To="4c62fecb-cbe8-48e9-807c-31025c6abd9f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="560" YCoordinate="106" />
+              <Coordinates XCoordinate="577" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c9d52ed3-38b9-4b0d-9d3b-fb5e03941d00" From="4c62fecb-cbe8-48e9-807c-31025c6abd9f" To="1882e5ad-34a6-4a3b-9970-8d22f7ba1ac0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="622" YCoordinate="106" />
+              <Coordinates XCoordinate="640" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="63bf3c36-6497-46ac-bef8-942f82fdd3bd" From="1882e5ad-34a6-4a3b-9970-8d22f7ba1ac0" To="d0e81543-7d6f-4171-a9fc-33b9d1f9d825" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="731" YCoordinate="106" />
+              <Coordinates XCoordinate="774" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a9c0d1b5-703c-4007-a4db-cbd30f628f35" From="d0e81543-7d6f-4171-a9fc-33b9d1f9d825" To="64858bc6-e842-4c97-bb61-1aabb515fb32" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="827" YCoordinate="106" />
+              <Coordinates XCoordinate="881" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fe8d39bd-48f1-4197-8fa0-28f3cfeb80c0" From="d1eaa9cb-ef88-4925-897c-20a507fe5fa5" To="1c7bc05f-6b7a-40f6-a605-3436deaa1678" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="123" YCoordinate="106" />
+              <Coordinates XCoordinate="353" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

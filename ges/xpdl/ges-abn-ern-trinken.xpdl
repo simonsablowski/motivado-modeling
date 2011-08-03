@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="f93bf7e6-4e14-4b88-95b9-22a295dec41e" Name="ges-abn-ern-trinken" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-24T20:38:55.3652852+02:00</Created>
+    <ModificationDate>2011-06-28T14:41:58.46875+02:00</ModificationDate>
+    <Description>ges-abn-ern-trinken</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-28T12:41:58.46875Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="896c561a-a62b-4c9c-812e-b1ac99ed3532" Name="Main Process" Process="620dc983-e8f4-4ef8-b846-8be306b20bc9" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="71ea4158-2435-4110-8952-e547ff58ba05" Name="Process 1" Process="c92e36ee-7396-438e-897d-5e4fb6dd9c8d" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="327" Width="916" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="620dc983-e8f4-4ef8-b846-8be306b20bc9" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-06-28T14:42:34.828125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="c92e36ee-7396-438e-897d-5e4fb6dd9c8d" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-06-28T14:42:34.828125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="60e6b812-763d-447e-85b4-62e3d0e239f9" Name="&quot;Warum ist Trinken so wichtig?&quot;">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="137" YCoordinate="72" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3ff83bc6-eda5-48c0-b7fb-7d2310c3570f" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="897" YCoordinate="72" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="aa0deb07-0d81-4a87-a83a-ee1c7129c1b1" Name="Warum ist Trinken so wichtig?">
+          <Description>$Text()
+
+Gehen wir einmal davon aus, wir trinken zu wenig, was wären die Folgen für uns:
+Nehmen wir zu wenig Flüssigkeit auf, wird unser Blut dicker und es befindet sich auch weniger Sauerstoff im Blut. Es wird zäher und somit schwieriger für das Herz durch den Körper zu pumpen. Dadurch wird unser Herz-Kreislaufsystem stärker belastet.
+Schädliche Rückstände aus dem Stoffwechsel können nicht so schnell abtransportiert werden. Die Giftstoffe bleiben länger im Körper und wir fühlen uns schneller schlapp, sind unkonzentrierter und bekommen manchmal sogar Kopfschmerzen oder fühlen uns schwindelig.
+Ähnliches gilt für die Nieren. Steht nicht genug Flüssigkeit zur Verfügung, um die Nieren durchspülen zu können, bleiben Abfallprodukte in der Niere zurück und können zu sehr schmerzhaften Nierensteinen führen.
+Darüber hinaus wird dem Darm bei akutem Wassermangel Wasser entzogen. Die Folge davon ist Verstopfung. Die Schleimhäute können austrocknen und sind somit anfälliger für Bakterien und Viren. 
+Soviel zu allem, was im Körper passiert. Aber zu wenig zu trinken hat auch Folgen, die man deutlich von außen sehen kann. 
+Unsere Haut ist unser größtes Organ und besteht zu ca. 80% aus Wasser. Sind die einzelnen Zellen unserer Haut nicht mehr ausreichend mit Wasser gefüllt, verliert die Haut an Spannkraft, wird rau und rissig. Auch Falten sieht man dann deutlicher und sie entstehen auch schneller.
+Und gerade wenn man abnehmen möchte, gibt es noch ein paar sehr gute Gründe viel zu trinken:
+Beim Abnehmen wird überflüssiges Körperfett abgebaut. Beim Abbau dieses Körperfettes fallen vermehrt Giftstoffe an. Es ist jetzt also ganz besonders wichtig, dem Körper genügend Wasser zur Verfügung zu stellen, mithilfe dessen diese Giftstoffe aus dem Körper gespült werden.
+Abgesehen von diesen gesundheitlichen Folgen, wenn man zu wenig trinkt, hat viel zu trinken noch einen ganz banalen positiven Effekt: Es füllt den Magen. So kommt der Hunger nicht so schnell und auch bei den wohlbekannten Heißhungerattacken können schon zwei große Gläser Wasser den Heißhunger verschwinden lassen.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Gehen wir einmal davon aus, wir trinken zu wenig, was wären die Folgen für uns:
+Nehmen wir zu wenig Flüssigkeit auf, wird unser Blut dicker und es befindet sich auch weniger Sauerstoff im Blut. Es wird zäher und somit schwieriger für das Herz durch den Körper zu pumpen. Dadurch wird unser Herz-Kreislaufsystem stärker belastet.
+Schädliche Rückstände aus dem Stoffwechsel können nicht so schnell abtransportiert werden. Die Giftstoffe bleiben länger im Körper und wir fühlen uns schneller schlapp, sind unkonzentrierter und bekommen manchmal sogar Kopfschmerzen oder fühlen uns schwindelig.
+Ähnliches gilt für die Nieren. Steht nicht genug Flüssigkeit zur Verfügung, um die Nieren durchspülen zu können, bleiben Abfallprodukte in der Niere zurück und können zu sehr schmerzhaften Nierensteinen führen.
+Darüber hinaus wird dem Darm bei akutem Wassermangel Wasser entzogen. Die Folge davon ist Verstopfung. Die Schleimhäute können austrocknen und sind somit anfälliger für Bakterien und Viren. 
+Soviel zu allem, was im Körper passiert. Aber zu wenig zu trinken hat auch Folgen, die man deutlich von außen sehen kann. 
+Unsere Haut ist unser größtes Organ und besteht zu ca. 80% aus Wasser. Sind die einzelnen Zellen unserer Haut nicht mehr ausreichend mit Wasser gefüllt, verliert die Haut an Spannkraft, wird rau und rissig. Auch Falten sieht man dann deutlicher und sie entstehen auch schneller.
+Und gerade wenn man abnehmen möchte, gibt es noch ein paar sehr gute Gründe viel zu trinken:
+Beim Abnehmen wird überflüssiges Körperfett abgebaut. Beim Abbau dieses Körperfettes fallen vermehrt Giftstoffe an. Es ist jetzt also ganz besonders wichtig, dem Körper genügend Wasser zur Verfügung zu stellen, mithilfe dessen diese Giftstoffe aus dem Körper gespült werden.
+Abgesehen von diesen gesundheitlichen Folgen, wenn man zu wenig trinkt, hat viel zu trinken noch einen ganz banalen positiven Effekt: Es füllt den Magen. So kommt der Hunger nicht so schnell und auch bei den wohlbekannten Heißhungerattacken können schon zwei große Gläser Wasser den Heißhunger verschwinden lassen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="384" YCoordinate="57" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="150e9b87-28d9-4c11-a546-6d0d491d9a0c" Name="Wann und wie sollte man also trinken?">
+          <Description>$Text()
+
+Der Körper kann keine großen Mengen Wasser speichern, und wir scheiden über den Tag verteilt nicht nur über den Urin, sondern auch über die Haut, über den Stuhlgang und die Atmung Wasser aus. Darum gilt es, immer regelmäßig über den Tag verteilt für Nachschub zu sorgen.
+Eine Faustregel zu der Menge Wasser, die eine Person trinken sollte, ist 1 ml pro aufgenommener Kalorie. Bei einem täglichen Energiebedarf von ca. 1800 Kalorien müsste man also mindestens 1,8 Liter pro Tag trinken. 
+Grundsätzlich sollte man alle 1 bis 1,5 Stunden ein Glas Wasser trinken. Isst man fettig oder sehr salzig, muss man entsprechend mehr trinken. Man sollte es so abstimmen, dass man eine halbe Stunde vor und eine Stunde nach großen Mahlzeiten nichts trinkt. Sonst werden die Verdauungssäfte im Magen zu sehr verdünnt. Trinken Sie also lieber viel zu den Zwischenmahlzeiten, bzw. zwischen den großen Mahlzeiten. 
+Auch wenn man Sport treibt, muss man mehr trinken. Bei einer Einheit von gut einer Stunde, bei der Sie stark schwitzen, sollten Sie schon im Vorhinein mindestens einen halben Liter Wasser in kleinen Schlucken getrunken haben. Aber auch während des Trainings sollten Sie alle 20 Minuten ein paar Schlucke Wasser trinken.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Der Körper kann keine großen Mengen Wasser speichern, und wir scheiden über den Tag verteilt nicht nur über den Urin, sondern auch über die Haut, über den Stuhlgang und die Atmung Wasser aus. Darum gilt es, immer regelmäßig über den Tag verteilt für Nachschub zu sorgen.
+Eine Faustregel zu der Menge Wasser, die eine Person trinken sollte, ist 1 ml pro aufgenommener Kalorie. Bei einem täglichen Energiebedarf von ca. 1800 Kalorien müsste man also mindestens 1,8 Liter pro Tag trinken. 
+Grundsätzlich sollte man alle 1 bis 1,5 Stunden ein Glas Wasser trinken. Isst man fettig oder sehr salzig, muss man entsprechend mehr trinken. Man sollte es so abstimmen, dass man eine halbe Stunde vor und eine Stunde nach großen Mahlzeiten nichts trinkt. Sonst werden die Verdauungssäfte im Magen zu sehr verdünnt. Trinken Sie also lieber viel zu den Zwischenmahlzeiten, bzw. zwischen den großen Mahlzeiten. 
+Auch wenn man Sport treibt, muss man mehr trinken. Bei einer Einheit von gut einer Stunde, bei der Sie stark schwitzen, sollten Sie schon im Vorhinein mindestens einen halben Liter Wasser in kleinen Schlucken getrunken haben. Aber auch während des Trainings sollten Sie alle 20 Minuten ein paar Schlucke Wasser trinken.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="512" YCoordinate="57" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3fca24bb-b313-4ad9-8428-f161242eae2b" Name="Und zum Schluss noch: Was sollte man trinken?">
+          <Description>$Text()
+
+Möchten Sie abnehmen, müssen Sie eh schon Kalorien bei Ihrem Essen einsparen. Machen Sie es sich also nicht noch schwerer, indem Sie Ihre Kalorien auch noch trinken.
+Über diese Getränke schleichen sich Kalorien ein:
+Limonade (auch sogenannte zuckerfreie lassen Ihren Blutzuckerspiegel Achterbahn fahren), zuckriger Kaffee oder mit Zucker/Honig gesüßte Tees, Eiskaffee, Milkshakes, Fruchtsäfte, Smoothies und auch Joghurt-Drinks bringen vor allem durch die Menge, die man davon trinkt einiges an Kalorien auf die Waage. Alkohol sollte am besten komplett gemieden werden. Er entzieht dem Körper Wasser und hält ihn noch dazu von der Fettverbrennung ab. 
+Was Sie anstelle dessen trinken sollten:
+An erster Stelle natürlich Wasser. Es belastet den Körper am wenigsten und ist der günstigste Durstlöscher. Aber auch ungesüßter Tee darf unbegrenzt getrunken werden. Ist man den regelmäßigen Kaffee- oder Teegenuss gewöhnt, muss man hier keinen entwässernden Effekt befürchten und darf beide Getränke zu seiner Trinkmenge hinzu zählen. Vorausgesetzt natürlich, dass beide ungesüßt und ohne große Mengen Milch verzehrt werden. Darüber hinaus kann man mit stark verdünnten Fruchtschorlen für Abwechslung sorgen.
+Eines der besten Sportgetränke ist übrigens die Apfelschorle. Hier brauchen Sie nicht einmal in teure isotonische Getränke zu investieren.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Möchten Sie abnehmen, müssen Sie eh schon Kalorien bei Ihrem Essen einsparen. Machen Sie es sich also nicht noch schwerer, indem Sie Ihre Kalorien auch noch trinken.
+Über diese Getränke schleichen sich Kalorien ein:
+Limonade (auch sogenannte zuckerfreie lassen Ihren Blutzuckerspiegel Achterbahn fahren), zuckriger Kaffee oder mit Zucker/Honig gesüßte Tees, Eiskaffee, Milkshakes, Fruchtsäfte, Smoothies und auch Joghurt-Drinks bringen vor allem durch die Menge, die man davon trinkt einiges an Kalorien auf die Waage. Alkohol sollte am besten komplett gemieden werden. Er entzieht dem Körper Wasser und hält ihn noch dazu von der Fettverbrennung ab. 
+Was Sie anstelle dessen trinken sollten:
+An erster Stelle natürlich Wasser. Es belastet den Körper am wenigsten und ist der günstigste Durstlöscher. Aber auch ungesüßter Tee darf unbegrenzt getrunken werden. Ist man den regelmäßigen Kaffee- oder Teegenuss gewöhnt, muss man hier keinen entwässernden Effekt befürchten und darf beide Getränke zu seiner Trinkmenge hinzu zählen. Vorausgesetzt natürlich, dass beide ungesüßt und ohne große Mengen Milch verzehrt werden. Darüber hinaus kann man mit stark verdünnten Fruchtschorlen für Abwechslung sorgen.
+Eines der besten Sportgetränke ist übrigens die Apfelschorle. Hier brauchen Sie nicht einmal in teure isotonische Getränke zu investieren.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="634" YCoordinate="57" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f054d7eb-21b0-479d-9d05-55c9f11c8805" Name="Machen Sie jetzt gleich den Anfang!">
+          <Description>$Text()
+
+Also dann, Sie wissen, warum Sie viel Flüssigkeit trinken sollten, und Sie wissen, wieviel Sie wovon trinken sollten. 
+Am besten machen Sie jetzt gleich den Anfang, stehen Sie auf und holen Sie sich ein großes Glas Wasser.
+Und auch in Zukunft sollten Sie immer eine Flasche Wasser griffbereit haben.
+
+Guten Durst!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Also dann, Sie wissen, warum Sie viel Flüssigkeit trinken sollten, und Sie wissen, wieviel Sie wovon trinken sollten. 
+Am besten machen Sie jetzt gleich den Anfang, stehen Sie auf und holen Sie sich ein großes Glas Wasser.
+Und auch in Zukunft sollten Sie immer eine Flasche Wasser griffbereit haben.
+
+Guten Durst!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="749" YCoordinate="57" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1f1e686e-1dd5-4106-8b65-11b433a1b048" Name="">
+          <Description>$Video("video":{"url":"DIC_IntroTrinkenWichtig_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_IntroTrinkenWichtig_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="206" YCoordinate="57" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="6abf8796-c363-4d07-99c7-3817925d80e8" From="aa0deb07-0d81-4a87-a83a-ee1c7129c1b1" To="150e9b87-28d9-4c11-a546-6d0d491d9a0c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="474" YCoordinate="87" />
+              <Coordinates XCoordinate="512" YCoordinate="87" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7b884440-efaa-4fe2-82de-cb85aa6059e1" From="150e9b87-28d9-4c11-a546-6d0d491d9a0c" To="3fca24bb-b313-4ad9-8428-f161242eae2b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="602" YCoordinate="87" />
+              <Coordinates XCoordinate="634" YCoordinate="87" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0a1b82b0-fc39-4e32-9556-ecc696bdd084" From="3fca24bb-b313-4ad9-8428-f161242eae2b" To="f054d7eb-21b0-479d-9d05-55c9f11c8805" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="724" YCoordinate="87" />
+              <Coordinates XCoordinate="749" YCoordinate="87" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="50e05676-d658-47ae-be9a-ca5fbbc4bef9" From="f054d7eb-21b0-479d-9d05-55c9f11c8805" To="3ff83bc6-eda5-48c0-b7fb-7d2310c3570f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="839" YCoordinate="87" />
+              <Coordinates XCoordinate="897" YCoordinate="87" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c19b3eb8-d0c5-4630-8871-44b4d5de4011" From="60e6b812-763d-447e-85b4-62e3d0e239f9" To="1f1e686e-1dd5-4106-8b65-11b433a1b048" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="167" YCoordinate="87" />
+              <Coordinates XCoordinate="206" YCoordinate="87" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="52316b83-7e42-4d8d-993e-6ca7ce40723a" From="1f1e686e-1dd5-4106-8b65-11b433a1b048" To="aa0deb07-0d81-4a87-a83a-ee1c7129c1b1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="296" YCoordinate="87" />
+              <Coordinates XCoordinate="384" YCoordinate="87" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

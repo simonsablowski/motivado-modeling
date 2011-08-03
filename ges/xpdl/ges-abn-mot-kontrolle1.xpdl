@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="71d92a65-c7fd-4b1b-820b-ed41c2bc527a" Name="ges-abn-mot-kontrolle1" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-26T16:43:50.2278775+02:00</Created>
+    <ModificationDate>2011-07-08T15:51:05.71875+02:00</ModificationDate>
+    <Description>ges-abn-mot-kontrolle1</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-28T08:55:37.546875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-06T07:57:28.734375Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-08T13:51:05.71875Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="dc01f8a1-26ec-4066-a3bb-9f45a5bd0f36" Name="Main Process" Process="09579364-288a-41f6-9396-e615999c8062" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="92018b08-cb9f-4233-b144-4fc8f95f48cf" Name="Process 1" Process="90fb4e1e-6165-4fca-979e-8e3abea1fbe8" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="375" Width="1026" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="40" YCoordinate="40" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="09579364-288a-41f6-9396-e615999c8062" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-08T15:51:46.703125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="90fb4e1e-6165-4fca-979e-8e3abea1fbe8" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-08T15:51:46.703125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="bedbfbf1-6a4d-4f76-a33b-9a4319760276" Name="Kontrolle über meinen Gewichtsverlauf">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="119" YCoordinate="209" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="08e0b35f-b209-4d1a-a37c-91639c50d994" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="851" YCoordinate="212" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9e98fd34-c4b2-4292-bf57-a8a732665ee5" Name="Welche Methoden gibt es?">
+          <Description>$BulletPoints("video":{"url":"DIC_MotivationIII-I_V3.flv"},"elements":[{"element":"1. Der Klassiker: die Personenwaage","second":19},{"element":"2. Bauchumfang messen, Hüfte und Oberschenkel","second":88},{"element":"3. Fotografieren Sie sich wöchentlich","second":127}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_MotivationIII-I_V3.flv"},"elements":[{"element":"1. Der Klassiker: die Personenwaage","second":19},{"element":"2. Bauchumfang messen, Hüfte und Oberschenkel","second":88},{"element":"3. Fotografieren Sie sich wöchentlich","second":127}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-1237980" BorderVisible="false" FillColor="-1237980">
+              <Coordinates XCoordinate="470" YCoordinate="194" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="88a172c2-fcd6-434d-9ce7-2b0ff556a26e" Name="">
+          <Description>$Text("video":{"url":"DIC_MotivationIII-I_V6.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_MotivationIII-I_V6.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="695" YCoordinate="194" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a541fd03-7249-4547-a7c2-da10099861df" Name="Abnehmen ist eine einfache Rechnung:">
+          <Description>$BulletPoints("video":{"url":"DIC_MotivationIII-I_V2.flv"},"elements":[{"element":"Mehr Energie verbrennen, als Sie zu sich nehmen!","second":19},{"element":"Wichtig ist: Kleine Erfolge messbar machen!","second":77}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_MotivationIII-I_V2.flv"},"elements":[{"element":"Mehr Energie verbrennen, als Sie zu sich nehmen!","second":19},{"element":"Wichtig ist: Kleine Erfolge messbar machen!","second":77}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="338" YCoordinate="194" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e050d5f9-3a23-46eb-a2b5-5f9dba0324d1" Name="Sie haben das Gefühl gar nicht kontrollieren zu können, ob Sie zu oder abnehmen?">
+          <Description>$Text("video":{"url":"DIC_MotivationIII-I_V1.flv","delay":38})
+
+Das Gefühl das Abnehmen "im Griff" zu haben, ist das wichtigste!
+Und darum wollen wir uns in diesem Coaching gemeinsam überlegen, wie Sie dieses Gefühl zurück bekommen können.
+
+Nehmen Sie sich bitte ca. 15 Minuten dafür Zeit.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_MotivationIII-I_V1.flv","delay":38})
+
+Das Gefühl das Abnehmen "im Griff" zu haben, ist das wichtigste!
+Und darum wollen wir uns in diesem Coaching gemeinsam überlegen, wie Sie dieses Gefühl zurück bekommen können.
+
+Nehmen Sie sich bitte ca. 15 Minuten dafür Zeit.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="132" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="186" YCoordinate="180" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7257a2ce-2e0d-4bf4-8159-5d94aa8a3e86" Name="Aufgabe zu dem Coaching &quot;Keine Kontrolle über das Abnehmen.&quot;">
+          <Description>$Text("video":{"url":"DIC_MotivationIII-I_V4.flv"})
+
+Setzen Sie eine neue Methode ein, wie Sie Ihren Fortschritt einfacher messbar machen können. Versuchen Sie es mit Waage, Maßband, Fotos, etc.. oder werden Sie kreativ und denken Sie sich selbst etwas aus.
+Viel Erfolg!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_MotivationIII-I_V4.flv"})
+
+Setzen Sie eine neue Methode ein, wie Sie Ihren Fortschritt einfacher messbar machen können. Versuchen Sie es mit Waage, Maßband, Fotos, etc.. oder werden Sie kreativ und denken Sie sich selbst etwas aus.
+Viel Erfolg!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="584" YCoordinate="194" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="91e7c75c-fdbf-4679-bbd0-1f279f473dd5" From="bedbfbf1-6a4d-4f76-a33b-9a4319760276" To="e050d5f9-3a23-46eb-a2b5-5f9dba0324d1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="149" YCoordinate="224" />
+              <Coordinates XCoordinate="186" YCoordinate="224" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d8daeec4-b509-4dd1-8d87-d64ced1fe58c" From="e050d5f9-3a23-46eb-a2b5-5f9dba0324d1" To="a541fd03-7249-4547-a7c2-da10099861df" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="318" YCoordinate="224" />
+              <Coordinates XCoordinate="338" YCoordinate="224" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8bb99a96-2263-43f2-9ffd-99e69faae16e" From="a541fd03-7249-4547-a7c2-da10099861df" To="9e98fd34-c4b2-4292-bf57-a8a732665ee5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="428" YCoordinate="224" />
+              <Coordinates XCoordinate="470" YCoordinate="224" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5d0fa062-49d6-4cae-8847-87c85c52cfff" From="9e98fd34-c4b2-4292-bf57-a8a732665ee5" To="7257a2ce-2e0d-4bf4-8159-5d94aa8a3e86" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="560" YCoordinate="224" />
+              <Coordinates XCoordinate="584" YCoordinate="224" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2588fdb7-a860-4dc4-b428-38fae8efb03f" From="7257a2ce-2e0d-4bf4-8159-5d94aa8a3e86" To="88a172c2-fcd6-434d-9ce7-2b0ff556a26e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="674" YCoordinate="224" />
+              <Coordinates XCoordinate="695" YCoordinate="224" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="57a4b7e0-13c0-474a-9b18-2e89151b7dbd" From="88a172c2-fcd6-434d-9ce7-2b0ff556a26e" To="08e0b35f-b209-4d1a-a37c-91639c50d994" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="785" YCoordinate="224" />
+              <Coordinates XCoordinate="819" YCoordinate="224" />
+              <Coordinates XCoordinate="819" YCoordinate="227" />
+              <Coordinates XCoordinate="851" YCoordinate="227" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="105afe2e-e724-4612-956c-1ef8f8982ac1" Name="bez-sex-basics" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-07-27T17:51:07.8974609+02:00</Created>
+    <ModificationDate>2011-07-28T15:37:51.625+02:00</ModificationDate>
+    <Description>bez-sex-basics</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-07-27T15:54:37.7324218Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-07-28T13:37:51.625Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>Modellierung</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="34a90b3a-8fc9-42e4-8b07-0ddf2156c54a" Name="Main Process" Process="25bdcd0b-226b-4f77-a85d-999cac080876" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="247e4382-8f3c-4ebe-892f-cec20f34c3a1" Name="Process 1" Process="39529719-9620-450f-9fb4-71dd26bb5c86" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="2155" Width="2191" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="25bdcd0b-226b-4f77-a85d-999cac080876" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-28T15:38:23.015625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="39529719-9620-450f-9fb4-71dd26bb5c86" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-28T15:38:23.015625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="b4b47ef0-d656-461f-b5d0-75a9b2a2a249" Name="Direkt zum Coaching">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="147" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="440" YCoordinate="478" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="580c6fa2-92c5-4a60-b200-87de74e2cbbb" Name="">
+          <Description>$Text()
+Bevor Sie mit Ihrem Gegenüber intim werden, sollten sich Ihre Wohnung und Ihr Auto natürlich in einem ordentlichen Zustand befinden. Zu diesen Themen könnnen Sie im Anschluss weitere spezielle Coachings finden.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Bevor Sie mit Ihrem Gegenüber intim werden, sollten sich Ihre Wohnung und Ihr Auto natürlich in einem ordentlichen Zustand befinden. Zu diesen Themen könnnen Sie im Anschluss weitere spezielle Coachings finden.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="56" Width="180" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1000" YCoordinate="348" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d61a3dc4-9b01-49cc-90ee-100a3df948ac" Name="Dieses Coaching überspringen">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="73" Width="136" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="647" YCoordinate="549" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1cb8e47e-69a1-452e-b6c1-793178c80694" Name="Zum Test">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="34" Width="101" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="222.5" YCoordinate="638" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="43aa9a4e-95d3-4296-ae6d-60fd6a6d59d5" Name="Von grundlegender Wichtigkeit sind außerdem Kondome. Auch auf die Gefahr hin, dass es unromantisch klingt, aber denken Sie in dieser Beziehung praktisch. Erstens ist es natürlich notwendig, dass Sie Kondome überhaupt da haben. Nicht nur, damit Sie auf der gesundheitlich sicheren Seite stehen, sondern auch, um von vornherein einem vielleicht unangenehmem Gespräch über Verhütung aus dem Weg gehen zu können.Und zweitens sollten Sie sich natürlich mit dem Gebrauch Kondomen auskennen. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1071" YCoordinate="530.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6608a940-b14a-46f3-9f26-803cc6ef7e44" Name="Vorweg ein kurzer Test, um zu sehen, wie wichtig dieses Coaching für Sie ist.">
+          <Description>REL_QuestTree_89A.flv</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>REL_QuestTree_89A.flv</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="55" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
+              <Coordinates XCoordinate="123" YCoordinate="558" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fd1d340d-c3c8-4f93-b158-a04f59e8fb2b" Name="Hatten Sie schon einmal Sex und haben sich dabei nicht getraut ,den Anderen darauf hinzuweisen, dass Ihnen etwas nicht gefällt? Oder Sie fühlen sich vielleicht generell unsicher in Bezug auf den Körper des Anderen?&#xD;&#xA;Unser Coaching &quot;Wichtiges in Sachen Sex&quot; kann Ihnen helfen, Ihre Unsicherheiten beim Sex abzubauen. Wir möchten Ihnen dabei helfen, dass Sie Sex in einer entspannten Atmosphäre erleben können. Es geht uns auch vor allem darum, dass Sex für Sie und Ihr Gegenüber zu einem schönen Erlebnis wird.&#xD;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-9490024" BorderVisible="false" FillColor="-9490024">
+              <Coordinates XCoordinate="123" YCoordinate="281" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b325c5c8-6549-4f65-81b5-d6272935d51f" Name="">
+          <Description>$Text()
+Wenn Sie mit Ihrem Date den nächsten Schritt gehen und Sex haben wollen, sollten Sie sich grundlegend sowohl mit Ihrem als auch mit dem Körper Ihres Gegenübers auskennen. Haben Sie sich seit der obligatorischen Aufklärung in der Schule nochmals intensiv mit diesem Thema auseinander gesetzt? 
+Es ist wichtig, dass Sie über den Körper des Anderen  Bescheid wissen, denn nur so können Sie sich im Umgang mit Ihrem Gegenüber wirklich sicher fühlen.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Wenn Sie mit Ihrem Date den nächsten Schritt gehen und Sex haben wollen, sollten Sie sich grundlegend sowohl mit Ihrem als auch mit dem Körper Ihres Gegenübers auskennen. Haben Sie sich seit der obligatorischen Aufklärung in der Schule nochmals intensiv mit diesem Thema auseinander gesetzt? 
+Es ist wichtig, dass Sie über den Körper des Anderen  Bescheid wissen, denn nur so können Sie sich im Umgang mit Ihrem Gegenüber wirklich sicher fühlen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="80" Width="100" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1260" YCoordinate="336" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3e4e2c3a-2c07-40cb-a492-35e21a61dcfa" Name="Herzlich Willkommen in unserem Coaching &quot;Wichtiges in Sachen Sex&quot;.&#xD;">
+          <Description>$Text()
+Dieses Coaching richtet sich an Menschen, die gerne mit Ihrem Date Sex hätten, sich aber in dieser Situation unsicher fühlen. Wenn Sie Schwierigkeiten haben, sich beim Sex zu entspannen oder im Allgemeinen nicht wissen, wie Sie sich beim Sex verhalten sollen, können wir Ihnen mit unseren professionellen Coachings helfen. Intimen Kontakt mit Ihrem Date möchten wir für Sie beide zu einer tollen Erfahrung machen.
+In diesem Coaching haben wir einige Grundlagen zusammengestellt, die Sie dabei unterstützen, Ihre Unsicherheiten oder eventuelle Hemmungen in Bezug auf sexuelle Kontakte abzubauen. Wir möchten Ihnen zeigen, welche Maßnahmen Ihnen dabei helfen, sich in der entsprechenden Situation sicher und entspannt zu fühlen.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Dieses Coaching richtet sich an Menschen, die gerne mit Ihrem Date Sex hätten, sich aber in dieser Situation unsicher fühlen. Wenn Sie Schwierigkeiten haben, sich beim Sex zu entspannen oder im Allgemeinen nicht wissen, wie Sie sich beim Sex verhalten sollen, können wir Ihnen mit unseren professionellen Coachings helfen. Intimen Kontakt mit Ihrem Date möchten wir für Sie beide zu einer tollen Erfahrung machen.
+In diesem Coaching haben wir einige Grundlagen zusammengestellt, die Sie dabei unterstützen, Ihre Unsicherheiten oder eventuelle Hemmungen in Bezug auf sexuelle Kontakte abzubauen. Wir möchten Ihnen zeigen, welche Maßnahmen Ihnen dabei helfen, sich in der entsprechenden Situation sicher und entspannt zu fühlen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="80" Width="220" BorderColor="-9490024" BorderVisible="false" FillColor="-9490024">
+              <Coordinates XCoordinate="660" YCoordinate="336" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="93834ab3-cef9-48b7-9882-c1bb11167729" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="580" YCoordinate="200" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1bde2e1f-5559-4565-8bdf-0a2612a0b035" Name="Jeder sollte im Umgang mit einem Kondom keine Probleme haben. Und das gilt nicht nur für Männer, sondern auch für Frauen. Durch den sicheren Umgang mit Kondomen können Sie eine potentiell peinliche Situation vermeiden. Wenn Sie aber in diesem Bereich Schwierigkeiten haben sollten, kaufen Sie sich Kondome und üben Sie.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="147" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1435" YCoordinate="547" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="850e074c-a4c5-4539-97bb-9232a71006e9" Name="Gerechtigkeit&#xD;&#xA;&#xD;&#xA;Wenn Sie Sex mit jemandem haben und hoffen, dass daraus eventuell eine Beziehung oder eine Affäre wird, spielt Gerechtigkeit beim Sex eine große Rolle. Es sollte als selbstverständlich angesehen werden, dass Sie beim Sex genauso viel geben, wie Sie nehmen. &#xD;&#xA;Damit ist natürlich nicht gemeint, dass Sie eine Strichliste neben dem Bett zu liegen haben. Aber wenn der Sex mit Ihrem Date auf einem ausgeglichenen Niveau statt findet, fühlen Sie sich auch beide wohler. Die Chancen auf die Etablierung einer Affäre oder Beziehung steigen durch die Ausgeglichenheit Ihrer sexuellen Aktivitäten.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1787" YCoordinate="991" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fc1d5cf5-1296-408c-b973-2d83c24f78bc" Name="Auch wenn Sie dieses Coaching eventuell nicht nötig haben oder sich dafür nicht interessieren, könnte es für Sie sehr spannend sein. Entscheiden Sie selbst!">
+          <Description>basc2='Ja'
+basc3='Nein'</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>basc2='Ja'
+basc3='Nein'</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="290" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="244" YCoordinate="1765" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="71154467-178b-42ec-acbc-e3cae025c4e7" Name="Gleiches gilt auch für Geräusche. Dass Sie beim Sex mit Ihrem Date kommunizieren sollten, haben wir bereits besprochen. Damit ist aber nicht gemeint, dass Sie permanent mit Ihrem Gegenüber reden sollen oder versuchen dies durch ständiges Stöhnen usw. zu kompensieren. &#xD;&#xA;Aber auch das andere Extrem der totalen Stille beim Sex ist fragwürdig. Kommunizieren Sie so viel, wie nötig, um sicher zu stellen, dass es dem Anderen gut geht.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1403" YCoordinate="991" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a2ef1228-d8f2-4fd3-a498-a3bb4230f72b" Name="Sie haben jetzt das Coaching &quot;Wichtiges in Sachen Sex&quot; durchlaufen. Falls Sie noch Fragen haben oder Unterstützung brauchen, wenden Sie sich bitte an unsere Experten, die Ihnen gerne weiterhelfen. Unsere Telefonnummer sowie ein Kontaktformular finden Sie unter „Hilfe/Kontakt“.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1037" YCoordinate="1483" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e11885ca-9136-4bd2-a5ff-b469abda9736" Name="Ja">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="315" YCoordinate="1199" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="71460f5d-bb91-414c-9899-0422cbd62361" Name="Nein">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="228" YCoordinate="873" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9ca1b4b5-b8eb-469b-b4f0-318b0d1ff440" Name="Dieses Coaching ist sehr wichtig für Sie. Sie sollten es auf jeden Fall machen. Viel Spaß!">
+          <Description>basc2='Nein'
+basc3='Ja'</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>basc2='Nein'
+basc3='Ja'</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="290" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="244" YCoordinate="1571" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5fd759b1-97c3-4d23-9dd4-5c807fc3332c" Name="Kommunikation&#xD;&#xA;&#xD;&#xA;Sprechen Sie miteinander. Trauen Sie sic,h mit Ihrem Gegenüber beim Sex zu reden. Fragen Sie den Anderen, ob ihm etwas gefällt oder weisen Sie selbst darauf hin, wenn sich etwas gut anfühlt. &quot;Gefällt Dir das?&quot; &quot;Ich fühle mich wohl.&quot; &quot;Das fühlt sich gut an.&quot; &#xD;&#xA;Falls Sie gehemmt sein sollten, verbal zu äußern, ob Sie sich wohl fühlen, können Sie natürlich auch den Anderen im wörtlichen Sinne führen. Nehmen Sie seine Hand und führen Sie sie dort hin, wo sich die Berührung für Sie am besten anfühlt. &#xD;&#xA;Wenn Sie Ihrem Gegenüber auf diese Weise zu verstehen geben, dass es für Sie schön ist, wirkt dies entspannend auf die Situation.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1067" YCoordinate="746" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="101dd9e3-37c9-41e4-addf-e7d366bcedef" Name="Nein">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="35" Width="98" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="224" YCoordinate="1425" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f91212d9-5599-4e78-bcc0-de757af54faa" Name="Ja">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="351" YCoordinate="883" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="439b0ad5-c4c6-43d2-95db-1fa622b4396f" Name="Geduld und Zeit&#xD;&#xA;&#xD;&#xA;Ein ganz wichtiger Punkt zur Entspannung der Situation bei intimem Körperkontakt ist Geduld. Sie haben sich zwar im vorhergehenden Coaching vorgenommen, mit Ihrem Date Sex zu haben, aber geben Sie der Sache Zeit. Wenn Sie mit Ihrem Gegenüber intimer werden, beharren Sie nicht darauf, dass Sie jetzt unbedingt sofort Sex haben müssen. Inbesondere nicht, wenn der Andere etwas verkrampft ist. &#xD;&#xA;&quot;Es muss nicht jetzt sein.&quot; Sagen Sie Ihrem Date, dass es für Sie in Ordnung ist, wenn es nicht sofort zu Sex kommt. Nehmen Sie für sich und vor allem auch für den Anderen den Druck aus der Situation. &quot;Ich fühle mich auch ohne Sex wohl mit Dir.&quot;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1037" YCoordinate="1239" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="dd49c182-6bc0-4218-a9f9-dde89ed3407f" Name="Ja">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="35" Width="98" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="340" YCoordinate="1476" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e32952ee-bb9e-49d5-9c8f-d2723a5d23e6" Name="Nein">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1094" YCoordinate="2026" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a732e74b-c6c9-44df-af60-1f54c0cc69e5" Name="Kennen Sie die Momente, wenn alles leicht ist, oder der Andere überhaupt keine Probleme damit hat, wenn  Ihnen etwas nicht auf Anhieb gelingt?">
+          <Description>basc2</Description>
+          <Implementation>
+            <Task>
+              <TaskService />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>basc2</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="300" BorderColor="-9490024" BorderVisible="false" FillColor="-9490024">
+              <Coordinates XCoordinate="123" YCoordinate="993" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="540b28bf-b39d-47eb-9764-9713614fd94f" Name="Muss  immer alles leicht, und reibungslos verlaufen, denn schließlich soll der Andere eine sehr gute Erinnerung und Appetit auf mehr haben?">
+          <Description>basc3</Description>
+          <Implementation>
+            <Task>
+              <TaskService />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>basc3</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="74" Width="300" BorderColor="-9490024" BorderVisible="false" FillColor="-9490024">
+              <Coordinates XCoordinate="123" YCoordinate="1249" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="064cd7b9-75b7-4abe-a87b-4c3c8212f275" Name="Möchten Sie jetzt das Coaching &quot;Wichtiges in Sachen Sex&quot; jetzt starten?">
+          <Description>REL_QuestTree_V86.flv</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>REL_QuestTree_V86.flv</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="86" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
+              <Coordinates XCoordinate="661.5" YCoordinate="2013" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="17e082dd-e888-4469-a2dd-6431b4d99211" Name="Und gerade wenn Sie mit dem Anderen noch nicht so vertraut sind, seien Sie flexibel. Sollte Ihr Gegenüber eine klare Vorstellung davon haben, z.B. wie viel Licht zum Einsatz kommen darf, richten Sie sich nach ihm oder verhalten sich möglichst &quot;mittig&quot;. Das bedeutet, dass Sie die Beleuchtung halbdunkel gestalten. Der menschliche Körper sieht im Halbdunkel nicht nur ästhetischer aus, diese Beleuchtung trägt ebenfalls zum Wohlbefinden des Anderen bei.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1049" YCoordinate="991" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="59c49e1e-b456-4389-ba21-e90fff47ecf7" Name="Möchten Sie das Coaching noch einmal wiederholen?">
+          <Description>REL_QuestTree_V88.flv</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>REL_QuestTree_V88.flv</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
+              <Coordinates XCoordinate="1787" YCoordinate="1779" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="aff14255-afd2-4e66-af40-300771d89e38" Name="Wenn Sie also nicht so genau wissen, wo sich z.B. die erogenen Zonen des Anderen befinden, ist unser Tipp: Lesen Sie ein Fachbuch zu diesem Thema. Und damit ist nicht gemeint, dass Sie einen der unzähligen Ratgeber lesen, der Ihnen verspricht, der beste Liebhaber der Welt zu werden. Ein Versprechen dieser Art kann meist nicht eingehalten werden, da das subjektive Erleben von Sex von Person zu Person viel zu unterschiedlich ist, um eine allgemeine Aussage darüber treffen zu können. Wir würden Ihnen an dieser Stelle eher den dtv-Atlas &quot;Sexualität&quot; empfehlen.&#xD;&#xA;Also, machen Sie sich schlau und lesen Sie!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1767" YCoordinate="286" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1966b105-e7d8-4cf1-974b-ffdcfd9f6bfd" Name="Außerdem kann es von Vorteil für Sie sein, wenn Sie Gleitcreme u.ä. im Nachttisch haben. Gerade dann, wenn Sie zum ersten Mal mit einer neuen Person Sex haben und sich noch nicht mit dem Körper Ihres Gegenübers auskennen, können kleine Hilfsmittelchen durchaus nützlich sein.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1795" YCoordinate="531" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c6b31d82-edd0-4cba-8b70-67b50517ac62" Name="Nein">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="228" YCoordinate="1155" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a01b5b55-56b2-4bf8-a14a-3672da4dec2a" Name="Seien Sie unkompliziert und flexibel&#xD;&#xA;&#xD;&#xA;Manchmal passieren ungeplante Dinge. Der Reißverschluss hat sich verhakt, der BH geht nicht auf, die Kondompackung lässt sich nicht öffen oder Sie stoßen sich das Knie am Bett. Lassen Sie sich dadurch nicht unter Druck setzen, sondern sprechen Sie auch diese Situation an. &#xD;&#xA;&quot;Du, mein Reißverschluss geht nicht auf.&quot; Mit einem ganz einfachen Satz weiß der Andere, dass und warum es gegebenenfalls eine Unterbrechung gibt und kann eventuell bei der Problembeseitigung helfen. Auch hier bleibt die Situation entspannt.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1774" YCoordinate="746" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2c2e6a42-5d31-4946-85b3-0960b6205c2d" Name="Nein">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1892" YCoordinate="1912" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a00f4844-c518-4421-8abb-a014b94c9e36" Name="Ja">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="968" YCoordinate="1779" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="50648462-c804-4c64-9851-aa3ce624a524" Name="Es ist außerdem wichtig, dass Sie den Anderen darauf ansprechen, sobald Sie das Gefühl haben, dass er sich unwohl fühlen könnte. Schieben Sie diese Gedanken nicht auf die lange Bank. Negative Emotionen sollten sofort ohne Vorwurf angesprochen werden. &quot;Magst Du das?&quot; &quot;Ich habe das Gefühl, dass Du Dich nicht wohl fühlst. Stimmt das?&quot; &quot;Was gefällt Dir? Was soll ich anders machen?&quot; „Kann ich Dir helfen, Dich zu entspannen?“&#xD;&#xA;&#xD;&#xA;Wenn Sie Ihr Gefühl getäuscht haben sollte, können Sie natürlich beruhigt sein. Aber Sie haben Ihrem Gegenüber trotzdem vermittelt, dass Sie sich dafür interessieren, wie es ihm geht. Sollte Ihr Gefühl stimmen, seien Sie verständnisvoll und gehen Sie einfach einen Schritt zurück. &quot;Wir haben Zeit.&quot; „Es muss nicht jetzt sein.“ Äußern Sie zwar den Wunsch nach Intimität, aber zeigen Sie Ihrem Gegenüber Verständnis. In beiden Fällen wird die Situation entkrampft und Ihr Gegenüber wird sich verstanden und gut aufgehoben fühlen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1431" YCoordinate="746" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="789ac94a-9dd3-4e85-ac39-ad044e66187a" Name="Ja">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="766.5" YCoordinate="1837" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="264cdded-d092-453c-9fa0-b9264edbb8e6" Name="Wir würden Ihnen  dieses Coaching, obwohl Sie Vorkenntnisse haben,  auf jeden Fall empfehlen. Viel Spaß!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="290" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="244" YCoordinate="1663" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6840a0fd-4b16-4b53-a4ee-b88d1ca7539a" Name="Können Emotionen wie Lust, Leidenschaft, Erotik, Verspieltheit etc. entstehen,  wenn Sie verkrampft oder unsouverän wirken?">
+          <Description>basc1</Description>
+          <Implementation>
+            <Task>
+              <TaskService />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>basc1</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="81" Width="300" BorderColor="-9490024" BorderVisible="false" FillColor="-9490024">
+              <Coordinates XCoordinate="123" YCoordinate="745" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1dd17679-1c4d-4d2a-b402-70754e9b08c1" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="1420" YCoordinate="140" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="626723bb-9a06-4988-9f48-df1191a2c418" Name="Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. &#xD;&#xA;Sie erreichen uns unter der kostenfreien Rufnummer 0800 909 5 909 und unter service@motivado.de.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1340" YCoordinate="220" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="ef78942a-36ce-489e-b48f-2782accc7f42" From="6608a940-b14a-46f3-9f26-803cc6ef7e44" To="b4b47ef0-d656-461f-b5d0-75a9b2a2a249" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="558" />
+              <Coordinates XCoordinate="273" YCoordinate="493" />
+              <Coordinates XCoordinate="440" YCoordinate="493" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9c0b82f5-4331-4eb2-b1c6-d8ab1f9d6d95" From="580c6fa2-92c5-4a60-b200-87de74e2cbbb" To="b325c5c8-6549-4f65-81b5-d6272935d51f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1180" YCoordinate="376" />
+              <Coordinates XCoordinate="1260" YCoordinate="376" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="70377977-a692-4159-99e5-c1d87786bad8" From="1cb8e47e-69a1-452e-b6c1-793178c80694" To="6840a0fd-4b16-4b53-a4ee-b88d1ca7539a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="272" YCoordinate="672" />
+              <Coordinates XCoordinate="272" YCoordinate="708.5" />
+              <Coordinates XCoordinate="273" YCoordinate="708.5" />
+              <Coordinates XCoordinate="273" YCoordinate="745" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7a3bae57-81e8-430f-969b-90a27147995e" From="6608a940-b14a-46f3-9f26-803cc6ef7e44" To="d61a3dc4-9b01-49cc-90ee-100a3df948ac" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="423" YCoordinate="585" />
+              <Coordinates XCoordinate="647" YCoordinate="585" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c113081a-bbff-4f36-a8c5-ae0a0d9ea1bd" From="6608a940-b14a-46f3-9f26-803cc6ef7e44" To="1cb8e47e-69a1-452e-b6c1-793178c80694" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="613" />
+              <Coordinates XCoordinate="273" YCoordinate="625.5" />
+              <Coordinates XCoordinate="272" YCoordinate="625.5" />
+              <Coordinates XCoordinate="272" YCoordinate="638" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="405b261e-60da-4698-af01-7aa71c9ea6ba" From="fd1d340d-c3c8-4f93-b158-a04f59e8fb2b" To="6608a940-b14a-46f3-9f26-803cc6ef7e44" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="461" />
+              <Coordinates XCoordinate="273" YCoordinate="558" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1980d6e5-cf8b-4039-8dab-e083aefe527a" From="43aa9a4e-95d3-4296-ae6d-60fd6a6d59d5" To="1bde2e1f-5559-4565-8bdf-0a2612a0b035" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1371" YCoordinate="620" />
+              <Coordinates XCoordinate="1435" YCoordinate="620" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8b8af5fb-5bcf-43de-8f00-e8cc28e22e44" From="064cd7b9-75b7-4abe-a87b-4c3c8212f275" To="e32952ee-bb9e-49d5-9c8f-d2723a5d23e6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="961" YCoordinate="2056" />
+              <Coordinates XCoordinate="1094" YCoordinate="2056" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7fb27d3b-8aa7-4b43-991f-787d45bdd911" From="dd49c182-6bc0-4218-a9f9-dde89ed3407f" To="fc1d5cf5-1296-408c-b973-2d83c24f78bc" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="6" ToPort="16">
+              <Coordinates XCoordinate="370" YCoordinate="1511" />
+              <Coordinates XCoordinate="370" YCoordinate="1557" />
+              <Coordinates XCoordinate="230" YCoordinate="1557" />
+              <Coordinates XCoordinate="230" YCoordinate="1818" />
+              <Coordinates XCoordinate="244" YCoordinate="1818" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4b5c4824-4a6a-4ffc-a94c-f567ec6df5cc" From="6840a0fd-4b16-4b53-a4ee-b88d1ca7539a" To="f91212d9-5599-4e78-bcc0-de757af54faa" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="826" />
+              <Coordinates XCoordinate="273" YCoordinate="854.5" />
+              <Coordinates XCoordinate="396" YCoordinate="854.5" />
+              <Coordinates XCoordinate="396" YCoordinate="883" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ff3ca1f9-382a-4cba-8d4b-0cc5fd4373e4" From="59c49e1e-b456-4389-ba21-e90fff47ecf7" To="2c2e6a42-5d31-4946-85b3-0960b6205c2d" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1937" YCoordinate="1839" />
+              <Coordinates XCoordinate="1937" YCoordinate="1912" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="27d573d5-43e7-4814-be5a-4afa28dd7fa2" From="264cdded-d092-453c-9fa0-b9264edbb8e6" To="064cd7b9-75b7-4abe-a87b-4c3c8212f275" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="534" YCoordinate="1693" />
+              <Coordinates XCoordinate="622" YCoordinate="1693" />
+              <Coordinates XCoordinate="622" YCoordinate="2056" />
+              <Coordinates XCoordinate="661" YCoordinate="2056" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6f1ee79f-ebcd-4d34-b4ed-20dc7e837cd8" From="e11885ca-9136-4bd2-a5ff-b469abda9736" To="540b28bf-b39d-47eb-9764-9713614fd94f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="360" YCoordinate="1229" />
+              <Coordinates XCoordinate="360" YCoordinate="1239" />
+              <Coordinates XCoordinate="273" YCoordinate="1239" />
+              <Coordinates XCoordinate="273" YCoordinate="1249" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c8d82848-f326-4415-9eb8-089e5501eff4" From="a732e74b-c6c9-44df-af60-1f54c0cc69e5" To="e11885ca-9136-4bd2-a5ff-b469abda9736" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1081" />
+              <Coordinates XCoordinate="273" YCoordinate="1140" />
+              <Coordinates XCoordinate="360" YCoordinate="1140" />
+              <Coordinates XCoordinate="360" YCoordinate="1199" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="53417bee-74b1-4bbf-bf09-e1df750098ee" From="71460f5d-bb91-414c-9899-0422cbd62361" To="a732e74b-c6c9-44df-af60-1f54c0cc69e5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="903" />
+              <Coordinates XCoordinate="273" YCoordinate="993" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c67fef5c-07df-4f96-9f30-077b623c07ca" From="aff14255-afd2-4e66-af40-300771d89e38" To="43aa9a4e-95d3-4296-ae6d-60fd6a6d59d5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1917" YCoordinate="466" />
+              <Coordinates XCoordinate="1917" YCoordinate="496" />
+              <Coordinates XCoordinate="1221" YCoordinate="496" />
+              <Coordinates XCoordinate="1221" YCoordinate="530" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="18dc227e-2748-4ac1-902d-8df63d8c13ca" From="540b28bf-b39d-47eb-9764-9713614fd94f" To="101dd9e3-37c9-41e4-addf-e7d366bcedef" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1323" />
+              <Coordinates XCoordinate="273" YCoordinate="1425" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e96cd769-fbc5-4d65-b851-52208279f2e7" From="59c49e1e-b456-4389-ba21-e90fff47ecf7" To="a00f4844-c518-4421-8abb-a014b94c9e36" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="3">
+              <Coordinates XCoordinate="1787" YCoordinate="1809" />
+              <Coordinates XCoordinate="1058" YCoordinate="1809" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="beb0e934-d4d6-4a7e-b686-d2b25e54a722" From="dd49c182-6bc0-4218-a9f9-dde89ed3407f" To="264cdded-d092-453c-9fa0-b9264edbb8e6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="389" YCoordinate="1511" />
+              <Coordinates XCoordinate="389" YCoordinate="1557" />
+              <Coordinates XCoordinate="548" YCoordinate="1557" />
+              <Coordinates XCoordinate="548" YCoordinate="1645" />
+              <Coordinates XCoordinate="389" YCoordinate="1645" />
+              <Coordinates XCoordinate="389" YCoordinate="1663" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="971c908d-cfb0-4357-81ac-8f00e831bcc4" From="fc1d5cf5-1296-408c-b973-2d83c24f78bc" To="064cd7b9-75b7-4abe-a87b-4c3c8212f275" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="534" YCoordinate="1795" />
+              <Coordinates XCoordinate="624" YCoordinate="1795" />
+              <Coordinates XCoordinate="624" YCoordinate="2056" />
+              <Coordinates XCoordinate="661" YCoordinate="2056" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="be779736-91af-46fd-8fe0-4896018bc41f" From="71154467-178b-42ec-acbc-e3cae025c4e7" To="850e074c-a4c5-4539-97bb-9232a71006e9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1703" YCoordinate="1081" />
+              <Coordinates XCoordinate="1787" YCoordinate="1081" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f90ac282-760f-4b73-9940-6d27c525b053" From="101dd9e3-37c9-41e4-addf-e7d366bcedef" To="264cdded-d092-453c-9fa0-b9264edbb8e6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1460" />
+              <Coordinates XCoordinate="273" YCoordinate="1557" />
+              <Coordinates XCoordinate="548" YCoordinate="1557" />
+              <Coordinates XCoordinate="548" YCoordinate="1645" />
+              <Coordinates XCoordinate="389" YCoordinate="1645" />
+              <Coordinates XCoordinate="389" YCoordinate="1663" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="30ad2791-33bd-4409-a193-1be43fdfb40f" From="a2ef1228-d8f2-4fd3-a498-a3bb4230f72b" To="59c49e1e-b456-4389-ba21-e90fff47ecf7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1337" YCoordinate="1573" />
+              <Coordinates XCoordinate="1758" YCoordinate="1573" />
+              <Coordinates XCoordinate="1758" YCoordinate="1809" />
+              <Coordinates XCoordinate="1787" YCoordinate="1809" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2da6494e-3e35-40da-849f-7f1dda7f9722" From="850e074c-a4c5-4539-97bb-9232a71006e9" To="439b0ad5-c4c6-43d2-95db-1fa622b4396f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1937" YCoordinate="1171" />
+              <Coordinates XCoordinate="1937" YCoordinate="1205" />
+              <Coordinates XCoordinate="1187" YCoordinate="1205" />
+              <Coordinates XCoordinate="1187" YCoordinate="1239" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4a0d2896-9d31-4b59-b28d-2613094867af" From="6840a0fd-4b16-4b53-a4ee-b88d1ca7539a" To="71460f5d-bb91-414c-9899-0422cbd62361" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="826" />
+              <Coordinates XCoordinate="273" YCoordinate="873" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="05ed1f5c-c0e5-4514-9256-d72de7dfbe3e" From="dd49c182-6bc0-4218-a9f9-dde89ed3407f" To="9ca1b4b5-b8eb-469b-b4f0-318b0d1ff440" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="389" YCoordinate="1511" />
+              <Coordinates XCoordinate="389" YCoordinate="1571" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2454b01f-a6bc-42b1-975f-c473c2d11d8b" From="c6b31d82-edd0-4cba-8b70-67b50517ac62" To="540b28bf-b39d-47eb-9764-9713614fd94f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1185" />
+              <Coordinates XCoordinate="273" YCoordinate="1249" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ed176eb2-1a81-4f20-9b05-c1ca32a069e8" From="064cd7b9-75b7-4abe-a87b-4c3c8212f275" To="789ac94a-9dd3-4e85-ac39-ad044e66187a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="811" YCoordinate="2013" />
+              <Coordinates XCoordinate="811" YCoordinate="1897" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="00713ddd-77fa-4597-a2c2-97e50f84bbbd" From="540b28bf-b39d-47eb-9764-9713614fd94f" To="dd49c182-6bc0-4218-a9f9-dde89ed3407f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1323" />
+              <Coordinates XCoordinate="273" YCoordinate="1399.5" />
+              <Coordinates XCoordinate="389" YCoordinate="1399.5" />
+              <Coordinates XCoordinate="389" YCoordinate="1476" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f5b62bfd-10ae-4d59-9a64-aabe531db12b" From="439b0ad5-c4c6-43d2-95db-1fa622b4396f" To="a2ef1228-d8f2-4fd3-a498-a3bb4230f72b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1187" YCoordinate="1419" />
+              <Coordinates XCoordinate="1187" YCoordinate="1483" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="90f7f7e2-10da-4d7d-83ca-e9b036761e0a" From="1966b105-e7d8-4cf1-974b-ffdcfd9f6bfd" To="5fd759b1-97c3-4d23-9dd4-5c807fc3332c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1945" YCoordinate="711" />
+              <Coordinates XCoordinate="1945" YCoordinate="724.5" />
+              <Coordinates XCoordinate="1217" YCoordinate="724.5" />
+              <Coordinates XCoordinate="1217" YCoordinate="746" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bbbfa4ec-c33f-4d25-bc83-8bbfb66fc125" From="a01b5b55-56b2-4bf8-a14a-3672da4dec2a" To="17e082dd-e888-4469-a2dd-6431b4d99211" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1924" YCoordinate="926" />
+              <Coordinates XCoordinate="1924" YCoordinate="950" />
+              <Coordinates XCoordinate="1199" YCoordinate="950" />
+              <Coordinates XCoordinate="1199" YCoordinate="991" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="614040c9-bca6-446b-b68d-35aca0dd9918" From="a732e74b-c6c9-44df-af60-1f54c0cc69e5" To="c6b31d82-edd0-4cba-8b70-67b50517ac62" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1081" />
+              <Coordinates XCoordinate="273" YCoordinate="1155" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4c6daca6-c856-4f6b-be6d-c8e7d7915085" From="50648462-c804-4c64-9851-aa3ce624a524" To="a01b5b55-56b2-4bf8-a14a-3672da4dec2a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1731" YCoordinate="836" />
+              <Coordinates XCoordinate="1774" YCoordinate="836" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3962b6ce-ddfd-4397-a2f2-070c942f1841" From="101dd9e3-37c9-41e4-addf-e7d366bcedef" To="fc1d5cf5-1296-408c-b973-2d83c24f78bc" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1460" />
+              <Coordinates XCoordinate="273" YCoordinate="1557" />
+              <Coordinates XCoordinate="548" YCoordinate="1557" />
+              <Coordinates XCoordinate="548" YCoordinate="1737" />
+              <Coordinates XCoordinate="389" YCoordinate="1737" />
+              <Coordinates XCoordinate="389" YCoordinate="1765" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c88e1324-f5e2-45db-9fef-ee9552cbf043" From="1bde2e1f-5559-4565-8bdf-0a2612a0b035" To="1966b105-e7d8-4cf1-974b-ffdcfd9f6bfd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1735" YCoordinate="620" />
+              <Coordinates XCoordinate="1759" YCoordinate="620" />
+              <Coordinates XCoordinate="1759" YCoordinate="621" />
+              <Coordinates XCoordinate="1795" YCoordinate="621" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a08ff87d-f3b3-4d27-b14a-335c7a73dc7a" From="f91212d9-5599-4e78-bcc0-de757af54faa" To="a732e74b-c6c9-44df-af60-1f54c0cc69e5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="396" YCoordinate="913" />
+              <Coordinates XCoordinate="396" YCoordinate="953" />
+              <Coordinates XCoordinate="273" YCoordinate="953" />
+              <Coordinates XCoordinate="273" YCoordinate="993" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="26759f80-7dc6-4560-aa7e-dd1f83e692ab" From="5fd759b1-97c3-4d23-9dd4-5c807fc3332c" To="50648462-c804-4c64-9851-aa3ce624a524" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1367" YCoordinate="836" />
+              <Coordinates XCoordinate="1431" YCoordinate="836" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="afacfa48-4561-4e99-acf5-c36728b451dc" From="17e082dd-e888-4469-a2dd-6431b4d99211" To="71154467-178b-42ec-acbc-e3cae025c4e7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1349" YCoordinate="1081" />
+              <Coordinates XCoordinate="1403" YCoordinate="1081" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8e518eef-74b3-416c-a2f5-2502d16c86d7" From="101dd9e3-37c9-41e4-addf-e7d366bcedef" To="9ca1b4b5-b8eb-469b-b4f0-318b0d1ff440" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="273" YCoordinate="1460" />
+              <Coordinates XCoordinate="273" YCoordinate="1525" />
+              <Coordinates XCoordinate="389" YCoordinate="1525" />
+              <Coordinates XCoordinate="389" YCoordinate="1571" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="379f9867-4d56-41f1-98d1-1624c87793eb" From="626723bb-9a06-4988-9f48-df1191a2c418" To="1dd17679-1c4d-4d2a-b402-70754e9b08c1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1385" YCoordinate="220" />
+              <Coordinates XCoordinate="1385" YCoordinate="195" />
+              <Coordinates XCoordinate="1435" YCoordinate="195" />
+              <Coordinates XCoordinate="1435" YCoordinate="170" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ea259b26-443a-45d4-a113-8f3ae2c0dab7" From="3e4e2c3a-2c07-40cb-a492-35e21a61dcfa" To="580c6fa2-92c5-4a60-b200-87de74e2cbbb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="880" YCoordinate="376" />
+              <Coordinates XCoordinate="1000" YCoordinate="376" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="164f650d-05f1-4215-8610-a392f9c3e77e" From="93834ab3-cef9-48b7-9882-c1bb11167729" To="3e4e2c3a-2c07-40cb-a492-35e21a61dcfa" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="610" YCoordinate="215" />
+              <Coordinates XCoordinate="635.5" YCoordinate="215" />
+              <Coordinates XCoordinate="635.5" YCoordinate="376" />
+              <Coordinates XCoordinate="660" YCoordinate="376" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="61bdeba9-212d-4333-b606-654365dbfad4" From="b325c5c8-6549-4f65-81b5-d6272935d51f" To="626723bb-9a06-4988-9f48-df1191a2c418" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1310" YCoordinate="336" />
+              <Coordinates XCoordinate="1310" YCoordinate="308" />
+              <Coordinates XCoordinate="1385" YCoordinate="308" />
+              <Coordinates XCoordinate="1385" YCoordinate="280" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="85473353-32c8-4b6c-9311-b7999e906aea" Name="re-bruecke2" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-02T12:29:53.8609688+02:00</Created>
+    <Description>re-bruecke2</Description>
+    <Documentation />
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="04eb4fa4-6703-4faa-81be-3678fccf77b7" Name="Main Process" Process="9e2c930e-10b2-4826-8908-21b39af6731c" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="1703e225-0d3b-4d26-9664-eef21eff64d7" Name="Process 1" Process="c77bc263-598d-4925-b90d-23ed5375779a" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="416" Width="939" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="9e2c930e-10b2-4826-8908-21b39af6731c" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-05-02T12:29:53.8609688+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author>BizAgi Process Modeler.</Author>
+        <Version>1.0</Version>
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="c77bc263-598d-4925-b90d-23ed5375779a" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-05-02T12:29:53.8609688+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author>BizAgi Process Modeler.</Author>
+        <Version>1.0</Version>
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="e625199a-14b4-4d93-aec4-6029d07bb907">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" FillColor="-1638505">
+              <Coordinates XCoordinate="127" YCoordinate="174" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="4db31ca9-8d07-4a26-8361-5a8ad92162f9" Name="Das wichtigste für uns ist es, dass es Ihnen bald wieder besser geht. Daher leiten wir Sie nun zu allererst in unsere Liebeskummer-Coachings.&#xD;&#xA;Hier haben wir viele praktische Tipps zusammengestellt, die Ihnen dabei helfen, Ihren Schmerz zu verringern und sich selber wieder aufzubauen.&#xD;&#xA;Bitte beachten Sie: um unsere Strategie umzusetzen ist es äußerst wichtig, dass Sie ihren Liebeskummer zumindest ein Stück weit überwunden haben.&#xD;&#xA;Nutzen Sie daher unbedingt die Zeit der Kontaktsperre um sich selber etwas Gutes zu tun und durchlaufen Sie die Liebeskummer-Coachings ruhig mehrmals. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-9490024" FillColor="-9490024">
+              <Coordinates XCoordinate="342" YCoordinate="99" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="ec432a1b-893c-40a1-b090-4ffb96831064" Name="Abfrage Ausloggen">
+          <Description>$Video("video":{"url":"REL_ExZurueck_ZwischenInfo_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_ExZurueck_ZwischenInfo_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="204.56521606445312" YCoordinate="159" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="9267e9b5-2093-4869-8248-3eafe4994283">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" FillColor="-1135958">
+              <Coordinates XCoordinate="725" YCoordinate="174" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="91bff29f-16e6-4bad-89e4-3f3b9532dc20" From="e625199a-14b4-4d93-aec4-6029d07bb907" To="ec432a1b-893c-40a1-b090-4ffb96831064" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="157" YCoordinate="189" />
+              <Coordinates XCoordinate="204" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9f033050-98f1-4652-a902-623b03ca61ab" From="ec432a1b-893c-40a1-b090-4ffb96831064" To="4db31ca9-8d07-4a26-8361-5a8ad92162f9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="294" YCoordinate="189" />
+              <Coordinates XCoordinate="342" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="007acf98-9a69-4a66-a4b6-67a7e7999e52" From="4db31ca9-8d07-4a26-8361-5a8ad92162f9" To="9267e9b5-2093-4869-8248-3eafe4994283" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="642" YCoordinate="189" />
+              <Coordinates XCoordinate="725" YCoordinate="189" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

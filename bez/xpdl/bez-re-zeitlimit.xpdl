@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="7c26ed03-fa2a-4c22-9f47-8650ec8fb605" Name="rueckeroberungzeitlimit" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-04-21T15:27:15.6347657+02:00</Created>
+    <Description>rueckeroberungzeitlimit</Description>
+    <Documentation />
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="8b504aea-d930-4773-8be8-52dfb1e94eca" Name="Main Process" Process="5c2ced05-6658-4d81-a40e-fd4306c86b62" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="255a52c9-ac34-4c2a-a5bf-f176444f0b41" Name="Zeitlimit" Process="2b60a175-24b7-48fe-8a05-313df9b15c61" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="302" Width="1187" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="5c2ced05-6658-4d81-a40e-fd4306c86b62" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-04-21T15:27:15.6386719+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author>BizAgi Process Modeler.</Author>
+        <Version>1.0</Version>
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="2b60a175-24b7-48fe-8a05-313df9b15c61" Name="Zeitlimit">
+      <ProcessHeader>
+        <Created>2011-04-21T15:27:15.6386719+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author>BizAgi Process Modeler.</Author>
+        <Version>1.0</Version>
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="2199d01c-cd73-431f-9432-76182fa7e0b8">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" FillColor="-1638505">
+              <Coordinates XCoordinate="114" YCoordinate="149" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="558f09fd-a581-4307-aaa3-d358fc874218">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" FillColor="-1135958">
+              <Coordinates XCoordinate="1114" YCoordinate="148" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="0c15a6e7-1e50-433f-86d4-399434587c58" Name="Notieren Sie hier bitte Ihre ganz persönliche Deadline für die Rückeroberung!">
+          <Description>$TextInput:rel_rueckLimit("video":{"url":"REL_ExZurueck_Zeitlimit_V2.flv"},"type":"date")</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$TextInput:rel_rueckLimit("video":{"url":"REL_ExZurueck_Zeitlimit_V2.flv"},"type":"date")</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="98" Width="230" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="397" YCoordinate="115" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="1e244e81-a9e3-4934-a26b-8035ea82cc73" Name="Sehr schön! &#xD;&#xA;Sie haben ein klares Ziel vor Augen und haben sich ein Zeitlimit gesetzt. Damit haben Sie wichtige Rahmenbedingungen geschaffen, damit Ihre Rückeroberung erfolgreich verlaufen kann.&#xD;&#xA;Wenn man sich ein Ziel gesetzt hat, ist es für den Erfolg ebenso wichtig, sich vorzunehmen, motiviert bei der Sache zu bleiben und mit vollem Herzen dabeizubleiben.&#xD;&#xA;Deshalb möchten wir Sie im nächsten Schritt bitten, selber einen Text zu formulieren, der Ihnen dabei hilft, in frustrierenden Momenten bei der Stange zu bleiben.&#xD;&#xA;Hier sehen Sie unseren Beispielvorschlag:&#xD;&#xA;&#xD;&#xA;&quot;Jetzt ist genau der richtige Zeitpunkt, alles zu geben, um meinen Ex-Partner zurückzugewinnen. Bis zu meiner persönlichen Deadline werde ich mein Ziel konsequent und effizient verfolgen!&quot; ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="97" Width="170" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="707" YCoordinate="116" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="da1d589a-109c-413d-b207-7739d0ff4eea" Name="Bitte notieren Sie jetzt Ihren eigenen Text zur Zielerreichung:">
+          <Description>$TextInput:rel_rueckZielerreichung("type":"none")</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$TextInput:rel_rueckZielerreichung("type":"none")</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="82" Width="168" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="912" YCoordinate="123" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+        <Activity Id="a926c5bf-b179-4a45-990e-45314553ca66" Name="Berg besteigen">
+          <Description>$Video("video":{"url":"REL_ExZurueck_Zeitlimit_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_ExZurueck_Zeitlimit_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+              <Coordinates XCoordinate="173" YCoordinate="134" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <IsForCompensationSpecified>false</IsForCompensationSpecified>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="b465050f-074a-4ec6-a910-36702055361c" From="2199d01c-cd73-431f-9432-76182fa7e0b8" To="a926c5bf-b179-4a45-990e-45314553ca66" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="144" YCoordinate="164" />
+              <Coordinates XCoordinate="173" YCoordinate="164" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e5e68f11-d075-48f8-b409-c0509c4b5941" From="0c15a6e7-1e50-433f-86d4-399434587c58" To="1e244e81-a9e3-4934-a26b-8035ea82cc73" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="627" YCoordinate="164" />
+              <Coordinates XCoordinate="707" YCoordinate="164" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b69a234f-1f1f-41ac-9005-d56d0bd9d868" From="1e244e81-a9e3-4934-a26b-8035ea82cc73" To="da1d589a-109c-413d-b207-7739d0ff4eea" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="877" YCoordinate="164" />
+              <Coordinates XCoordinate="912" YCoordinate="164" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="63b41fd4-571a-4029-b88b-afedc7eca4fa" From="da1d589a-109c-413d-b207-7739d0ff4eea" To="558f09fd-a581-4307-aaa3-d358fc874218" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1080" YCoordinate="164" />
+              <Coordinates XCoordinate="1097" YCoordinate="164" />
+              <Coordinates XCoordinate="1097" YCoordinate="163" />
+              <Coordinates XCoordinate="1114" YCoordinate="163" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c8cb6abc-f699-40f3-8355-ac1dd5adf33f" From="a926c5bf-b179-4a45-990e-45314553ca66" To="0c15a6e7-1e50-433f-86d4-399434587c58" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="263" YCoordinate="164" />
+              <Coordinates XCoordinate="397" YCoordinate="164" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

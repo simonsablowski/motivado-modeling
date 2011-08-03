@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="7dd4edee-b6bc-472f-a883-138ec4521a9f" Name="ges-abn-ern-falle" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-26T15:58:24.4709731+02:00</Created>
+    <ModificationDate>2011-06-27T10:07:00.921875+02:00</ModificationDate>
+    <Description>ges-abn-ern-falle</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-27T08:07:00.921875Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="afe81d8e-e5be-47e4-b8f0-fc564191f85e" Name="Main Process" Process="b48bf43e-dd6c-4e2f-ba0e-d59143b2dafd" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="d17ad2f0-4a0f-4046-9fea-0a4d29c8f25d" Name="Process 1" Process="65ded4cc-dc8b-4055-8f7e-c5b10685c8f2" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="331" Width="780" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="b48bf43e-dd6c-4e2f-ba0e-d59143b2dafd" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-06-27T10:09:11.15625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="65ded4cc-dc8b-4055-8f7e-c5b10685c8f2" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-06-27T10:09:11.15625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="72d370fd-0ae3-4c9d-a678-f3acb69e1130" Name="&quot;Die größte Abnehmfalle&quot;">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="118" YCoordinate="75" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d9c9129a-dc2f-4521-861e-beb2111213b2" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="754" YCoordinate="75" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c0abd548-0e94-4823-b41b-92a30bbb05f0" Name="Die größte Abnehmfalle">
+          <Description>$Text("video":{"url":"DIC_WOThema2_V1.flv","delay":43})
+
+9 von 10 Personen die Abnehmen möchten, scheitern am emotionales Essen (Frustessen).
+
+Darum ist es besonders wichtig, dass Sie sich jetzt vorbereiten, um nicht in diese Abnehmfalle zu geraten.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_WOThema2_V1.flv","delay":43})
+
+9 von 10 Personen die Abnehmen möchten, scheitern am emotionales Essen (Frustessen).
+
+Darum ist es besonders wichtig, dass Sie sich jetzt vorbereiten, um nicht in diese Abnehmfalle zu geraten.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="191" YCoordinate="60" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="357cdc22-b0b8-419d-bd65-568a8da810bd" Name="">
+          <Description>$Video("video":{"url":"DIC_WOThema2_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_WOThema2_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="46" Width="48" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="301" YCoordinate="67" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8733742c-b77a-4375-b5b8-80859c286dc4" Name="Emotionales Essen und Bedürfnisse">
+          <Description>$Text("video":{"url":"DIC_WOThema2_V3.flv","delay":130})
+
+In emotional aufgewühlten Situationen brechen oft viele verschiedene Bedürfnisse auf einmal auf uns ein.
+Um Sie schnell irgendwie zu befriedigen essen wir. Damit ist aber nur das Bedürfnis Hunger = Essen befriedigt. Alle anderen bleiben links liegen.
+Schenken Sie auch diesen anderen Bedürfnissen, wie zum Beispiel Kontakt zu Freunden oder Familie, Entspannung und dem Bedürfnis sich etwas Gutes zu tun, genug Aufmerksamkeit.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_WOThema2_V3.flv","delay":130})
+
+In emotional aufgewühlten Situationen brechen oft viele verschiedene Bedürfnisse auf einmal auf uns ein.
+Um Sie schnell irgendwie zu befriedigen essen wir. Damit ist aber nur das Bedürfnis Hunger = Essen befriedigt. Alle anderen bleiben links liegen.
+Schenken Sie auch diesen anderen Bedürfnissen, wie zum Beispiel Kontakt zu Freunden oder Familie, Entspannung und dem Bedürfnis sich etwas Gutes zu tun, genug Aufmerksamkeit.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="380" YCoordinate="60" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="eb163070-05a0-456b-9e0f-08515574ec7e" Name="">
+          <Description>$Video("video":{"url":"DIC_WOThema2_V4.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_WOThema2_V4.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="43" Width="43" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="506" YCoordinate="68.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0f656c22-96e9-47a0-91c7-efb484d3d4ec" Name="Aufgabe zum Wochenthema &quot;Die größte Abnehmfalle&quot;">
+          <Description>$DocumentDownload("video":{"url":"DIC_WOThema2_V5.flv"},"documents":[{"name":"Bedürfnisliste","file":"Beduerfnisliste.pdf"}])
+
+Sobald Sie Ihr Ernährungsprotokoll ausgefüllt haben und festgestellt haben in welchen Situationen Sie zum (Frust-)Essen neigen, dann überlegen Sie sich bitte auch noch einmal, was für Bedürfnisse Sie in diesen Situationen neben dem Hunger außerdem noch haben.
+Wir haben hier eine Vorlage für Sie vorbereitet, die Sie sich ausdrucken können und dann pro Bedürfnis eine passende Bedürfnisbefriedigung aufschreiben können.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$DocumentDownload("video":{"url":"DIC_WOThema2_V5.flv"},"documents":[{"name":"Bedürfnisliste","file":"Beduerfnisliste.pdf"}])
+
+Sobald Sie Ihr Ernährungsprotokoll ausgefüllt haben und festgestellt haben in welchen Situationen Sie zum (Frust-)Essen neigen, dann überlegen Sie sich bitte auch noch einmal, was für Bedürfnisse Sie in diesen Situationen neben dem Hunger außerdem noch haben.
+Wir haben hier eine Vorlage für Sie vorbereitet, die Sie sich ausdrucken können und dann pro Bedürfnis eine passende Bedürfnisbefriedigung aufschreiben können.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="76" Width="99" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="590" YCoordinate="52" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="ed167dea-3793-433c-9555-f3c7ff28846f" From="72d370fd-0ae3-4c9d-a678-f3acb69e1130" To="c0abd548-0e94-4823-b41b-92a30bbb05f0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="148" YCoordinate="90" />
+              <Coordinates XCoordinate="191" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c97cfb74-e62e-4fc8-a756-d2962b7b4f4d" From="c0abd548-0e94-4823-b41b-92a30bbb05f0" To="357cdc22-b0b8-419d-bd65-568a8da810bd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="281" YCoordinate="90" />
+              <Coordinates XCoordinate="301" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="32b0d0cd-0c81-4066-9e6c-1fac57caa3fa" From="357cdc22-b0b8-419d-bd65-568a8da810bd" To="8733742c-b77a-4375-b5b8-80859c286dc4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="349" YCoordinate="90" />
+              <Coordinates XCoordinate="380" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e7e71a5a-c05a-48f0-a00d-207ef07bd796" From="8733742c-b77a-4375-b5b8-80859c286dc4" To="eb163070-05a0-456b-9e0f-08515574ec7e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="470" YCoordinate="90" />
+              <Coordinates XCoordinate="488" YCoordinate="90" />
+              <Coordinates XCoordinate="488" YCoordinate="89" />
+              <Coordinates XCoordinate="506" YCoordinate="89" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9b9ccddd-8d69-458f-a594-3926a5c60497" From="eb163070-05a0-456b-9e0f-08515574ec7e" To="0f656c22-96e9-47a0-91c7-efb484d3d4ec" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="549" YCoordinate="89" />
+              <Coordinates XCoordinate="562.5" YCoordinate="89" />
+              <Coordinates XCoordinate="562.5" YCoordinate="90" />
+              <Coordinates XCoordinate="590" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3fbbb321-2757-45f6-b04b-edaf09a25d10" From="0f656c22-96e9-47a0-91c7-efb484d3d4ec" To="d9c9129a-dc2f-4521-861e-beb2111213b2" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="689" YCoordinate="90" />
+              <Coordinates XCoordinate="754" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

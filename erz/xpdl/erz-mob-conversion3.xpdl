@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="eba468e1-b74c-4c40-a237-d59c5711f102" Name="erz-mob-conversion3" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-07-18T14:33:08.9677734+02:00</Created>
+    <ModificationDate>2011-07-28T10:47:34.0351562+02:00</ModificationDate>
+    <Description>erz-mob-conversion3</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-07-26T09:18:47.6894531Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-07-26T12:53:44.2060546Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-07-26T13:07:12.0742Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-07-26T13:37:55.9352Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-07-28T08:47:34.0351562Z" UserName="MODELLIERUNG-PC_Modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>Modellierung</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="de9c184d-4dc3-4b04-b401-18bd46342513" Name="Main Process" Process="2a2f964f-1693-480f-9776-664c19bbbdba" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="2022bed6-3145-417d-a77d-d4738553902f" Name="Process 1" Process="ecfbd141-d21b-4e16-8e3c-25bf20f4bf0b" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="949" Width="3206" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="2a2f964f-1693-480f-9776-664c19bbbdba" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-28T10:47:37.8789062+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="ecfbd141-d21b-4e16-8e3c-25bf20f4bf0b" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-28T10:47:37.8789062+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="09676d68-63e9-4a2e-be3f-29c1504bbac5" Name="Ist Ihr Kind, um das es geht, ein Mädchen oder ein Junge?">
+          <Description>
+$Options:geschlecht("video":{"url":"EDU_MobbingDef_V15.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+$Options:geschlecht("video":{"url":"EDU_MobbingDef_V15.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="126" Width="124" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="495" YCoordinate="265" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="dde31512-1c79-4cd3-bdf1-798933ff70f3" Name="Kinder, die Opfer von Mobbing sind, haben oft...">
+          <Description>$ListView("video":{"url":"EDU_MobbingDef_V13.flv"},"elements":[{"element":"ein Gefühl von Ohnmacht","second":6},{"element":"das Gefühl handlungsunfähig zu sein","second":8},{"element":"Schwierigkeiten Alltägliches zu meistern","second":12},{"element":"stetige Angst vor weiteren Angriffen","second":26},{"element":"starkes Misstrauen","second":32},{"element":"psychosomatische Symptome z.B. Schlafstörungen und Bauchschmerzen","second":54}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ListView("video":{"url":"EDU_MobbingDef_V13.flv"},"elements":[{"element":"ein Gefühl von Ohnmacht","second":6},{"element":"das Gefühl handlungsunfähig zu sein","second":8},{"element":"Schwierigkeiten Alltägliches zu meistern","second":12},{"element":"stetige Angst vor weiteren Angriffen","second":26},{"element":"starkes Misstrauen","second":32},{"element":"psychosomatische Symptome z.B. Schlafstörungen und Bauchschmerzen","second":54}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="96" Width="101" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1089" YCoordinate="255" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c5975fe2-00dd-4dcd-bd82-616cc0d5cdf4" Name="Junge">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="681" YCoordinate="352" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3f4efe75-7cf9-45aa-a41e-93fe21a199a4" Name="Wann spricht man von Mobbing?">
+          <Description>$ListView("video":{"url":"EDU_MobbingDef_V5.flv"},"elements":[{"element":"Ein oder mehrere Täter","second":6},{"element":"Angriffe über einen längeren Zeitraum","second":7},{"element":"Wiederholte Angriffe","second":9},{"element":"psychische Angriffe z.B. drohen und beschimpfen","second":16},{"element":"körperliche Angriffe z.B. schlagen und kneifen","second":27},{"element":"nonverbale Angriffe z.B. ingnorieren","second":34}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ListView("video":{"url":"EDU_MobbingDef_V5.flv"},"elements":[{"element":"Ein oder mehrere Täter","second":6},{"element":"Angriffe über einen längeren Zeitraum","second":7},{"element":"Wiederholte Angriffe","second":9},{"element":"psychische Angriffe z.B. drohen und beschimpfen","second":16},{"element":"körperliche Angriffe z.B. schlagen und kneifen","second":27},{"element":"nonverbale Angriffe z.B. ingnorieren","second":34}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="948" YCoordinate="273" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e4ada2f3-3ec6-45b6-9f79-4afbdd55c182" Name="Mädchen">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="716" YCoordinate="223" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="dbdefd9a-3f3f-4e9e-9e09-4808a02a8c21" Name="In diesem Coaching erwartet Sie:">
+          <Description>$BulletPoints("video":{"url":"EDU_MobbingDef_V1.flv"},"elements":[{"element":"Was ist Mobbing?","second":2},{"element":"Was ist kein Mobbing?","second":3},{"element":"Anschauliche Beispiele","second":7},{"element":"Folgen von Mobbing","second":13}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"EDU_MobbingDef_V1.flv"},"elements":[{"element":"Was ist Mobbing?","second":2},{"element":"Was ist kein Mobbing?","second":3},{"element":"Anschauliche Beispiele","second":7},{"element":"Folgen von Mobbing","second":13}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="383" YCoordinate="298" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="cc2342bd-e43c-4aec-837a-7191f71e18b0" Name="Wichtig ist, dass nicht alle Angriffe auf Ihr Kind oder nicht alle Ärgernisse, die Ihr Kind durchlebt, ein Zeichen für Mobbing sind. Bitte denken Sie daher daran:">
+          <Description>$ListView("elements":[{"element":"Normale Konflikte zwischen gleich starken Parteien sind kein Mobbing (Ein Mobbingopfer ist meist schwächer als der oder die Täter)","second":0},{"element":"Einmalige Belastungen und Konflikte sind noch kein Mobbing.","second":0},{"element":"Einmaliges Ausgrenzen oder Nichtinformieren ist noch kein Mobbing.","second":0},{"element":"Erst wenn die Angriffe über eine längere Zeit und wiederholt auftreten kann Mobbing im Spiel sein","second":0},{"element":"Ein Mobbing entwickelt oft eine starke Dynamik in der immer mehr Täter über einen langen Zeitraum hinweg Angriffe gegen das Opfer vollführen.","second":0},{"element":"Ein abhanden gekommener Gegenstand (Turnbeutel o.ä.) kann auch verloren worden sein","second":0},{"element":"Kopf- oder Bauchschmerzen können auch andere Ursachen haben.","second":0},{"element":"Schwache Schulleistungen können auch anderen Ursachen haben.","second":0}])
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ListView("elements":[{"element":"Normale Konflikte zwischen gleich starken Parteien sind kein Mobbing (Ein Mobbingopfer ist meist schwächer als der oder die Täter)","second":0},{"element":"Einmalige Belastungen und Konflikte sind noch kein Mobbing.","second":0},{"element":"Einmaliges Ausgrenzen oder Nichtinformieren ist noch kein Mobbing.","second":0},{"element":"Erst wenn die Angriffe über eine längere Zeit und wiederholt auftreten kann Mobbing im Spiel sein","second":0},{"element":"Ein Mobbing entwickelt oft eine starke Dynamik in der immer mehr Täter über einen langen Zeitraum hinweg Angriffe gegen das Opfer vollführen.","second":0},{"element":"Ein abhanden gekommener Gegenstand (Turnbeutel o.ä.) kann auch verloren worden sein","second":0},{"element":"Kopf- oder Bauchschmerzen können auch andere Ursachen haben.","second":0},{"element":"Schwache Schulleistungen können auch anderen Ursachen haben.","second":0}])
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1312" YCoordinate="273" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6f340671-a4ca-45b4-821e-64516073e728" Name="Coaching starten">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2401" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0ac4d2f9-6293-4fdd-a54c-58282bdd1442" Name="Testen, ob mein Kind gemobbt wird">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="91" Width="99" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2256.5" YCoordinate="486" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="15e8cae8-4b7f-4cc5-86b1-dec6aeb355dd" Name="Wie möchten Sie nun weitermachen?">
+          <Description>EDU_MobbingDef_V7.flv</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>EDU_MobbingDef_V7.flv</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2261" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9e258b7c-4a9c-4eb1-8c77-500ab2d9f288" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="104" YCoordinate="313" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fbe2ad88-9672-4a0e-ad81-14530b131674" Name="">
+          <Description>$Video("video":{"url":"EDU_Allgemein_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_Allgemein_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="237" YCoordinate="298" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5d8ccbcd-8c50-4b63-abd4-e21c46c33372" Name="">
+          <Description>$Video("video":{"url":"EDU_MobbingDef_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_MobbingDef_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="841" YCoordinate="223" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="16c13e82-f461-492c-a301-88c99dc91b82" Name="">
+          <Description>$Video("video":{"url":"EDU_MobbingDef_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_MobbingDef_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="805" YCoordinate="352" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c03d4624-1b96-437c-ac3b-359b381db460" Name="">
+          <Description>$Video("video":{"url":"EDU_MobbingDef_V9.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_MobbingDef_V9.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1210" YCoordinate="273" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="79e977e9-77d0-4f3c-b238-ccaaa556dec1" Name="In unseren Coachings lernen Sie, wie Sie:">
+          <Description>$ListView("video":{"url":"EDU_Allgemein_V7.flv"},"elements":[{"element":"1. Ihr Kind emotional stärken","second":8},{"element":"2. gemeinsam mit der Schule eine Lösung finden","second":15}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ListView("video":{"url":"EDU_Allgemein_V7.flv"},"elements":[{"element":"1. Ihr Kind emotional stärken","second":8},{"element":"2. gemeinsam mit der Schule eine Lösung finden","second":15}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="69" Width="110" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2601" YCoordinate="386.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4e0a7936-fe35-4b65-82db-893d373da311" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="3084" YCoordinate="406" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="db85cb25-4ad1-4f54-8de0-a4b77a7ae856" Name="">
+          <Description>$Buy("key":"erz-mob-paket")</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Buy("key":"erz-mob-paket")</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2927" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6c8f0763-994d-453a-bac1-c32d70f22555" Name="Sign-In">
+          <Description>$Video("video":{"url":"EDU_SignIn_V4.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_SignIn_V4.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2789" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="580a2196-b3f5-4c5e-b8ea-a8e301f01036" Name="Ich bin mir unsicher">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1624" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4abc966d-a508-43dc-8daa-d630b556b28e" Name="Mobbing-Merkmale aus dem Beispiel:">
+          <Description>$ListView("video":{"url":"EDU_MobbingDef_V10.flv"},"elements":[{"element":"Der Konflikt hat sich verfestigt","second":8},{"element":"Es gibt ein einzelnes unterlegenes Opfer","second":13},{"element":"Es gibt einen oder mehrere Täter","second":17},{"element":"Das Opfer kann sich nicht allein aus dem Mobbing befreien","second":22},{"element":"Es handelt sich um fortlaufende Angriffe über einen langen Zeitraum","second":35}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ListView("video":{"url":"EDU_MobbingDef_V10.flv"},"elements":[{"element":"Der Konflikt hat sich verfestigt","second":8},{"element":"Es gibt ein einzelnes unterlegenes Opfer","second":13},{"element":"Es gibt einen oder mehrere Täter","second":17},{"element":"Das Opfer kann sich nicht allein aus dem Mobbing befreien","second":22},{"element":"Es handelt sich um fortlaufende Angriffe über einen langen Zeitraum","second":35}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2138" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f0eca590-5892-4cb9-a74d-f43caf5987c9" Name="weiteres Bspl. Junge">
+          <Description>$Video("video":{"url":"EDU_MobbingDef_V11.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_MobbingDef_V11.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1970" YCoordinate="222" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="43af48aa-4a29-4ad6-873a-3fc2dedc856c" Name="Ja">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1608" YCoordinate="167" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="cd117280-b834-48a5-8f94-39f544fac0ea" Name="Nein">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1626" YCoordinate="282" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="68d9f456-d563-4732-8344-0bf7bdbad584" Name="weiteres Bspl. Mädchen">
+          <Description>$Video("video":{"url":"EDU_MobbingDef_V12.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_MobbingDef_V12.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1974" YCoordinate="391" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4efb66c2-211e-43e4-85a4-34306b9d56c5" Name="Haben Sie verstanden, was Mobbing ist?">
+          <Description>$Options("video":{"url":"EDU_MobbingDef_V6.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Options("video":{"url":"EDU_MobbingDef_V6.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="109" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1457" YCoordinate="273" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="38939781-3b36-4308-ba2b-8799212a20bf" Name="Symptome von Mobbing (1/3)">
+          <Description>$Evaluation:edu_mobbingtest_1("video":{"url":"EDU_MobbingTest_V1.flv"},"weightedcriteria":[{"name":"Mein Kind wirkt in letzter Zeit traurig und lustlos","weightFactor":1},{"name":"Mein Kind ist in letzter Zeit grundlos aggressiv","weightFactor":1},{"name":"Mein Kind hat Angst in die Schule zu gehen","weightFactor":1},{"name":"Die Stimmung meines Kindes ändert sich in letzter Zeit sehr plötzlich","weightFactor":1}],"type":"test","steps":2,"titleWeight":"h","titleRate":"h")</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Evaluation:edu_mobbingtest_1("video":{"url":"EDU_MobbingTest_V1.flv"},"weightedcriteria":[{"name":"Mein Kind wirkt in letzter Zeit traurig und lustlos","weightFactor":1},{"name":"Mein Kind ist in letzter Zeit grundlos aggressiv","weightFactor":1},{"name":"Mein Kind hat Angst in die Schule zu gehen","weightFactor":1},{"name":"Die Stimmung meines Kindes ändert sich in letzter Zeit sehr plötzlich","weightFactor":1}],"type":"test","steps":2,"titleWeight":"h","titleRate":"h")</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="102" BorderColor="-5279232" BorderVisible="false" FillColor="-15858">
+              <Coordinates XCoordinate="2255" YCoordinate="826" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="eded8e28-8c64-4a1b-ac8a-1055d50ada9f" Name="">
+          <Description>$AddValue:edu_mobbingtest_summe("values":["#edu_mobbingtest_1","#edu_mobbingtest_2","#edu_mobbingtest_3"])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$AddValue:edu_mobbingtest_summe("values":["#edu_mobbingtest_1","#edu_mobbingtest_2","#edu_mobbingtest_3"])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2535" YCoordinate="741" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="10b43791-9f7a-445d-9f0a-4531f16addcf" Name="Symtome von Mobbing (2/3)">
+          <Description>$Evaluation:edu_mobbingtest_2("video":{"url":"EDU_MobbingTest_V3.flv"},"weightedcriteria":[{"name":"Mein Kind hat häufig Magenschmerzen oder Kopfschmerzen","weightFactor":1},{"name":"Mein Kind hat weniger Appetit als sonst","weightFactor":1},{"name":"Mein Kind schläft häufig schlecht","weightFactor":1}],"type":"test","steps":2,"titleWeight":"h","titleRate":"h")
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Evaluation:edu_mobbingtest_2("video":{"url":"EDU_MobbingTest_V3.flv"},"weightedcriteria":[{"name":"Mein Kind hat häufig Magenschmerzen oder Kopfschmerzen","weightFactor":1},{"name":"Mein Kind hat weniger Appetit als sonst","weightFactor":1},{"name":"Mein Kind schläft häufig schlecht","weightFactor":1}],"type":"test","steps":2,"titleWeight":"h","titleRate":"h")
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-5279232" BorderVisible="false" FillColor="-15858">
+              <Coordinates XCoordinate="2402" YCoordinate="826" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7e1421d1-eef9-4feb-8eda-acc1ab95d257" Name="Keine Symptome">
+          <Description>$Video("video":{"url":"EDU_SignIn_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_SignIn_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2535" YCoordinate="593" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="77f6484d-2796-47e2-ae90-d1cf5cf3d81e" Name="Symptome von Mobbing (3/3)">
+          <Description>$Evaluation:edu_mobbingtest_3("video":{"url":"EDU_MobbingTest_V4.flv"},"weightedcriteria":[{"name":"Ich habe gemerkt dass mein Kind in der Schule beschimpft oder beleidigt wird","weightFactor":1},{"name":"Meinem Kind fehlen plötzlich Gegenstände wie Schulmaterialien oder Wertsachen","weightFactor":1},{"name":"Die Schulleistungen meines Kindes haben sich deutlich verschlechtert","weightFactor":1},{"name":"Mein Kind unternimmt weniger mit Freunden als früher","weightFactor":1}],"type":"test","steps":2,"titleWeight":"h","titleRate":"h")
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Evaluation:edu_mobbingtest_3("video":{"url":"EDU_MobbingTest_V4.flv"},"weightedcriteria":[{"name":"Ich habe gemerkt dass mein Kind in der Schule beschimpft oder beleidigt wird","weightFactor":1},{"name":"Meinem Kind fehlen plötzlich Gegenstände wie Schulmaterialien oder Wertsachen","weightFactor":1},{"name":"Die Schulleistungen meines Kindes haben sich deutlich verschlechtert","weightFactor":1},{"name":"Mein Kind unternimmt weniger mit Freunden als früher","weightFactor":1}],"type":"test","steps":2,"titleWeight":"h","titleRate":"h")
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-5279232" BorderVisible="false" FillColor="-15858">
+              <Coordinates XCoordinate="2535" YCoordinate="826" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b9ba099f-edbe-4e73-bf14-01b2b3355be3" Name="Viele Symptome">
+          <Description>$Video("video":{"url":"EDU_SignIn_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_SignIn_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2779" YCoordinate="837" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="af6a1123-a0e6-491c-9f70-da3424658654" Name="Wenige Symptome">
+          <Description>$Video("video":{"url":"EDU_SignIn_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"EDU_SignIn_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2684" YCoordinate="639" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="91958774-51fa-4a1f-8544-04fa8f3cacfc" From="16c13e82-f461-492c-a301-88c99dc91b82" To="3f4efe75-7cf9-45aa-a41e-93fe21a199a4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="895" YCoordinate="382" />
+              <Coordinates XCoordinate="921.5" YCoordinate="382" />
+              <Coordinates XCoordinate="921.5" YCoordinate="303" />
+              <Coordinates XCoordinate="948" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c03ee61a-0695-4b92-843a-c32047e5ba89" From="3f4efe75-7cf9-45aa-a41e-93fe21a199a4" To="dde31512-1c79-4cd3-bdf1-798933ff70f3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1038" YCoordinate="303" />
+              <Coordinates XCoordinate="1089" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8665e542-f439-4f85-9f28-43790ce21df1" From="09676d68-63e9-4a2e-be3f-29c1504bbac5" To="c5975fe2-00dd-4dcd-bd82-616cc0d5cdf4" Name="m">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="619" YCoordinate="328" />
+              <Coordinates XCoordinate="652" YCoordinate="328" />
+              <Coordinates XCoordinate="652" YCoordinate="382" />
+              <Coordinates XCoordinate="681" YCoordinate="382" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="46c732ce-e875-4fd7-a158-ea14f5fe8a5f" From="09676d68-63e9-4a2e-be3f-29c1504bbac5" To="e4ada2f3-3ec6-45b6-9f79-4afbdd55c182" Name="f">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="619" YCoordinate="328" />
+              <Coordinates XCoordinate="649" YCoordinate="328" />
+              <Coordinates XCoordinate="649" YCoordinate="253" />
+              <Coordinates XCoordinate="716" YCoordinate="253" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="41dbaf0b-7042-4b2e-b53e-8877990581cf" From="fbe2ad88-9672-4a0e-ad81-14530b131674" To="dbdefd9a-3f3f-4e9e-9e09-4808a02a8c21" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="327" YCoordinate="328" />
+              <Coordinates XCoordinate="383" YCoordinate="328" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7f1c2198-bbec-4b80-9f10-f34d24279b99" From="dbdefd9a-3f3f-4e9e-9e09-4808a02a8c21" To="09676d68-63e9-4a2e-be3f-29c1504bbac5" Name="">
+          <Condition />
+          <Description>
+EDU_MobbingDef_V1.flv</Description>
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="473" YCoordinate="328" />
+              <Coordinates XCoordinate="495" YCoordinate="328" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="36fa14dd-a588-402e-8668-7b7a04b63c57" From="5d8ccbcd-8c50-4b63-abd4-e21c46c33372" To="3f4efe75-7cf9-45aa-a41e-93fe21a199a4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="931" YCoordinate="253" />
+              <Coordinates XCoordinate="939.5" YCoordinate="253" />
+              <Coordinates XCoordinate="939.5" YCoordinate="303" />
+              <Coordinates XCoordinate="948" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bbaa0ff2-4571-49b1-8a7f-15de0366b1f2" From="cc2342bd-e43c-4aec-837a-7191f71e18b0" To="4efb66c2-211e-43e4-85a4-34306b9d56c5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1402" YCoordinate="303" />
+              <Coordinates XCoordinate="1457" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="98ff52dc-9ac8-4acb-b37a-10dbb8ec659e" From="15e8cae8-4b7f-4cc5-86b1-dec6aeb355dd" To="0ac4d2f9-6293-4fdd-a54c-58282bdd1442" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2306" YCoordinate="451" />
+              <Coordinates XCoordinate="2306" YCoordinate="468.5" />
+              <Coordinates XCoordinate="2305" YCoordinate="468.5" />
+              <Coordinates XCoordinate="2305" YCoordinate="486" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="717b929d-c6ef-4c1d-b65d-9a780f2ce781" From="15e8cae8-4b7f-4cc5-86b1-dec6aeb355dd" To="6f340671-a4ca-45b4-821e-64516073e728" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2351" YCoordinate="421" />
+              <Coordinates XCoordinate="2401" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="67980388-5522-4b76-ae4d-d78b350c60b2" From="9e258b7c-4a9c-4eb1-8c77-500ab2d9f288" To="fbe2ad88-9672-4a0e-ad81-14530b131674" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="134" YCoordinate="328" />
+              <Coordinates XCoordinate="237" YCoordinate="328" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="cb2e5bfb-8b34-41b2-ba99-8331da71cf71" From="e4ada2f3-3ec6-45b6-9f79-4afbdd55c182" To="5d8ccbcd-8c50-4b63-abd4-e21c46c33372" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="806" YCoordinate="253" />
+              <Coordinates XCoordinate="841" YCoordinate="253" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3a4db603-802c-462b-99d1-ad9e3383ba1f" From="c5975fe2-00dd-4dcd-bd82-616cc0d5cdf4" To="16c13e82-f461-492c-a301-88c99dc91b82" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="771" YCoordinate="382" />
+              <Coordinates XCoordinate="805" YCoordinate="382" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7fb36c8d-40ac-44d5-bd33-8692a8268078" From="dde31512-1c79-4cd3-bdf1-798933ff70f3" To="c03d4624-1b96-437c-ac3b-359b381db460" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1190" YCoordinate="303" />
+              <Coordinates XCoordinate="1210" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6456f106-2717-414e-89a5-f9023ca14beb" From="c03d4624-1b96-437c-ac3b-359b381db460" To="cc2342bd-e43c-4aec-837a-7191f71e18b0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1300" YCoordinate="303" />
+              <Coordinates XCoordinate="1312" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7e8d4ba3-5349-4144-999b-904bd4b2bb85" From="6f340671-a4ca-45b4-821e-64516073e728" To="79e977e9-77d0-4f3c-b238-ccaaa556dec1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2491" YCoordinate="421" />
+              <Coordinates XCoordinate="2531" YCoordinate="421" />
+              <Coordinates XCoordinate="2531" YCoordinate="420" />
+              <Coordinates XCoordinate="2601" YCoordinate="420" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2312767e-e8d5-4c42-9192-33cbf28777e6" From="0ac4d2f9-6293-4fdd-a54c-58282bdd1442" To="38939781-3b36-4308-ba2b-8799212a20bf" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2305" YCoordinate="577" />
+              <Coordinates XCoordinate="2305" YCoordinate="742" />
+              <Coordinates XCoordinate="2306" YCoordinate="742" />
+              <Coordinates XCoordinate="2306" YCoordinate="826" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b26a4b2b-e670-4638-8497-9a11a534caf2" From="79e977e9-77d0-4f3c-b238-ccaaa556dec1" To="6c8f0763-994d-453a-bac1-c32d70f22555" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2711" YCoordinate="420" />
+              <Coordinates XCoordinate="2750" YCoordinate="420" />
+              <Coordinates XCoordinate="2750" YCoordinate="421" />
+              <Coordinates XCoordinate="2789" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3f7d7f9b-69b2-4dab-be6d-3eb805c99458" From="db85cb25-4ad1-4f54-8de0-a4b77a7ae856" To="4e0a7936-fe35-4b65-82db-893d373da311" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="3017" YCoordinate="421" />
+              <Coordinates XCoordinate="3084" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="55da7a16-dc63-4fcb-9f5c-609870addee7" From="6c8f0763-994d-453a-bac1-c32d70f22555" To="db85cb25-4ad1-4f54-8de0-a4b77a7ae856" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2879" YCoordinate="421" />
+              <Coordinates XCoordinate="2927" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="630b01e7-7e52-4444-a58e-3d62de84b1b1" From="4efb66c2-211e-43e4-85a4-34306b9d56c5" To="cd117280-b834-48a5-8f94-39f544fac0ea" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1566" YCoordinate="303" />
+              <Coordinates XCoordinate="1596" YCoordinate="303" />
+              <Coordinates XCoordinate="1596" YCoordinate="312" />
+              <Coordinates XCoordinate="1626" YCoordinate="312" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ab3d2f79-aa6b-44c3-857e-d41931246bda" From="4abc966d-a508-43dc-8daa-d630b556b28e" To="15e8cae8-4b7f-4cc5-86b1-dec6aeb355dd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2228" YCoordinate="421" />
+              <Coordinates XCoordinate="2261" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9c7651f6-cedf-4834-9016-6ffdefdeea21" From="cd117280-b834-48a5-8f94-39f544fac0ea" To="f0eca590-5892-4cb9-a74d-f43caf5987c9" Name="geschlecht is 'm'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1716" YCoordinate="312" />
+              <Coordinates XCoordinate="1843" YCoordinate="312" />
+              <Coordinates XCoordinate="1843" YCoordinate="252" />
+              <Coordinates XCoordinate="1970" YCoordinate="252" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5ad38c2c-5cda-4875-b50b-c4afae4ba532" From="580a2196-b3f5-4c5e-b8ea-a8e301f01036" To="f0eca590-5892-4cb9-a74d-f43caf5987c9" Name="geschlecht is 'm'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1714" YCoordinate="421" />
+              <Coordinates XCoordinate="1760.333251953125" YCoordinate="421" />
+              <Coordinates XCoordinate="1760.333251953125" YCoordinate="252" />
+              <Coordinates XCoordinate="1970" YCoordinate="252" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5679aed1-8a98-4257-91bb-c444fa393c33" From="f0eca590-5892-4cb9-a74d-f43caf5987c9" To="4abc966d-a508-43dc-8daa-d630b556b28e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2060" YCoordinate="252" />
+              <Coordinates XCoordinate="2183" YCoordinate="252" />
+              <Coordinates XCoordinate="2183" YCoordinate="391" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="15ae0bf6-2d15-43a3-90dc-601c30e68af4" From="43af48aa-4a29-4ad6-873a-3fc2dedc856c" To="15e8cae8-4b7f-4cc5-86b1-dec6aeb355dd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1698" YCoordinate="197" />
+              <Coordinates XCoordinate="2241" YCoordinate="197" />
+              <Coordinates XCoordinate="2241" YCoordinate="377" />
+              <Coordinates XCoordinate="2242" YCoordinate="377" />
+              <Coordinates XCoordinate="2242" YCoordinate="421" />
+              <Coordinates XCoordinate="2261" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2f37ee69-23a8-4ab7-8b5b-6d045ddc675a" From="68d9f456-d563-4732-8344-0bf7bdbad584" To="4abc966d-a508-43dc-8daa-d630b556b28e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2064" YCoordinate="421" />
+              <Coordinates XCoordinate="2138" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d9f15ef5-ec41-4183-b415-b0200b5cba22" From="4efb66c2-211e-43e4-85a4-34306b9d56c5" To="43af48aa-4a29-4ad6-873a-3fc2dedc856c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1511" YCoordinate="273" />
+              <Coordinates XCoordinate="1511" YCoordinate="197" />
+              <Coordinates XCoordinate="1608" YCoordinate="197" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f10b87e9-f0ae-4195-908a-a3f0d5c364af" From="cd117280-b834-48a5-8f94-39f544fac0ea" To="68d9f456-d563-4732-8344-0bf7bdbad584" Name="geschlecht is 'f'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1716" YCoordinate="312" />
+              <Coordinates XCoordinate="1845" YCoordinate="312" />
+              <Coordinates XCoordinate="1845" YCoordinate="421" />
+              <Coordinates XCoordinate="1974" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="01c134cd-c51f-4385-ad20-0ceb9826f199" From="580a2196-b3f5-4c5e-b8ea-a8e301f01036" To="68d9f456-d563-4732-8344-0bf7bdbad584" Name="geschlecht is 'f'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1714" YCoordinate="421" />
+              <Coordinates XCoordinate="1974" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="eef48237-d341-422e-a766-efb066ecae0f" From="4efb66c2-211e-43e4-85a4-34306b9d56c5" To="580a2196-b3f5-4c5e-b8ea-a8e301f01036" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1566" YCoordinate="303" />
+              <Coordinates XCoordinate="1595" YCoordinate="303" />
+              <Coordinates XCoordinate="1595" YCoordinate="421" />
+              <Coordinates XCoordinate="1624" YCoordinate="421" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="10e79089-a999-4c18-9f20-1849dee7c2fa" From="10b43791-9f7a-445d-9f0a-4531f16addcf" To="77f6484d-2796-47e2-ae90-d1cf5cf3d81e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2492" YCoordinate="856" />
+              <Coordinates XCoordinate="2535" YCoordinate="856" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="216add09-0108-413d-902d-35982b5143b8" From="eded8e28-8c64-4a1b-ac8a-1055d50ada9f" To="b9ba099f-edbe-4e73-bf14-01b2b3355be3" Name="edu_mobbingtest_summe gt '2'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2625" YCoordinate="771" />
+              <Coordinates XCoordinate="2673" YCoordinate="771" />
+              <Coordinates XCoordinate="2673" YCoordinate="867" />
+              <Coordinates XCoordinate="2779" YCoordinate="867" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2fa53138-4f8b-4891-a13d-fd1453f687e4" From="7e1421d1-eef9-4feb-8eda-acc1ab95d257" To="79e977e9-77d0-4f3c-b238-ccaaa556dec1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2580" YCoordinate="593" />
+              <Coordinates XCoordinate="2580" YCoordinate="482.5" />
+              <Coordinates XCoordinate="2656" YCoordinate="482.5" />
+              <Coordinates XCoordinate="2656" YCoordinate="455" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="556b7f45-e353-4326-885e-b759a30e811b" From="eded8e28-8c64-4a1b-ac8a-1055d50ada9f" To="af6a1123-a0e6-491c-9f70-da3424658654" Name="edu_mobbingtest_summe gt '0'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2625" YCoordinate="771" />
+              <Coordinates XCoordinate="2654.5" YCoordinate="771" />
+              <Coordinates XCoordinate="2654.5" YCoordinate="669" />
+              <Coordinates XCoordinate="2684" YCoordinate="669" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6b9a6b22-16d5-4612-85c2-5887f3f07a7a" From="38939781-3b36-4308-ba2b-8799212a20bf" To="10b43791-9f7a-445d-9f0a-4531f16addcf" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2357" YCoordinate="856" />
+              <Coordinates XCoordinate="2402" YCoordinate="856" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f0871278-5a62-4f99-832c-b3253c91bb91" From="af6a1123-a0e6-491c-9f70-da3424658654" To="79e977e9-77d0-4f3c-b238-ccaaa556dec1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2729" YCoordinate="639" />
+              <Coordinates XCoordinate="2729" YCoordinate="490" />
+              <Coordinates XCoordinate="2656" YCoordinate="490" />
+              <Coordinates XCoordinate="2656" YCoordinate="455" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d4a6efeb-bca1-42b3-86b3-9d0a601d4616" From="77f6484d-2796-47e2-ae90-d1cf5cf3d81e" To="eded8e28-8c64-4a1b-ac8a-1055d50ada9f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2580" YCoordinate="826" />
+              <Coordinates XCoordinate="2580" YCoordinate="801" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0054b99b-7a9e-46dc-bdeb-4ac92f635929" From="eded8e28-8c64-4a1b-ac8a-1055d50ada9f" To="7e1421d1-eef9-4feb-8eda-acc1ab95d257" Name="edu_mobbingtest_summe is '0'">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2580" YCoordinate="741" />
+              <Coordinates XCoordinate="2580" YCoordinate="653" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a90b8a17-cdf6-4033-8e32-626de4570fda" From="b9ba099f-edbe-4e73-bf14-01b2b3355be3" To="79e977e9-77d0-4f3c-b238-ccaaa556dec1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2824" YCoordinate="837" />
+              <Coordinates XCoordinate="2824" YCoordinate="489" />
+              <Coordinates XCoordinate="2656" YCoordinate="489" />
+              <Coordinates XCoordinate="2656" YCoordinate="455" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

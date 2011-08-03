@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="c907f611-7281-4f0b-ae1d-51f8b0cc9d97" Name="ges-abn-bew-krankheit" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-31T15:23:08.7125759+02:00</Created>
+    <ModificationDate>2011-07-05T10:45:28.28125+02:00</ModificationDate>
+    <Description>ges-abn-bew-krankheit</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-28T11:33:00.140625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-06-29T11:31:29.84375Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-05T08:45:28.28125Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="21a739c8-455d-400f-b4d4-7701d52fca8b" Process="37e684c3-9864-49aa-9247-da351fb69d72" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="1e2c58f4-97cc-47ea-aba4-2c8301ad25a5" Name="Process 1" Process="026515af-7997-4167-84ba-685b88b53016" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="319" Width="881" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="37e684c3-9864-49aa-9247-da351fb69d72" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-05T10:46:08.328125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="026515af-7997-4167-84ba-685b88b53016" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-05T10:46:08.328125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="fca23b8d-e67c-4418-9d72-b127f74e8faf" Name="Darf ich Sport machen, wenn ich krank bin?">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="95" YCoordinate="56" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b1fc5f6c-6533-40e1-b9be-713826a5b3c8" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="834" YCoordinate="56" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6a2443b0-e9aa-47c1-be74-88153c9d6cc2" Name="">
+          <Description>$Text("video":{"url":"DIC_KrankheitSport_V1.flv","delay":24})
+
+Sind die Symptome Ihnen unbekannt oder dauert die Krankheit schon länger an, dann suchen Sie unbedingt einen Arzt auf! </Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_KrankheitSport_V1.flv","delay":24})
+
+Sind die Symptome Ihnen unbekannt oder dauert die Krankheit schon länger an, dann suchen Sie unbedingt einen Arzt auf! </Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="192" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fbbecf55-9bef-4c27-9036-aafe1d99df1b" Name="Folgendes sollten Sie beachten:">
+          <Description>
+
+$Text("video":{"url":"DIC_KrankheitSport_V2.flv"})
+
+Haben Sie nur eine leichte Erkältung, ist Sport grundsätzlich okay. Achten Sie allerdings darauf, dass Sie nicht auskühlen. Verstärken sich die Erkältungssymptome sollten Sie von Sporteinheiten auf Bewegungseinheiten (ausgedehnte Spaziergänge, etc.) umsteigen und einen Arzt aufsuchen.
+Meiden Sie Fitnessstudios, wenn Sie krank sind. Sie könnten andere anstecken.
+Kommt Fieber ins Spiel, möchten wir Ihnen von jeglicher sportlicher Aktivität abraten! Auch von Spaziergängen oder Fahrradtouren. Ihr Körper kämpft bei Fieber mit allen Mitteln und ist bereits angestrengt, schonen Sie sich jetzt!
+
+Müssen Sie Medikamente einnehmen, dann sollten Sie für die Dauer der Medikamenteneinnahme keinen Sport treiben! Kurze Spaziergänge zum Beispiel sind in Ordnung, aber immer nur dann, wenn Sie sich dafür fit genug fühlen! Geben Sie sich nachBeendigung der Medikamenteneinnahme mindestens 2 Tage, bis Sie wieder langsam in Ihr Sportprogramm einsteigen. 
+Ihre Gesundheit geht vor!
+Sorgen Sie erst einmal dafür, dass Sie wieder gesund werden, danach kümmern wir uns wieder um Ihre Abnehmpläne!
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+
+$Text("video":{"url":"DIC_KrankheitSport_V2.flv"})
+
+Haben Sie nur eine leichte Erkältung, ist Sport grundsätzlich okay. Achten Sie allerdings darauf, dass Sie nicht auskühlen. Verstärken sich die Erkältungssymptome sollten Sie von Sporteinheiten auf Bewegungseinheiten (ausgedehnte Spaziergänge, etc.) umsteigen und einen Arzt aufsuchen.
+Meiden Sie Fitnessstudios, wenn Sie krank sind. Sie könnten andere anstecken.
+Kommt Fieber ins Spiel, möchten wir Ihnen von jeglicher sportlicher Aktivität abraten! Auch von Spaziergängen oder Fahrradtouren. Ihr Körper kämpft bei Fieber mit allen Mitteln und ist bereits angestrengt, schonen Sie sich jetzt!
+
+Müssen Sie Medikamente einnehmen, dann sollten Sie für die Dauer der Medikamenteneinnahme keinen Sport treiben! Kurze Spaziergänge zum Beispiel sind in Ordnung, aber immer nur dann, wenn Sie sich dafür fit genug fühlen! Geben Sie sich nachBeendigung der Medikamenteneinnahme mindestens 2 Tage, bis Sie wieder langsam in Ihr Sportprogramm einsteigen. 
+Ihre Gesundheit geht vor!
+Sorgen Sie erst einmal dafür, dass Sie wieder gesund werden, danach kümmern wir uns wieder um Ihre Abnehmpläne!
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-1237980" BorderVisible="false" FillColor="-1237980">
+              <Coordinates XCoordinate="323" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8ac88e69-59aa-4124-9693-9729abea817e" Name="Aufgabe zu dem Coaching &quot;Krankheit und Sport&quot;">
+          <Description>$Text("video":{"url":"DIC_KrankheitSport_V3.flv"})
+
+Ernähren Sie sich gesund und gönnen Sie sich ausreichend Ruhe, wenn Ihr Körper das braucht.
+Kurzum: Werden Sie gesund!
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_KrankheitSport_V3.flv"})
+
+Ernähren Sie sich gesund und gönnen Sie sich ausreichend Ruhe, wenn Ihr Körper das braucht.
+Kurzum: Werden Sie gesund!
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="443" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2bfd5ad8-57f3-45ac-8751-246dd13cb87e" Name="">
+          <Description>$Video("video":{"url":"DIC_KrankheitSport_V5.flv"})
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_KrankheitSport_V5.flv"})
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="684" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="a92f5712-775f-4422-b3fe-99d14581e3a5" From="fca23b8d-e67c-4418-9d72-b127f74e8faf" To="6a2443b0-e9aa-47c1-be74-88153c9d6cc2" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="125" YCoordinate="71" />
+              <Coordinates XCoordinate="192" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="19f751e1-ab4f-42b9-b2e4-f49ae3e15f43" From="6a2443b0-e9aa-47c1-be74-88153c9d6cc2" To="fbbecf55-9bef-4c27-9036-aafe1d99df1b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="282" YCoordinate="71" />
+              <Coordinates XCoordinate="323" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f51b7c15-7824-4835-b9e1-b75bb421ea7d" From="fbbecf55-9bef-4c27-9036-aafe1d99df1b" To="8ac88e69-59aa-4124-9693-9729abea817e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="413" YCoordinate="71" />
+              <Coordinates XCoordinate="443" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4d9ab884-849d-4822-9cde-f21fa440522f" From="8ac88e69-59aa-4124-9693-9729abea817e" To="2bfd5ad8-57f3-45ac-8751-246dd13cb87e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="533" YCoordinate="71" />
+              <Coordinates XCoordinate="684" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="64497b95-e2f4-4430-a711-df29f0afa92d" From="2bfd5ad8-57f3-45ac-8751-246dd13cb87e" To="b1fc5f6c-6533-40e1-b9be-713826a5b3c8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="774" YCoordinate="71" />
+              <Coordinates XCoordinate="834" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

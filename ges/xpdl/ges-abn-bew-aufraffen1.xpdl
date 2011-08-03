@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="5565286c-ffdc-437a-a96b-bfd6c3bfd9ee" Name="ges-abn-bew-aufraffen1" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-27T11:41:31.0040973+02:00</Created>
+    <ModificationDate>2011-07-01T09:29:14.875+02:00</ModificationDate>
+    <Description>ges-abn-bew-aufraffen1</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-24T11:38:06.5Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-01T07:29:14.875Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="83c851e2-d31e-40a0-ade1-bc50590ef1dc" Process="29bdb1f7-c15a-49c7-ade8-90822c63a326" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="cc66dcdd-e247-4617-9d08-69f4e38089c1" Name="Process 1" Process="d813313a-305b-4237-84fd-29f356f46536" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="647" Width="1381" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="40" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="29bdb1f7-c15a-49c7-ade8-90822c63a326" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-01T09:29:50.828125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="d813313a-305b-4237-84fd-29f356f46536" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-01T09:29:50.828125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="100260b5-587c-46a3-a71c-8dee58c81c73" Name="Aufraffen zum Sport 1">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="110" YCoordinate="198" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1660454c-1168-429c-baf6-fb092534fd42" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1308" YCoordinate="204" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="342c08f9-5950-4f22-b92b-dce7c346e6b1" Name="In welcher der beiden Situationen haben Sie die größten Schwierigkeiten, sich aufzuraffen?">
+          <Description>
+$Options:Out-Indoorsport("video":{"url":" DIC_AufraffenSport1_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+$Options:Out-Indoorsport("video":{"url":" DIC_AufraffenSport1_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="125" Width="89" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="320" YCoordinate="150.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5d5d470f-6b50-4038-87a3-8ff6788b0c99" Name="Ich mache Outdoorsport und kann mich manchmal einfach nicht überwinden.">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="62" Width="98" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="440" YCoordinate="139" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="cd32b27b-e02b-4f16-8685-f1092cd37aa7" Name="Ich trainiere im Fitnessstudio und habe manchmal einfach keine Lust, hin zu gehen.">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="65" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="441" YCoordinate="236" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="74a0d52d-c478-4750-a786-f37f4553f496" Name="Willkommen im Coaching &quot;Wie raffe ich mich zum Sport auf&quot;">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1_V1.flv","delay":45})
+
+In diesem Coaching zeigen wir Ihnen Tricks, wie Sie Ihren inneren Schweinehund in Bewegung bringen!
+Nehmen Sie sich für dieses Coaching ungefähr 20 Minuten Zeit.
+Viel Spaß!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1_V1.flv","delay":45})
+
+In diesem Coaching zeigen wir Ihnen Tricks, wie Sie Ihren inneren Schweinehund in Bewegung bringen!
+Nehmen Sie sich für dieses Coaching ungefähr 20 Minuten Zeit.
+Viel Spaß!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="70" Width="108" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="183" YCoordinate="178" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="31cf8345-9029-4c22-bcfe-68ec2560ea23" Name="Bereiten Sie sich vor!">
+          <Description>1. Stellen Sie sich die Sportsachen direkt vor das Bett! Geben Sie sich keine Zeit zu grübeln! Direkt ab in die Sportsachen und loslaufen! 
+2. Auch abends gilt: alles schon vorbereitet zu Hause stehen haben, sodass Sie schon über Ihre Sportsachen stolpern, sobald Sie zur Tür rein kommen! 
+
+Haben Sie morgens schon Sport gemacht, können Sie an diesem Tag Ihren Ernährungsplan entspannter angehen! 
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>1. Stellen Sie sich die Sportsachen direkt vor das Bett! Geben Sie sich keine Zeit zu grübeln! Direkt ab in die Sportsachen und loslaufen! 
+2. Auch abends gilt: alles schon vorbereitet zu Hause stehen haben, sodass Sie schon über Ihre Sportsachen stolpern, sobald Sie zur Tür rein kommen! 
+
+Haben Sie morgens schon Sport gemacht, können Sie an diesem Tag Ihren Ernährungsplan entspannter angehen! 
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="570" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e8b8ef5b-3460-4df1-b59b-2ce776f7e582" Name="Sport muss Spaß machen!">
+          <Description>Sie denken, Sie sollten joggen gehen, weil es viele Kalorien verbrennt, haben da aber eigentlich keine Lust zu?
+Dann lassen Sie es!!!
+Macht Ihnen Fahrradfahren oder Schwimmen viel mehr Spaß, dann entscheiden Sie sich unbedingt dafür!
+Suchen Sie sich Musik heraus, die Sie gerne hören und die einen schnellen Rhythmus hat. Mit dieser Musik auf den Ohren fällt es einem viel leichter die letzten 10 Minuten der Trainingseinheit noch einmal etwas Gas zu geben.
+Überlegen Sie sich, wie Sie sich belohnen können, wenn Sie fleißig alle Trainingseinheiten am Ende der Woche durchgehalten haben (Nein! Nicht mit Essen belohnen, sondern mit einem Kinobesuch zum Beispiel!).
+Mehr dazu in unserer kleinen Aufgabe für Sie, wenn Sie jetzt auf "weiter" klicken.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Sie denken, Sie sollten joggen gehen, weil es viele Kalorien verbrennt, haben da aber eigentlich keine Lust zu?
+Dann lassen Sie es!!!
+Macht Ihnen Fahrradfahren oder Schwimmen viel mehr Spaß, dann entscheiden Sie sich unbedingt dafür!
+Suchen Sie sich Musik heraus, die Sie gerne hören und die einen schnellen Rhythmus hat. Mit dieser Musik auf den Ohren fällt es einem viel leichter die letzten 10 Minuten der Trainingseinheit noch einmal etwas Gas zu geben.
+Überlegen Sie sich, wie Sie sich belohnen können, wenn Sie fleißig alle Trainingseinheiten am Ende der Woche durchgehalten haben (Nein! Nicht mit Essen belohnen, sondern mit einem Kinobesuch zum Beispiel!).
+Mehr dazu in unserer kleinen Aufgabe für Sie, wenn Sie jetzt auf "weiter" klicken.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="971" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="213e7d71-a04b-4850-a1af-0fa9357709f7" Name="Sport muss Spaß machen!">
+          <Description>Sie denken, Sie sollten joggen gehen, weil es viele Kalorien verbrennt, haben da aber eigentlich keine Lust zu?
+Dann lassen Sie es!!!
+Macht Ihnen Fahrradfahren oder Schwimmen viel mehr Spaß, dann entscheiden Sie sich unbedingt dafür!
+Suchen Sie sich Musik heraus, die Sie gerne hören und die einen schnellen Rhythmus hat. Mit dieser Musik auf den Ohren fällt es einem viel leichter die letzten 10 Minuten der Trainingseinheit noch einmal etwas Gas zu geben.
+Überlegen Sie sich, wie Sie sich belohnen können, wenn Sie fleißig alle Trainingseinheiten am Ende der Woche durchgehalten haben (Nein! Nicht mit Essen belohnen, sondern mit einem Kinobesuch zum Beispiel!).
+Mehr dazu in unserer kleinen Aufgabe für Sie, wenn Sie jetzt auf "weiter" klicken.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Sie denken, Sie sollten joggen gehen, weil es viele Kalorien verbrennt, haben da aber eigentlich keine Lust zu?
+Dann lassen Sie es!!!
+Macht Ihnen Fahrradfahren oder Schwimmen viel mehr Spaß, dann entscheiden Sie sich unbedingt dafür!
+Suchen Sie sich Musik heraus, die Sie gerne hören und die einen schnellen Rhythmus hat. Mit dieser Musik auf den Ohren fällt es einem viel leichter die letzten 10 Minuten der Trainingseinheit noch einmal etwas Gas zu geben.
+Überlegen Sie sich, wie Sie sich belohnen können, wenn Sie fleißig alle Trainingseinheiten am Ende der Woche durchgehalten haben (Nein! Nicht mit Essen belohnen, sondern mit einem Kinobesuch zum Beispiel!).
+Mehr dazu in unserer kleinen Aufgabe für Sie, wenn Sie jetzt auf "weiter" klicken.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="960" YCoordinate="337" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="db9a59ae-d2d4-4544-bc5f-254fdb029342" Name="">
+          <Description>$Video("video":{"url":"DIC_AufraffenSport1_V6.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_AufraffenSport1_V6.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1149" YCoordinate="190" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e494aee7-e8e6-46a5-83b8-7f7d09fba317" Name="Suchen Sie sich einen Trainingspartner!">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1B_V1.flv","delay":20})
+
+Motivationstricks für Sie und Ihren Trainingspartner:
+
+1. Nehmen Sie die Turnschuhe des Anderen mit nach Hause. So müssen Sie zur nächsten Trainingseinheit, denn Sie wollen Ihren Trainingspartner doch nicht ohne Schuhe dastehen lassen oder? 
+2. Wollen Sie wirklich Kalorien zählen müssen? Mit einer Sporteinheit müssen Sie es an dem Tag nicht so ganz genau nehmen! 
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1B_V1.flv","delay":20})
+
+Motivationstricks für Sie und Ihren Trainingspartner:
+
+1. Nehmen Sie die Turnschuhe des Anderen mit nach Hause. So müssen Sie zur nächsten Trainingseinheit, denn Sie wollen Ihren Trainingspartner doch nicht ohne Schuhe dastehen lassen oder? 
+2. Wollen Sie wirklich Kalorien zählen müssen? Mit einer Sporteinheit müssen Sie es an dem Tag nicht so ganz genau nehmen! 
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="107" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="533" YCoordinate="337" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="cc0beb89-393a-4ffd-94c1-ac5c614361eb" Name="Sie gehören zu den Wenigen, die bereit sind Sport zu machen, sehr gut!">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1_V7.flv","delay":45})
+
+Sport genießen - das geht nicht?
+Doch, das geht sehrwohl!
+Die ersten Trainingseinheiten sind immer erst anstrengend und kosten Überwindung, aber nach und nach wird es leichter!
+Spätestens in der dritten Woche wird es Ihnen das erste Mal richtig Spaß machen und werden Sie das Körpergefühl nach dem Sport so richtig genießen können! (sek 45)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1_V7.flv","delay":45})
+
+Sport genießen - das geht nicht?
+Doch, das geht sehrwohl!
+Die ersten Trainingseinheiten sind immer erst anstrengend und kosten Überwindung, aber nach und nach wird es leichter!
+Spätestens in der dritten Woche wird es Ihnen das erste Mal richtig Spaß machen und werden Sie das Körpergefühl nach dem Sport so richtig genießen können! (sek 45)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="56" Width="137" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="690" YCoordinate="43" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8bb029ab-41aa-4716-8834-f2737eb3de77" Name="Was kann meine Trainingseinheit für mich sein:">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1_V8.flv","delay":6})
+
+- ein guter Start in den Tag 
+- sie unterstützt beim Abnehmen 
+- es ist Zeit, die Sie für sich und Ihre Gesundheit nehmen 
+- Sie macht mich fit und attraktiv für Aktivitäten mit Freunden oder Familie 
+
+Die Gründe reichen Ihnen nicht in jeder Situation? Dann schaffen Sie sich zusätzliche Belohnungen. 
+
+Suchen Sie sich einen Trainingspartner! 
+
+Tragen Sie Ihre Trainingseinheiten wie einen wichtigen Termin rot in Ihren Kalender ein! 
+
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1_V8.flv","delay":6})
+
+- ein guter Start in den Tag 
+- sie unterstützt beim Abnehmen 
+- es ist Zeit, die Sie für sich und Ihre Gesundheit nehmen 
+- Sie macht mich fit und attraktiv für Aktivitäten mit Freunden oder Familie 
+
+Die Gründe reichen Ihnen nicht in jeder Situation? Dann schaffen Sie sich zusätzliche Belohnungen. 
+
+Suchen Sie sich einen Trainingspartner! 
+
+Tragen Sie Ihre Trainingseinheiten wie einen wichtigen Termin rot in Ihren Kalender ein! 
+
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="856" YCoordinate="41" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bf1d86d3-28e0-4217-9a84-31d5c943d59a" Name="Aufgabe zum Coaching &quot;Aufraffen zum Sport 1&quot;">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1_V4.flv","delay":36})
+
+Stellen Sie Ihre persönliche Top 5 der besten Motivationstricks auf.
+Welche helfen Ihnen am besten. sich zum Sport aufzuraffen?</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1_V4.flv","delay":36})
+
+Stellen Sie Ihre persönliche Top 5 der besten Motivationstricks auf.
+Welche helfen Ihnen am besten. sich zum Sport aufzuraffen?</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1032" YCoordinate="190" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0ca7a800-948b-4404-ab36-630d1cf29b19" Name="Was kann meine Trainingseinheit für mich sein:">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1_V8.flv","delay":6})
+
+- ein guter Start in den Tag 
+- sie unterstützt beim Abnehmen 
+- es ist Zeit, die Sie für sich und Ihre Gesundheit nehmen 
+- Sie macht mich fit und attraktiv für Aktivitäten mit Freunden oder Familie 
+
+Die Gründe reichen Ihnen nicht in jeder Situation? Dann schaffen Sie sich zusätzliche Belohnungen. 
+
+Suchen Sie sich einen Trainingspartner! 
+
+Tragen Sie Ihre Trainingseinheiten wie einen wichtigen Termin rot in Ihren Kalender ein! 
+
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1_V8.flv","delay":6})
+
+- ein guter Start in den Tag 
+- sie unterstützt beim Abnehmen 
+- es ist Zeit, die Sie für sich und Ihre Gesundheit nehmen 
+- Sie macht mich fit und attraktiv für Aktivitäten mit Freunden oder Familie 
+
+Die Gründe reichen Ihnen nicht in jeder Situation? Dann schaffen Sie sich zusätzliche Belohnungen. 
+
+Suchen Sie sich einen Trainingspartner! 
+
+Tragen Sie Ihre Trainingseinheiten wie einen wichtigen Termin rot in Ihren Kalender ein! 
+
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="845" YCoordinate="337" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="833f1b45-bd21-405d-b801-4fcc3e4bfe97" Name="Sie gehören zu den Wenigen, die bereit sind Sport zu machen, sehr gut!">
+          <Description>$Text("video":{"url":"DIC_AufraffenSport1_V7.flv","delay":45})
+
+Sport genießen - das geht nicht?
+Doch, das geht sehrwohl!
+Die ersten Trainingseinheiten sind immer erst anstrengend und kosten Überwindung, aber nach und nach wird es leichter!
+Spätestens in der dritten Woche wird es Ihnen das erste Mal richtig Spaß machen und werden Sie das Körpergefühl nach dem Sport so richtig genießen können! </Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"DIC_AufraffenSport1_V7.flv","delay":45})
+
+Sport genießen - das geht nicht?
+Doch, das geht sehrwohl!
+Die ersten Trainingseinheiten sind immer erst anstrengend und kosten Überwindung, aber nach und nach wird es leichter!
+Spätestens in der dritten Woche wird es Ihnen das erste Mal richtig Spaß machen und werden Sie das Körpergefühl nach dem Sport so richtig genießen können! </Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="63" Width="117" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="679" YCoordinate="335.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="9b32dc9d-fb1f-4cd8-9f95-adff1a99e6e8" From="342c08f9-5950-4f22-b92b-dce7c346e6b1" To="5d5d470f-6b50-4038-87a3-8ff6788b0c99" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="409" YCoordinate="212" />
+              <Coordinates XCoordinate="422.5" YCoordinate="212" />
+              <Coordinates XCoordinate="422.5" YCoordinate="170" />
+              <Coordinates XCoordinate="440" YCoordinate="170" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="579a602a-e204-4ee6-aeb3-291b747a819a" From="342c08f9-5950-4f22-b92b-dce7c346e6b1" To="cd32b27b-e02b-4f16-8685-f1092cd37aa7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="409" YCoordinate="212" />
+              <Coordinates XCoordinate="422.5" YCoordinate="212" />
+              <Coordinates XCoordinate="422.5" YCoordinate="268" />
+              <Coordinates XCoordinate="441" YCoordinate="268" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="98ba25bd-95aa-4a90-b819-1ef48e458a00" From="100260b5-587c-46a3-a71c-8dee58c81c73" To="74a0d52d-c478-4750-a786-f37f4553f496" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="140" YCoordinate="213" />
+              <Coordinates XCoordinate="183" YCoordinate="213" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="28cc3ba3-65e4-401c-92d9-13045fcef92f" From="74a0d52d-c478-4750-a786-f37f4553f496" To="342c08f9-5950-4f22-b92b-dce7c346e6b1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="291" YCoordinate="213" />
+              <Coordinates XCoordinate="305.5" YCoordinate="213" />
+              <Coordinates XCoordinate="305.5" YCoordinate="212" />
+              <Coordinates XCoordinate="320" YCoordinate="212" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1dead394-9e74-4a3c-8090-265d1e5bc4ff" From="5d5d470f-6b50-4038-87a3-8ff6788b0c99" To="31cf8345-9029-4c22-bcfe-68ec2560ea23" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="538" YCoordinate="170" />
+              <Coordinates XCoordinate="554" YCoordinate="170" />
+              <Coordinates XCoordinate="554" YCoordinate="71" />
+              <Coordinates XCoordinate="570" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="dac53f51-0ae4-4809-af0d-9cd2b17db30b" From="31cf8345-9029-4c22-bcfe-68ec2560ea23" To="cc0beb89-393a-4ffd-94c1-ac5c614361eb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="660" YCoordinate="71" />
+              <Coordinates XCoordinate="690" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="30a6f99a-3f92-4a14-96e7-69ba031700a1" From="cc0beb89-393a-4ffd-94c1-ac5c614361eb" To="8bb029ab-41aa-4716-8834-f2737eb3de77" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="827" YCoordinate="71" />
+              <Coordinates XCoordinate="856" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="460c922f-303a-4183-a197-a2f4eb9a5cdd" From="cd32b27b-e02b-4f16-8685-f1092cd37aa7" To="e494aee7-e8e6-46a5-83b8-7f7d09fba317" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="489" YCoordinate="301" />
+              <Coordinates XCoordinate="489" YCoordinate="319" />
+              <Coordinates XCoordinate="586" YCoordinate="319" />
+              <Coordinates XCoordinate="586" YCoordinate="337" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="29627d83-8002-4dc4-84ff-53ac66d64157" From="e494aee7-e8e6-46a5-83b8-7f7d09fba317" To="833f1b45-bd21-405d-b801-4fcc3e4bfe97" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="640" YCoordinate="367" />
+              <Coordinates XCoordinate="659.5" YCoordinate="367" />
+              <Coordinates XCoordinate="659.5" YCoordinate="366" />
+              <Coordinates XCoordinate="679" YCoordinate="366" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="919cd861-348f-4bea-bdc3-e1a9110aab89" From="833f1b45-bd21-405d-b801-4fcc3e4bfe97" To="0ca7a800-948b-4404-ab36-630d1cf29b19" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="796" YCoordinate="366" />
+              <Coordinates XCoordinate="820.5" YCoordinate="366" />
+              <Coordinates XCoordinate="820.5" YCoordinate="367" />
+              <Coordinates XCoordinate="845" YCoordinate="367" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7dd48ae0-8de0-4281-bf43-e2b3dc4df788" From="8bb029ab-41aa-4716-8834-f2737eb3de77" To="e8b8ef5b-3460-4df1-b59b-2ce776f7e582" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="946" YCoordinate="71" />
+              <Coordinates XCoordinate="971" YCoordinate="71" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d7acd7ab-5935-4c39-be10-bf8c1de86504" From="0ca7a800-948b-4404-ab36-630d1cf29b19" To="213e7d71-a04b-4850-a1af-0fa9357709f7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="935" YCoordinate="367" />
+              <Coordinates XCoordinate="960" YCoordinate="367" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9daf2651-e871-4e5f-9548-732eca7734f2" From="213e7d71-a04b-4850-a1af-0fa9357709f7" To="bf1d86d3-28e0-4217-9a84-31d5c943d59a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1005" YCoordinate="337" />
+              <Coordinates XCoordinate="1005" YCoordinate="294" />
+              <Coordinates XCoordinate="1077" YCoordinate="294" />
+              <Coordinates XCoordinate="1077" YCoordinate="250" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4e3f1615-3934-48e5-a5e5-359bf0aa6660" From="e8b8ef5b-3460-4df1-b59b-2ce776f7e582" To="bf1d86d3-28e0-4217-9a84-31d5c943d59a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1016" YCoordinate="101" />
+              <Coordinates XCoordinate="1016" YCoordinate="146" />
+              <Coordinates XCoordinate="1077" YCoordinate="146" />
+              <Coordinates XCoordinate="1077" YCoordinate="190" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="efbaae13-b971-4882-ac63-fdeb8df0ae78" From="bf1d86d3-28e0-4217-9a84-31d5c943d59a" To="db9a59ae-d2d4-4544-bc5f-254fdb029342" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1122" YCoordinate="220" />
+              <Coordinates XCoordinate="1149" YCoordinate="220" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="42259f4d-87ff-4616-b410-dde9106da848" From="db9a59ae-d2d4-4544-bc5f-254fdb029342" To="1660454c-1168-429c-baf6-fb092534fd42" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1239" YCoordinate="220" />
+              <Coordinates XCoordinate="1273.5" YCoordinate="220" />
+              <Coordinates XCoordinate="1273.5" YCoordinate="219" />
+              <Coordinates XCoordinate="1308" YCoordinate="219" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

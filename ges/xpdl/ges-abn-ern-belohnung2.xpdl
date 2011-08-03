@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="5d5aaa2c-e3d3-42c0-9568-4665b73d773e" Name="ges-abn-ern-belohnung2" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-05-26T15:15:47.203125+02:00</Created>
+    <ModificationDate>2011-07-26T15:08:03.421875+02:00</ModificationDate>
+    <Description>ges-abn-ern-belohnung2</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-06-27T09:07:20.625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-05T12:43:33.828125Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-06T10:49:38.625Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-06T11:31:54.75Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-06T12:05:29.78125Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-26T13:08:03.421875Z" UserName="MAREN-FEHRLAGE_Asus" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="f3a55e77-3df3-44eb-b6da-9ae47cfb1ba0" Process="8d8f043e-1552-4524-be3e-87a5901bdd34" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="8a393677-5fd4-493c-a7d3-431e7933fd07" Name="Process 1" Process="1b0c3e84-3cde-457e-8d22-9818afcf95a8" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="503" Width="865" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="40" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="8d8f043e-1552-4524-be3e-87a5901bdd34" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-07-26T15:08:42.40625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="1b0c3e84-3cde-457e-8d22-9818afcf95a8" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-07-26T15:08:42.40625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="9561c980-2506-4f35-87d6-999cc90c4b35" Name="Essen als Belohnung II">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="114" YCoordinate="118.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c106ae89-d7fb-4a0c-817c-ba3fe7b58450" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="609" YCoordinate="213" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2c871f85-0ec3-44cc-a3a5-79a5b6f45c41" Name="">
+          <Description>$Video("video":{"url":"DIC_EssenBelohnung2_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_EssenBelohnung2_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="49" Width="50" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="467" YCoordinate="109" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7bd8d8e4-690a-4663-a75b-a6b1da7a1953" Name="">
+          <Description>$Video("video":{"url":"DIC_EssenBelohnung2_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_EssenBelohnung2_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="50" Width="47" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="580" YCoordinate="108.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c4dabeb7-f3d3-488d-8c84-b5956a5e117c" Name="Was kann ich tun, wenn ich mich mit Essen belohnen will?">
+          <Description>$BulletPoints("video":{"url":"DIC_EssenBelohnung2_V4.flv"},"elements":[{"element":"Denken Sie an Ihr Ziel. ","second":29},{"element":"Raus aus der Situation. ","second":38},{"element":"Gesunde Alternativen. ","second":104},{"element":"Machen Sie sich einen Plan und seien Sie vorbereitet. ","second":203}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$BulletPoints("video":{"url":"DIC_EssenBelohnung2_V4.flv"},"elements":[{"element":"Denken Sie an Ihr Ziel. ","second":29},{"element":"Raus aus der Situation. ","second":38},{"element":"Gesunde Alternativen. ","second":104},{"element":"Machen Sie sich einen Plan und seien Sie vorbereitet. ","second":203}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="101" Width="124" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="691" YCoordinate="83" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="32cfe141-462c-41af-87a8-115b33963e47" Name="Essen als Belohnung 2">
+          <Description>$Text() 
+In diesem Coaching geht es uns darum, Ihnen konkrete Strategien an die Hand zu geben, wenn Sie das Gefühl haben, den Dickmachern nicht widerstehen zu können. Versuchen Sie in den nächsten Tagen einiges aus diesem Coaching mitzunehmen und umzusetzen.  
+Nehmen Sie sich für dieses Coaching "Essen als Belohnung2" ca. 15 Minuten Zeit.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text() 
+In diesem Coaching geht es uns darum, Ihnen konkrete Strategien an die Hand zu geben, wenn Sie das Gefühl haben, den Dickmachern nicht widerstehen zu können. Versuchen Sie in den nächsten Tagen einiges aus diesem Coaching mitzunehmen und umzusetzen.  
+Nehmen Sie sich für dieses Coaching "Essen als Belohnung2" ca. 15 Minuten Zeit.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="240" YCoordinate="103.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="365c2101-a6a4-4e5d-a458-04d7c35f1f57" Name="Aufgabe zum Coaching ">
+          <Description>$Text()
+Suchen Sie sich das aus, was für Sie am effektivsten ist und setzen Sie es um. 
+
+Haben Sie immer Ihr Ziel vor Augen!
+Gehen Sie raus aus der Situation, indem Sie einen Spaziergang machen, sich ein Bad einlassen oder telefonieren SIe mit einem guten Freund.
+Kaufen Sie so ein, dass Sie gesunde Alternativen im Kühlschrank haben. 
+Bereiten Sie sich auf solche Situationen vor
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Suchen Sie sich das aus, was für Sie am effektivsten ist und setzen Sie es um. 
+
+Haben Sie immer Ihr Ziel vor Augen!
+Gehen Sie raus aus der Situation, indem Sie einen Spaziergang machen, sich ein Bad einlassen oder telefonieren SIe mit einem guten Freund.
+Kaufen Sie so ein, dass Sie gesunde Alternativen im Kühlschrank haben. 
+Bereiten Sie sich auf solche Situationen vor
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="380" YCoordinate="198" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="57d5db00-7963-44ad-b161-850e43008043" Name="">
+          <Description>$Video("video":{"url":"DIC_EssenBelohnung2_V7.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"DIC_EssenBelohnung2_V7.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="50" Width="51" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="508" YCoordinate="203" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="491f6684-63e0-4b82-bdff-114917a0eb8a" From="2c871f85-0ec3-44cc-a3a5-79a5b6f45c41" To="7bd8d8e4-690a-4663-a75b-a6b1da7a1953" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="517" YCoordinate="133" />
+              <Coordinates XCoordinate="580" YCoordinate="133" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="21d4afb0-bb8d-4459-867f-ba6db6032ceb" From="7bd8d8e4-690a-4663-a75b-a6b1da7a1953" To="c4dabeb7-f3d3-488d-8c84-b5956a5e117c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="627" YCoordinate="133" />
+              <Coordinates XCoordinate="691" YCoordinate="133" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="56934fab-b41b-4de0-a9ab-7c54e617dda4" From="32cfe141-462c-41af-87a8-115b33963e47" To="2c871f85-0ec3-44cc-a3a5-79a5b6f45c41" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="330" YCoordinate="133" />
+              <Coordinates XCoordinate="467" YCoordinate="133" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="17805b2b-af8b-4d26-876d-17bf7481cc2f" From="c4dabeb7-f3d3-488d-8c84-b5956a5e117c" To="365c2101-a6a4-4e5d-a458-04d7c35f1f57" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="753" YCoordinate="184" />
+              <Coordinates XCoordinate="753" YCoordinate="191" />
+              <Coordinates XCoordinate="425" YCoordinate="191" />
+              <Coordinates XCoordinate="425" YCoordinate="198" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="83bcae5a-041d-44f5-a3b6-f50de22d776b" From="365c2101-a6a4-4e5d-a458-04d7c35f1f57" To="57d5db00-7963-44ad-b161-850e43008043" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="470" YCoordinate="228" />
+              <Coordinates XCoordinate="508" YCoordinate="228" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c2a0e902-307c-422c-a1f9-5d228f376182" From="57d5db00-7963-44ad-b161-850e43008043" To="c106ae89-d7fb-4a0c-817c-ba3fe7b58450" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="559" YCoordinate="228" />
+              <Coordinates XCoordinate="609" YCoordinate="228" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fddde9a9-607d-4855-9493-863656f7e71d" From="9561c980-2506-4f35-87d6-999cc90c4b35" To="32cfe141-462c-41af-87a8-115b33963e47" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="144" YCoordinate="133" />
+              <Coordinates XCoordinate="240" YCoordinate="133" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
