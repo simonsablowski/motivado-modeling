@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T17:15:10.0732421+02:00</Created>
-    <ModificationDate>2011-08-01T17:33:20.4199546+02:00</ModificationDate>
+    <ModificationDate>2011-08-05T12:55:06.6542968+02:00</ModificationDate>
     <Description>bez-super-rueberk</Description>
     <Documentation />
     <Modifications>
@@ -16,6 +16,11 @@
       <Modification Date="2011-08-01T14:55:56.4826087Z" UserName="FLEX-DEV-PC_FlexDev" />
       <Modification Date="2011-08-01T15:15:47.3837244Z" UserName="FLEX-DEV-PC_FlexDev" />
       <Modification Date="2011-08-01T15:33:20.4199546Z" UserName="FLEX-DEV-PC_FlexDev" />
+      <Modification Date="2011-08-02T15:26:57.765625Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-05T09:50:00.8066406Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-05T10:10:23.7285156Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-05T10:34:08.4589843Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-05T10:54:56.5Z" UserName="MODELLIERUNG-PC_Modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -49,7 +54,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="f70642ca-226f-4027-bbfa-e26695f728b8" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-01T17:35:42.0950579+02:00</Created>
+        <Created>2011-08-05T12:55:15.7207031+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -64,7 +69,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="d24b5700-619a-45de-b8a2-ae4861b03279" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-01T17:35:42.0950579+02:00</Created>
+        <Created>2011-08-05T12:55:15.7207031+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -74,46 +79,6 @@
       </RedefinableHeader>
       <ActivitySets />
       <Activities>
-        <Activity Id="07c898ab-9cc2-4bb8-81fe-9be0f81416ef" Name="Streichen Sie die gefundenen Glaubenssätze auf Ihrem Papier dick durch! Und schreiben Sie positive, wie zum Beispiel in dem Video, jeweils daneben!">
-          <Description>REL_BesserRueb_V10.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_BesserRueb_V10.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="120" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1317" YCoordinate="218" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="2b7dba77-8c71-48db-af32-aad1e6d924ee" Name="1. Aufgabe zum Coaching &quot;Besser rüber kommen&quot;: mit Bekannten mit Feedback">
-          <Description>Erzählen Sie die aufgepeppte Variante einem Freund oder Bekannten und Fragen nach Feedback, was gut kommt oder schlecht. Idealerweise natürlich jemand der das gleich Geschlecht wie Ihr Traumpartner hat.
-Fragen Sie dabei auch nach, ob es unterhaltsam ist, oder ob Sie den Gegenüber langweilen (weil zu lang, zu detailliert, zu kompliziert).
-Sind Ihre Emotionen rübergekommen?
-#task
-REL_BesserRueb_V22.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>Erzählen Sie die aufgepeppte Variante einem Freund oder Bekannten und Fragen nach Feedback, was gut kommt oder schlecht. Idealerweise natürlich jemand der das gleich Geschlecht wie Ihr Traumpartner hat.
-Fragen Sie dabei auch nach, ob es unterhaltsam ist, oder ob Sie den Gegenüber langweilen (weil zu lang, zu detailliert, zu kompliziert).
-Sind Ihre Emotionen rübergekommen?
-#task
-REL_BesserRueb_V22.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="221" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1436" YCoordinate="469" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="32049c6a-805f-4449-bf0b-3824f77922fc" Name="Zunächst ein paar kurze Fragen, um zu sehen, wie wichtig das Coaching &quot;Besser rüberkommen&quot; für Sie ist.">
           <Description>REL_QuestTree_V89A.flv</Description>
           <Implementation>
@@ -155,19 +120,6 @@ REL_BesserRueb_V22.flv</Documentation>
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="522" YCoordinate="348" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="47ee82e3-ecf4-43c6-9b6d-6344d171e100" Name="Einleitungssätze">
-          <Description>REL_BesserRueb_V19.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_BesserRueb_V19.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="944" YCoordinate="548" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -217,19 +169,6 @@ REL_BesserRueb_V22.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="5a8265b7-0652-4cee-82f6-1ee01b90ad5d" Name="Framing">
-          <Description>REL_BesserRueb_V20.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_BesserRueb_V20.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="1091" YCoordinate="548" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="9c26fb1b-90f2-4eb0-afa2-f5a9de492cb1" Name="Ja">
           <Description />
           <Implementation>
@@ -269,56 +208,6 @@ REL_BesserRueb_V22.flv</Documentation>
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="265" YCoordinate="270" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="f935c6d1-09cb-4e7a-978d-76153f7836cd" Name="Bauen Sie Dinge ein, über die Sie sich wundern.">
-          <Description>REL_BesserRueb_V17.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_BesserRueb_V17.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="110" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="693" YCoordinate="473" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="02d32e4d-45d9-40cb-93b6-1e8a1705b89f" Name="Was sind Ihre Stärken, Hobbies?">
-          <Description>Teil A) Das Futter
-Sammeln Sie in einer Liste:
- 1.) Was können Sie besonders gut?
- 2.) Was sind Ihre Hobbies?
- 3.) Was haben Sie Besonderes erlebt (schönster Urlaub etc.)
- 4.) Ihre schlimmsten Feste und Parties 
- 5.) Besondere Erkenntnisse
- 6.) Sonstiges, dass Ihnen einfällt.
-
-REL_BesserRueb_V11.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>Teil A) Das Futter
-Sammeln Sie in einer Liste:
- 1.) Was können Sie besonders gut?
- 2.) Was sind Ihre Hobbies?
- 3.) Was haben Sie Besonderes erlebt (schönster Urlaub etc.)
- 4.) Ihre schlimmsten Feste und Parties 
- 5.) Besondere Erkenntnisse
- 6.) Sonstiges, dass Ihnen einfällt.
-
-REL_BesserRueb_V11.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="74" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1475" YCoordinate="218" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -366,19 +255,6 @@ REL_BesserRueb_V11.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="0a24a17b-2da7-4ca0-a39d-9626cdd15989" Name="Fragen und Zuhören">
-          <Description>REL_BesserRueb_V21.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_BesserRueb_V21.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="1235" YCoordinate="548" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="abb1de26-343f-47cc-9ea2-5b65019beb81" Name="">
           <Description />
           <Event>
@@ -388,7 +264,7 @@ REL_BesserRueb_V11.flv</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
-              <Coordinates XCoordinate="600" YCoordinate="293" />
+              <Coordinates XCoordinate="124" YCoordinate="69" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -403,35 +279,6 @@ REL_BesserRueb_V11.flv</Documentation>
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="396" YCoordinate="278" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="af4958a9-2fdc-4a45-822f-8cba22cede3b" Name="Aktives Zuhören">
-          <Description>REL_BesserRueb_V18.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_BesserRueb_V18.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="830" YCoordinate="548" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="c3dc19b5-d3d2-4814-9edc-3c79e21e335c" Name="Dieses Coaching nochmals machen?">
-          <Description>REL_QuestTree_V88.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_QuestTree_V88.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="282" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
-              <Coordinates XCoordinate="1751" YCoordinate="820" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -451,20 +298,6 @@ REL_BesserRueb_V11.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="700e8357-5a31-4da7-865d-aa47e8be1f2c" Name="Coaching wiederholen">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2094" YCoordinate="892" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="4b309fe3-740e-4805-86ae-948f02ec9b69" Name="Nein.">
           <Description />
           <Implementation>
@@ -476,66 +309,6 @@ REL_BesserRueb_V11.flv</Documentation>
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="468" YCoordinate="1042" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="373bf82b-0e44-4de3-90a9-d1a55af5c30b" Name="Gratulation, ,Sie haben das Coaching &quot;Besser rüberkommen&quot; durchlaufen.">
-          <Description>REL_BesserRueb_V23.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_BesserRueb_V23.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="41" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
-              <Coordinates XCoordinate="2059" YCoordinate="811" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="36f3c55d-99e7-494d-bdab-b97e6596ddb9" Name="Nein.">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="34" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1843.5" YCoordinate="918" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="afcc8b2b-d705-45a5-a4b9-945471015422" Name="Zum nächsten Coaching">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2226" YCoordinate="920" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="a24bb657-61e3-4085-ab57-98165e40bdd0" Name="Wie haben Sie die Schwierigkeit gelöst?">
-          <Description>REL_BesserRueb_V15.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_BesserRueb_V15.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2035" YCoordinate="220" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -553,36 +326,6 @@ REL_BesserRueb_V11.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="9d7910b6-e8e3-4801-bad1-a7edd71adf8e" Name="Ja.">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1590" YCoordinate="820" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="700eba41-8985-4add-9efc-6392098d2b65" Name="Bauen Sie Freunde, Kollegen, Bekannte in der Geschichte ein.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2158" YCoordinate="220" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="e1c28ef1-ba5f-4f97-8490-17184e92504a" Name="Ja.">
           <Description />
           <Implementation>
@@ -593,67 +336,7 @@ REL_BesserRueb_V11.flv</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2161" YCoordinate="725" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="a370636f-2471-433c-9957-bf912ed9b0cc" Name="Welchen Freunden oder Familienmitgliedern haben Sie dadurch geholfen? Oder mit wem Ihrer Freunde oder Familie haben Sie das erlebt?&#xA;&#xA;Schreiben Sie jeweils eine Anekdote in Stichworten dazu.">
-          <Description>REL_BesserRueb_V13.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_BesserRueb_V13.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="124" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1753" YCoordinate="220" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="50462d6d-406d-472d-b8ca-03e3a53efd43" Name="Unterstreichen Sie Ihre Top-3 Stärken, bzw. Hobbies">
-          <Description>Markieren Sie davon Ihre stärksten, sympathischsten Punkte. Jetzt machen wir sie nach der Regel auf dem Video spannend:
-Z.B. : Was waren Hindernisse, was war schwierig, selten, ungewöhnlich?
-Wie haben Sie diese Herausforderungen gelöst?
-Was hätte niemand erwartet?
-Wie haben Sie sich dabei gefühlt, was haben Sie dabei gelernt?
-REL_BesserRueb_V12.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>Markieren Sie davon Ihre stärksten, sympathischsten Punkte. Jetzt machen wir sie nach der Regel auf dem Video spannend:
-Z.B. : Was waren Hindernisse, was war schwierig, selten, ungewöhnlich?
-Wie haben Sie diese Herausforderungen gelöst?
-Was hätte niemand erwartet?
-Wie haben Sie sich dabei gefühlt, was haben Sie dabei gelernt?
-REL_BesserRueb_V12.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="114" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1596" YCoordinate="218" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="78eceda3-d793-470d-84b9-ae7bbf73ef37" Name="2. Aufgabe zum Coaching &quot;Besser rüberkommen&quot;: mit egal wem üben.">
-          <Description>Üben, üben, üben und zwar mit Jedem! Mit Nachbar, mit Kollegem, mit Männern und Frauen. Die Prinzipien sind immer dieselben.
-#task</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>Üben, üben, üben und zwar mit Jedem! Mit Nachbar, mit Kollegem, mit Männern und Frauen. Die Prinzipien sind immer dieselben.
-#task</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1753" YCoordinate="469" />
+              <Coordinates XCoordinate="2183" YCoordinate="702" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -667,23 +350,7 @@ REL_BesserRueb_V12.flv</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1843.5" YCoordinate="745" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="9e44b10b-0aec-41c5-a01f-976ec1720ce6" Name="Was war herausfordernd, schwierig bei dieser Anekdote?">
-          <Description>REL_BesserRueb_V14.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_BesserRueb_V14.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="98" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1906" YCoordinate="220" />
+              <Coordinates XCoordinate="1855" YCoordinate="702" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -703,40 +370,8 @@ REL_BesserRueb_V12.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="c09b93b8-b1f4-462a-ba2c-46af363f124b" Name="">
-          <Description />
-          <Event>
-            <EndEvent />
-          </Event>
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
-              <Coordinates XCoordinate="348.15789794921875" YCoordinate="85" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="0c6fd7df-a0f8-4167-9f43-726c9df5930f" Name="Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. &#xD;&#xA;Sie erreichen uns unter der kostenfreien Rufnummer 0800 909 5 909 und unter service@motivado.de.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="201.05262756347656" YCoordinate="70" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="77d73253-5079-40da-ab60-bf9b1e897d44" Name="">
+        <Activity Id="77d73253-5079-40da-ab60-bf9b1e897d44" Name="Nehmen Sie sich vor, dass Sie in Zukunft so rüberkommen: #rel_rueberk_ziel|'Sie haben kein Ziel angegeben - Bitte gehen Sie zurück und holen Sie es nach!'">
           <Description>$Text("video":{"url":"REL_BesserRueb_V7.flv"})
-Nehmen Sie sich vor, dass Sie in Zukunft so rüberkommen: #rel_rueberk_ziel|'Sie haben kein Ziel angegeben. Bitte gehen Sie zurück und holen Sie es nach!'. 
 
 Hier von uns jetzt das Coaching, das Sie dabei unterstützen sollte.</Description>
           <Implementation>
@@ -746,37 +381,33 @@ Hier von uns jetzt das Coaching, das Sie dabei unterstützen sollte.</Descriptio
           </Implementation>
           <Performers />
           <Documentation>$Text("video":{"url":"REL_BesserRueb_V7.flv"})
-Nehmen Sie sich vor, dass Sie in Zukunft so rüberkommen: #rel_rueberk_ziel|'Sie haben kein Ziel angegeben. Bitte gehen Sie zurück und holen Sie es nach!'. 
 
 Hier von uns jetzt das Coaching, das Sie dabei unterstützen sollte.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="820" YCoordinate="218" />
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="44" Width="127" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="359" YCoordinate="93" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="0575ebb5-e598-4aa0-ae9e-a9a42f801a7b" Name="Wen kennen Sie, dem Sie stundenlang zuhören können?">
-          <Description>$List:rel_rueberk_vorbilder("items":3,"video":{"url":"REL_BesserRueb_V8.flv","delay":44})
-</Description>
+          <Description>$List:rel_rueberk_vorbilder("items":3,"video":{"url":"REL_BesserRueb_V8.flv","delay":44})</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$List:rel_rueberk_vorbilder("items":3,"video":{"url":"REL_BesserRueb_V8.flv","delay":44})
-</Documentation>
+          <Documentation>$List:rel_rueberk_vorbilder("items":3,"video":{"url":"REL_BesserRueb_V8.flv","delay":44})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="960" YCoordinate="218" />
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="84" Width="161" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="549" YCoordinate="73" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="6e965744-3470-491f-9059-40643118f932" Name="">
+        <Activity Id="6e965744-3470-491f-9059-40643118f932" Name="Jeder kann es lernen, d.h. auch Sie. Sie können es! Mit Übung und Lust auf das Ergebnis macht es Spaß!">
           <Description>$TextArea("video":{"url":"REL_BesserRueb_V9.flv","delay":28})
-Jeder kann es lernen, d.h. auch Sie. Sie können es! Mit Übung und Lust auf das Ergebnis macht es Spaß!
 
 Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch den Kopf gehen.</Description>
           <Implementation>
@@ -786,13 +417,12 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           </Implementation>
           <Performers />
           <Documentation>$TextArea("video":{"url":"REL_BesserRueb_V9.flv","delay":28})
-Jeder kann es lernen, d.h. auch Sie. Sie können es! Mit Übung und Lust auf das Ergebnis macht es Spaß!
 
 Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch den Kopf gehen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="91" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1120" YCoordinate="218" />
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="70" Width="120" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="765" YCoordinate="80" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -808,7 +438,314 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="680" YCoordinate="278" />
+              <Coordinates XCoordinate="226" YCoordinate="85" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d09c2cf0-b074-4cda-9ecc-a90ca2adef60" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="2270" YCoordinate="977" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4359d11e-fe34-4fe9-9f7b-f37e735ed34e" Name="Aktives Zuhören">
+          <Description>$Video("video":{"url":"REL_BesserRueb_V18.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_BesserRueb_V18.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="822" YCoordinate="533" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="02d32e4d-45d9-40cb-93b6-1e8a1705b89f" Name="Was sind Ihre Stärken, Hobbies?">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V11.flv"})
+Teil A) Das Futter
+Sammeln Sie in einer Liste:
+ 1.) Was können Sie besonders gut?
+ 2.) Was sind Ihre Hobbies?
+ 3.) Was haben Sie Besonderes erlebt (schönster Urlaub etc.)
+ 4.) Ihre schlimmsten Feste und Parties 
+ 5.) Besondere Erkenntnisse
+ 6.) Sonstiges, dass Ihnen einfällt.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V11.flv"})
+Teil A) Das Futter
+Sammeln Sie in einer Liste:
+ 1.) Was können Sie besonders gut?
+ 2.) Was sind Ihre Hobbies?
+ 3.) Was haben Sie Besonderes erlebt (schönster Urlaub etc.)
+ 4.) Ihre schlimmsten Feste und Parties 
+ 5.) Besondere Erkenntnisse
+ 6.) Sonstiges, dass Ihnen einfällt.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="74" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1192" YCoordinate="66" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="07c898ab-9cc2-4bb8-81fe-9be0f81416ef" Name="Streichen Sie die gefundenen Glaubenssätze auf Ihrem Papier dick durch! Und schreiben Sie positive, wie zum Beispiel in dem Video, jeweils daneben!">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V10.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V10.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="120" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1000" YCoordinate="66" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="50462d6d-406d-472d-b8ca-03e3a53efd43" Name="Unterstreichen Sie Ihre Top-3 Stärken, bzw. Hobbies">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V12.flv"})
+Markieren Sie davon Ihre stärksten, sympathischsten Punkte. Jetzt machen wir sie nach der Regel auf dem Video spannend:
+Z.B. : Was waren Hindernisse, was war schwierig, selten, ungewöhnlich?
+Wie haben Sie diese Herausforderungen gelöst?
+Was hätte niemand erwartet?
+Wie haben Sie sich dabei gefühlt, was haben Sie dabei gelernt?</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V12.flv"})
+Markieren Sie davon Ihre stärksten, sympathischsten Punkte. Jetzt machen wir sie nach der Regel auf dem Video spannend:
+Z.B. : Was waren Hindernisse, was war schwierig, selten, ungewöhnlich?
+Wie haben Sie diese Herausforderungen gelöst?
+Was hätte niemand erwartet?
+Wie haben Sie sich dabei gefühlt, was haben Sie dabei gelernt?</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="114" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1349" YCoordinate="66" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3f5335ab-f68c-49f5-9ee8-4ee00f0aaaba" Name="Einleitungs sätze">
+          <Description>$Video("video":{"url":"REL_BesserRueb_V19.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_BesserRueb_V19.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="960" YCoordinate="533" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a370636f-2471-433c-9957-bf912ed9b0cc" Name="Welchen Freunden oder Familienmitgliedern haben Sie dadurch geholfen? Oder mit wem Ihrer Freunde oder Familie haben Sie das erlebt?&#xA;&#xA;Schreiben Sie jeweils eine Anekdote in Stichworten dazu.">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V13.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V13.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="124" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1648" YCoordinate="66" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9e44b10b-0aec-41c5-a01f-976ec1720ce6" Name="Was war herausfordernd, schwierig bei dieser Anekdote?">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V14.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V14.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="98" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1885" YCoordinate="66" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a24bb657-61e3-4085-ab57-98165e40bdd0" Name="Wie haben Sie die Schwierigkeit gelöst?">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V15.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V15.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2032" YCoordinate="66" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="700eba41-8985-4add-9efc-6392098d2b65" Name="Bauen Sie Freunde, Kollegen, Bekannte in der Geschichte ein.">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V16.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V16.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2158" YCoordinate="220" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f935c6d1-09cb-4e7a-978d-76153f7836cd" Name="Bauen Sie Dinge ein, über die Sie sich wundern.">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V17.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V17.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="110" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="693" YCoordinate="473" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2b7dba77-8c71-48db-af32-aad1e6d924ee" Name="1. Aufgabe zum Coaching &quot;Besser rüber kommen&quot;: Feedback von Bekannten">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V22.flv"})
+Erzählen Sie die aufgepeppte Variante einem Freund oder Bekannten und Fragen nach Feedback, was gut kommt oder schlecht. Idealerweise natürlich jemand, der das gleiche Geschlecht wie Ihr Traumpartner hat.
+Fragen Sie dabei auch nach, ob es unterhaltsam ist, oder ob Sie das Gegenüber langweilen (weil zu lang, zu detailliert, zu kompliziert).
+Sind Ihre Emotionen rübergekommen?
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V22.flv"})
+Erzählen Sie die aufgepeppte Variante einem Freund oder Bekannten und Fragen nach Feedback, was gut kommt oder schlecht. Idealerweise natürlich jemand, der das gleiche Geschlecht wie Ihr Traumpartner hat.
+Fragen Sie dabei auch nach, ob es unterhaltsam ist, oder ob Sie das Gegenüber langweilen (weil zu lang, zu detailliert, zu kompliziert).
+Sind Ihre Emotionen rübergekommen?
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="221" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1440" YCoordinate="469" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2edc7ee5-469b-4eda-8078-8c236359fecc" Name="Framing">
+          <Description>$Video("video":{"url":"REL_BesserRueb_V20.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_BesserRueb_V20.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1100" YCoordinate="533" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a897efbf-74dc-43ad-9ef4-ba18dd4cb71f" Name="Fragen und Zuhören">
+          <Description>$Video("video":{"url":"REL_BesserRueb_V21.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_BesserRueb_V21.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1250" YCoordinate="533" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="78eceda3-d793-470d-84b9-ae7bbf73ef37" Name="2. Aufgabe zum Coaching &quot;Besser rüberkommen&quot;: mit egal wem üben.">
+          <Description>$Text()
+Üben, üben, üben und zwar mit Jedem! Mit Nachbar, mit Kollegem, mit Männern und Frauen. Die Prinzipien sind immer dieselben.
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Üben, üben, üben und zwar mit Jedem! Mit Nachbar, mit Kollegem, mit Männern und Frauen. Die Prinzipien sind immer dieselben.
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="97" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1753" YCoordinate="469" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="007a597a-86d3-4086-8d7a-a10c3c467d72" Name="Mehr Selbstbewusstsein kommt nicht über Nacht. Wiederholen Sie das Coaching und die Übungen regelmäßig und Sie werden schon bald mit mehr Selbstbewusstsein auftreten.">
+          <Description>$Text()</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="94" Width="279" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1710" YCoordinate="795" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="373bf82b-0e44-4de3-90a9-d1a55af5c30b" Name="Gratulation, ,Sie haben das Coaching &quot;Besser rüberkommen&quot; durchlaufen.">
+          <Description>$Text("video":{"url":"REL_BesserRueb_V23.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_BesserRueb_V23.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="98" Width="169" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2147" YCoordinate="793" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -831,8 +768,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="770" YCoordinate="308" />
-              <Coordinates XCoordinate="820" YCoordinate="308" />
+              <Coordinates XCoordinate="316" YCoordinate="115" />
+              <Coordinates XCoordinate="359" YCoordinate="115" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -869,8 +806,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="360" YCoordinate="516" />
-              <Coordinates XCoordinate="360" YCoordinate="555" />
-              <Coordinates XCoordinate="318" YCoordinate="555" />
+              <Coordinates XCoordinate="360" YCoordinate="541.5" />
+              <Coordinates XCoordinate="318" YCoordinate="541.5" />
               <Coordinates XCoordinate="318" YCoordinate="587" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -913,17 +850,6 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="0b8b54c3-da71-4bf3-a1f9-6c267aee0f04" From="5a8265b7-0652-4cee-82f6-1ee01b90ad5d" To="0a24a17b-2da7-4ca0-a39d-9626cdd15989" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1121" YCoordinate="563" />
-              <Coordinates XCoordinate="1235" YCoordinate="563" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="b63814c3-e17d-47e8-aceb-a055f69cd74f" From="9585fbf7-337b-404c-bac9-610e03068a4a" To="a01fdc6b-19ce-46bc-b7b6-99358d877935" Name="">
           <Condition />
           <Description />
@@ -934,17 +860,6 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
               <Coordinates XCoordinate="206" YCoordinate="943" />
               <Coordinates XCoordinate="270" YCoordinate="943" />
               <Coordinates XCoordinate="270" YCoordinate="1006" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="f7c70440-0eaf-4f8b-8d5f-6a29af17b865" From="af4958a9-2fdc-4a45-822f-8cba22cede3b" To="47ee82e3-ecf4-43c6-9b6d-6344d171e100" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="860" YCoordinate="563" />
-              <Coordinates XCoordinate="944" YCoordinate="563" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -974,27 +889,14 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="4c416401-281b-458c-8a66-6ceb814fa3ff" From="6e965744-3470-491f-9059-40643118f932" To="0c6fd7df-a0f8-4167-9f43-726c9df5930f" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1165" YCoordinate="218" />
-              <Coordinates XCoordinate="1165" YCoordinate="170" />
-              <Coordinates XCoordinate="246" YCoordinate="170" />
-              <Coordinates XCoordinate="246" YCoordinate="130" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="93ef03f8-fdf2-4fbb-a512-b3e84d12f963" From="07c898ab-9cc2-4bb8-81fe-9be0f81416ef" To="02d32e4d-45d9-40cb-93b6-1e8a1705b89f" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1437" YCoordinate="308" />
-              <Coordinates XCoordinate="1475" YCoordinate="308" />
+              <Coordinates XCoordinate="1120" YCoordinate="156" />
+              <Coordinates XCoordinate="1192" YCoordinate="156" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1056,30 +958,19 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="917" YCoordinate="308" />
-              <Coordinates XCoordinate="960" YCoordinate="308" />
+              <Coordinates XCoordinate="486" YCoordinate="115" />
+              <Coordinates XCoordinate="549" YCoordinate="115" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="31c4d8c4-86b1-49ba-942a-abec8c467b68" From="47ee82e3-ecf4-43c6-9b6d-6344d171e100" To="5a8265b7-0652-4cee-82f6-1ee01b90ad5d" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="974" YCoordinate="563" />
-              <Coordinates XCoordinate="1091" YCoordinate="563" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="7d616c90-11c8-4202-a6ff-fcaa685a8412" From="f935c6d1-09cb-4e7a-978d-76153f7836cd" To="af4958a9-2fdc-4a45-822f-8cba22cede3b" Name="">
+        <Transition Id="7d616c90-11c8-4202-a6ff-fcaa685a8412" From="f935c6d1-09cb-4e7a-978d-76153f7836cd" To="4359d11e-fe34-4fe9-9f7b-f37e735ed34e" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="803" YCoordinate="563" />
-              <Coordinates XCoordinate="830" YCoordinate="563" />
+              <Coordinates XCoordinate="822" YCoordinate="563" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1102,8 +993,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1549" YCoordinate="308" />
-              <Coordinates XCoordinate="1596" YCoordinate="308" />
+              <Coordinates XCoordinate="1266" YCoordinate="156" />
+              <Coordinates XCoordinate="1349" YCoordinate="156" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1113,21 +1004,21 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1057" YCoordinate="308" />
-              <Coordinates XCoordinate="1120" YCoordinate="308" />
+              <Coordinates XCoordinate="710" YCoordinate="115" />
+              <Coordinates XCoordinate="765" YCoordinate="115" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="06c4d8fc-915f-437c-95f3-f080ff7ce409" From="0a24a17b-2da7-4ca0-a39d-9626cdd15989" To="2b7dba77-8c71-48db-af32-aad1e6d924ee" Name="">
+        <Transition Id="06c4d8fc-915f-437c-95f3-f080ff7ce409" From="a897efbf-74dc-43ad-9ef4-ba18dd4cb71f" To="2b7dba77-8c71-48db-af32-aad1e6d924ee" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1265" YCoordinate="563" />
-              <Coordinates XCoordinate="1371.5" YCoordinate="563" />
-              <Coordinates XCoordinate="1371.5" YCoordinate="559" />
-              <Coordinates XCoordinate="1436" YCoordinate="559" />
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="4">
+              <Coordinates XCoordinate="1340" YCoordinate="563" />
+              <Coordinates XCoordinate="1390" YCoordinate="563" />
+              <Coordinates XCoordinate="1390" YCoordinate="559" />
+              <Coordinates XCoordinate="1440" YCoordinate="559" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1137,10 +1028,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1710" YCoordinate="308" />
-              <Coordinates XCoordinate="1731.5" YCoordinate="308" />
-              <Coordinates XCoordinate="1731.5" YCoordinate="310" />
-              <Coordinates XCoordinate="1753" YCoordinate="310" />
+              <Coordinates XCoordinate="1463" YCoordinate="156" />
+              <Coordinates XCoordinate="1648" YCoordinate="156" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1150,21 +1039,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1657" YCoordinate="559" />
+              <Coordinates XCoordinate="1661" YCoordinate="559" />
               <Coordinates XCoordinate="1753" YCoordinate="559" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="181bf773-42d8-4458-aecb-40679bcfff14" From="373bf82b-0e44-4de3-90a9-d1a55af5c30b" To="700e8357-5a31-4da7-865d-aa47e8be1f2c" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2209" YCoordinate="852" />
-              <Coordinates XCoordinate="2209" YCoordinate="872" />
-              <Coordinates XCoordinate="2139" YCoordinate="872" />
-              <Coordinates XCoordinate="2139" YCoordinate="892" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1175,9 +1051,9 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2102" YCoordinate="587" />
-              <Coordinates XCoordinate="2102" YCoordinate="702.5" />
-              <Coordinates XCoordinate="1891" YCoordinate="702.5" />
-              <Coordinates XCoordinate="1891" YCoordinate="745" />
+              <Coordinates XCoordinate="2102" YCoordinate="644.5" />
+              <Coordinates XCoordinate="1903" YCoordinate="644.5" />
+              <Coordinates XCoordinate="1903" YCoordinate="702" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1187,21 +1063,10 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2125" YCoordinate="310" />
+              <Coordinates XCoordinate="2122" YCoordinate="156" />
+              <Coordinates XCoordinate="2140" YCoordinate="156" />
+              <Coordinates XCoordinate="2140" YCoordinate="310" />
               <Coordinates XCoordinate="2158" YCoordinate="310" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="59b96d16-c3cd-454e-b27d-cadc18b59b59" From="c3dc19b5-d3d2-4814-9edc-3c79e21e335c" To="9d7910b6-e8e3-4801-bad1-a7edd71adf8e" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="14">
-              <Coordinates XCoordinate="1751" YCoordinate="829" />
-              <Coordinates XCoordinate="1726" YCoordinate="829" />
-              <Coordinates XCoordinate="1726" YCoordinate="835" />
-              <Coordinates XCoordinate="1687" YCoordinate="835" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1211,8 +1076,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2209" YCoordinate="755" />
-              <Coordinates XCoordinate="2209" YCoordinate="811" />
+              <Coordinates XCoordinate="2231" YCoordinate="732" />
+              <Coordinates XCoordinate="2231" YCoordinate="793" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1261,21 +1126,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2004" YCoordinate="310" />
-              <Coordinates XCoordinate="2035" YCoordinate="310" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="42cbc132-b321-4760-a903-0864a0386e95" From="c3dc19b5-d3d2-4814-9edc-3c79e21e335c" To="36f3c55d-99e7-494d-bdab-b97e6596ddb9" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1892" YCoordinate="850" />
-              <Coordinates XCoordinate="1892" YCoordinate="887" />
-              <Coordinates XCoordinate="1891" YCoordinate="887" />
-              <Coordinates XCoordinate="1891" YCoordinate="918" />
+              <Coordinates XCoordinate="1983" YCoordinate="156" />
+              <Coordinates XCoordinate="2032" YCoordinate="156" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1285,8 +1137,8 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1877" YCoordinate="310" />
-              <Coordinates XCoordinate="1906" YCoordinate="310" />
+              <Coordinates XCoordinate="1772" YCoordinate="156" />
+              <Coordinates XCoordinate="1885" YCoordinate="156" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1308,9 +1160,9 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2102" YCoordinate="587" />
-              <Coordinates XCoordinate="2102" YCoordinate="694.5" />
-              <Coordinates XCoordinate="2209" YCoordinate="694.5" />
-              <Coordinates XCoordinate="2209" YCoordinate="725" />
+              <Coordinates XCoordinate="2102" YCoordinate="637.5" />
+              <Coordinates XCoordinate="2231" YCoordinate="637.5" />
+              <Coordinates XCoordinate="2231" YCoordinate="702" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1328,51 +1180,99 @@ Halten Sie kurz fest, welche limitierenden Glaubenssätze Ihnen dennoch durch de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="587c0e36-a8e8-44ad-b976-6f4515029eaf" From="373bf82b-0e44-4de3-90a9-d1a55af5c30b" To="afcc8b2b-d705-45a5-a4b9-945471015422" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2209" YCoordinate="852" />
-              <Coordinates XCoordinate="2209" YCoordinate="890.5" />
-              <Coordinates XCoordinate="2271" YCoordinate="890.5" />
-              <Coordinates XCoordinate="2271" YCoordinate="920" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="11466793-b01b-4e6d-bdcc-03c345d4abd6" From="8ff924d8-43cb-4d79-a874-47dd869aa685" To="c3dc19b5-d3d2-4814-9edc-3c79e21e335c" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1891" YCoordinate="775" />
-              <Coordinates XCoordinate="1891" YCoordinate="795.5" />
-              <Coordinates XCoordinate="1892" YCoordinate="795.5" />
-              <Coordinates XCoordinate="1892" YCoordinate="820" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="d9e3516b-ed47-4629-a6f6-772702767981" From="0c6fd7df-a0f8-4167-9f43-726c9df5930f" To="c09b93b8-b1f4-462a-ba2c-46af363f124b" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="291" YCoordinate="100" />
-              <Coordinates XCoordinate="348" YCoordinate="100" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="84348ad6-c675-4000-9d30-2acc498887ec" From="abb1de26-343f-47cc-9ea2-5b65019beb81" To="59c6623d-162a-418a-a992-134c82950bb1" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="630" YCoordinate="308" />
-              <Coordinates XCoordinate="680" YCoordinate="308" />
+              <Coordinates XCoordinate="154" YCoordinate="84" />
+              <Coordinates XCoordinate="190" YCoordinate="84" />
+              <Coordinates XCoordinate="190" YCoordinate="115" />
+              <Coordinates XCoordinate="226" YCoordinate="115" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="87d77bc9-04f9-4203-8075-3c20f242ca8e" From="8ff924d8-43cb-4d79-a874-47dd869aa685" To="007a597a-86d3-4086-8d7a-a10c3c467d72" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1903" YCoordinate="732" />
+              <Coordinates XCoordinate="1903" YCoordinate="763.5" />
+              <Coordinates XCoordinate="1849" YCoordinate="763.5" />
+              <Coordinates XCoordinate="1849" YCoordinate="795" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ec2372eb-fe2f-419c-8b61-2a14d911a4c6" From="007a597a-86d3-4086-8d7a-a10c3c467d72" To="373bf82b-0e44-4de3-90a9-d1a55af5c30b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1989" YCoordinate="842" />
+              <Coordinates XCoordinate="2147" YCoordinate="842" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4736e723-6b93-42ab-97af-052e605b5db1" From="373bf82b-0e44-4de3-90a9-d1a55af5c30b" To="d09c2cf0-b074-4cda-9ecc-a90ca2adef60" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2231" YCoordinate="891" />
+              <Coordinates XCoordinate="2231" YCoordinate="934" />
+              <Coordinates XCoordinate="2285" YCoordinate="934" />
+              <Coordinates XCoordinate="2285" YCoordinate="977" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="86bb72cf-24cf-4e28-99be-ca86bf97dc9e" From="6e965744-3470-491f-9059-40643118f932" To="07c898ab-9cc2-4bb8-81fe-9be0f81416ef" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="885" YCoordinate="115" />
+              <Coordinates XCoordinate="959" YCoordinate="115" />
+              <Coordinates XCoordinate="959" YCoordinate="156" />
+              <Coordinates XCoordinate="1000" YCoordinate="156" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="dfc64f66-0ada-4783-b2cb-72546da52720" From="4359d11e-fe34-4fe9-9f7b-f37e735ed34e" To="3f5335ab-f68c-49f5-9ee8-4ee00f0aaaba" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="912" YCoordinate="563" />
+              <Coordinates XCoordinate="960" YCoordinate="563" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="25564754-e087-4e2f-9911-3a34a539378c" From="3f5335ab-f68c-49f5-9ee8-4ee00f0aaaba" To="2edc7ee5-469b-4eda-8078-8c236359fecc" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1050" YCoordinate="563" />
+              <Coordinates XCoordinate="1100" YCoordinate="563" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4ff1bc8f-e559-4ebf-87fa-bd3e0fe709ec" From="2edc7ee5-469b-4eda-8078-8c236359fecc" To="a897efbf-74dc-43ad-9ef4-ba18dd4cb71f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1190" YCoordinate="563" />
+              <Coordinates XCoordinate="1250" YCoordinate="563" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
