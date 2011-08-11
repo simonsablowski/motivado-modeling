@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T11:42:39.6523437+02:00</Created>
-    <ModificationDate>2011-07-27T16:05:30.3125+02:00</ModificationDate>
+    <ModificationDate>2011-08-11T16:46:34.515625+02:00</ModificationDate>
     <Description>bez-geruch</Description>
     <Documentation />
     <Modifications>
@@ -12,6 +12,7 @@
       <Modification Date="2011-07-27T10:08:31.2558593Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-07-27T12:58:50.328125Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-07-27T14:04:57.296875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-08-11T14:46:34.515625Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -45,7 +46,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="e081e12b-09d5-412a-80ac-35fd291d6c89" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-07-27T16:06:04.515625+02:00</Created>
+        <Created>2011-08-11T16:46:46.7705078+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -60,7 +61,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="d052fa86-b601-4d99-acb8-ed7c20df8261" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-07-27T16:06:04.515625+02:00</Created>
+        <Created>2011-08-11T16:46:46.7705078+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -96,37 +97,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
               <Coordinates XCoordinate="203" YCoordinate="183" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="84111b02-e694-4e15-8af8-186a692e36a0" Name="Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. &#xD;&#xA;Sie erreichen uns unter der kostenfreien Rufnummer 0800 909 5 909 und unter service@motivado.de.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1100" YCoordinate="292" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="cffdff93-928c-4c8b-b863-61baa5aabcd9" Name="">
-          <Description />
-          <Event>
-            <EndEvent />
-          </Event>
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
-              <Coordinates XCoordinate="1240" YCoordinate="312" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -256,7 +226,7 @@
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="210" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1244" YCoordinate="775" />
+              <Coordinates XCoordinate="1244" YCoordinate="774.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -271,19 +241,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="156" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1893" YCoordinate="747" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="b8c05036-83ff-4e8f-b7be-01c6ce27290c" Name="Ansprechen unangenehmer Gerüche">
-          <Description>REL_Geruch_V9.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_Geruch_V9.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="1560" YCoordinate="195" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -389,22 +346,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="60242624-7581-44c6-9f85-5a61f520544a" Name="Vermeiden Sie Billig-Düfte (Parfums, Duschgel, etc., das als nicht gut gewertet wurde: ersetzen).&#xA;Planen Sie, wie Sie regelmäßiger Ihren Duft auffrischen können (Dusche, Waschgänge, Deo).&#xA;Haben Sie immer Kaugummis dabei!">
-          <Description>REL_Geruch_V10.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_Geruch_V10.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="195" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1638" YCoordinate="120" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="bf60ee00-a5aa-413f-8ec1-decfae60c9a7" Name="Sie wollen also riskieren, eine eventuell unbemerkte Schwäche weiter mit sich herumzutragen?">
           <Description />
           <Implementation>
@@ -451,24 +392,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="7a1606f1-2fdf-420a-b1a8-a44a4cb11e36" Name="Das ist sehr wichtig. Man kann seinen Geruch nur grob einschätzen, und selbst das fällt meistens völlig verfälscht aus. Wir wollen bei Ihrer Partnersuche nicht über so etwas stolpern, nur weil Sie sich getäuscht haben.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="115" Width="220" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1392" YCoordinate="494.5" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="2915003d-7270-4ca4-98f7-e34645fdcf5d" Name="Durchaus">
           <Description />
           <Implementation>
@@ -480,24 +403,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="287" YCoordinate="858" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="767874fa-3c1c-4d79-a63d-8f24c5766827" Name="Viel Erfolg beim Umsetzen der Punkte. Mögen Sie immer wunderbar duften!">
-          <Description>REL_Geruch_V12.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_Geruch_V12.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="126" Width="157" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1892.5" YCoordinate="828" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -543,22 +448,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="325ebfbd-f958-49bd-bf0f-d2d73d57ff14" Name="Sollte etwas aufgetreten sein, vereinbaren Sie Arzttermine für alle Arten von Mundgeruch.">
-          <Description>REL_Geruch_V11.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_Geruch_V11.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="121" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1865" YCoordinate="120" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="3093e1cb-cdc8-4560-889c-e9f6ddfe3d17" Name="Wenn nötig">
           <Description />
           <Implementation>
@@ -570,22 +459,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="80" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="292" YCoordinate="511" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="dc3514f9-d81b-4dfa-85e2-c357b694af21" Name="Fragen Sie 5 Personen, die wirklich ehrlich sind (Verwandte sind gut, haben aber manchmal wegen des gleichen &quot;Stallgeruchs&quot; eine ähnliche Nase, bemerken also nichts.). Ideal ist eine Mischung von Bekannten, Freunden und evtl. einem peniblen Ex-Partner. Je penibler, desto ehrlich und besser.">
-          <Description>REL_Geruch_V8.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_Geruch_V8.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="158" Width="171" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1380" YCoordinate="131" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -667,7 +540,118 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1105" YCoordinate="186" />
+              <Coordinates XCoordinate="1100" YCoordinate="186" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="dc3514f9-d81b-4dfa-85e2-c357b694af21" Name="Fragen Sie 5 Personen, die wirklich ehrlich sind (Verwandte sind gut, haben aber manchmal wegen des gleichen &quot;Stallgeruchs&quot; eine ähnliche Nase, bemerken also nichts.). Ideal ist eine Mischung von Bekannten, Freunden und evtl. einem peniblen Ex-Partner. Je penibler, desto ehrlich und besser.">
+          <Description>$Video("video":{"url":"REL_Geruch_V8.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_Geruch_V8.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="158" Width="171" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1380" YCoordinate="137" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="60242624-7581-44c6-9f85-5a61f520544a" Name="Vermeiden Sie Billig-Düfte (Parfums, Duschgel, etc., das als nicht gut gewertet wurde: ersetzen).&#xA;Planen Sie, wie Sie regelmäßiger Ihren Duft auffrischen können (Dusche, Waschgänge, Deo).&#xA;Haben Sie immer Kaugummis dabei!">
+          <Description>$Video("video":{"url":"REL_Geruch_V10.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_Geruch_V10.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="195" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1738" YCoordinate="111" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="325ebfbd-f958-49bd-bf0f-d2d73d57ff14" Name="Sollte etwas aufgetreten sein, vereinbaren Sie Arzttermine für alle Arten von Mundgeruch.">
+          <Description>$Video("video":{"url":"REL_Geruch_V11.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_Geruch_V11.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="121" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1965" YCoordinate="111" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="33f1627b-d876-4643-a507-098d4c94a846" Name="Ansprechen unangenehmer Gerüche">
+          <Description>$Video("video":{"url":"REL_Geruch_V9.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_Geruch_V9.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1590" YCoordinate="91" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5ffc24a0-804a-4f3d-9c2a-4d9c81c278da" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="2099" YCoordinate="896" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="767874fa-3c1c-4d79-a63d-8f24c5766827" Name="Viel Erfolg beim Umsetzen der Punkte. Mögen Sie immer wunderbar duften!">
+          <Description>$Video("video":{"url":"REL_Geruch_V12.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_Geruch_V12.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="126" Width="157" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1892.5" YCoordinate="828" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7a1606f1-2fdf-420a-b1a8-a44a4cb11e36" Name="Das ist sehr wichtig. Man kann seinen Geruch nur grob einschätzen, und selbst das fällt meistens völlig verfälscht aus. Wir wollen bei Ihrer Partnersuche nicht über so etwas stolpern, nur weil Sie sich getäuscht haben.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="115" Width="220" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1392" YCoordinate="494.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -708,19 +692,6 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
               <Coordinates XCoordinate="353" YCoordinate="251" />
               <Coordinates XCoordinate="353" YCoordinate="477" />
               <Coordinates XCoordinate="517" YCoordinate="477" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="0385b7b1-11c6-4dc8-8d25-1d81ae6f19b3" From="84111b02-e694-4e15-8af8-186a692e36a0" To="cffdff93-928c-4c8b-b863-61baa5aabcd9" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1190" YCoordinate="322" />
-              <Coordinates XCoordinate="1209" YCoordinate="322" />
-              <Coordinates XCoordinate="1209" YCoordinate="327" />
-              <Coordinates XCoordinate="1240" YCoordinate="327" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -767,8 +738,8 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1833" YCoordinate="210" />
-              <Coordinates XCoordinate="1865" YCoordinate="210" />
+              <Coordinates XCoordinate="1933" YCoordinate="201" />
+              <Coordinates XCoordinate="1965" YCoordinate="201" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -829,7 +800,7 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1349" YCoordinate="805" />
+              <Coordinates XCoordinate="1349" YCoordinate="804" />
               <Coordinates XCoordinate="1349" YCoordinate="876" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -880,7 +851,7 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
               <Coordinates XCoordinate="1502" YCoordinate="494" />
               <Coordinates XCoordinate="1502" YCoordinate="397" />
               <Coordinates XCoordinate="1465" YCoordinate="397" />
-              <Coordinates XCoordinate="1465" YCoordinate="289" />
+              <Coordinates XCoordinate="1465" YCoordinate="295" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -895,14 +866,16 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="f6ed1b79-61d0-414c-bbfe-7118c8737b15" From="dc3514f9-d81b-4dfa-85e2-c357b694af21" To="b8c05036-83ff-4e8f-b7be-01c6ce27290c" Name="">
+        <Transition Id="f6ed1b79-61d0-414c-bbfe-7118c8737b15" From="dc3514f9-d81b-4dfa-85e2-c357b694af21" To="33f1627b-d876-4643-a507-098d4c94a846" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1551" YCoordinate="210" />
-              <Coordinates XCoordinate="1560" YCoordinate="210" />
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="3">
+              <Coordinates XCoordinate="1551" YCoordinate="216" />
+              <Coordinates XCoordinate="1574" YCoordinate="216" />
+              <Coordinates XCoordinate="1574" YCoordinate="121" />
+              <Coordinates XCoordinate="1590" YCoordinate="121" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -912,8 +885,8 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="19">
-              <Coordinates XCoordinate="1244" YCoordinate="790" />
-              <Coordinates XCoordinate="1220.5" YCoordinate="790" />
+              <Coordinates XCoordinate="1244" YCoordinate="789" />
+              <Coordinates XCoordinate="1220.5" YCoordinate="789" />
               <Coordinates XCoordinate="1220.5" YCoordinate="780" />
               <Coordinates XCoordinate="1200" YCoordinate="780" />
             </ConnectorGraphicsInfo>
@@ -938,7 +911,9 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1925" YCoordinate="300" />
+              <Coordinates XCoordinate="2025" YCoordinate="291" />
+              <Coordinates XCoordinate="2025" YCoordinate="344" />
+              <Coordinates XCoordinate="1925" YCoordinate="344" />
               <Coordinates XCoordinate="1925" YCoordinate="397" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1013,20 +988,20 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="3">
               <Coordinates XCoordinate="1684" YCoordinate="789" />
-              <Coordinates XCoordinate="1569" YCoordinate="789" />
-              <Coordinates XCoordinate="1569" YCoordinate="790" />
-              <Coordinates XCoordinate="1454" YCoordinate="790" />
+              <Coordinates XCoordinate="1454" YCoordinate="789" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="ba74ff9a-b06c-4bd9-bcbd-9443d69cd715" From="b8c05036-83ff-4e8f-b7be-01c6ce27290c" To="60242624-7581-44c6-9f85-5a61f520544a" Name="">
+        <Transition Id="ba74ff9a-b06c-4bd9-bcbd-9443d69cd715" From="33f1627b-d876-4643-a507-098d4c94a846" To="60242624-7581-44c6-9f85-5a61f520544a" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1590" YCoordinate="210" />
-              <Coordinates XCoordinate="1638" YCoordinate="210" />
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="4">
+              <Coordinates XCoordinate="1680" YCoordinate="121" />
+              <Coordinates XCoordinate="1706.5" YCoordinate="121" />
+              <Coordinates XCoordinate="1706.5" YCoordinate="201" />
+              <Coordinates XCoordinate="1738" YCoordinate="201" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1189,20 +1164,43 @@ Sammeln Sie als erstes bitte alle Punkte, die Ihnen einfallen, wegen derer Sie u
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1070" YCoordinate="216" />
-              <Coordinates XCoordinate="1105" YCoordinate="216" />
+              <Coordinates XCoordinate="1100" YCoordinate="216" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="0ebb4eda-6bcd-487c-9e38-066b8898aea5" From="20bf4146-de7e-4c34-908e-6f9c3eec30c6" To="84111b02-e694-4e15-8af8-186a692e36a0" Name="">
+        <Transition Id="0ebb4eda-6bcd-487c-9e38-066b8898aea5" From="20bf4146-de7e-4c34-908e-6f9c3eec30c6" To="dc3514f9-d81b-4dfa-85e2-c357b694af21" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="3">
+              <Coordinates XCoordinate="1190" YCoordinate="216" />
+              <Coordinates XCoordinate="1380" YCoordinate="216" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c382553b-f3c5-486e-b420-e4370818bb94" From="767874fa-3c1c-4d79-a63d-8f24c5766827" To="5ffc24a0-804a-4f3d-9c2a-4d9c81c278da">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1150" YCoordinate="246" />
-              <Coordinates XCoordinate="1150" YCoordinate="269" />
-              <Coordinates XCoordinate="1145" YCoordinate="269" />
-              <Coordinates XCoordinate="1145" YCoordinate="292" />
+              <Coordinates XCoordinate="2049" YCoordinate="891" />
+              <Coordinates XCoordinate="2074" YCoordinate="891" />
+              <Coordinates XCoordinate="2074" YCoordinate="911" />
+              <Coordinates XCoordinate="2099" YCoordinate="911" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="91c9e539-3988-40d3-a44b-21f228be6ba1" From="0a7d8903-5d79-413d-a660-b4fd041cdfb8" To="7886c17e-9ee9-49e9-a3b6-b8fa9e372af1">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="2">
+              <Coordinates XCoordinate="1110" YCoordinate="773" />
+              <Coordinates XCoordinate="759" YCoordinate="773" />
+              <Coordinates XCoordinate="759" YCoordinate="252" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
