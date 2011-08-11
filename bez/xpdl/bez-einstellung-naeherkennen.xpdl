@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="df1e1604-bbf3-4f0d-b2d8-9cdb882fc116" Name="bez-einstellung-näherkennen" OnlyOneProcess="false">
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="df1e1604-bbf3-4f0d-b2d8-9cdb882fc116" Name="bez-einstellung-naeherkennen" OnlyOneProcess="false">
   <PackageHeader>
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T18:53:40.430664+02:00</Created>
-    <ModificationDate>2011-07-27T18:57:00.4609375+02:00</ModificationDate>
-    <Description>bez-einstellung-näherkennen</Description>
+    <ModificationDate>2011-08-11T12:57:19.7216796+02:00</ModificationDate>
+    <Description>bez-einstellung-naeherkennen</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-07-27T16:57:00.4599609Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-07-28T14:42:13.75Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-07-28T19:34:16.7705078Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-11T10:57:19.7216796Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -42,7 +45,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="a60cd3d0-71d8-4f2b-9e50-96ea6369c696" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-07-28T16:42:04.15625+02:00</Created>
+        <Created>2011-08-11T12:58:09.1269531+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -57,7 +60,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="dcf31d1e-dc90-4e38-af41-c098f7cb9e5f" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-07-28T16:42:04.171875+02:00</Created>
+        <Created>2011-08-11T12:58:09.1269531+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -152,7 +155,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="9105b5ea-70a7-4bfa-a0b8-38a71716dd38" Name="Das Unterbewusstsein ausrichten&#xD;!">
+        <Activity Id="9105b5ea-70a7-4bfa-a0b8-38a71716dd38" Name="Das Unterbewusstsein ausrichten&#xD;">
           <Description>$Text()
 Was Sie denken, strahlen Sie auch aus, daher sollten Sie die folgenden drei Schritte ganz bewusst ausführen, damit sie in Ihrem Unterbewusstsein ankommen und es Ihre Handlungen in die richtige Richtung lenken kann.
 
@@ -364,22 +367,6 @@ Machen Sie selbst Witze, suchen Sie gezielt das Gespräch mit ihm und hören Sie
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="d625dfb8-730e-4775-b687-c1b816dd7c0d" Name="Möchten Sie das Coaching wiederholen?">
-          <Description>REL_QuestTree_V87.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_QuestTree_V87.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="54" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
-              <Coordinates XCoordinate="3096" YCoordinate="899" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="342a76a0-d750-413b-88bf-8709a4b47908" Name="Ja, dieses Coaching starten">
           <Description />
           <Implementation>
@@ -432,20 +419,6 @@ mscl3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="d5e628ff-9743-4b4e-946b-5c257408e827" Name="Ja">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1192" YCoordinate="907" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="9ff5c12d-ae36-43ba-bfc2-62c23e8759b8" Name="Nein, weiter zu anderen Themen">
           <Description />
           <Implementation>
@@ -457,36 +430,6 @@ mscl3='Ja'</Documentation>
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="807" YCoordinate="1658" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="04ae61a4-c846-48fb-ad4b-55084c49bef4" Name="Nein">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="3201" YCoordinate="1017" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="c5994697-2352-4cbf-883e-d110504d4a65" Name="Visualisieren, dass es passiert ist&#xD;&#xA;Kommen wir jetzt zum dritten und letzten Schritt auf dem Weg zur richtigen Einstellung. Stellen Sie sich vor, dass Sie bereits jemanden kennengelernt haben und nun dieser Person erfolgreich näher gekommen sind. Visualisieren Sie, dass Sie einem Freund oder Bekannten erzählen, dass es erfolgreich passiert ist. Es geht hier nicht darum, dass Sie erotische Phantasien von der betreffenden Person entwickeln, sondern darum, dass Sie sich erlauben, sich nüchtern vorzustellen, dass es Ihnen passiert ist.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="3094" YCoordinate="326" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -556,8 +499,12 @@ mscl3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="3ac23553-1514-40ed-bb1c-c24421dda185" Name="Die schlimmsten Fallen&#xD;&#xA;Wenn Sie diese Übungen durchgeführt haben, ist die richtige Einstellung zwar nicht mehr das Problem, wenn es darum geht, jemandem näher zu kommen. Aber es gibt trotzdem noch einige Fallen, in die Sie tappen könnten:&#xD;&#xA;&#xD;&#xA;1. Zu früh aufgeben&#xD;&#xA;Nur weil Ihre Annäherungsversuche nicht gleich beim ersten Versuch einschlagen, heißt das nicht, dass es nicht beim zweiten oder dritten Mal der Fall sein könnte. Beweisen Sie einen langen Atem und versuchen Sie wiederholt, sich dem Anderen zu nähern. Als Frau können Sie auch immer wieder Verführungsversuche starten.">
-          <Description />
+        <Activity Id="3ac23553-1514-40ed-bb1c-c24421dda185" Name="Die schlimmsten Fallen">
+          <Description>$Text()
+Wenn Sie diese Übungen durchgeführt haben, ist die richtige Einstellung zwar nicht mehr das Problem, wenn es darum geht, jemandem näher zu kommen. Aber es gibt trotzdem noch einige Fallen, in die Sie tappen könnten:
+
+1. Zu früh aufgeben
+Nur weil Ihre Annäherungsversuche nicht gleich beim ersten Versuch einschlagen, heißt das nicht, dass es nicht beim zweiten oder dritten Mal der Fall sein könnte. Beweisen Sie einen langen Atem und versuchen Sie wiederholt, sich dem Anderen zu nähern. Als Frau können Sie auch immer wieder Verführungsversuche starten.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -566,7 +513,11 @@ mscl3='Ja'</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Wenn Sie diese Übungen durchgeführt haben, ist die richtige Einstellung zwar nicht mehr das Problem, wenn es darum geht, jemandem näher zu kommen. Aber es gibt trotzdem noch einige Fallen, in die Sie tappen könnten:
+
+1. Zu früh aufgeben
+Nur weil Ihre Annäherungsversuche nicht gleich beim ersten Versuch einschlagen, heißt das nicht, dass es nicht beim zweiten oder dritten Mal der Fall sein könnte. Beweisen Sie einen langen Atem und versuchen Sie wiederholt, sich dem Anderen zu nähern. Als Frau können Sie auch immer wieder Verführungsversuche starten.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -662,8 +613,13 @@ mscl2='Ja'
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="1c4e570a-6795-4dea-b2e3-18b51576f317" Name="Die schlimmsten Fallen Teil II&#xD;&#xA;2. Sich zu doof vorkommen&#xD;&#xA;So lange der Andere Ihnen nicht deutlich zu verstehen gibt, dass er keine Annäherung wünscht, sollten Sie sich auch nicht zu doof vorkommen, bei dem Anderen immer wieder verschiedene Anläufe zu unternehmen und zu versuchen, ihm näher zu kommen. Dabei ist natürlich von Vorteil die Ansätze zu variieren - mal lieb, mal frech, mal unverschämt, mal heimlich etc.&#xD;&#xA;&#xD;&#xA;3. Sich auf den Kram des Anderen einlassen&#xD;&#xA;Sobald der Andere versucht, sich in Ausflüchten zu retten oder nur zu seinen Bedingungen zustimmt, sollten Sie sich genau überlegen, ob Sie wirklich darauf eingehen wollen.">
-          <Description />
+        <Activity Id="1c4e570a-6795-4dea-b2e3-18b51576f317" Name="Die schlimmsten Fallen Teil II&#xD;&#xA;">
+          <Description>$Text()
+2. Sich zu doof vorkommen
+So lange der Andere Ihnen nicht deutlich zu verstehen gibt, dass er keine Annäherung wünscht, sollten Sie sich auch nicht zu doof vorkommen, bei dem Anderen immer wieder verschiedene Anläufe zu unternehmen und zu versuchen, ihm näher zu kommen. Dabei ist natürlich von Vorteil die Ansätze zu variieren - mal lieb, mal frech, mal unverschämt, mal heimlich etc.
+
+3. Sich auf den Kram des Anderen einlassen
+Sobald der Andere versucht, sich in Ausflüchten zu retten oder nur zu seinen Bedingungen zustimmt, sollten Sie sich genau überlegen, ob Sie wirklich darauf eingehen wollen.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -672,7 +628,12 @@ mscl2='Ja'
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+2. Sich zu doof vorkommen
+So lange der Andere Ihnen nicht deutlich zu verstehen gibt, dass er keine Annäherung wünscht, sollten Sie sich auch nicht zu doof vorkommen, bei dem Anderen immer wieder verschiedene Anläufe zu unternehmen und zu versuchen, ihm näher zu kommen. Dabei ist natürlich von Vorteil die Ansätze zu variieren - mal lieb, mal frech, mal unverschämt, mal heimlich etc.
+
+3. Sich auf den Kram des Anderen einlassen
+Sobald der Andere versucht, sich in Ausflüchten zu retten oder nur zu seinen Bedingungen zustimmt, sollten Sie sich genau überlegen, ob Sie wirklich darauf eingehen wollen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -694,54 +655,7 @@ mscl2='Ja'
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1952" YCoordinate="657" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="84cb8d12-33c8-4cf2-a474-515282e0e221" Name="Die Entscheidung treffen&#xD;&#xA;Nachdem Sie nun den ersten Schritt in Richtung richtige Einstellung für das Kennenlernen und Näherkommen gemacht haben, treffen Sie jetzt die Entscheidung, dass Sie jemanden kennenlernen werden. Treffen Sie die bewusste Entscheidung, dass es Ihnen passieren wird. ">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskUser />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2351" YCoordinate="326" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="31b3c445-7d51-4a6d-afe8-f7d61c335fc7" Name="">
-          <Description />
-          <Event>
-            <EndEvent />
-          </Event>
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
-              <Coordinates XCoordinate="1620" YCoordinate="180" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="e71b8202-776d-4f3e-8162-8740d50b8d4c" Name="Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. &#xD;&#xA;Sie erreichen uns unter der kostenfreien Rufnummer 0800 909 5 909 und unter service@motivado.de.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1720" YCoordinate="165" />
+              <Coordinates XCoordinate="1953" YCoordinate="657" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -762,6 +676,61 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="100" Width="140" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1420" YCoordinate="326" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="84cb8d12-33c8-4cf2-a474-515282e0e221" Name="Die Entscheidung treffen">
+          <Description>$Text()
+Nachdem Sie nun den ersten Schritt in Richtung richtige Einstellung für das Kennenlernen und Näherkommen gemacht haben, treffen Sie jetzt die Entscheidung, dass Sie jemanden kennenlernen werden. Treffen Sie die bewusste Entscheidung, dass es Ihnen passieren wird. </Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Nachdem Sie nun den ersten Schritt in Richtung richtige Einstellung für das Kennenlernen und Näherkommen gemacht haben, treffen Sie jetzt die Entscheidung, dass Sie jemanden kennenlernen werden. Treffen Sie die bewusste Entscheidung, dass es Ihnen passieren wird. </Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="2351" YCoordinate="326" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c5994697-2352-4cbf-883e-d110504d4a65" Name="Visualisieren, dass es passiert ist">
+          <Description>$Text()
+
+Kommen wir jetzt zum dritten und letzten Schritt auf dem Weg zur richtigen Einstellung. Stellen Sie sich vor, dass Sie bereits jemanden kennengelernt haben und nun dieser Person erfolgreich näher gekommen sind. Visualisieren Sie, dass Sie einem Freund oder Bekannten erzählen, dass es erfolgreich passiert ist. Es geht hier nicht darum, dass Sie erotische Phantasien von der betreffenden Person entwickeln, sondern darum, dass Sie sich erlauben, sich nüchtern vorzustellen, dass es Ihnen passiert ist.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Kommen wir jetzt zum dritten und letzten Schritt auf dem Weg zur richtigen Einstellung. Stellen Sie sich vor, dass Sie bereits jemanden kennengelernt haben und nun dieser Person erfolgreich näher gekommen sind. Visualisieren Sie, dass Sie einem Freund oder Bekannten erzählen, dass es erfolgreich passiert ist. Es geht hier nicht darum, dass Sie erotische Phantasien von der betreffenden Person entwickeln, sondern darum, dass Sie sich erlauben, sich nüchtern vorzustellen, dass es Ihnen passiert ist.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="3094" YCoordinate="326" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7b200874-cfef-4a35-8a43-df6e7742d167" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="3441" YCoordinate="732" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -978,19 +947,6 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="3718f446-05d3-4f6c-af06-e5b4979e575b" From="d625dfb8-730e-4775-b687-c1b816dd7c0d" To="d5e628ff-9743-4b4e-946b-5c257408e827" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="3246" YCoordinate="899" />
-              <Coordinates XCoordinate="3246" YCoordinate="881" />
-              <Coordinates XCoordinate="1237" YCoordinate="881" />
-              <Coordinates XCoordinate="1237" YCoordinate="907" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="5beb2b39-cc6a-4795-aa29-e6372181e2b1" From="50316b97-80a2-4c7a-b3db-d82325a2eee4" To="0461cd86-e17f-40e3-9c76-8f39cf08a38b" Name="">
           <Condition />
           <Description />
@@ -1001,17 +957,6 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
               <Coordinates XCoordinate="264" YCoordinate="1259" />
               <Coordinates XCoordinate="574" YCoordinate="1259" />
               <Coordinates XCoordinate="574" YCoordinate="1411" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="b2315438-ef4c-49c3-af05-0440f7a7ca6f" From="fa45a2eb-afe0-4d79-a0c6-7ad6160ae9da" To="d625dfb8-730e-4775-b687-c1b816dd7c0d" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="3246" YCoordinate="837" />
-              <Coordinates XCoordinate="3246" YCoordinate="899" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1048,8 +993,8 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="3244" YCoordinate="506" />
               <Coordinates XCoordinate="3244" YCoordinate="587" />
-              <Coordinates XCoordinate="2102" YCoordinate="587" />
-              <Coordinates XCoordinate="2102" YCoordinate="657" />
+              <Coordinates XCoordinate="2103" YCoordinate="587" />
+              <Coordinates XCoordinate="2103" YCoordinate="657" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1064,24 +1009,13 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="603400d7-5a48-4508-97c1-2edbfdf91f3e" From="d625dfb8-730e-4775-b687-c1b816dd7c0d" To="04ae61a4-c846-48fb-ad4b-55084c49bef4" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="3246" YCoordinate="953" />
-              <Coordinates XCoordinate="3246" YCoordinate="1017" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="94dce689-a5ae-44ea-af33-bd0aa38722aa" From="c9828ee5-de51-4312-a1fd-20e76c8e6683" To="3ac23553-1514-40ed-bb1c-c24421dda185" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2252" YCoordinate="747" />
+              <Coordinates XCoordinate="2253" YCoordinate="747" />
               <Coordinates XCoordinate="2340" YCoordinate="747" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1099,16 +1033,16 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="3e94aca6-1ba9-4e95-9a6e-7260e423a6d1" From="0489e0ea-25a6-40ba-8071-6aff002a168a" To="e71b8202-776d-4f3e-8162-8740d50b8d4c" Name="">
+        <Transition Id="3e94aca6-1ba9-4e95-9a6e-7260e423a6d1" From="0489e0ea-25a6-40ba-8071-6aff002a168a" To="18091c92-d3a2-44b5-8a29-eb651375e471" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="3">
               <Coordinates XCoordinate="1560" YCoordinate="376" />
-              <Coordinates XCoordinate="1664" YCoordinate="376" />
-              <Coordinates XCoordinate="1664" YCoordinate="195" />
-              <Coordinates XCoordinate="1720" YCoordinate="195" />
+              <Coordinates XCoordinate="1721.5" YCoordinate="376" />
+              <Coordinates XCoordinate="1721.5" YCoordinate="416" />
+              <Coordinates XCoordinate="1973" YCoordinate="416" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1364,16 +1298,14 @@ Der erste Schritt besteht darin, dass Sie zunächst einmal gedanklich die Mögli
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="cf33e565-9635-4f94-b78f-02888c75e553" From="e71b8202-776d-4f3e-8162-8740d50b8d4c" To="31b3c445-7d51-4a6d-afe8-f7d61c335fc7" Name="">
+        <Transition Id="a7e1b27a-fbfb-4436-9dbe-7b0ab84448b2" From="fa45a2eb-afe0-4d79-a0c6-7ad6160ae9da" To="7b200874-cfef-4a35-8a43-df6e7742d167">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1765" YCoordinate="165" />
-              <Coordinates XCoordinate="1765" YCoordinate="88" />
-              <Coordinates XCoordinate="1635" YCoordinate="88" />
-              <Coordinates XCoordinate="1635" YCoordinate="180" />
+              <Coordinates XCoordinate="3396" YCoordinate="747" />
+              <Coordinates XCoordinate="3441" YCoordinate="747" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
