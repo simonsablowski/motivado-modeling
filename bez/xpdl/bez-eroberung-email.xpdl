@@ -4,12 +4,13 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T19:29:42.1904296+02:00</Created>
-    <ModificationDate>2011-07-28T16:51:02.71875+02:00</ModificationDate>
+    <ModificationDate>2011-08-11T13:07:37.6376953+02:00</ModificationDate>
     <Description>bez-eroberung-email</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-07-27T17:33:38.2304687Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-07-28T14:51:02.71875Z" UserName="MAREN-FEHRLAGE_Asus" />
+      <Modification Date="2011-08-11T11:07:30.0947265Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -43,7 +44,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="873c0583-1165-4550-92d0-2ff0f351ce23" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-07-28T16:51:44.53125+02:00</Created>
+        <Created>2011-08-11T13:07:49.7939453+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -58,7 +59,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="5c496fa9-eaf1-4051-bb8a-614f0efe6b37" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-07-28T16:51:44.53125+02:00</Created>
+        <Created>2011-08-11T13:07:49.7939453+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -110,36 +111,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="506" YCoordinate="493" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="e1c63bac-ba2f-4641-bccb-ae25a0125c30" Name="Möchten Sie das Coaching wiederholen?">
-          <Description>REL_QuestTree_V88.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_QuestTree_V88.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
-              <Coordinates XCoordinate="2084" YCoordinate="1106" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="b2f68154-8e42-4ecc-96e7-cbcbd4efe27b" Name="Ja">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1053" YCoordinate="1106" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -249,8 +220,10 @@ REL_EDateEmail_V2.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="76eaab6e-41ae-419d-9f37-c4d4ffbec781" Name="Der Schluss&#xD;&#xA;&#xD;&#xA;Der Schluss einer Nachricht ist der Punkt, an dem sich der Andere entscheidet, ob er antwortet oder nicht. Daher ist eine leichte Verabschiedung angebracht, an statt den Anderen mit Sätzen wie &quot;Bitte, schreib mir unbedingt zurück&quot; oder &quot;Ich warte auf Deine Antwort&quot; unter Druck zu setzen. Verabschieden Sie sich vielleicht mit &quot;sonnige Grüße&quot; oder &quot;schöne Grüße&quot;.&#xD;&#xA;">
-          <Description />
+        <Activity Id="76eaab6e-41ae-419d-9f37-c4d4ffbec781" Name="Der Schluss&#xD;&#xA;&#xD;&#xA;">
+          <Description>$Text()
+Der Schluss einer Nachricht ist der Punkt, an dem sich der Andere entscheidet, ob er antwortet oder nicht. Daher ist eine leichte Verabschiedung angebracht, an statt den Anderen mit Sätzen wie "Bitte, schreib mir unbedingt zurück" oder "Ich warte auf Deine Antwort" unter Druck zu setzen. Verabschieden Sie sich vielleicht mit "sonnige Grüße" oder "schöne Grüße".
+</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -259,7 +232,9 @@ REL_EDateEmail_V2.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Der Schluss einer Nachricht ist der Punkt, an dem sich der Andere entscheidet, ob er antwortet oder nicht. Daher ist eine leichte Verabschiedung angebracht, an statt den Anderen mit Sätzen wie "Bitte, schreib mir unbedingt zurück" oder "Ich warte auf Deine Antwort" unter Druck zu setzen. Verabschieden Sie sich vielleicht mit "sonnige Grüße" oder "schöne Grüße".
+</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -313,20 +288,6 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="5a2f5330-c7c1-42e0-b5b6-2fba47f83f79" Name="Nein">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2189" YCoordinate="1319" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="8ad90ca8-6ad0-4e2a-b901-bd9cd3fa2408" Name="Nein">
           <Description />
           <Implementation>
@@ -341,8 +302,11 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="c6f09efb-7fd4-4f07-8d6f-74d89d630420" Name="Eskalation zum Date&#xD;&#xA;&#xD;&#xA;Haben Sie mit Ihrer Bekanntschaft einen E-Mail oder Sms-Kontakt etabliert, sollten Sie ungefähr ab die der vierten Antwort auf ein nächstes Treffen hinarbeiten. Um nicht in der Freundschaftsfalle zu landen, ist es wichtig, dass Sie Ihrem Gegenüber zu verstehen geben, dass Sie an mehr als nur einem freundschaftlichen E-Mail- oder Sms-Kontakt interessiert sind. &quot;Ich bin eigentlich nicht so der Typ für ewig langes Schreiben - lass und doch auf einen Kaffee treffen.&quot;&#xD;&#xA;&#xD;&#xA;Wir möchten Ihnen an dieser Stelle nochmals unser Coaching &quot;Locken und Reizen&quot; ans Herz legen, in dem wir Ihnen zeigen, wie Sie Ihr Gegenüber herausfordern können und ihm vor allem zeigen, dass Sie an mehr als nur einer Bekanntschaft oder Freundschaft interessiert sind.">
-          <Description />
+        <Activity Id="c6f09efb-7fd4-4f07-8d6f-74d89d630420" Name="Eskalation zum Date">
+          <Description>$Text()
+Haben Sie mit Ihrer Bekanntschaft einen E-Mail oder Sms-Kontakt etabliert, sollten Sie ungefähr ab die der vierten Antwort auf ein nächstes Treffen hinarbeiten. Um nicht in der Freundschaftsfalle zu landen, ist es wichtig, dass Sie Ihrem Gegenüber zu verstehen geben, dass Sie an mehr als nur einem freundschaftlichen E-Mail- oder Sms-Kontakt interessiert sind. "Ich bin eigentlich nicht so der Typ für ewig langes Schreiben - lass und doch auf einen Kaffee treffen."
+
+Wir möchten Ihnen an dieser Stelle nochmals unser Coaching "Locken und Reizen" ans Herz legen, in dem wir Ihnen zeigen, wie Sie Ihr Gegenüber herausfordern können und ihm vor allem zeigen, dass Sie an mehr als nur einer Bekanntschaft oder Freundschaft interessiert sind.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -351,7 +315,10 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Haben Sie mit Ihrer Bekanntschaft einen E-Mail oder Sms-Kontakt etabliert, sollten Sie ungefähr ab die der vierten Antwort auf ein nächstes Treffen hinarbeiten. Um nicht in der Freundschaftsfalle zu landen, ist es wichtig, dass Sie Ihrem Gegenüber zu verstehen geben, dass Sie an mehr als nur einem freundschaftlichen E-Mail- oder Sms-Kontakt interessiert sind. "Ich bin eigentlich nicht so der Typ für ewig langes Schreiben - lass und doch auf einen Kaffee treffen."
+
+Wir möchten Ihnen an dieser Stelle nochmals unser Coaching "Locken und Reizen" ans Herz legen, in dem wir Ihnen zeigen, wie Sie Ihr Gegenüber herausfordern können und ihm vor allem zeigen, dass Sie an mehr als nur einer Bekanntschaft oder Freundschaft interessiert sind.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -359,8 +326,13 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="c2071fe9-48a8-48ed-bbbf-e01a9e54d5e4" Name="Die Politur&#xD;&#xA;&#xD;&#xA;Bevor Sie aber nun Ihre E-Mail abschicken, nehmen Sie sich die Zeit und lesen Sie sich Ihre Nachricht nochmals durch. Haben Sie Rechtschreibfehler gemacht oder vielleicht ein Wort vergessen? Stimmen die Satzzeichen? Haben Sie vielleicht unbewusst Umgangssprache verwendet oder hat sich doch zuviele Smilies eingeschlichen? Denken Sie daran: weniger ist mehr.&#xD;&#xA;&#xD;&#xA;Falls dies der Fall sein sollte, können Sie das jetzt noch problemlos ändern. Wie bereits erwähnt, hinterlässt fehlerhafte Rechtschreibung oder mangelnde Grammatik einen eher schlechten Eindruck. Die zwei Minuten, die Sie benötigen, um Ihre E-Mail nochmals zu lesen, sind also durchaus gut investiert.&#xD;&#xA;&#xD;&#xA;Lassen Sie sich außerdem ein wenig Platz, also lassen Sie nach der Begrüßung und vor dem Schluss eine Leerzeile, um eine ästhetisch ansprechende Nachricht zu verfassen.">
-          <Description />
+        <Activity Id="c2071fe9-48a8-48ed-bbbf-e01a9e54d5e4" Name="Die Politur">
+          <Description>$Text()
+Bevor Sie aber nun Ihre E-Mail abschicken, nehmen Sie sich die Zeit und lesen Sie sich Ihre Nachricht nochmals durch. Haben Sie Rechtschreibfehler gemacht oder vielleicht ein Wort vergessen? Stimmen die Satzzeichen? Haben Sie vielleicht unbewusst Umgangssprache verwendet oder hat sich doch zuviele Smilies eingeschlichen? Denken Sie daran: weniger ist mehr.
+
+Falls dies der Fall sein sollte, können Sie das jetzt noch problemlos ändern. Wie bereits erwähnt, hinterlässt fehlerhafte Rechtschreibung oder mangelnde Grammatik einen eher schlechten Eindruck. Die zwei Minuten, die Sie benötigen, um Ihre E-Mail nochmals zu lesen, sind also durchaus gut investiert.
+
+Lassen Sie sich außerdem ein wenig Platz, also lassen Sie nach der Begrüßung und vor dem Schluss eine Leerzeile, um eine ästhetisch ansprechende Nachricht zu verfassen.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -369,7 +341,12 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Bevor Sie aber nun Ihre E-Mail abschicken, nehmen Sie sich die Zeit und lesen Sie sich Ihre Nachricht nochmals durch. Haben Sie Rechtschreibfehler gemacht oder vielleicht ein Wort vergessen? Stimmen die Satzzeichen? Haben Sie vielleicht unbewusst Umgangssprache verwendet oder hat sich doch zuviele Smilies eingeschlichen? Denken Sie daran: weniger ist mehr.
+
+Falls dies der Fall sein sollte, können Sie das jetzt noch problemlos ändern. Wie bereits erwähnt, hinterlässt fehlerhafte Rechtschreibung oder mangelnde Grammatik einen eher schlechten Eindruck. Die zwei Minuten, die Sie benötigen, um Ihre E-Mail nochmals zu lesen, sind also durchaus gut investiert.
+
+Lassen Sie sich außerdem ein wenig Platz, also lassen Sie nach der Begrüßung und vor dem Schluss eine Leerzeile, um eine ästhetisch ansprechende Nachricht zu verfassen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -391,8 +368,15 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="a303afe9-2459-4917-ab80-5a0ef877c9af" Name="E-Mail-Verkehr&#xD;&#xA;&#xD;&#xA;Wenn der Andere auf Ihre Nachricht reagiert, ist dies nicht das Signal dafür, dass Sie sich jetzt schreiben können, was, wie viel und wann Sie wollen. Das Schlüsselwort für einen guten E-Mail-Kontakt heißt Angleichung.&#xD;&#xA;&#xD;&#xA;Das bedeutet, dass Sie, wenn der Andere für seine Antwort 5 Tage gebraucht hat, Sie sich mindestens 80% der Zeit lassen, um zurückzuschreiben. Das bedeutet für diesen Fall, dass Sie Ihrerseits frühestens nach vier Tagen antworten.&#xD;&#xA;&#xD;&#xA;Angleichung heißt aber auch, dass Sie sich in Bezug auf die Länge des Nachrichtentextes oder die Art des Schreibens dem Anderen anpassen. Verwendet der Andere Smilies, können Sie diese auch benutzen; schreibt Ihr Gegenüber in einem Dialekt, können Sie dies auch tun, sofern Sie damit einigermaßen vertraut sind. Wenn der Andere in seinen Nachrichten nicht besonders viel von sich selbst preis gibt und eher geheimnisvoll bleibt, gestalten Sie Ihre Antwort auch eher etwas zurückhaltender, wenn Sie von sich erzählen. &#xD;&#xA;&#xD;&#xA;Wichtig für Ihren Austausch per E-Mail oder Sms ist, dass Sie Ihre Nachrichten weiterhin mit Fragen etc. enden lassen, die den Anderen dazu bringen und auffordern, Ihnen zu antworten. Es ist wichtig, dass Sie Fragen, die Sie auf die Antwort des Anderen beziehen, gerade am Ende der E-Mail einfließen lassen, denn der Anderen bleibt so mit diesen Fragen im Kopf zurück.">
-          <Description />
+        <Activity Id="a303afe9-2459-4917-ab80-5a0ef877c9af" Name="E-Mail-Verkehr">
+          <Description>$Text()
+Wenn der Andere auf Ihre Nachricht reagiert, ist dies nicht das Signal dafür, dass Sie sich jetzt schreiben können, was, wie viel und wann Sie wollen. Das Schlüsselwort für einen guten E-Mail-Kontakt heißt Angleichung.
+
+Das bedeutet, dass Sie, wenn der Andere für seine Antwort 5 Tage gebraucht hat, Sie sich mindestens 80% der Zeit lassen, um zurückzuschreiben. Das bedeutet für diesen Fall, dass Sie Ihrerseits frühestens nach vier Tagen antworten.
+
+Angleichung heißt aber auch, dass Sie sich in Bezug auf die Länge des Nachrichtentextes oder die Art des Schreibens dem Anderen anpassen. Verwendet der Andere Smilies, können Sie diese auch benutzen; schreibt Ihr Gegenüber in einem Dialekt, können Sie dies auch tun, sofern Sie damit einigermaßen vertraut sind. Wenn der Andere in seinen Nachrichten nicht besonders viel von sich selbst preis gibt und eher geheimnisvoll bleibt, gestalten Sie Ihre Antwort auch eher etwas zurückhaltender, wenn Sie von sich erzählen. 
+
+Wichtig für Ihren Austausch per E-Mail oder Sms ist, dass Sie Ihre Nachrichten weiterhin mit Fragen etc. enden lassen, die den Anderen dazu bringen und auffordern, Ihnen zu antworten. Es ist wichtig, dass Sie Fragen, die Sie auf die Antwort des Anderen beziehen, gerade am Ende der E-Mail einfließen lassen, denn der Anderen bleibt so mit diesen Fragen im Kopf zurück.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -401,7 +385,14 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Wenn der Andere auf Ihre Nachricht reagiert, ist dies nicht das Signal dafür, dass Sie sich jetzt schreiben können, was, wie viel und wann Sie wollen. Das Schlüsselwort für einen guten E-Mail-Kontakt heißt Angleichung.
+
+Das bedeutet, dass Sie, wenn der Andere für seine Antwort 5 Tage gebraucht hat, Sie sich mindestens 80% der Zeit lassen, um zurückzuschreiben. Das bedeutet für diesen Fall, dass Sie Ihrerseits frühestens nach vier Tagen antworten.
+
+Angleichung heißt aber auch, dass Sie sich in Bezug auf die Länge des Nachrichtentextes oder die Art des Schreibens dem Anderen anpassen. Verwendet der Andere Smilies, können Sie diese auch benutzen; schreibt Ihr Gegenüber in einem Dialekt, können Sie dies auch tun, sofern Sie damit einigermaßen vertraut sind. Wenn der Andere in seinen Nachrichten nicht besonders viel von sich selbst preis gibt und eher geheimnisvoll bleibt, gestalten Sie Ihre Antwort auch eher etwas zurückhaltender, wenn Sie von sich erzählen. 
+
+Wichtig für Ihren Austausch per E-Mail oder Sms ist, dass Sie Ihre Nachrichten weiterhin mit Fragen etc. enden lassen, die den Anderen dazu bringen und auffordern, Ihnen zu antworten. Es ist wichtig, dass Sie Fragen, die Sie auf die Antwort des Anderen beziehen, gerade am Ende der E-Mail einfließen lassen, denn der Anderen bleibt so mit diesen Fragen im Kopf zurück.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -409,8 +400,9 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ce17dd03-d54c-4ede-8b36-3289df6e5755" Name="Begrüßung&#xD;&#xA;&#xD;&#xA;Die Begrüßung sollten Sie möglichst persönlich gestalten. Wenn Sie den Namen des Anderen kennen, sprechen Sie ihn natürlich mit Namen an: &quot;Hallo/Hi Sarah&quot; Benutzen Sie kein &quot;Hey&quot;, &quot;Ey&quot; oder auch &quot;Liebe/r...&quot; Kennen Sie den Namen des Anderen nicht, können Sie bereits hier oder zumindest gleich an die Begrüßung anschließend, den Rückbezug zur Situation Ihrer Begegnung herstellen.">
-          <Description />
+        <Activity Id="ce17dd03-d54c-4ede-8b36-3289df6e5755" Name="Begrüßung&#xD;&#xA;&#xD;&#xA;">
+          <Description>$Text()
+Die Begrüßung sollten Sie möglichst persönlich gestalten. Wenn Sie den Namen des Anderen kennen, sprechen Sie ihn natürlich mit Namen an: "Hallo/Hi Sarah" Benutzen Sie kein "Hey", "Ey" oder auch "Liebe/r..." Kennen Sie den Namen des Anderen nicht, können Sie bereits hier oder zumindest gleich an die Begrüßung anschließend, den Rückbezug zur Situation Ihrer Begegnung herstellen.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -419,16 +411,23 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Die Begrüßung sollten Sie möglichst persönlich gestalten. Wenn Sie den Namen des Anderen kennen, sprechen Sie ihn natürlich mit Namen an: "Hallo/Hi Sarah" Benutzen Sie kein "Hey", "Ey" oder auch "Liebe/r..." Kennen Sie den Namen des Anderen nicht, können Sie bereits hier oder zumindest gleich an die Begrüßung anschließend, den Rückbezug zur Situation Ihrer Begegnung herstellen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2093" YCoordinate="195" />
+              <Coordinates XCoordinate="2093" YCoordinate="197" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="d29d13b8-6a7f-4be0-98d6-2ba1a9570a35" Name="Fordern Sie den Anderen heraus&#xD;&#xA;&#xD;&#xA;Den Anderen dazu zu bringen, Ihnen zurückzuschreiben, gelingt besonders dann, wenn Sie es schaffen, Ihr Gegenüber in Ihrer Nachricht etwas Herauszufordern. Wenn Sie sich also an Gesprächsthema erinnern, aus dem Sie einem kleinen und sanften Seitenhieb auf den Anderen machen können, wird sich der Andere in der Defensive sehen und einen Grund mehr haben, zu antworten, weil er sich rechtfertigen will. &quot;Bist du nicht viel zu jung, um schon 3 Jahre im Ausland gearbeitet zu haben?&quot; &quot;Glaubst Du wirklich, dass Du so gut kochen kannst, wie Du behauptest?&quot;&#xD;&#xA;Weiter Beispiele zu diesem Thema finden Sie in unserem Coaching &quot;Locken und Reizen&quot;, dass Sie anschließend an dieses Coaching direkt auswählen können.&#xD;&#xA;&#xD;&#xA;Ihr Gegenüber in einer solchen Art und Weise herauszufordern, benötigt allerdings viel Fingerspitzengefühl und Sie sollten dies nicht übers Knie brechen. Wenn sich kein Thema anbietet, lassen Sie es einfach weg. Ihre E-Mail ist auch ohne interessant genug und so gehen Sie nicht das Risiko ein, den Anderen vielleicht vor den Kopf zu stoßen. &#xD;&#xA;&#xD;&#xA;In unserem Coaching &quot;Locken und Reizen&quot; gehen wir intensiv darauf ein, wie Sie Ihr Gegenüber herausfordern können. Wenn Sie dieses Coaching gerne durchlaufen möchten, können Sie dies am Ende dieses Coachings direkt auswählen.">
-          <Description />
+        <Activity Id="d29d13b8-6a7f-4be0-98d6-2ba1a9570a35" Name="Fordern Sie den Anderen heraus">
+          <Description>$Text()
+Den Anderen dazu zu bringen, Ihnen zurückzuschreiben, gelingt besonders dann, wenn Sie es schaffen, Ihr Gegenüber in Ihrer Nachricht etwas Herauszufordern. Wenn Sie sich also an Gesprächsthema erinnern, aus dem Sie einem kleinen und sanften Seitenhieb auf den Anderen machen können, wird sich der Andere in der Defensive sehen und einen Grund mehr haben, zu antworten, weil er sich rechtfertigen will. "Bist du nicht viel zu jung, um schon 3 Jahre im Ausland gearbeitet zu haben?" "Glaubst Du wirklich, dass Du so gut kochen kannst, wie Du behauptest?"
+Weiter Beispiele zu diesem Thema finden Sie in unserem Coaching "Locken und Reizen", dass Sie anschließend an dieses Coaching direkt auswählen können.
+
+Ihr Gegenüber in einer solchen Art und Weise herauszufordern, benötigt allerdings viel Fingerspitzengefühl und Sie sollten dies nicht übers Knie brechen. Wenn sich kein Thema anbietet, lassen Sie es einfach weg. Ihre E-Mail ist auch ohne interessant genug und so gehen Sie nicht das Risiko ein, den Anderen vielleicht vor den Kopf zu stoßen. 
+
+In unserem Coaching "Locken und Reizen" gehen wir intensiv darauf ein, wie Sie Ihr Gegenüber herausfordern können. Wenn Sie dieses Coaching gerne durchlaufen möchten, können Sie dies am Ende dieses Coachings direkt auswählen.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -437,7 +436,13 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Den Anderen dazu zu bringen, Ihnen zurückzuschreiben, gelingt besonders dann, wenn Sie es schaffen, Ihr Gegenüber in Ihrer Nachricht etwas Herauszufordern. Wenn Sie sich also an Gesprächsthema erinnern, aus dem Sie einem kleinen und sanften Seitenhieb auf den Anderen machen können, wird sich der Andere in der Defensive sehen und einen Grund mehr haben, zu antworten, weil er sich rechtfertigen will. "Bist du nicht viel zu jung, um schon 3 Jahre im Ausland gearbeitet zu haben?" "Glaubst Du wirklich, dass Du so gut kochen kannst, wie Du behauptest?"
+Weiter Beispiele zu diesem Thema finden Sie in unserem Coaching "Locken und Reizen", dass Sie anschließend an dieses Coaching direkt auswählen können.
+
+Ihr Gegenüber in einer solchen Art und Weise herauszufordern, benötigt allerdings viel Fingerspitzengefühl und Sie sollten dies nicht übers Knie brechen. Wenn sich kein Thema anbietet, lassen Sie es einfach weg. Ihre E-Mail ist auch ohne interessant genug und so gehen Sie nicht das Risiko ein, den Anderen vielleicht vor den Kopf zu stoßen. 
+
+In unserem Coaching "Locken und Reizen" gehen wir intensiv darauf ein, wie Sie Ihr Gegenüber herausfordern können. Wenn Sie dieses Coaching gerne durchlaufen möchten, können Sie dies am Ende dieses Coachings direkt auswählen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -461,8 +466,16 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="cc46d04a-82f4-4e18-8931-b80b4346d78f" Name="Der Hauptteil&#xD;&#xA;&#xD;&#xA;Wie bereits bei der Begrüßung angesprochen, sollten Sie den Rückbezug zu der Gelegenheit herstellen, an der Sie sich kennengelernt haben. Zum Beispiel: &quot;Hallo Anna, die Party war noch spitze. Schade, dass Du schon weg musstest.&quot; &#xD;&#xA;&#xD;&#xA;Egal in welcher Situation Sie den Anderen kennengelernt haben, berichten Sie kurz davon, was Sie nach dem Treffen noch gemacht haben und dass Sie Spaß dabei hatten. Transportieren Sie, dass Sie vielfältige soziale Kontakte haben, statt dem Anderen zu sagen, dass es ohne ihn langweilig war.&#xD;&#xA;&#xD;&#xA;Wenn Sie dem Anderen schreiben, geben Sie ihm einen Grund Ihnen zu antworten, bzw. Ihnen antworten zu wollen. Das heißt, dass Ihre E-Mail eine Aufforderung zum Handeln beinhalten sollte. Stellen Sie Fragen, aber nicht zu viele, dass der Andere sich bedrängt fühlen könnte. Erkundigen Sie sich nach dem Abend der Party, dem Kurztrip in Hamburg (wenn Sie den Anderen im Zug kennengelernt haben) oder dem Hund usw.&#xD;&#xA;&#xD;&#xA;Wenn Sie eine Sms schreiben, müssen Sie alle diese Dinge natürlich auf wesentlich weniger Platz vereinen. Schreiben Sie daher nach der Begrüßung nur kurz eine Erinnerung, wo Sie sich kennengelernt haben und stellen Sie dann eine Frage.&#xD;&#xA;&quot;Hi Thomas, nachdem Du ausgestiegen bist, hat mich übrigens den Rest der Fahrt ein ziemlich verrückter Typ zugetextet. Ich glaube, er hielt sich für den Papst. Wie war Dein Wochenende in Heidelberg?&quot;">
-          <Description />
+        <Activity Id="cc46d04a-82f4-4e18-8931-b80b4346d78f" Name="Der Hauptteil&#xD;&#xA;&#xD;&#xA;">
+          <Description>$Text()
+Wie bereits bei der Begrüßung angesprochen, sollten Sie den Rückbezug zu der Gelegenheit herstellen, an der Sie sich kennengelernt haben. Zum Beispiel: "Hallo Anna, die Party war noch spitze. Schade, dass Du schon weg musstest." 
+
+Egal in welcher Situation Sie den Anderen kennengelernt haben, berichten Sie kurz davon, was Sie nach dem Treffen noch gemacht haben und dass Sie Spaß dabei hatten. Transportieren Sie, dass Sie vielfältige soziale Kontakte haben, statt dem Anderen zu sagen, dass es ohne ihn langweilig war.
+
+Wenn Sie dem Anderen schreiben, geben Sie ihm einen Grund Ihnen zu antworten, bzw. Ihnen antworten zu wollen. Das heißt, dass Ihre E-Mail eine Aufforderung zum Handeln beinhalten sollte. Stellen Sie Fragen, aber nicht zu viele, dass der Andere sich bedrängt fühlen könnte. Erkundigen Sie sich nach dem Abend der Party, dem Kurztrip in Hamburg (wenn Sie den Anderen im Zug kennengelernt haben) oder dem Hund usw.
+
+Wenn Sie eine Sms schreiben, müssen Sie alle diese Dinge natürlich auf wesentlich weniger Platz vereinen. Schreiben Sie daher nach der Begrüßung nur kurz eine Erinnerung, wo Sie sich kennengelernt haben und stellen Sie dann eine Frage.
+"Hi Thomas, nachdem Du ausgestiegen bist, hat mich übrigens den Rest der Fahrt ein ziemlich verrückter Typ zugetextet. Ich glaube, er hielt sich für den Papst. Wie war Dein Wochenende in Heidelberg?"</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -471,7 +484,15 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Wie bereits bei der Begrüßung angesprochen, sollten Sie den Rückbezug zu der Gelegenheit herstellen, an der Sie sich kennengelernt haben. Zum Beispiel: "Hallo Anna, die Party war noch spitze. Schade, dass Du schon weg musstest." 
+
+Egal in welcher Situation Sie den Anderen kennengelernt haben, berichten Sie kurz davon, was Sie nach dem Treffen noch gemacht haben und dass Sie Spaß dabei hatten. Transportieren Sie, dass Sie vielfältige soziale Kontakte haben, statt dem Anderen zu sagen, dass es ohne ihn langweilig war.
+
+Wenn Sie dem Anderen schreiben, geben Sie ihm einen Grund Ihnen zu antworten, bzw. Ihnen antworten zu wollen. Das heißt, dass Ihre E-Mail eine Aufforderung zum Handeln beinhalten sollte. Stellen Sie Fragen, aber nicht zu viele, dass der Andere sich bedrängt fühlen könnte. Erkundigen Sie sich nach dem Abend der Party, dem Kurztrip in Hamburg (wenn Sie den Anderen im Zug kennengelernt haben) oder dem Hund usw.
+
+Wenn Sie eine Sms schreiben, müssen Sie alle diese Dinge natürlich auf wesentlich weniger Platz vereinen. Schreiben Sie daher nach der Begrüßung nur kurz eine Erinnerung, wo Sie sich kennengelernt haben und stellen Sie dann eine Frage.
+"Hi Thomas, nachdem Du ausgestiegen bist, hat mich übrigens den Rest der Fahrt ein ziemlich verrückter Typ zugetextet. Ich glaube, er hielt sich für den Papst. Wie war Dein Wochenende in Heidelberg?"</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -497,8 +518,15 @@ REL_EDateEmail_V3.flv</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="0707471a-49e2-493a-8f8e-51e2ac963c47" Name="Nach-Mail&#xD;&#xA;&#xD;&#xA;Falls der Andere auf Ihre E-Mail oder Sms nicht reagieren sollte und Sie das Bedürfnis haben, noch einmal nachzuhaken, sollten Sie dies frühestens nach vier oder fünf Tagen tun. Geben Sie dem Anderen etwas Zeit, seine E-Mails abzurufen oder auf Ihre Sms zu reagieren. Sie können nicht wissen, ob der Andere vielleicht gerade viel beruflichen Stress etc. hat. Wenn Sie dann den Fehler machen und zu früh nachhaken, warum der Andere sich nicht gemeldet hat, könnte sich Ihr Gegenüber schnell unter Druck gesetzt fühlen.&#xD;&#xA;&#xD;&#xA;Hat der Andere schon eine Weile nicht auf Ihre Nachricht reagiert, fragen Sie nach. Sie hatten bereits Kontakt zueinander und fanden sich spannend, also lassen Sie sich von einer ausbleibenden Antwort verunsichern. Schreiben Sie nur eine kurze Erinnerung, dass Sie sich bereits einmal gemeldet haben. &quot;Hallo Anna, vielleicht ist meine erste E-Mail untergegangen, aber ich würde mich über die/eine Antwort freuen. Grüße, Marcus&quot; Sie können den Anderen auch etwas herausfordern, indem Sie schreiben: &quot;Hallo, Erde an Anna. Meine Nachricht ist doch hoffentlich im ganzen Arbeitsstress nicht untergegangen? Grüße, Marcus&quot;&#xD;&#xA;&#xD;&#xA;Halten Sie Ihre E-Mail oder Sms so kurz wie möglich und schreiben Sie statt &quot;schöne Grüße&quot; zum Beispiel nur noch &quot;Grüße&quot; ans Ende Ihrer Nachricht. Gerade wenn Sie in dieser Nachricht darauf hinweisen, dass Sie sich über &quot;die&quot; Antwort statt &quot;Deine&quot; Antwort gefreut hätten, kann der Andere nicht genau unterschieden, ob Sie vielleicht tatsächlich nur gerne eine Antwort auf Ihre Frage/n haben wollen. Das nimmt den Druck au der Situation.&#xD;&#xA;&#xD;&#xA;In jedem Fall sollten Sie eine Nach-Mail oder Sms schreiben, denn wenn Sie zu früh aufgeben, werden Sie nicht wissen, ob der Andere vielleicht nur Stress hatte. Sie haben nichts zu verlieren und falls auch auf Ihre Nach-Mail keine Reaktion kommt, haben Sie zumindest alles getan.">
-          <Description />
+        <Activity Id="0707471a-49e2-493a-8f8e-51e2ac963c47" Name="Nach-Mail">
+          <Description>$Text()
+Falls der Andere auf Ihre E-Mail oder Sms nicht reagieren sollte und Sie das Bedürfnis haben, noch einmal nachzuhaken, sollten Sie dies frühestens nach vier oder fünf Tagen tun. Geben Sie dem Anderen etwas Zeit, seine E-Mails abzurufen oder auf Ihre Sms zu reagieren. Sie können nicht wissen, ob der Andere vielleicht gerade viel beruflichen Stress etc. hat. Wenn Sie dann den Fehler machen und zu früh nachhaken, warum der Andere sich nicht gemeldet hat, könnte sich Ihr Gegenüber schnell unter Druck gesetzt fühlen.
+
+Hat der Andere schon eine Weile nicht auf Ihre Nachricht reagiert, fragen Sie nach. Sie hatten bereits Kontakt zueinander und fanden sich spannend, also lassen Sie sich von einer ausbleibenden Antwort verunsichern. Schreiben Sie nur eine kurze Erinnerung, dass Sie sich bereits einmal gemeldet haben. "Hallo Anna, vielleicht ist meine erste E-Mail untergegangen, aber ich würde mich über die/eine Antwort freuen. Grüße, Marcus" Sie können den Anderen auch etwas herausfordern, indem Sie schreiben: "Hallo, Erde an Anna. Meine Nachricht ist doch hoffentlich im ganzen Arbeitsstress nicht untergegangen? Grüße, Marcus"
+
+Halten Sie Ihre E-Mail oder Sms so kurz wie möglich und schreiben Sie statt "schöne Grüße" zum Beispiel nur noch "Grüße" ans Ende Ihrer Nachricht. Gerade wenn Sie in dieser Nachricht darauf hinweisen, dass Sie sich über "die" Antwort statt "Deine" Antwort gefreut hätten, kann der Andere nicht genau unterschieden, ob Sie vielleicht tatsächlich nur gerne eine Antwort auf Ihre Frage/n haben wollen. Das nimmt den Druck au der Situation.
+
+In jedem Fall sollten Sie eine Nach-Mail oder Sms schreiben, denn wenn Sie zu früh aufgeben, werden Sie nicht wissen, ob der Andere vielleicht nur Stress hatte. Sie haben nichts zu verlieren und falls auch auf Ihre Nach-Mail keine Reaktion kommt, haben Sie zumindest alles getan.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -507,11 +535,18 @@ REL_EDateEmail_V3.flv</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Falls der Andere auf Ihre E-Mail oder Sms nicht reagieren sollte und Sie das Bedürfnis haben, noch einmal nachzuhaken, sollten Sie dies frühestens nach vier oder fünf Tagen tun. Geben Sie dem Anderen etwas Zeit, seine E-Mails abzurufen oder auf Ihre Sms zu reagieren. Sie können nicht wissen, ob der Andere vielleicht gerade viel beruflichen Stress etc. hat. Wenn Sie dann den Fehler machen und zu früh nachhaken, warum der Andere sich nicht gemeldet hat, könnte sich Ihr Gegenüber schnell unter Druck gesetzt fühlen.
+
+Hat der Andere schon eine Weile nicht auf Ihre Nachricht reagiert, fragen Sie nach. Sie hatten bereits Kontakt zueinander und fanden sich spannend, also lassen Sie sich von einer ausbleibenden Antwort verunsichern. Schreiben Sie nur eine kurze Erinnerung, dass Sie sich bereits einmal gemeldet haben. "Hallo Anna, vielleicht ist meine erste E-Mail untergegangen, aber ich würde mich über die/eine Antwort freuen. Grüße, Marcus" Sie können den Anderen auch etwas herausfordern, indem Sie schreiben: "Hallo, Erde an Anna. Meine Nachricht ist doch hoffentlich im ganzen Arbeitsstress nicht untergegangen? Grüße, Marcus"
+
+Halten Sie Ihre E-Mail oder Sms so kurz wie möglich und schreiben Sie statt "schöne Grüße" zum Beispiel nur noch "Grüße" ans Ende Ihrer Nachricht. Gerade wenn Sie in dieser Nachricht darauf hinweisen, dass Sie sich über "die" Antwort statt "Deine" Antwort gefreut hätten, kann der Andere nicht genau unterschieden, ob Sie vielleicht tatsächlich nur gerne eine Antwort auf Ihre Frage/n haben wollen. Das nimmt den Druck au der Situation.
+
+In jedem Fall sollten Sie eine Nach-Mail oder Sms schreiben, denn wenn Sie zu früh aufgeben, werden Sie nicht wissen, ob der Andere vielleicht nur Stress hatte. Sie haben nichts zu verlieren und falls auch auf Ihre Nach-Mail keine Reaktion kommt, haben Sie zumindest alles getan.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2436" YCoordinate="513" />
+              <Coordinates XCoordinate="2436" YCoordinate="511" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -777,7 +812,7 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="6c31904a-a58f-48db-9edc-ace0cf14d5a2" Name="">
+        <Activity Id="219d863f-752a-4697-8ddf-3a61c650b384" Name="">
           <Description />
           <Event>
             <EndEvent />
@@ -786,25 +821,7 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
-              <Coordinates XCoordinate="1360" YCoordinate="95" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="38609a0f-6629-4a42-ab59-f69705a19d12" Name="Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. &#xD;&#xA;Sie erreichen uns unter der kostenfreien Rufnummer 0800 909 5 909 und unter service@motivado.de.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1560" YCoordinate="80" />
+              <Coordinates XCoordinate="2428" YCoordinate="895" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -885,19 +902,6 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="bd9c3e37-54a7-46e1-b165-c6026f4c29be" From="e1c63bac-ba2f-4641-bccb-ae25a0125c30" To="b2f68154-8e42-4ecc-96e7-cbcbd4efe27b" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2234" YCoordinate="1106" />
-              <Coordinates XCoordinate="2234" YCoordinate="1093" />
-              <Coordinates XCoordinate="1098" YCoordinate="1093" />
-              <Coordinates XCoordinate="1098" YCoordinate="1106" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="91bf40f4-16ab-470a-9f99-8b0231e231c3" From="a303afe9-2459-4917-ab80-5a0ef877c9af" To="c6f09efb-7fd4-4f07-8d6f-74d89d630420" Name="">
           <Condition />
           <Description />
@@ -957,26 +961,13 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="b2222374-45a1-467b-9f3f-665c165846d1" From="e1c63bac-ba2f-4641-bccb-ae25a0125c30" To="5a2f5330-c7c1-42e0-b5b6-2fba47f83f79" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2234" YCoordinate="1166" />
-              <Coordinates XCoordinate="2234" YCoordinate="1319" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="38276410-6888-4f6a-859b-18c9cd1c014f" From="ce17dd03-d54c-4ede-8b36-3289df6e5755" To="cc46d04a-82f4-4e18-8931-b80b4346d78f" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2393" YCoordinate="285" />
-              <Coordinates XCoordinate="2413" YCoordinate="285" />
-              <Coordinates XCoordinate="2413" YCoordinate="287" />
+              <Coordinates XCoordinate="2393" YCoordinate="287" />
               <Coordinates XCoordinate="2433" YCoordinate="287" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1155,16 +1146,16 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="19461067-ea20-40eb-8414-bb426666533c" From="99b410e7-a5d2-44d6-8916-895c4c0dbef8" To="38609a0f-6629-4a42-ab59-f69705a19d12" Name="">
+        <Transition Id="19461067-ea20-40eb-8414-bb426666533c" From="99b410e7-a5d2-44d6-8916-895c4c0dbef8" To="ce17dd03-d54c-4ede-8b36-3289df6e5755" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="3">
               <Coordinates XCoordinate="1460" YCoordinate="220" />
               <Coordinates XCoordinate="1510" YCoordinate="220" />
-              <Coordinates XCoordinate="1510" YCoordinate="110" />
-              <Coordinates XCoordinate="1560" YCoordinate="110" />
+              <Coordinates XCoordinate="1510" YCoordinate="287" />
+              <Coordinates XCoordinate="2093" YCoordinate="287" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1218,17 +1209,6 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="dd8efd01-34cc-4c4f-a74f-8a43e6d205c9" From="c90c4255-1dd3-44f4-b115-1c894f3b1ca5" To="e1c63bac-ba2f-4641-bccb-ae25a0125c30" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2234" YCoordinate="1000" />
-              <Coordinates XCoordinate="2234" YCoordinate="1106" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="236f28a1-1b68-49d2-a4c0-92f30eac54eb" From="46147d20-feaf-422c-ab4d-5a98837138aa" To="ad1624ef-a510-46f8-9757-aa3a6703b128" Name="">
           <Condition />
           <Description />
@@ -1273,9 +1253,7 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2396" YCoordinate="601" />
-              <Coordinates XCoordinate="2416" YCoordinate="601" />
-              <Coordinates XCoordinate="2416" YCoordinate="603" />
-              <Coordinates XCoordinate="2436" YCoordinate="603" />
+              <Coordinates XCoordinate="2436" YCoordinate="601" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1337,7 +1315,7 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2586" YCoordinate="693" />
+              <Coordinates XCoordinate="2586" YCoordinate="691" />
               <Coordinates XCoordinate="2586" YCoordinate="765.5" />
               <Coordinates XCoordinate="1337" YCoordinate="765.5" />
               <Coordinates XCoordinate="1337" YCoordinate="820" />
@@ -1408,19 +1386,6 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="2132e045-a19c-4440-9f60-55209573f568" From="38609a0f-6629-4a42-ab59-f69705a19d12" To="6c31904a-a58f-48db-9edc-ace0cf14d5a2" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1605" YCoordinate="80" />
-              <Coordinates XCoordinate="1605" YCoordinate="61" />
-              <Coordinates XCoordinate="1375" YCoordinate="61" />
-              <Coordinates XCoordinate="1375" YCoordinate="95" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="d2cc7639-69cd-4b79-b573-362dbef91c32" From="9cbbeffd-2244-4e15-a195-606f92fe34d2" To="506ae35f-f848-457f-a5df-51ced01e7578" Name="">
           <Condition />
           <Description />
@@ -1431,6 +1396,17 @@ Wir helfen Ihnen dabei, E-Mails und Sms zu verfassen, die den Anderen neugierig 
               <Coordinates XCoordinate="676.5" YCoordinate="135" />
               <Coordinates XCoordinate="676.5" YCoordinate="220" />
               <Coordinates XCoordinate="720" YCoordinate="220" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8365b18c-349d-483a-be96-b4d4c9029e58" From="c90c4255-1dd3-44f4-b115-1c894f3b1ca5" To="219d863f-752a-4697-8ddf-3a61c650b384">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2384" YCoordinate="910" />
+              <Coordinates XCoordinate="2428" YCoordinate="910" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
