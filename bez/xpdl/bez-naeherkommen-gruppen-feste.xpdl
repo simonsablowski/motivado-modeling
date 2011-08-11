@@ -4,14 +4,16 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T18:37:16.9755859+02:00</Created>
-    <ModificationDate>2011-08-01T12:44:02.1492+02:00</ModificationDate>
+    <ModificationDate>2011-08-11T12:48:29.2197265+02:00</ModificationDate>
     <Description>bez-naeherkommen-gruppen-feste</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-07-27T16:39:44.3300781Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-07-28T14:32:56.25Z" UserName="MAREN-FEHRLAGE_Asus" />
       <Modification Date="2011-07-29T09:13:46.6813429Z" UserName="FLEX-DEV-PC_FlexDev" />
-      <Modification Date="2011-08-01T10:44:02.1492Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-08-01T10:46:18.6152Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-08-01T15:48:25.496Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-08-11T10:48:29.2197265Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -45,7 +47,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="bae1794e-2814-46b2-adec-31d38dff2b3b" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-01T12:44:35.9732+02:00</Created>
+        <Created>2011-08-11T12:48:42.3740234+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -60,7 +62,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="df3b265d-fce0-474d-b071-269aa9ae80bc" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-01T12:44:35.9732+02:00</Created>
+        <Created>2011-08-11T12:48:42.3740234+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -86,8 +88,13 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="fda11573-7615-4020-b8de-e1e6cdf77d11" Name="Die schlimmsten Fallen Teil III&#xD;&#xA;3. Zu viel Alkohol trinken&#xD;&#xA;Alkohol lässt bekanntlich die Hemmungen sinken, aber es wird Ihnen nicht gelingen, die betreffende Person näher kennenzulernen, wenn Sie nicht mehr Herr Ihrer Sinne sind. Daher nehmen Sie sich beim Alkoholkonsum etwas zurück!&#xD;&#xA;&#xD;&#xA;4. Nicht frech genug sein&#xD;&#xA;Seien Sie frech und fordernd. Es mag zwar ein Klischee sein, aber es ist durchaus etwas Wahres daran, dass nette Leute immer in der Freundschaftsfalle landen und da heraus zu kommen, ist eine ganz besonders schwierige Aufgabe. Seien Sie also frech, machen Sie klar, was Sie wollen und spielen Sie nicht den treuen Dackel.">
-          <Description />
+        <Activity Id="fda11573-7615-4020-b8de-e1e6cdf77d11" Name="Die schlimmsten Fallen Teil III&#xD;&#xA;">
+          <Description>$Text()
+3. Zu viel Alkohol trinken
+Alkohol lässt bekanntlich die Hemmungen sinken, aber es wird Ihnen nicht gelingen, die betreffende Person näher kennenzulernen, wenn Sie nicht mehr Herr Ihrer Sinne sind. Daher nehmen Sie sich beim Alkoholkonsum etwas zurück!
+
+4. Nicht frech genug sein
+Seien Sie frech und fordernd. Es mag zwar ein Klischee sein, aber es ist durchaus etwas Wahres daran, dass nette Leute immer in der Freundschaftsfalle landen und da heraus zu kommen, ist eine ganz besonders schwierige Aufgabe. Seien Sie also frech, machen Sie klar, was Sie wollen und spielen Sie nicht den treuen Dackel.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -96,7 +103,12 @@
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+3. Zu viel Alkohol trinken
+Alkohol lässt bekanntlich die Hemmungen sinken, aber es wird Ihnen nicht gelingen, die betreffende Person näher kennenzulernen, wenn Sie nicht mehr Herr Ihrer Sinne sind. Daher nehmen Sie sich beim Alkoholkonsum etwas zurück!
+
+4. Nicht frech genug sein
+Seien Sie frech und fordernd. Es mag zwar ein Klischee sein, aber es ist durchaus etwas Wahres daran, dass nette Leute immer in der Freundschaftsfalle landen und da heraus zu kommen, ist eine ganz besonders schwierige Aufgabe. Seien Sie also frech, machen Sie klar, was Sie wollen und spielen Sie nicht den treuen Dackel.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -150,8 +162,11 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="a7ddaf08-0bb3-4ee9-b98d-b62c84aac038" Name="Mit Enttäuschungen umgehen&#xD;&#xA;Es wichtig, dass Sie sich von Rückschlägen, nicht entmutigen lassen. Wenn z.B. die betreffende Person Sie erstmal stehen lässt, sprechen Sie mit jemand Anderem. Aber bleiben Sie mental dran! Behalten Sie den Glauben daran, dass es klappen kann. Nach ein paar (etwa 15-30) Minuten machen Sie wieder völlig normal weiter.&#xD;&#xA;&#xD;&#xA;Auch wenn zwischendurch andere Leute im Spiel sein sollten, lassen Sie sich nicht irritieren. Sie können zwischendurch natürlich auch mit anderen Leuten tanzen, aber kommen Sie immer wieder zur betreffenden Person zurück. Solange sie gut gelaunt ist und Ihnen nicht überdeutlich zu verstehen gibt, dass Sie kein Interesse hat, kommunizieren Sie, dass Sie Interesse haben.">
-          <Description />
+        <Activity Id="a7ddaf08-0bb3-4ee9-b98d-b62c84aac038" Name="Mit Enttäuschungen umgehen">
+          <Description>$Text()
+Es wichtig, dass Sie sich von Rückschlägen, nicht entmutigen lassen. Wenn z.B. die betreffende Person Sie erstmal stehen lässt, sprechen Sie mit jemand Anderem. Aber bleiben Sie mental dran! Behalten Sie den Glauben daran, dass es klappen kann. Nach ein paar (etwa 15-30) Minuten machen Sie wieder völlig normal weiter.
+
+Auch wenn zwischendurch andere Leute im Spiel sein sollten, lassen Sie sich nicht irritieren. Sie können zwischendurch natürlich auch mit anderen Leuten tanzen, aber kommen Sie immer wieder zur betreffenden Person zurück. Solange sie gut gelaunt ist und Ihnen nicht überdeutlich zu verstehen gibt, dass Sie kein Interesse hat, kommunizieren Sie, dass Sie Interesse haben.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -160,7 +175,10 @@
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Es wichtig, dass Sie sich von Rückschlägen, nicht entmutigen lassen. Wenn z.B. die betreffende Person Sie erstmal stehen lässt, sprechen Sie mit jemand Anderem. Aber bleiben Sie mental dran! Behalten Sie den Glauben daran, dass es klappen kann. Nach ein paar (etwa 15-30) Minuten machen Sie wieder völlig normal weiter.
+
+Auch wenn zwischendurch andere Leute im Spiel sein sollten, lassen Sie sich nicht irritieren. Sie können zwischendurch natürlich auch mit anderen Leuten tanzen, aber kommen Sie immer wieder zur betreffenden Person zurück. Solange sie gut gelaunt ist und Ihnen nicht überdeutlich zu verstehen gibt, dass Sie kein Interesse hat, kommunizieren Sie, dass Sie Interesse haben.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -196,8 +214,10 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="d0ebe2b6-c0de-4508-8c6d-4bbe9429f7cd" Name="Die schlimmsten Fallen Teil II&#xD;&#xA;2. Sich von anderen abschrecken lassen&#xD;&#xA;Nicht zu früh aufgegen, meint auch, dass Sie sich nicht gleich davon abschrecken lassen, wenn eine andere Person auftaucht und ebenfalls Interesse zeigt. Jetzt sofort den Rückzug anzutreten, wird nur dazu führen, dass Sie sich hinterher Vorwürfe machen werden. Wollen Sie sich wirklich einfach durch Konkurrenz abschrecken lassen und hinterher bereuen, dass Sie es nicht weiter versucht haben? Wollen Sie wirklich alleine zurückbleiben, während ein Anderer mit Ihrer Traumperson im Arm nach Hause geht?">
-          <Description />
+        <Activity Id="d0ebe2b6-c0de-4508-8c6d-4bbe9429f7cd" Name="Die schlimmsten Fallen Teil II">
+          <Description>$Text()
+2. Sich von anderen abschrecken lassen
+Nicht zu früh aufgegen, meint auch, dass Sie sich nicht gleich davon abschrecken lassen, wenn eine andere Person auftaucht und ebenfalls Interesse zeigt. Jetzt sofort den Rückzug anzutreten, wird nur dazu führen, dass Sie sich hinterher Vorwürfe machen werden. Wollen Sie sich wirklich einfach durch Konkurrenz abschrecken lassen und hinterher bereuen, dass Sie es nicht weiter versucht haben? Wollen Sie wirklich alleine zurückbleiben, während ein Anderer mit Ihrer Traumperson im Arm nach Hause geht?</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -206,7 +226,9 @@
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+2. Sich von anderen abschrecken lassen
+Nicht zu früh aufgegen, meint auch, dass Sie sich nicht gleich davon abschrecken lassen, wenn eine andere Person auftaucht und ebenfalls Interesse zeigt. Jetzt sofort den Rückzug anzutreten, wird nur dazu führen, dass Sie sich hinterher Vorwürfe machen werden. Wollen Sie sich wirklich einfach durch Konkurrenz abschrecken lassen und hinterher bereuen, dass Sie es nicht weiter versucht haben? Wollen Sie wirklich alleine zurückbleiben, während ein Anderer mit Ihrer Traumperson im Arm nach Hause geht?</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -307,8 +329,10 @@ Falls Sie mit der betreffenden Person schon länger befreundet sind, empfehlen w
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="966f04e9-8293-4de1-9c12-30e70396836b" Name="Nicht warten, sondern handeln&#xD;&#xA;Wenn Sie Jemanden in einer Gruppe oder auf einem Event interessant finden, wäre es ein großer  und sogar ziemlich dummer Irrtum, wenn Sie sich in dieser Situation einfach nur zurücklehnen und darauf warten, dass etwas passiert. Sie müssen aktiv werden und auf den Anderen zugehen. Nehmen Sie in Kauf, dass Sie beim ersten Versuch vielleicht keinen Erfolg haben werden, denn was haben Sie zu verlieren? - Nichts! Auf der anderen Seite aber könnten Sie eine tolle Person kennenlernen. Was ist Ihnen lieber? Die Entscheidung liegt bei Ihnen.&#xD;&#xA;Handeln Sie!">
-          <Description />
+        <Activity Id="966f04e9-8293-4de1-9c12-30e70396836b" Name="Nicht warten, sondern handeln&#xD;&#xA;">
+          <Description>$Text()
+Wenn Sie Jemanden in einer Gruppe oder auf einem Event interessant finden, wäre es ein großer  und sogar ziemlich dummer Irrtum, wenn Sie sich in dieser Situation einfach nur zurücklehnen und darauf warten, dass etwas passiert. Sie müssen aktiv werden und auf den Anderen zugehen. Nehmen Sie in Kauf, dass Sie beim ersten Versuch vielleicht keinen Erfolg haben werden, denn was haben Sie zu verlieren? - Nichts! Auf der anderen Seite aber könnten Sie eine tolle Person kennenlernen. Was ist Ihnen lieber? Die Entscheidung liegt bei Ihnen.
+Handeln Sie!</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -317,11 +341,13 @@ Falls Sie mit der betreffenden Person schon länger befreundet sind, empfehlen w
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Wenn Sie Jemanden in einer Gruppe oder auf einem Event interessant finden, wäre es ein großer  und sogar ziemlich dummer Irrtum, wenn Sie sich in dieser Situation einfach nur zurücklehnen und darauf warten, dass etwas passiert. Sie müssen aktiv werden und auf den Anderen zugehen. Nehmen Sie in Kauf, dass Sie beim ersten Versuch vielleicht keinen Erfolg haben werden, denn was haben Sie zu verlieren? - Nichts! Auf der anderen Seite aber könnten Sie eine tolle Person kennenlernen. Was ist Ihnen lieber? Die Entscheidung liegt bei Ihnen.
+Handeln Sie!</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1594.5" YCoordinate="455" />
+              <Coordinates XCoordinate="1594" YCoordinate="455" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -415,8 +441,9 @@ In unserem Coaching geht es darum, Ihre Unsicherheiten in Bezug auf Ihre Konkurr
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="43508988-9904-405f-a5af-1c9ee2540ef0" Name="Ein zusätzlicher, wertvoller Tipp&#xD;&#xA;Gerade auf Betriebsfeiern sollten Sie damit rechnen, dass der Andere sich zieren wird. Machen Sie jetzt nicht den gefährlichen Fehler, die Ängste oder Bedenken des Anderen zu ignorieren. Statt dessen, sprechen Sie diese direkt an und zeigen Sie so, dass Sie den Anderen verstehen. &quot;Ich weiß, mir ist es genauso unangenehm, aber ich kann nicht anders.&quot; oder &quot;Es wird keiner mitbekommen.&quot; oder &quot;Niemand sieht uns gerade.&quot; ">
-          <Description />
+        <Activity Id="43508988-9904-405f-a5af-1c9ee2540ef0" Name="Ein zusätzlicher, wertvoller Tipp">
+          <Description>$Text()
+Gerade auf Betriebsfeiern sollten Sie damit rechnen, dass der Andere sich zieren wird. Machen Sie jetzt nicht den gefährlichen Fehler, die Ängste oder Bedenken des Anderen zu ignorieren. Statt dessen, sprechen Sie diese direkt an und zeigen Sie so, dass Sie den Anderen verstehen. "Ich weiß, mir ist es genauso unangenehm, aber ich kann nicht anders." oder "Es wird keiner mitbekommen." oder "Niemand sieht uns gerade." </Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -425,11 +452,12 @@ In unserem Coaching geht es darum, Ihre Unsicherheiten in Bezug auf Ihre Konkurr
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Gerade auf Betriebsfeiern sollten Sie damit rechnen, dass der Andere sich zieren wird. Machen Sie jetzt nicht den gefährlichen Fehler, die Ängste oder Bedenken des Anderen zu ignorieren. Statt dessen, sprechen Sie diese direkt an und zeigen Sie so, dass Sie den Anderen verstehen. "Ich weiß, mir ist es genauso unangenehm, aber ich kann nicht anders." oder "Es wird keiner mitbekommen." oder "Niemand sieht uns gerade." </Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2368.5" YCoordinate="455" />
+              <Coordinates XCoordinate="2370" YCoordinate="455" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -486,20 +514,6 @@ gclsgroup2='Ja'
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="274" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="446.5" YCoordinate="1290" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="86fd1c0b-4603-4c7c-9db1-79dd99541e8b" Name="Nein">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2872.5" YCoordinate="1275" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -565,8 +579,11 @@ gclsgroup2='Ja'
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="26f183cd-3d81-4b90-9a13-095d30624f5a" Name="Zweier-Situationen herbeiführen&#xD;&#xA;Auf jedem größeren Event gibt es die Möglichkeit, Situationen herbeizuführen, in denen Sie mit dem Anderen allein sein können. Gehen Sie gemeinsam zum Buffet, an die frischen Luft, eine Zigarette rauchen oder tanzen sie miteinander. Fragen Sie dabei um die Hilfe der Traumperson. Wenn Sie sich in einer solchen Situation befinden, machen Sie Ihre Intentionen klar, indem Sie Körperkontakt aufbauen (z.B. nehmen Sie die Hand des Anderen, wenn Sie zum Buffet gehen).&#xD;&#xA;&#xD;&#xA;Wichtige Punkte zum Thema Intensivierung von Körperkontakt haben wir in unserem Coaching &quot;Eskalation zu Intimitäten&quot; für Sie zusammengestellt.">
-          <Description />
+        <Activity Id="26f183cd-3d81-4b90-9a13-095d30624f5a" Name="Zweier-Situationen herbeiführen">
+          <Description>$Text()
+Auf jedem größeren Event gibt es die Möglichkeit, Situationen herbeizuführen, in denen Sie mit dem Anderen allein sein können. Gehen Sie gemeinsam zum Buffet, an die frischen Luft, eine Zigarette rauchen oder tanzen sie miteinander. Fragen Sie dabei um die Hilfe der Traumperson. Wenn Sie sich in einer solchen Situation befinden, machen Sie Ihre Intentionen klar, indem Sie Körperkontakt aufbauen (z.B. nehmen Sie die Hand des Anderen, wenn Sie zum Buffet gehen).
+
+Wichtige Punkte zum Thema Intensivierung von Körperkontakt haben wir in unserem Coaching "Eskalation zu Intimitäten" für Sie zusammengestellt.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -575,7 +592,10 @@ gclsgroup2='Ja'
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Auf jedem größeren Event gibt es die Möglichkeit, Situationen herbeizuführen, in denen Sie mit dem Anderen allein sein können. Gehen Sie gemeinsam zum Buffet, an die frischen Luft, eine Zigarette rauchen oder tanzen sie miteinander. Fragen Sie dabei um die Hilfe der Traumperson. Wenn Sie sich in einer solchen Situation befinden, machen Sie Ihre Intentionen klar, indem Sie Körperkontakt aufbauen (z.B. nehmen Sie die Hand des Anderen, wenn Sie zum Buffet gehen).
+
+Wichtige Punkte zum Thema Intensivierung von Körperkontakt haben wir in unserem Coaching "Eskalation zu Intimitäten" für Sie zusammengestellt.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -619,8 +639,12 @@ gclsgroup3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="392b8406-26c6-4444-ace9-777571fd3ba5" Name="Die schlimmsten Fallen&#xD;&#xA;Oft geht der Versuch jemanden in einer Gruppe oder auf einem Event näher zu kommen deswegen in die Hose, weil viele Leute immer wieder die selben Fehler machen.&#xD;&#xA;&#xD;&#xA;1. Zu früh aufgeben&#xD;&#xA;Geben Sie nicht schon auf, bevor Sie Ihre Chance wirklich genutzt haben, weil sich beispielsweise die passende Situation nicht bietet. Führen Sie eine Zweier-Situation selbst herbei oder kommen Sie immer wieder auf diejenige Person zu.">
-          <Description />
+        <Activity Id="392b8406-26c6-4444-ace9-777571fd3ba5" Name="Die schlimmsten Fallen">
+          <Description>$Text()
+Oft geht der Versuch jemanden in einer Gruppe oder auf einem Event näher zu kommen deswegen in die Hose, weil viele Leute immer wieder die selben Fehler machen.
+
+1. Zu früh aufgeben
+Geben Sie nicht schon auf, bevor Sie Ihre Chance wirklich genutzt haben, weil sich beispielsweise die passende Situation nicht bietet. Führen Sie eine Zweier-Situation selbst herbei oder kommen Sie immer wieder auf diejenige Person zu.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -629,11 +653,15 @@ gclsgroup3='Ja'</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Oft geht der Versuch jemanden in einer Gruppe oder auf einem Event näher zu kommen deswegen in die Hose, weil viele Leute immer wieder die selben Fehler machen.
+
+1. Zu früh aufgeben
+Geben Sie nicht schon auf, bevor Sie Ihre Chance wirklich genutzt haben, weil sich beispielsweise die passende Situation nicht bietet. Führen Sie eine Zweier-Situation selbst herbei oder kommen Sie immer wieder auf diejenige Person zu.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="2759.5" YCoordinate="455" />
+              <Coordinates XCoordinate="2760" YCoordinate="455" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -687,8 +715,15 @@ gclsgroup3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="6591c662-5c1a-49e2-83bf-2d507929be31" Name="Den Anderen ins Visier nehmen&#xD;&#xA;Auch wenn Sie sich im Gespräch mit der Gruppe befinden, können Sie gleichzeitig den Anderen ins Visier nehmen, indem Sie sanfte Witze über die betreffende Person machen. Es ist wichtig, dass Sie sich nicht über das Aussehen des Anderen lustig machen oder zu harte Witze reißen. Achten Sie drauf, dass Sie bei allen Witzen und Verarschungen lächeln und man Ihnen leicht ansehen kann, dass Sie scherzen.&#xD;&#xA;&#xD;&#xA;Verbünden Sie sich mit der Gruppe gegen den Anderen und klopfen Sie leicht respektlose Sprüche, wie &quot;Wie haltet ihr ihn/sie denn nur aus?&quot; oder &quot;Ist er/sie immer so?&quot; oder (auf den Anderen bezogen) &quot;Hat gerade jemand etwas gesagt?&quot; oder &quot;Habt ihr gerade was gehört?&quot;, aber beleidigen Sie den Anderen nicht.&#xD;&#xA;&#xD;&#xA;Sie sollten es unbedingt zeigen, dass Sie Ihre Bemerkung charmant oder aufgesetzt empört gemeint haben. Blinzeln Sie dem Anderen beispielsweise zu, während Sie eine scherzhafte Bemerkung machen.&#xD;&#xA;&#xD;&#xA;Wenn Sie merken, dass Sie zu weit gegangen sind, ignorieren Sie den Anderen erst einmal für mindestens fünf Minuten. Sich in dieser Situation zu entschuldigen, macht die Sache oft noch schlimmer und könnte Sie schwach dastehen lassen. Ihr Ziel ist es, eine Zweier-Situation mit der betreffenden Person herzustellen. Behalten Sie dieses Ziel auch bei Rückschlägen im Auge! Hier geben viele Menschen auf, was der Hauptfehler ist.">
-          <Description />
+        <Activity Id="6591c662-5c1a-49e2-83bf-2d507929be31" Name="Den Anderen ins Visier nehmen&#xD;&#xA;">
+          <Description>Auch wenn Sie sich im Gespräch mit der Gruppe befinden, können Sie gleichzeitig den Anderen ins Visier nehmen, indem Sie sanfte Witze über die betreffende Person machen. Es ist wichtig, dass Sie sich nicht über das Aussehen des Anderen lustig machen oder zu harte Witze reißen. Achten Sie drauf, dass Sie bei allen Witzen und Verarschungen lächeln und man Ihnen leicht ansehen kann, dass Sie scherzen.
+
+$Text()
+Verbünden Sie sich mit der Gruppe gegen den Anderen und klopfen Sie leicht respektlose Sprüche, wie "Wie haltet ihr ihn/sie denn nur aus?" oder "Ist er/sie immer so?" oder (auf den Anderen bezogen) "Hat gerade jemand etwas gesagt?" oder "Habt ihr gerade was gehört?", aber beleidigen Sie den Anderen nicht.
+
+Sie sollten es unbedingt zeigen, dass Sie Ihre Bemerkung charmant oder aufgesetzt empört gemeint haben. Blinzeln Sie dem Anderen beispielsweise zu, während Sie eine scherzhafte Bemerkung machen.
+
+Wenn Sie merken, dass Sie zu weit gegangen sind, ignorieren Sie den Anderen erst einmal für mindestens fünf Minuten. Sich in dieser Situation zu entschuldigen, macht die Sache oft noch schlimmer und könnte Sie schwach dastehen lassen. Ihr Ziel ist es, eine Zweier-Situation mit der betreffenden Person herzustellen. Behalten Sie dieses Ziel auch bei Rückschlägen im Auge! Hier geben viele Menschen auf, was der Hauptfehler ist.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -697,7 +732,14 @@ gclsgroup3='Ja'</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>Auch wenn Sie sich im Gespräch mit der Gruppe befinden, können Sie gleichzeitig den Anderen ins Visier nehmen, indem Sie sanfte Witze über die betreffende Person machen. Es ist wichtig, dass Sie sich nicht über das Aussehen des Anderen lustig machen oder zu harte Witze reißen. Achten Sie drauf, dass Sie bei allen Witzen und Verarschungen lächeln und man Ihnen leicht ansehen kann, dass Sie scherzen.
+
+$Text()
+Verbünden Sie sich mit der Gruppe gegen den Anderen und klopfen Sie leicht respektlose Sprüche, wie "Wie haltet ihr ihn/sie denn nur aus?" oder "Ist er/sie immer so?" oder (auf den Anderen bezogen) "Hat gerade jemand etwas gesagt?" oder "Habt ihr gerade was gehört?", aber beleidigen Sie den Anderen nicht.
+
+Sie sollten es unbedingt zeigen, dass Sie Ihre Bemerkung charmant oder aufgesetzt empört gemeint haben. Blinzeln Sie dem Anderen beispielsweise zu, während Sie eine scherzhafte Bemerkung machen.
+
+Wenn Sie merken, dass Sie zu weit gegangen sind, ignorieren Sie den Anderen erst einmal für mindestens fünf Minuten. Sich in dieser Situation zu entschuldigen, macht die Sache oft noch schlimmer und könnte Sie schwach dastehen lassen. Ihr Ziel ist es, eine Zweier-Situation mit der betreffenden Person herzustellen. Behalten Sie dieses Ziel auch bei Rückschlägen im Auge! Hier geben viele Menschen auf, was der Hauptfehler ist.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -705,8 +747,10 @@ gclsgroup3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="7172b9ea-505e-4121-9ced-c6b43ef68acb" Name="Die schlimmsten Fallen Teil IV&#xD;&#xA;5. Keine klare Vision haben&#xD;&#xA;Scheitern Sie nicht daran, dass Sie gar nicht genau wissen, was Sie eigentlich wollen. Nehmen Sie sich Zeit, darüber klar zu werden, wie der Abend für Sie enden soll. Mit einer Telefonnummer? Mit einem Kuss? Setzen Sie Ihr Ziel tief in Ihren Gedanken fest und handeln Sie dementsprechend. EGAL, wie es zunächst für Sie zu laufen scheint oder wie viele Chancen Sie sich ausrechnen.">
-          <Description />
+        <Activity Id="7172b9ea-505e-4121-9ced-c6b43ef68acb" Name="Die schlimmsten Fallen Teil IV">
+          <Description>$Text()
+5. Keine klare Vision haben
+Scheitern Sie nicht daran, dass Sie gar nicht genau wissen, was Sie eigentlich wollen. Nehmen Sie sich Zeit, darüber klar zu werden, wie der Abend für Sie enden soll. Mit einer Telefonnummer? Mit einem Kuss? Setzen Sie Ihr Ziel tief in Ihren Gedanken fest und handeln Sie dementsprechend. EGAL, wie es zunächst für Sie zu laufen scheint oder wie viele Chancen Sie sich ausrechnen.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -715,16 +759,21 @@ gclsgroup3='Ja'</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+5. Keine klare Vision haben
+Scheitern Sie nicht daran, dass Sie gar nicht genau wissen, was Sie eigentlich wollen. Nehmen Sie sich Zeit, darüber klar zu werden, wie der Abend für Sie enden soll. Mit einer Telefonnummer? Mit einem Kuss? Setzen Sie Ihr Ziel tief in Ihren Gedanken fest und handeln Sie dementsprechend. EGAL, wie es zunächst für Sie zu laufen scheint oder wie viele Chancen Sie sich ausrechnen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1992.5" YCoordinate="742" />
+              <Coordinates XCoordinate="1992" YCoordinate="742" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="2adf18d5-9907-4844-a431-12968c39b1be" Name="2. Selbstbewusstsein ausstrahlen, egal wie viel Sie tatsächlich haben&#xD;&#xA;Wenn Sie auf die Gruppe zugehen, zu der die entsprechende Person gehört, seien Sie selbstbewusst. Hören Sie zuerst der Unterhaltung zu, halten Sie sich dabei aber körperlich sehr aufrecht. Um von der Gruppe integriert zu werden, stellen Sie klare, laute Fragen oder Kommentare. &#xD;&#xA;&#xD;&#xA;Gehen Sie direkt in die Kommunikation ein. Zeigen Sie Interesse für die Gespräche der gesamten Gruppe. Wenn die Gruppe merkt, dass Sie da sind und es tatsächlich ernst meinen, wird man Sie integrieren. Wenn Sie aber leise sind, werden Sie untergehen.">
-          <Description />
+        <Activity Id="2adf18d5-9907-4844-a431-12968c39b1be" Name="2. Selbstbewusstsein ausstrahlen, egal wie viel Sie tatsächlich haben">
+          <Description>$Text()
+Wenn Sie auf die Gruppe zugehen, zu der die entsprechende Person gehört, seien Sie selbstbewusst. Hören Sie zuerst der Unterhaltung zu, halten Sie sich dabei aber körperlich sehr aufrecht. Um von der Gruppe integriert zu werden, stellen Sie klare, laute Fragen oder Kommentare. 
+
+Gehen Sie direkt in die Kommunikation ein. Zeigen Sie Interesse für die Gespräche der gesamten Gruppe. Wenn die Gruppe merkt, dass Sie da sind und es tatsächlich ernst meinen, wird man Sie integrieren. Wenn Sie aber leise sind, werden Sie untergehen.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -733,7 +782,10 @@ gclsgroup3='Ja'</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Wenn Sie auf die Gruppe zugehen, zu der die entsprechende Person gehört, seien Sie selbstbewusst. Hören Sie zuerst der Unterhaltung zu, halten Sie sich dabei aber körperlich sehr aufrecht. Um von der Gruppe integriert zu werden, stellen Sie klare, laute Fragen oder Kommentare. 
+
+Gehen Sie direkt in die Kommunikation ein. Zeigen Sie Interesse für die Gespräche der gesamten Gruppe. Wenn die Gruppe merkt, dass Sie da sind und es tatsächlich ernst meinen, wird man Sie integrieren. Wenn Sie aber leise sind, werden Sie untergehen.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -759,24 +811,11 @@ gclsgroup3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ade5c2e7-0498-49af-a81e-b2fccf86bbbc" Name="Möchten Sie das Coaching wiederholen?">
-          <Description>REL_QuestTree_V88.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_QuestTree_V88.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
-              <Coordinates XCoordinate="2767.5" YCoordinate="1122" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="5bd6f919-bbe2-4070-9499-453ba17a570d" Name="Betriebsfeier&#xD;&#xA;Wenn Sie gerne jemandem auf einer Betriebsfeier näher kommen möchten, stellt das eine etwas andere Situation dar, denn oft haben die Leute keine Lust das Gesprächsthema des gesamten Büros zu sein. Seien Sie daher in Ihrer Annäherung nicht zu offensichtlich. &#xD;&#xA;&#xD;&#xA;Sie können mit der betreffenden Person einen Spaziergang machen oder ein Glas Wein &quot;woanders&quot; vorschlagen. Oder Sie nehmen die Hand des Anderen unter dem Tisch oder tanzen Sie mit der Person und flüstern ihr heimlich etwas süßes ins Ohr.">
-          <Description />
+        <Activity Id="5bd6f919-bbe2-4070-9499-453ba17a570d" Name="Betriebsfeier&#xD;&#xA;">
+          <Description>$Text()
+Wenn Sie gerne jemandem auf einer Betriebsfeier näher kommen möchten, stellt das eine etwas andere Situation dar, denn oft haben die Leute keine Lust das Gesprächsthema des gesamten Büros zu sein. Seien Sie daher in Ihrer Annäherung nicht zu offensichtlich. 
+
+Sie können mit der betreffenden Person einen Spaziergang machen oder ein Glas Wein "woanders" vorschlagen. Oder Sie nehmen die Hand des Anderen unter dem Tisch oder tanzen Sie mit der Person und flüstern ihr heimlich etwas süßes ins Ohr.</Description>
           <Implementation>
             <Task>
               <TaskScript>
@@ -785,25 +824,14 @@ gclsgroup3='Ja'</Documentation>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation />
+          <Documentation>$Text()
+Wenn Sie gerne jemandem auf einer Betriebsfeier näher kommen möchten, stellt das eine etwas andere Situation dar, denn oft haben die Leute keine Lust das Gesprächsthema des gesamten Büros zu sein. Seien Sie daher in Ihrer Annäherung nicht zu offensichtlich. 
+
+Sie können mit der betreffenden Person einen Spaziergang machen oder ein Glas Wein "woanders" vorschlagen. Oder Sie nehmen die Hand des Anderen unter dem Tisch oder tanzen Sie mit der Person und flüstern ihr heimlich etwas süßes ins Ohr.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1988.5" YCoordinate="455" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="e272dadf-5f78-4c64-a7cc-c57e98cbfdff" Name="Ja">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="83" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1048.5" YCoordinate="1126" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -821,7 +849,7 @@ gclsgroup3='Ja'</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="fa1b4794-9441-4f03-9e42-d56b416818c0" Name="">
+        <Activity Id="9b7e4599-2ccc-4155-88be-dc7d3b7a7ac3" Name="">
           <Description />
           <Event>
             <EndEvent />
@@ -830,25 +858,7 @@ gclsgroup3='Ja'</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
-              <Coordinates XCoordinate="1380" YCoordinate="95" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="216023d7-54f5-47b9-99d8-e3f1e599b934" Name="Bevor Sie mit diesem  Coaching fortfahren, lassen Sie sich Ihren Termin für das Telefoncoaching geben, das in Ihrem Paket enthalten ist. Gemeinsam mit dem Coach besprechen Sie Ihre individuelle Situation und planen die nächsten Schritte. &#xD;&#xA;Sie erreichen uns unter der kostenfreien Rufnummer 0800 909 5 909 und unter service@motivado.de.">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1260" YCoordinate="80" />
+              <Coordinates XCoordinate="3109" YCoordinate="817" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -1239,8 +1249,8 @@ gclsgroup3='Ja'</Documentation>
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2909" YCoordinate="635" />
-              <Coordinates XCoordinate="2909" YCoordinate="688.5" />
+              <Coordinates XCoordinate="2910" YCoordinate="635" />
+              <Coordinates XCoordinate="2910" YCoordinate="688.5" />
               <Coordinates XCoordinate="1347" YCoordinate="688.5" />
               <Coordinates XCoordinate="1347" YCoordinate="742" />
             </ConnectorGraphicsInfo>
@@ -1252,8 +1262,8 @@ gclsgroup3='Ja'</Documentation>
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2668" YCoordinate="545" />
-              <Coordinates XCoordinate="2759" YCoordinate="545" />
+              <Coordinates XCoordinate="2670" YCoordinate="545" />
+              <Coordinates XCoordinate="2760" YCoordinate="545" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1264,7 +1274,7 @@ gclsgroup3='Ja'</Documentation>
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2288" YCoordinate="545" />
-              <Coordinates XCoordinate="2368" YCoordinate="545" />
+              <Coordinates XCoordinate="2370" YCoordinate="545" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1313,17 +1323,6 @@ gclsgroup3='Ja'</Documentation>
               <Coordinates XCoordinate="394" YCoordinate="1341.4444580078125" />
               <Coordinates XCoordinate="274" YCoordinate="1341.4444580078125" />
               <Coordinates XCoordinate="274" YCoordinate="1524" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="c618148f-d727-4dff-b391-70c8618f4bc0" From="ade5c2e7-0498-49af-a81e-b2fccf86bbbc" To="86fd1c0b-4603-4c7c-9db1-79dd99541e8b" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2917" YCoordinate="1182" />
-              <Coordinates XCoordinate="2917" YCoordinate="1275" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1404,17 +1403,6 @@ gclsgroup3='Ja'</Documentation>
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="e8b6ebfc-4841-4c90-9a98-8e7c9af830fb" From="99914a07-dd14-4296-9979-d665d05dc715" To="ade5c2e7-0498-49af-a81e-b2fccf86bbbc" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2917" YCoordinate="922" />
-              <Coordinates XCoordinate="2917" YCoordinate="1122" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="74af212f-ef37-485a-9dd0-3e4e54c80b0a" From="3414fbf6-29d8-4ca8-848b-19f5006aea74" To="ef46a2f4-48bd-46e1-80b4-4de1baed0f1e" Name="">
           <Condition />
           <Description />
@@ -1425,19 +1413,6 @@ gclsgroup3='Ja'</Documentation>
               <Coordinates XCoordinate="273" YCoordinate="1239" />
               <Coordinates XCoordinate="274" YCoordinate="1239" />
               <Coordinates XCoordinate="274" YCoordinate="1524" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="e34cdae1-b952-4f16-af7c-5ad81d1816ca" From="ade5c2e7-0498-49af-a81e-b2fccf86bbbc" To="e272dadf-5f78-4c64-a7cc-c57e98cbfdff" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2917" YCoordinate="1122" />
-              <Coordinates XCoordinate="2917" YCoordinate="1109" />
-              <Coordinates XCoordinate="1089" YCoordinate="1109" />
-              <Coordinates XCoordinate="1089" YCoordinate="1126" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1478,17 +1453,6 @@ gclsgroup3='Ja'</Documentation>
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="5016357e-ee2a-41c1-834d-6827406d77b0" From="216023d7-54f5-47b9-99d8-e3f1e599b934" To="fa1b4794-9441-4f03-9e42-d56b416818c0" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1350" YCoordinate="110" />
-              <Coordinates XCoordinate="1380" YCoordinate="110" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="dc25c908-f293-407b-881b-d69754e0485c" From="b574ba1f-2310-4603-8585-b9bdc79a39bf" To="fb344491-44e7-4d0f-adaa-d0d00cb8421f" Name="">
           <Condition />
           <Description />
@@ -1502,14 +1466,27 @@ gclsgroup3='Ja'</Documentation>
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="2ac80f8f-dceb-4399-9927-2bea519f1d2b" From="15af25fd-abb3-4bea-81b2-64256435dff1" To="216023d7-54f5-47b9-99d8-e3f1e599b934" Name="">
+        <Transition Id="2ac80f8f-dceb-4399-9927-2bea519f1d2b" From="15af25fd-abb3-4bea-81b2-64256435dff1" To="2adf18d5-9907-4844-a431-12968c39b1be" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="3">
+              <Coordinates XCoordinate="1375" YCoordinate="213" />
+              <Coordinates XCoordinate="1407" YCoordinate="213" />
+              <Coordinates XCoordinate="1407" YCoordinate="254" />
+              <Coordinates XCoordinate="1984" YCoordinate="254" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ffc8107c-03fc-4dab-b0e0-90dda0de49e5" From="99914a07-dd14-4296-9979-d665d05dc715" To="9b7e4599-2ccc-4155-88be-dc7d3b7a7ac3">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1305" YCoordinate="166" />
-              <Coordinates XCoordinate="1305" YCoordinate="140" />
+              <Coordinates XCoordinate="3067" YCoordinate="832" />
+              <Coordinates XCoordinate="3109" YCoordinate="832" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
