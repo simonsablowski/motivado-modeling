@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-26T17:33:21.1455078+02:00</Created>
-    <ModificationDate>2011-08-01T17:10:25.3103028+02:00</ModificationDate>
+    <ModificationDate>2011-08-10T14:22:22.3544921+02:00</ModificationDate>
     <Description>bez-angenehme-gespraeche</Description>
     <Documentation />
     <Modifications>
@@ -15,6 +15,7 @@
       <Modification Date="2011-07-29T09:11:39.5280701Z" UserName="FLEX-DEV-PC_FlexDev" />
       <Modification Date="2011-07-29T09:25:02.245983Z" UserName="FLEX-DEV-PC_FlexDev" />
       <Modification Date="2011-08-01T15:10:23.111177Z" UserName="FLEX-DEV-PC_FlexDev" />
+      <Modification Date="2011-08-10T12:22:22.3544921Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -48,7 +49,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="575c0795-eb40-46de-a049-be09d0910b22" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-01T17:14:59.9020086+02:00</Created>
+        <Created>2011-08-10T14:22:36.0058593+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -63,7 +64,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="8d36dfc4-ce26-46b0-a548-1cdceb7dedeb" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-01T17:14:59.9020086+02:00</Created>
+        <Created>2011-08-10T14:22:36.0058593+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -277,42 +278,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="be5ca788-27fa-4a32-96a7-2c29c48218ac" Name="Aufgabe zum Coaching 'Sehr angenehme Gespräche führen'&#xD;&#xA;&#xD;&#xA;Üben Sie mit Bekannten und Fremden, ohne dass diese es wissen, sehr angenehme Gespräche zu führen.&#xD;&#xA;&#xD;&#xA;Halten Sie fest, mit wem Sie gesprochen haben, und wie gut Sie die Elemente unterbringen konnten. Halten Sie auch fest, was Sie beim nächsten Mal besser machen wollen.">
-          <Description>$Text("video":{"url":"REL_AngGespr_V12.flv"})</Description>
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>$Text("video":{"url":"REL_AngGespr_V12.flv"})</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="103" Width="96" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1091" YCoordinate="394.5" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="c7c2a8db-8275-4804-8163-376d08515d0e" Name="Gratulation. Dies war das Coaching 'Angenehme Gespräche führen&quot;. Nun heißt es viel Spaß! Viel Erfolg! und Bis bald.">
-          <Description>$Text("video":{"url":"REL_AngGespr_V14.flv"})</Description>
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>$Text("video":{"url":"REL_AngGespr_V14.flv"})</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="83" Width="144" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1308" YCoordinate="404.5" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="d7b00055-af20-4038-8c31-f5d8b8bd513a" Name="Mit wem unterhalten Sie sich gerne? Und warum? Machen Sie sich hier Notizen:">
           <Description>$TextArea("video":{"url":"REL_AngGespr_V5.flv"})</Description>
           <Implementation>
@@ -342,6 +307,38 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="520" YCoordinate="105" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="be5ca788-27fa-4a32-96a7-2c29c48218ac" Name="Aufgabe zum Coaching 'Sehr angenehme Gespräche führen'&#xD;&#xA;&#xD;&#xA;Üben Sie mit Bekannten und Fremden, ohne dass diese es wissen, sehr angenehme Gespräche zu führen.&#xD;&#xA;&#xD;&#xA;Halten Sie fest, mit wem Sie gesprochen haben, und wie gut Sie die Elemente unterbringen konnten. Halten Sie auch fest, was Sie beim nächsten Mal besser machen wollen.">
+          <Description>$Text("video":{"url":"REL_AngGespr_V12.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_AngGespr_V12.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="103" Width="96" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1091" YCoordinate="394.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c7c2a8db-8275-4804-8163-376d08515d0e" Name="Gratulation. Dies war das Coaching 'Angenehme Gespräche führen&quot;. Nun heißt es viel Spaß! Viel Erfolg! und Bis bald.">
+          <Description>$Text("video":{"url":"REL_AngGespr_V14.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_AngGespr_V14.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="83" Width="144" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1308" YCoordinate="404.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
