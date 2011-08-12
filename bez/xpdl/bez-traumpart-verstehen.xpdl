@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T17:24:22.65625+02:00</Created>
-    <ModificationDate>2011-08-05T14:13:15.5361328+02:00</ModificationDate>
+    <ModificationDate>2011-08-05T16:28:42.071289+02:00</ModificationDate>
     <Description>bez-traumpart-verstehen</Description>
     <Documentation />
     <Modifications>
@@ -12,6 +12,8 @@
       <Modification Date="2011-07-28T10:45:14.65625Z" UserName="MAREN-FEHRLAGE_Asus" />
       <Modification Date="2011-08-05T11:20:27.711914Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-08-05T12:13:15.5361328Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-05T12:25:21.0585937Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-08-05T14:28:42.071289Z" UserName="MODELLIERUNG-PC_Modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -45,7 +47,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="c8cf303e-fca5-4c8c-bfd0-14eed28482ad" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-05T14:14:10.5498046+02:00</Created>
+        <Created>2011-08-12T13:15:28.9472657+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -60,7 +62,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="fa0e4ded-5554-4a24-a526-4bdef0f6b677" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-05T14:14:10.5498046+02:00</Created>
+        <Created>2011-08-12T13:15:28.9492188+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -113,19 +115,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="80" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1576" YCoordinate="581" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="679cca86-66d3-4609-b576-7bdb383499a4" Name="Vorteile dieser wachsenden Listen">
-          <Description>REL_LearnAbDP_V9.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_LearnAbDP_V9.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="2167" YCoordinate="364" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -272,19 +261,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="1bf537e3-be15-40f5-8f37-baa9633d4090" Name="Sind Sie sicher?">
-          <Description>REL_LearnAbDP_V13.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_LearnAbDP_V13.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="2176" YCoordinate="504" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="f031c9c0-69c2-4a07-af38-163195f189f5" Name="Sind Sie selten mit der Person, auf die Sie standen, zusammengekommen?">
           <Description>REL_LearnAbDP_V2.flv</Description>
           <Implementation>
@@ -326,19 +302,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="368" YCoordinate="973" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="9c5c401e-5c0b-4dc9-bb59-1603e8c5df1c" Name="Outro">
-          <Description>REL_LearnAbDP_V14.flv</Description>
-          <Event>
-            <IntermediateEvent Trigger="None" />
-          </Event>
-          <Documentation>REL_LearnAbDP_V14.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" BorderVisible="false" FillColor="-66833">
-              <Coordinates XCoordinate="2175" YCoordinate="612" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -503,7 +466,7 @@ Nicht ganz so günstig sind Ex-Partner, da hier vielleicht noch zuviel gemeinsam
         </Activity>
         <Activity Id="ea36d32b-bca3-46b8-ba91-ac44c1dd443b" Name="Plan aufstellen zur Umsetzung des Kennenlernens">
           <Description>$Text("video":{"url":"REL_LearnAbDP_V10.flv"})
-Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)</Description>
+Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern es Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)</Description>
           <Implementation>
             <Task>
               <TaskManual />
@@ -511,7 +474,7 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
           </Implementation>
           <Performers />
           <Documentation>$Text("video":{"url":"REL_LearnAbDP_V10.flv"})
-Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)</Documentation>
+Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern es Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
