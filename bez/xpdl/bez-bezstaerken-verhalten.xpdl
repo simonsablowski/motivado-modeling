@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="048e7f51-4f74-423a-9340-4b17faeae242" Name="bez-bezstaerken-verhalten" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-08-15T10:23:04.5429687+02:00</Created>
+    <ModificationDate>2011-08-15T11:12:30.9179687+02:00</ModificationDate>
+    <Description>bez-bezstaerken-verhalten</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-15T08:23:44.4345703Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-15T08:53:22.0986328Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-15T09:12:30.9179687Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>Modellierung</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="1539bba7-46da-49dc-9c2a-866267b387cb" Name="Main Process" Process="88d8c0bf-041e-419e-87ff-acc52ad59d30" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="e66a6d51-744d-462b-9ac2-421a00a51021" Name="Process 1" Process="4aaa6a21-a885-4d07-a2d1-55953322f9cf" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="662" Width="1523" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="88d8c0bf-041e-419e-87ff-acc52ad59d30" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-08-15T11:12:47.5019531+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="4aaa6a21-a885-4d07-a2d1-55953322f9cf" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-08-15T11:12:47.5019531+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="09d132f1-9492-4ac3-98fe-b84353a745d9" Name="Herzlich Willkommen im Coaching 'Die großen Stolpersteine in Beziehungen vermeiden'!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="76" Width="244" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="266" YCoordinate="145" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="08fc1293-1d81-465b-87d7-82273e7934c0" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="122" YCoordinate="168" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f1b268fc-3960-4f7c-9481-8464742eb600" Name="Weglassen von guten Dingen">
+          <Description>
+$Text()
+Sie wissen, dass Ihr Partner etwas Bestimmtes sehr mag, aber aus irgendeinem Grund machen Sie es nicht mehr, geben Sie es ihm nicht mehr. Warum?
+Gerade in der Beziehung ist es wichtig, den Partner weiter anzuziehen.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+$Text()
+Sie wissen, dass Ihr Partner etwas Bestimmtes sehr mag, aber aus irgendeinem Grund machen Sie es nicht mehr, geben Sie es ihm nicht mehr. Warum?
+Gerade in der Beziehung ist es wichtig, den Partner weiter anzuziehen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="267" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="924" YCoordinate="314" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5a8fcc67-efde-4efb-81e0-9f93e6eee90c" Name="Sprechen&#xA;">
+          <Description>$Text()
+Wenn Sie schon merken, dass Sie stinken, eine alte, ausgebeulte Jeans tragen, kein Make-Up drauf haben, etc. etc., dann sprechen Sie es an.
+Und zwar richtig!
+Falsch: "Stinke etwas, aber Du liebst mich ja Gott sei dank!"
+Richtig: "Achtung. Bitte Abstand, ich stinke etwas und werde das gleich korrigieren. Eigentlich dürftest Du mir so gar nicht begegnen."
+Bei "Falsch" setzen Sie sich über den Anderen hinweg und tun noch so, als ob Sie egal wie verstellt liebenswert sein. Wer sagt, dass das stimmt??
+Bei "Richtig" geben Sie dem Partner die Chance, Ihnen zu widersprechen oder tatsächlich auf Abstand zu gehen. Vor allem aber dadurch, dass Sie es selbst als störend beschreiben, ist die unangenehme Spannung aus der Situation genommen, und Sie sinken nicht so stark in der Liebe Ihres Partners - vielleicht sogar gar nicht.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Wenn Sie schon merken, dass Sie stinken, eine alte, ausgebeulte Jeans tragen, kein Make-Up drauf haben, etc. etc., dann sprechen Sie es an.
+Und zwar richtig!
+Falsch: "Stinke etwas, aber Du liebst mich ja Gott sei dank!"
+Richtig: "Achtung. Bitte Abstand, ich stinke etwas und werde das gleich korrigieren. Eigentlich dürftest Du mir so gar nicht begegnen."
+Bei "Falsch" setzen Sie sich über den Anderen hinweg und tun noch so, als ob Sie egal wie verstellt liebenswert sein. Wer sagt, dass das stimmt??
+Bei "Richtig" geben Sie dem Partner die Chance, Ihnen zu widersprechen oder tatsächlich auf Abstand zu gehen. Vor allem aber dadurch, dass Sie es selbst als störend beschreiben, ist die unangenehme Spannung aus der Situation genommen, und Sie sinken nicht so stark in der Liebe Ihres Partners - vielleicht sogar gar nicht.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1206" YCoordinate="314" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="00078bb1-2b07-4525-89f7-93b8fad35847" Name="Ähnlicher Bewusstseinszustand">
+          <Description>$Text()
+Einer ist betrunken, der Andere nicht. Das geht bei vielen Paaren in die Hose. Verschiedene Bewusstseinzustände (auch durch andere Drogen oder durch Stress verursacht) führen zu Mega-Beziehungsknatsch. Warum? In verschiedenen Bewusstseinzuständen (z.B. betrunken - nicht betrunken) denken Menschen verschieden und handeln verschieden. Beispiel Trinken abends beim Weggehen: Der Bertrunkene macht einen etwas zu groben Witz, der Nüchterne wertet es, wie wenn es der Andere als Nüchterner gesagt hätte, also viel zu hart. Außerdem erscheinen nüchternen Menschen, betrunkene immer als unangenehm. In jedem Fall sollte man lieber alleine oder mit seinen guten Freunden feiern oder nur ein wenig trinken. Ist die Beziehung schon etwas älter, heisst es immer noch Vorsicht! Über solche Abende haben Paare sich schon für Wochen überworfen.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Einer ist betrunken, der Andere nicht. Das geht bei vielen Paaren in die Hose. Verschiedene Bewusstseinzustände (auch durch andere Drogen oder durch Stress verursacht) führen zu Mega-Beziehungsknatsch. Warum? In verschiedenen Bewusstseinzuständen (z.B. betrunken - nicht betrunken) denken Menschen verschieden und handeln verschieden. Beispiel Trinken abends beim Weggehen: Der Bertrunkene macht einen etwas zu groben Witz, der Nüchterne wertet es, wie wenn es der Andere als Nüchterner gesagt hätte, also viel zu hart. Außerdem erscheinen nüchternen Menschen, betrunkene immer als unangenehm. In jedem Fall sollte man lieber alleine oder mit seinen guten Freunden feiern oder nur ein wenig trinken. Ist die Beziehung schon etwas älter, heisst es immer noch Vorsicht! Über solche Abende haben Paare sich schon für Wochen überworfen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="584" YCoordinate="314" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="81eece82-98e7-4a10-a018-ab2dbda2f6c8" Name="Ungünstiges Timing&#xA;">
+          <Description>$Text()
+Gerade zu Beziehungsbeginn ist Timing ganz wichtig:
+Den Partner zu treffen, wenn man sich gut fühlt, attraktiv ist. Den Partner nicht treffen wenn man schlecht drauf oder müde ist. Unattraktiv, vielleicht verschwitzt, unrasiert, ungeschminkt oder erschöpft ist. Lieber verschiebt man ein Treffen um 2 Stunden oder um einen Tag, als zu früh schlechte Eindrücke zu hinterlassen.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Gerade zu Beziehungsbeginn ist Timing ganz wichtig:
+Den Partner zu treffen, wenn man sich gut fühlt, attraktiv ist. Den Partner nicht treffen wenn man schlecht drauf oder müde ist. Unattraktiv, vielleicht verschwitzt, unrasiert, ungeschminkt oder erschöpft ist. Lieber verschiebt man ein Treffen um 2 Stunden oder um einen Tag, als zu früh schlechte Eindrücke zu hinterlassen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="186" YCoordinate="314" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e420827b-3b7a-4e5e-9838-fde4c5a28beb" Name="Das war das  Coaching 'Die großen Stolpersteine in Beziehungen vermeiden'. Für mehr Informationen zu diesem Thema beachten Sie bitte auch unser E-Book 'Die 5 häufigsten Beziehungskiller'. Für Rückfragen stehen wir gerne zur Verfügung. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="92" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="933" YCoordinate="538" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a0deb847-7bca-4a68-b420-80ac029a5d73" Name="Ignorieren von Wünschen">
+          <Description>$Text()
+
+
+Der Partner hat sich ausdrücklich, vielleicht sogar mehrmals folgendes gewünscht: Pünktlichkeit oder zeitliche Flexibilität oder etwas Make-Up oder den Verzicht auf Eltern-Besuchen, etc. Doch nach dem Motto "Wenn der Partner mich liebt, passt schon alles." Wird es verschlampt, vergessen, übergangen und es knallt kräftig. Beziehungen sind kein Ort um Liebesbeweise zu strapazieren sondern, sich für eine tolle Sache etwas Mühe zu geben.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+
+Der Partner hat sich ausdrücklich, vielleicht sogar mehrmals folgendes gewünscht: Pünktlichkeit oder zeitliche Flexibilität oder etwas Make-Up oder den Verzicht auf Eltern-Besuchen, etc. Doch nach dem Motto "Wenn der Partner mich liebt, passt schon alles." Wird es verschlampt, vergessen, übergangen und es knallt kräftig. Beziehungen sind kein Ort um Liebesbeweise zu strapazieren sondern, sich für eine tolle Sache etwas Mühe zu geben.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="172" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="625" YCoordinate="97" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bd55a353-756b-4518-b949-3adfebab5dff" Name="Ungünstige Darstellung">
+          <Description>$Text()
+Natürlich muss man sich nicht immer perfekt zeigen. Das wäre anstrengend. Dennoch muss man sich gerade für seinen Partner schön machen und langsam lernen, an welcher Stelle man etwas sparen darf. Wer das vernachlässigt riskiert seine Beziehung härter als vielen bewusst. Sieht man nämlich den Partner in vernachlässigter Kleidung, Hygiene, Schminke wird das sofort als "Die tollen Tage sind vorbei!"-Signal gewertet. Fast niemand spricht von dieser ersten Enttäuschung doch bei einigen Menschen führt dies dazu die Beziehung für nicht mehr so toll zu erachten und im schlimmsten Fall schon das Ende der Beziehung herbeizusehnen.Ähnliche Fehler: vor dem Partner auf's Klo zu gehen.Den Partner krank, oder unattraktiv zu empfangen, ohne Zähne geputzt zu küssen, vor der Dusche stinkend zu begrüßen als zu Duschen.</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Natürlich muss man sich nicht immer perfekt zeigen. Das wäre anstrengend. Dennoch muss man sich gerade für seinen Partner schön machen und langsam lernen, an welcher Stelle man etwas sparen darf. Wer das vernachlässigt riskiert seine Beziehung härter als vielen bewusst. Sieht man nämlich den Partner in vernachlässigter Kleidung, Hygiene, Schminke wird das sofort als "Die tollen Tage sind vorbei!"-Signal gewertet. Fast niemand spricht von dieser ersten Enttäuschung doch bei einigen Menschen führt dies dazu die Beziehung für nicht mehr so toll zu erachten und im schlimmsten Fall schon das Ende der Beziehung herbeizusehnen.Ähnliche Fehler: vor dem Partner auf's Klo zu gehen.Den Partner krank, oder unattraktiv zu empfangen, ohne Zähne geputzt zu küssen, vor der Dusche stinkend zu begrüßen als zu Duschen.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="990" YCoordinate="93" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="532a8602-40c8-4e50-8d1a-22099786cadc" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="1282" YCoordinate="569" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="15dfe13b-2069-494b-a65c-11e4778bb2bb" From="08fc1293-1d81-465b-87d7-82273e7934c0" To="09d132f1-9492-4ac3-98fe-b84353a745d9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="152" YCoordinate="183" />
+              <Coordinates XCoordinate="266" YCoordinate="183" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7cc0e12d-c827-4a64-85a1-a1867ce47800" From="09d132f1-9492-4ac3-98fe-b84353a745d9" To="a0deb847-7bca-4a68-b420-80ac029a5d73" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="3">
+              <Coordinates XCoordinate="510" YCoordinate="183" />
+              <Coordinates XCoordinate="625" YCoordinate="183" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="24fed7e4-05e8-4806-a56e-59797d456ed4" From="f1b268fc-3960-4f7c-9481-8464742eb600" To="5a8fcc67-efde-4efb-81e0-9f93e6eee90c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1191" YCoordinate="404" />
+              <Coordinates XCoordinate="1206" YCoordinate="404" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f7f41837-ae94-43c6-8c2b-7264f5cd0f2a" From="81eece82-98e7-4a10-a018-ab2dbda2f6c8" To="00078bb1-2b07-4525-89f7-93b8fad35847" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="486" YCoordinate="404" />
+              <Coordinates XCoordinate="584" YCoordinate="404" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="419f9b72-93f3-4658-9d8c-1265c514975b" From="a0deb847-7bca-4a68-b420-80ac029a5d73" To="bd55a353-756b-4518-b949-3adfebab5dff" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="925" YCoordinate="183" />
+              <Coordinates XCoordinate="990" YCoordinate="183" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9c28a049-1f85-4c73-869a-f346fbc8927f" From="5a8fcc67-efde-4efb-81e0-9f93e6eee90c" To="e420827b-3b7a-4e5e-9838-fde4c5a28beb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1356" YCoordinate="494" />
+              <Coordinates XCoordinate="1356" YCoordinate="516" />
+              <Coordinates XCoordinate="1083" YCoordinate="516" />
+              <Coordinates XCoordinate="1083" YCoordinate="538" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="467c2705-2f51-461c-88f0-3024ac88e2d7" From="00078bb1-2b07-4525-89f7-93b8fad35847" To="f1b268fc-3960-4f7c-9481-8464742eb600" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="884" YCoordinate="404" />
+              <Coordinates XCoordinate="924" YCoordinate="404" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4da64a59-3b6b-4ee0-b644-36c600cab067" From="bd55a353-756b-4518-b949-3adfebab5dff" To="81eece82-98e7-4a10-a018-ab2dbda2f6c8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1140" YCoordinate="273" />
+              <Coordinates XCoordinate="1140" YCoordinate="293.5" />
+              <Coordinates XCoordinate="336" YCoordinate="293.5" />
+              <Coordinates XCoordinate="336" YCoordinate="314" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="80dfcbb1-57a8-493e-8b2b-9a8f550f051e" From="e420827b-3b7a-4e5e-9838-fde4c5a28beb" To="532a8602-40c8-4e50-8d1a-22099786cadc">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1233" YCoordinate="584" />
+              <Coordinates XCoordinate="1282" YCoordinate="584" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
