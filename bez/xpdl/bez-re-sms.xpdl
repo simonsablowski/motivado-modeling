@@ -4,12 +4,13 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-11T12:17:50.4383672+02:00</Created>
-    <ModificationDate>2011-07-25T12:51:23.8772+02:00</ModificationDate>
+    <ModificationDate>2011-08-18T16:53:05.8362+02:00</ModificationDate>
     <Description>bez-re-sms</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-07-19T11:09:10.3183593Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-07-25T10:51:23.8772Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-08-18T14:53:05.8362Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -43,7 +44,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="a9f99036-1ab0-4134-9fb6-f6ea00f1763d" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-07-25T12:51:38.7892+02:00</Created>
+        <Created>2011-08-18T16:53:19.4262+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -58,7 +59,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="f4a30d6b-35b8-4a4c-8226-56c43fc9cecb" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-07-25T12:51:38.7892+02:00</Created>
+        <Created>2011-08-18T16:53:19.4262+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -340,24 +341,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="3d05a954-dad8-4c11-ba97-f2959d682283" Name="Beispiel für eine schlechte Sms:&#xD;&#xA;&#xD;&#xA;„Hallo Marco, ich wollte nur mal hören, wie‘s dir so geht und wie die neue Arbeit so läuft? :) Ich hoffe, Du bist gut in der neuen Wohnung angekommen? :) Wir sollten uns vielleicht mal wieder sehen? Viele liebe Grüße, Julia :)“">
-          <Description>REL_ExZurueck_SMS_V4.flv</Description>
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>REL_ExZurueck_SMS_V4.flv</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="128" Width="280" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="545" YCoordinate="89" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="92900b79-6c7f-4dec-9a54-1a747d99b39a" Name="Frau">
           <Description />
           <Implementation>
@@ -451,6 +434,22 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="282" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
               <Coordinates XCoordinate="522" YCoordinate="436" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3d05a954-dad8-4c11-ba97-f2959d682283" Name="Beispiel für eine schlechte Sms:&#xD;&#xA;&#xD;&#xA;„Hallo Marco, ich wollte nur mal hören, wie‘s dir so geht und wie die neue Arbeit so läuft? :) Ich hoffe, Du bist gut in der neuen Wohnung angekommen? :) Wir sollten uns vielleicht mal wieder sehen? Viele liebe Grüße, Julia :)“">
+          <Description>$Text("video":{"url":"REL_ExZurueck_SMS_V4.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text("video":{"url":"REL_ExZurueck_SMS_V4.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="128" Width="280" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="545" YCoordinate="89" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
