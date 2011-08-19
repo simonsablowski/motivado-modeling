@@ -4,12 +4,13 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-08-15T12:17:43.6914062+02:00</Created>
-    <ModificationDate>2011-08-16T11:00:34.8945312+02:00</ModificationDate>
+    <ModificationDate>2011-08-19T12:26:36.446+02:00</ModificationDate>
     <Description>bez-rapid-ruin</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-08-15T10:19:23.0039062Z" UserName="modellierung-pc_modellierung" />
       <Modification Date="2011-08-16T09:00:34.8945312Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-19T10:26:36.446Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -107,7 +108,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="b3b73c95-adfc-40a7-9b79-2e343aa6f5c8" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-16T11:00:42.8076171+02:00</Created>
+        <Created>2011-08-19T12:26:59.684+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -122,7 +123,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="ff129165-9a67-44a3-ad35-a39e38d1058d" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-16T11:00:42.8076171+02:00</Created>
+        <Created>2011-08-19T12:26:59.684+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -181,20 +182,6 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="bffe9488-94d4-4c47-83a0-07f79d9f061a" Name="Dieses Coaching wiederholen">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1247" YCoordinate="745" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="0d4ad776-d5bc-47af-b050-93adc051e943" Name="Satz zum Abschreiben:&#xD;&#xA;&#xD;&#xA;&quot;Ich erlaube mir, einen Partner zu haben, der toll zu mir passt, auch wenn meine Freunde und Familie das vielleicht anders sehen. Das ist in Ordnung, denn das ist mein Leben und ich entscheide, wer toll für mich ist.&quot;">
           <Description />
           <Implementation>
@@ -231,48 +218,16 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="2cc863b1-243e-43a1-9f5c-485c1bc9aa9f" Name="Weiter zu den nächsten Coachings">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1384" YCoordinate="617" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="a9303aa7-2747-4bcb-9ed6-430a85551e5a" Name="">
           <Description />
           <Event>
-            <EndEvent Result="Signal">
-              <TriggerResultSignal CatchThrow="THROW" />
-            </EndEvent>
+            <EndEvent />
           </Event>
           <Documentation />
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
               <Coordinates XCoordinate="1725" YCoordinate="632" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="aed504da-30c4-43bf-82f3-1ec751c94389" Name="Wohin soll es gehen?">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1247" YCoordinate="664" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -650,19 +605,6 @@ Wiederholen Sie die Sätze, die Ihnen zusagen, mind. 30 Mal pro Tag innerhalb de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="382c327b-06f9-450e-88bd-a75aa99e2e4d" From="29b5d5e1-fd90-4876-a0c9-8f45cb530a3d" To="aed504da-30c4-43bf-82f3-1ec751c94389" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="19">
-              <Coordinates XCoordinate="1139" YCoordinate="665" />
-              <Coordinates XCoordinate="1209.5" YCoordinate="665" />
-              <Coordinates XCoordinate="1209.5" YCoordinate="694" />
-              <Coordinates XCoordinate="1247" YCoordinate="694" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="3c846c2d-5e5d-4195-a168-918a4ba9836c" From="27899f16-c482-4818-89c8-e13d6068627f" To="3bf56ebd-0854-41fe-a823-03d6817fb9f2" Name="">
           <Condition />
           <Description />
@@ -705,30 +647,6 @@ Wiederholen Sie die Sätze, die Ihnen zusagen, mind. 30 Mal pro Tag innerhalb de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="f8a6e4c4-4775-4bb3-87b0-62b281e3ba33" From="aed504da-30c4-43bf-82f3-1ec751c94389" To="bffe9488-94d4-4c47-83a0-07f79d9f061a" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1292" YCoordinate="724" />
-              <Coordinates XCoordinate="1292" YCoordinate="745" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="812d57a0-2832-4d4d-acb9-2ad15ad9d498" From="aed504da-30c4-43bf-82f3-1ec751c94389" To="2cc863b1-243e-43a1-9f5c-485c1bc9aa9f" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1337" YCoordinate="694" />
-              <Coordinates XCoordinate="1354.5" YCoordinate="694" />
-              <Coordinates XCoordinate="1354.5" YCoordinate="647" />
-              <Coordinates XCoordinate="1384" YCoordinate="647" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="afbfd0ea-cc77-4610-96da-e26bd0ea229a" From="aafd58d3-4ab8-4883-9d39-9fea30cec8ca" To="2d338e57-06cf-4b4f-a228-1072dfc881cd" Name="">
           <Condition />
           <Description />
@@ -768,21 +686,6 @@ Wiederholen Sie die Sätze, die Ihnen zusagen, mind. 30 Mal pro Tag innerhalb de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="1569224d-5dca-4c85-a215-8e163b7c9508" From="bffe9488-94d4-4c47-83a0-07f79d9f061a" To="31c85025-d2c0-45dc-8280-e941237a5115" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1292" YCoordinate="745" />
-              <Coordinates XCoordinate="1292" YCoordinate="738" />
-              <Coordinates XCoordinate="1351" YCoordinate="738" />
-              <Coordinates XCoordinate="1351" YCoordinate="497" />
-              <Coordinates XCoordinate="624" YCoordinate="497" />
-              <Coordinates XCoordinate="624" YCoordinate="182" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="f379d00b-9616-4a0f-a233-2f0467cc87eb" From="74850f2b-560b-4d59-b14e-76b2a8af3e99" To="aafd58d3-4ab8-4883-9d39-9fea30cec8ca" Name="">
           <Condition />
           <Description />
@@ -808,13 +711,15 @@ Wiederholen Sie die Sätze, die Ihnen zusagen, mind. 30 Mal pro Tag innerhalb de
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="6d6738e0-df0d-406e-9200-c4c73a9363d1" From="2cc863b1-243e-43a1-9f5c-485c1bc9aa9f" To="d03b6c37-5d0f-49eb-9de5-f346bf4f345e" Name="">
+        <Transition Id="6d6738e0-df0d-406e-9200-c4c73a9363d1" From="29b5d5e1-fd90-4876-a0c9-8f45cb530a3d" To="d03b6c37-5d0f-49eb-9de5-f346bf4f345e" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1474" YCoordinate="647" />
+              <Coordinates XCoordinate="1139" YCoordinate="654" />
+              <Coordinates XCoordinate="1357" YCoordinate="654" />
+              <Coordinates XCoordinate="1357" YCoordinate="647" />
               <Coordinates XCoordinate="1506" YCoordinate="647" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
