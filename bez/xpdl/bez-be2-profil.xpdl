@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-28T12:17:13.6455078+02:00</Created>
-    <ModificationDate>2011-08-11T10:55:12.0957031+02:00</ModificationDate>
+    <ModificationDate>2011-08-24T12:30:01.1253846+02:00</ModificationDate>
     <Description>bez-be2-profil</Description>
     <Documentation />
     <Modifications>
@@ -50,6 +50,7 @@
       <Modification Date="2011-08-05T09:25:27.7738331Z" UserName="FLEX-DEV-PC_FlexDev" />
       <Modification Date="2011-08-05T10:14:26.69893Z" UserName="FLEX-DEV-PC_FlexDev" />
       <Modification Date="2011-08-11T08:55:12.0957031Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-24T10:29:58.0392081Z" UserName="FLEX-DEV-PC_FlexDev" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -92,7 +93,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="c8cd680f-9883-469d-ba28-ff815a924922" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-22T11:09:37.5833019+02:00</Created>
+        <Created>2011-08-24T13:00:55.013421+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -107,7 +108,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="f7e6b143-3fd6-4f14-b433-e834ecab64e5" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-22T11:09:37.585302+02:00</Created>
+        <Created>2011-08-24T13:00:55.013421+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -141,7 +142,7 @@
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="186" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="738" YCoordinate="1637" />
+              <Coordinates XCoordinate="721" YCoordinate="1622" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -228,7 +229,7 @@
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="216" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
-              <Coordinates XCoordinate="580" YCoordinate="674" />
+              <Coordinates XCoordinate="580" YCoordinate="680" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -840,16 +841,18 @@ $DocumentDownload("documents":[{"name":"Beispieltexte Wünsche","file":"bspwuens
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="14b50e03-f6ba-4bc6-b3a8-b958dcf0eb55" Name="Beispieltexte &quot;Wünsche&quot; und &quot;Liebe&quot;">
-          <Description>Hier können Sie sich Beispieltexte für die Bereiche "Wünsche" und "Liebe" in Ihrem be2-Profil herunter laden. Viel Spaß damit!
-$DocumentDownload("documents":[{"name":"Beispieltexte Wünsche","file":"bspwuensche.pdf"},{"name":"Beispieltexte Liebe","file":"bspliebe.pdf"}])</Description>
+          <Description>$DocumentDownload("documents":[{"name":"Beispieltexte Wünsche","file":"bspwuensche.pdf"},{"name":"Beispieltexte Liebe","file":"bspliebe.pdf"}])
+Hier können Sie sich Beispieltexte für die Bereiche "Wünsche" und "Liebe" in Ihrem be2-Profil herunter laden. Viel Spaß damit!
+</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Hier können Sie sich Beispieltexte für die Bereiche "Wünsche" und "Liebe" in Ihrem be2-Profil herunter laden. Viel Spaß damit!
-$DocumentDownload("documents":[{"name":"Beispieltexte Wünsche","file":"bspwuensche.pdf"},{"name":"Beispieltexte Liebe","file":"bspliebe.pdf"}])</Documentation>
+          <Documentation>$DocumentDownload("documents":[{"name":"Beispieltexte Wünsche","file":"bspwuensche.pdf"},{"name":"Beispieltexte Liebe","file":"bspliebe.pdf"}])
+Hier können Sie sich Beispieltexte für die Bereiche "Wünsche" und "Liebe" in Ihrem be2-Profil herunter laden. Viel Spaß damit!
+</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -874,16 +877,18 @@ $DocumentDownload("documents":[{"name":"Beispieltexte Wünsche","file":"bspwuens
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="69121ab6-8030-4705-8c2e-9b6dd4466784" Name="E-Mail-Adresse Ihrer/s Freundin/es:">
-          <Description>Wir schicken Ihrem Feedback-Partner eine E-Mail mit Hinweisen, auf was er/sie achten soll.
-$TextInput:be2_textefreund_email("type":"none")</Description>
+          <Description>$TextInput:be2_textefreund_email("type":"none")
+Wir schicken Ihrem Feedback-Partner eine E-Mail mit Hinweisen, auf was er/sie achten soll.
+</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Wir schicken Ihrem Feedback-Partner eine E-Mail mit Hinweisen, auf was er/sie achten soll.
-$TextInput:be2_textefreund_email("type":"none")</Documentation>
+          <Documentation>$TextInput:be2_textefreund_email("type":"none")
+Wir schicken Ihrem Feedback-Partner eine E-Mail mit Hinweisen, auf was er/sie achten soll.
+</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="70" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -942,9 +947,9 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="688" YCoordinate="734" />
-              <Coordinates XCoordinate="688" YCoordinate="1356.093017578125" />
-              <Coordinates XCoordinate="870" YCoordinate="1356.093017578125" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
+              <Coordinates XCoordinate="688" YCoordinate="1084" />
+              <Coordinates XCoordinate="870" YCoordinate="1084" />
               <Coordinates XCoordinate="870" YCoordinate="1395" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1018,7 +1023,7 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="688" YCoordinate="734" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
               <Coordinates XCoordinate="688" YCoordinate="1040" />
               <Coordinates XCoordinate="800" YCoordinate="1040" />
             </ConnectorGraphicsInfo>
@@ -1030,9 +1035,7 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="924" YCoordinate="1667" />
-              <Coordinates XCoordinate="962" YCoordinate="1667" />
-              <Coordinates XCoordinate="962" YCoordinate="1652" />
+              <Coordinates XCoordinate="907" YCoordinate="1652" />
               <Coordinates XCoordinate="1000" YCoordinate="1652" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1046,7 +1049,7 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
               <Coordinates XCoordinate="1145" YCoordinate="857" />
               <Coordinates XCoordinate="1145" YCoordinate="801.4444580078125" />
               <Coordinates XCoordinate="688" YCoordinate="801.4444580078125" />
-              <Coordinates XCoordinate="688" YCoordinate="734" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1082,8 +1085,8 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="510" YCoordinate="667" />
               <Coordinates XCoordinate="545" YCoordinate="667" />
-              <Coordinates XCoordinate="545" YCoordinate="704" />
-              <Coordinates XCoordinate="580" YCoordinate="704" />
+              <Coordinates XCoordinate="545" YCoordinate="710" />
+              <Coordinates XCoordinate="580" YCoordinate="710" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1093,10 +1096,10 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="688" YCoordinate="734" />
-              <Coordinates XCoordinate="688" YCoordinate="1571" />
-              <Coordinates XCoordinate="831" YCoordinate="1571" />
-              <Coordinates XCoordinate="831" YCoordinate="1637" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
+              <Coordinates XCoordinate="688" YCoordinate="1469" />
+              <Coordinates XCoordinate="814" YCoordinate="1469" />
+              <Coordinates XCoordinate="814" YCoordinate="1622" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1130,9 +1133,9 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="688" YCoordinate="674" />
-              <Coordinates XCoordinate="688" YCoordinate="191" />
-              <Coordinates XCoordinate="869" YCoordinate="191" />
+              <Coordinates XCoordinate="688" YCoordinate="680" />
+              <Coordinates XCoordinate="688" YCoordinate="243" />
+              <Coordinates XCoordinate="869" YCoordinate="243" />
               <Coordinates XCoordinate="869" YCoordinate="157" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1179,7 +1182,7 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="688" YCoordinate="674" />
+              <Coordinates XCoordinate="688" YCoordinate="680" />
               <Coordinates XCoordinate="688" YCoordinate="447" />
               <Coordinates XCoordinate="870" YCoordinate="447" />
               <Coordinates XCoordinate="870" YCoordinate="317" />
@@ -1192,9 +1195,9 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="688" YCoordinate="734" />
-              <Coordinates XCoordinate="688" YCoordinate="831.0555419921875" />
-              <Coordinates XCoordinate="851" YCoordinate="831.0555419921875" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
+              <Coordinates XCoordinate="688" YCoordinate="798.5" />
+              <Coordinates XCoordinate="851" YCoordinate="798.5" />
               <Coordinates XCoordinate="851" YCoordinate="857" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1404,9 +1407,11 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1190" YCoordinate="1009" />
-              <Coordinates XCoordinate="1190" YCoordinate="953.79071044921875" />
-              <Coordinates XCoordinate="688" YCoordinate="953.79071044921875" />
-              <Coordinates XCoordinate="688" YCoordinate="734" />
+              <Coordinates XCoordinate="1190" YCoordinate="931" />
+              <Coordinates XCoordinate="1064" YCoordinate="931" />
+              <Coordinates XCoordinate="1064" YCoordinate="843" />
+              <Coordinates XCoordinate="688" YCoordinate="843" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1439,9 +1444,9 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1205" YCoordinate="1395" />
-              <Coordinates XCoordinate="1205" YCoordinate="1315.6046142578125" />
-              <Coordinates XCoordinate="688" YCoordinate="1315.6046142578125" />
-              <Coordinates XCoordinate="688" YCoordinate="734" />
+              <Coordinates XCoordinate="1205" YCoordinate="1085" />
+              <Coordinates XCoordinate="688" YCoordinate="1085" />
+              <Coordinates XCoordinate="688" YCoordinate="740" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1456,7 +1461,7 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
               <Coordinates XCoordinate="1264" YCoordinate="363" />
               <Coordinates XCoordinate="1264" YCoordinate="414" />
               <Coordinates XCoordinate="688" YCoordinate="414" />
-              <Coordinates XCoordinate="688" YCoordinate="674" />
+              <Coordinates XCoordinate="688" YCoordinate="680" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1597,8 +1602,8 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2275" YCoordinate="467" />
-              <Coordinates XCoordinate="2275" YCoordinate="492" />
-              <Coordinates XCoordinate="1925" YCoordinate="492" />
+              <Coordinates XCoordinate="2275" YCoordinate="494" />
+              <Coordinates XCoordinate="1925" YCoordinate="494" />
               <Coordinates XCoordinate="1925" YCoordinate="517" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -1612,7 +1617,7 @@ Nun geht unser Coaching weiter mit den anderen Bereichen Ihres Profils. Klicken 
               <Coordinates XCoordinate="2225" YCoordinate="696" />
               <Coordinates XCoordinate="2225" YCoordinate="617" />
               <Coordinates XCoordinate="688" YCoordinate="617" />
-              <Coordinates XCoordinate="688" YCoordinate="674" />
+              <Coordinates XCoordinate="688" YCoordinate="680" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
