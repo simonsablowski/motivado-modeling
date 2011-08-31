@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="8845c383-7c1f-449c-951f-aec6a8013825" Name="kar-was-passt" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-10-13T18:05:54.1757813+02:00</Created>
+    <ModificationDate>2011-08-31T11:53:14.0878907+02:00</ModificationDate>
+    <Description>kar-was-passt</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-22T08:17:17.8276Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-08-24T12:47:39.8974609Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-31T09:53:14.0878907Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="516be1c7-d43a-4af1-af92-33e3fef7b979" Process="6cfe10ed-8a09-4c1e-9cd4-0a3d175a2cc1" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="c7b02182-a49f-4f11-908e-8304e90da33a" Name="Was passt zu mir?" Process="a1708fac-4662-410c-8678-2a270a748892" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="733" Width="1802" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="6cfe10ed-8a09-4c1e-9cd4-0a3d175a2cc1" Name="Main Prozeß">
+      <ProcessHeader>
+        <Created>2011-08-31T11:53:23.1953125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="a1708fac-4662-410c-8678-2a270a748892" Name="Was passt zu mir?">
+      <ProcessHeader>
+        <Created>2011-08-31T11:53:23.1953125+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="f620c6b4-0ed3-4798-ae55-3009c6a95ebe" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="66" YCoordinate="105" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3697f69c-95d8-476f-aa88-e9ebe3af1017" Name="Sich selbst zu beschreiben, fällt manchmal schwer. Vielleicht kennen Sie das: während Sie von sich selbst denken, Sie seien im Grunde ein ausgeglichener Mensch, bekommen Sie von Ihren Freunden und Bekannten die Rückmeldung, Sie würden häufig viel zu schnell an die Decke gehen. Daher empfehlen wir Ihnen: fragen Sie gute Bekannte, Freunde, Kollegen oder Familienangehörige um Rat, wenn es darum geht, Ihren Charakter einzuschätzen. &#xD;&#xA;&#xD;&#xA;Bis zum nächsten Coaching gehen Sie daher bitte die Liste mit den Charaktereigenschaften durch und bitten Sie einen Freund oder einen Ihnen nahe stehenden Menschen maximal acht Eigenschaften auszuwählen, die Sie am besten beschreiben. Wenn Sie uns eine Email unter service@motivado.de senden, schicken wir Ihnen die Liste gerne zu.&#xD;&#xA;&#xD;&#xA;Vergleichen Sie danach seine Antworten mit Ihren: wo finden Sie Gemeinsamkeiten, wo Unterschiede? Wie realistisch haben Sie sich selbst eingeschätzt? &#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1012" YCoordinate="30" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="eb314d06-011e-4e7c-bb04-9b4b91eebed3" Name="Hier sehen Sie eine Liste mit zahlreichen Charaktereigenschaften. Bitte wählen Sie max. 8 aus, von denen Sie glauben, dass sie Sie am besten beschreiben. &#xD;&#xA;&#xD;&#xA;Unser Tipp:&#xD;&#xA;Wenn Sie sich später im Vorstellungsgespräch beschreiben, ist es wichtig, dass Sie Beispiele anbringen können, um wirklich glaubhaft zu wirken. Notieren Sie daher bitte zu jeder ausgewählten Eigenschaft eine oder mehrere Situationen, in denen man erkennen konnte, dass Sie diese Eigenschaft besitzen.  &#xD;&#xA;&#xD;&#xA;Hierzu ein Beispiel: Ich bin zuverlässig. Wenn ich mich z.B. auf einen Abgabetermin festgelegt habe, halte ich diesen auch ein.&#xD;&#xA;&#xD;&#xA;Charaktereigenschaften&#xD;&#xA;&#xD;&#xA;Ich bin...&#xD;&#xA;&#xD;&#xA;abenteuerlustig&#xD;&#xA;anpassungsfähig&#xD;&#xA;aufgeschlossen&#xD;&#xA;ausdauernd&#xD;&#xA;begeisterungsfähig&#xD;&#xA;beschützend&#xD;&#xA;besonnen&#xD;&#xA;diplomatisch&#xD;&#xA;dominant&#xD;&#xA;ehrlich&#xD;&#xA;einfallsreich&#xD;&#xA;enthusiastisch&#xD;&#xA;extrovertiert&#xD;&#xA;flexibel&#xD;&#xA;freundlich&#xD;&#xA;geduldig&#xD;&#xA;gefühlsbetont&#xD;&#xA;gerecht&#xD;&#xA;gründlich&#xD;&#xA;humorvoll&#xD;&#xA;impulsiv&#xD;&#xA;innovativ&#xD;&#xA;introvertiert&#xD;&#xA;kontaktfreudig&#xD;&#xA;konservativ&#xD;&#xA;kooperativ&#xD;&#xA;kreativ&#xD;&#xA;lebhaft&#xD;&#xA;leistungsorientiert&#xD;&#xA;lernbereit&#xD;&#xA;loyal&#xD;&#xA;mutig&#xD;&#xA;neugierig&#xD;&#xA;offen&#xD;&#xA;ordentlich&#xD;&#xA;ordnungsliebend&#xD;&#xA;pflichtbewusst&#xD;&#xA;pragmatisch&#xD;&#xA;pünktlich&#xD;&#xA;rational&#xD;&#xA;realistisch&#xD;&#xA;ruhig&#xD;&#xA;sachorientiert&#xD;&#xA;schlagfertig&#xD;&#xA;schüchtern&#xD;&#xA;selbstsicher&#xD;&#xA;sensibel&#xD;&#xA;selbstkritisch&#xD;&#xA;sicherheitsbewusst&#xD;&#xA;sorgfältig&#xD;&#xA;spontan&#xD;&#xA;tolerant&#xD;&#xA;unkompliziert&#xD;&#xA;unterstützend&#xD;&#xA;verantwortungsbewusst&#xD;&#xA;verlässlich&#xD;&#xA;vernünftig&#xD;&#xA;verständnisvoll&#xD;&#xA;vertrauenswürdig&#xD;&#xA;willensstark&#xD;&#xA;zielstrebig&#xD;&#xA;zuverlässig">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="78" Width="140" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="569" YCoordinate="81" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4745e632-fe9f-4d95-b01f-66d0397c5919" Name="Ihr Charakter&#xD;&#xA;&#xD;&#xA;Neben Kompetenzen und Fähigkeiten zeichnen jeden Menschen Charaktereigenschaften aus, die ihn einzigartig machen. &#xD;&#xA;Wir möchten nun gemeinsam mit Ihnen rausfinden: Welche persönlichen Eigenschaften machen Sie zu dem, der Sie sind?&#xD;&#xA;&#xD;&#xA;Lassen Sie sich bitte nicht irritieren, wenn Sie an dieser Stelle einige Überschneidungen mit Ihren personalen Kompetenzen feststellen. Die Übergänge sind fließend. &#xD;&#xA;Wir sammeln noch einmal Ihre Charaktereigenschaften, damit Sie auch auf die Frage: &quot;Wie sind Sie denn so als Mensch?&quot; Ihre Antwort bereits parat haben. Oft möchte der Arbeitgeber durch diese Frage herausfinden, ob Sie in das bestehende Team passen. Hier gibt es also kein Richtig oder Falsch - es geht darum, Sie kennenzulernen. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="232" YCoordinate="30" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="48f2c02f-3cb6-4db2-82bd-1939d6869fe9" Name="Notieren Sie jetzt bitte bis zu acht Eigenschaften, die Sie an sich beobachtet haben. &#xD;&#xA;Suchen Sie am besten die Eigenschaften aus, die Sie auch im Vorstellungsgespräch auf die Frage anbringen könnten: Warum sollten wir Sie einstellen?">
+          <Description>$List:kar_was_passt_eigenschaften("items":8)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_was_passt_eigenschaften("items":8)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="160" Width="216" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="757" YCoordinate="40" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3b72d6e9-a626-40cc-856c-c59248d90ce7" Name="Intro was passt zu mir?">
+          <Description>$Video("video":{"url":"JAC_CharaEigen_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"JAC_CharaEigen_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="110" YCoordinate="188" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="48e22d2f-939b-4be9-ad72-15c2a69730e0" Name="Welche Tätigkeiten bereiteten Ihnen weniger Freude? Welche Ihrer Aufgaben erledigten Sie meist erst unter Druck?">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="105" Width="182" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1099" YCoordinate="367" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f7e5940d-c650-4621-ac02-618363e5dab4" Name="Denken Sie nun bitte an Ihren aktuellen bzw. letzten Job (wenn Sie Berufseinsteiger sind, können Sie auf Erfahrungen aus Nebenjobs oder aus der Schulzeit zurückgreifen): &#xD;&#xA;Welche Tätigkeiten und Aufgaben waren / sind besonders spannend für Sie? Gibt es Aufgaben, in denen Sie so richtig aufgehen und darüber Raum und Zeit vergessen? Welche sind das?">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="173" Width="243" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="549" YCoordinate="333" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7aa9b0c1-7d28-4078-8e98-26e57c73ba3a" Name="Für Ihr Ziel 'Neuer Job' spielen auch Ihre beruflichen Interessen eine bedeutsame Rolle. Die beste Leistung bringt man schließlich immer dann, wenn das, was man tut, Spaß macht.&#xD;&#xA;Beachten Sie aber bitte auch, Ihr Ziel schnell zu einem unrealistischen Vorhaben werden kann, wenn Sie bei Ihrer zukünftigen Jobwahl ausschließlich nach Ihren persönlichen Interessen gehen. Nach einer Karriere als Rechtsanwalt noch einmal auf den Pilotenberuf umzusatteln kann Sie z.B. vor unlösbare Herausforderungen stellen.&#xD;&#xA;&#xD;&#xA;Mit Hilfe der nächsten Übung wollen wir gemeinsam Ihre aktuellen beruflichen Interessen herausfinden. Wichtig dabei ist, dass Sie ehrlich zu sich sind. Es hilft nichts, wenn Sie angeben, gern neue Herausforderungen anzunehmen, dabei jedoch totunglücklich sind, wenn Sie sich jedes Mal wieder von vorn neu einarbeiten müssen.  &#xD;&#xA;&#xD;&#xA;Klicken Sie auf &quot;Nächster Schritt&quot;, um Ihren beruflichen Interessen auf den Grund zu gehen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="138" Width="183" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="323" YCoordinate="351" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="187f2ed6-f632-492a-89b8-2d2883249915" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1427" YCoordinate="619" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="ea785c81-c562-4994-bb33-6d7f13f98724" Name="Sehr schön. Nun haben Sie also nochmal ein konkreteres Bild davon, was Ihnen im Arbeitsleben Freude bereitet.&#xD;&#xA;Gemeinsam mit Ihren Stärken und Eigenschaften, formen Sie daraus im nächsten Schritt Ihre persönliche berufliche Vision. &#xD;&#xA;&#xD;&#xA;Damit sind wir am Ende des Coachings &quot;Was passt zu mir?&quot; angelangt. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="135" Width="202" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="796" YCoordinate="566" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5866871b-4612-4afb-9733-151cb0c1335b" Name="Bitte notieren Sie die wichtigsten Punkte!">
+          <Description>$List:kar_was_passt_FreudeAufgaben("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_was_passt_FreudeAufgaben("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="75" Width="175" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="833" YCoordinate="382" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="88e4bcac-8884-4294-b296-cc41345cbc52" Name="Bitte notieren Sie auch hierzu die wichtigsten Punkte!">
+          <Description>$List:kar_was_passt_KeineFreudeAufgaben("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_was_passt_KeineFreudeAufgaben("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="84" Width="176" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1360" YCoordinate="377" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2567d876-71bc-41d7-a7fa-244515d7dd67" Name="&#xD;Aufgabe zu dem Coaching &quot;Was passt zu mir?&quot;">
+          <Description>$Text()
+Bis zu unserem nächsten Coaching denken Sie bitte an die Aufgabe, die wir Ihnen ans Herz gelegt haben. Zur Erinnerung: Bitte lassen Sie eine vertraute Person acht Charaktereigenschaften aus der Liste auswählen und vergleichen Sie diese Angaben mit Ihren eigenen.
+Viel Spaß dabei!
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Bis zu unserem nächsten Coaching denken Sie bitte an die Aufgabe, die wir Ihnen ans Herz gelegt haben. Zur Erinnerung: Bitte lassen Sie eine vertraute Person acht Charaktereigenschaften aus der Liste auswählen und vergleichen Sie diese Angaben mit Ihren eigenen.
+Viel Spaß dabei!
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="90" Width="193" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1109" YCoordinate="589" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="a87ef66b-acc0-48b8-92c4-54a39318cce1" From="f620c6b4-0ed3-4798-ae55-3009c6a95ebe" To="3b72d6e9-a626-40cc-856c-c59248d90ce7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="10">
+              <Coordinates XCoordinate="96" YCoordinate="120" />
+              <Coordinates XCoordinate="137" YCoordinate="120" />
+              <Coordinates XCoordinate="137" YCoordinate="188" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="010147e9-03c5-4eee-aaa8-9e6db66223cd" From="3b72d6e9-a626-40cc-856c-c59248d90ce7" To="4745e632-fe9f-4d95-b01f-66d0397c5919" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="11">
+              <Coordinates XCoordinate="172" YCoordinate="188" />
+              <Coordinates XCoordinate="172" YCoordinate="120" />
+              <Coordinates XCoordinate="232" YCoordinate="120" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="380ed814-55d3-42b2-aa3e-59155e6fc9c8" From="48f2c02f-3cb6-4db2-82bd-1939d6869fe9" To="3697f69c-95d8-476f-aa88-e9ebe3af1017" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="973" YCoordinate="120" />
+              <Coordinates XCoordinate="1012" YCoordinate="120" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1ba8a1a9-d8dc-4a10-afc2-63c224a0caa1" From="eb314d06-011e-4e7c-bb04-9b4b91eebed3" To="48f2c02f-3cb6-4db2-82bd-1939d6869fe9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="709" YCoordinate="120" />
+              <Coordinates XCoordinate="757" YCoordinate="120" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c005524e-98d5-4013-bea5-c264658805ce" From="4745e632-fe9f-4d95-b01f-66d0397c5919" To="eb314d06-011e-4e7c-bb04-9b4b91eebed3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="532" YCoordinate="120" />
+              <Coordinates XCoordinate="569" YCoordinate="120" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b6c636e1-717b-469e-8e54-293a364304b4" From="5866871b-4612-4afb-9733-151cb0c1335b" To="48e22d2f-939b-4be9-ad72-15c2a69730e0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1008" YCoordinate="419" />
+              <Coordinates XCoordinate="1099" YCoordinate="419" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b12d7508-68b7-4844-95ca-f97a1a375001" From="f7e5940d-c650-4621-ac02-618363e5dab4" To="5866871b-4612-4afb-9733-151cb0c1335b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="792" YCoordinate="419" />
+              <Coordinates XCoordinate="833" YCoordinate="419" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c88c1697-b989-47d8-8c01-4adbd475abe9" From="48e22d2f-939b-4be9-ad72-15c2a69730e0" To="88e4bcac-8884-4294-b296-cc41345cbc52" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1281" YCoordinate="419" />
+              <Coordinates XCoordinate="1360" YCoordinate="419" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="82948540-fc28-40dc-9396-fb91650a5688" From="88e4bcac-8884-4294-b296-cc41345cbc52" To="ea785c81-c562-4994-bb33-6d7f13f98724" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1448" YCoordinate="461" />
+              <Coordinates XCoordinate="1448" YCoordinate="513.5" />
+              <Coordinates XCoordinate="897" YCoordinate="513.5" />
+              <Coordinates XCoordinate="897" YCoordinate="566" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b48c4e03-e9d3-4d99-8b4e-41745a3d9c71" From="7aa9b0c1-7d28-4078-8e98-26e57c73ba3a" To="f7e5940d-c650-4621-ac02-618363e5dab4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="4">
+              <Coordinates XCoordinate="506" YCoordinate="420" />
+              <Coordinates XCoordinate="527.5" YCoordinate="420" />
+              <Coordinates XCoordinate="527.5" YCoordinate="419" />
+              <Coordinates XCoordinate="549" YCoordinate="419" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c68214a4-aa04-44fb-914e-4c4b08920540" From="2567d876-71bc-41d7-a7fa-244515d7dd67" To="187f2ed6-f632-492a-89b8-2d2883249915" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1302" YCoordinate="634" />
+              <Coordinates XCoordinate="1427" YCoordinate="634" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8644d2dc-a164-4dda-8ea5-571e30fd4058" From="ea785c81-c562-4994-bb33-6d7f13f98724" To="2567d876-71bc-41d7-a7fa-244515d7dd67" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="998" YCoordinate="633" />
+              <Coordinates XCoordinate="1053.5" YCoordinate="633" />
+              <Coordinates XCoordinate="1053.5" YCoordinate="634" />
+              <Coordinates XCoordinate="1109" YCoordinate="634" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5e67ae0c-f37c-49e0-a95b-8f46540cb1bc" From="3697f69c-95d8-476f-aa88-e9ebe3af1017" To="7aa9b0c1-7d28-4078-8e98-26e57c73ba3a">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1162" YCoordinate="210" />
+              <Coordinates XCoordinate="1162" YCoordinate="280.5" />
+              <Coordinates XCoordinate="414" YCoordinate="280.5" />
+              <Coordinates XCoordinate="414" YCoordinate="351" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

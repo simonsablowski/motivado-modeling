@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="f3570880-50ce-4ccd-8231-5fac0edf72c2" Name="kar-potenzial" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-10-13T18:05:54.1601563+02:00</Created>
+    <ModificationDate>2011-08-24T13:03:41.6875+02:00</ModificationDate>
+    <Description>kar-potenzial</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-22T08:14:12.8176Z" UserName="VAIO_MOTIVADO_MOTIVADO" />
+      <Modification Date="2011-08-24T09:52:14.1113281Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-24T10:39:18.6240234Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-24T11:03:41.6875Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="f323cc63-2d7d-4284-8b91-3c55276e43db" Name="Main Prozeß" Process="9b863c54-252d-4b53-9149-35ae9c9e5be6" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="6bd8e344-e8b3-4e76-9545-242e46eb20bc" Name="Was kann ich?" Process="9b641558-ad12-4f00-b3f4-7a9bd1e0f4c8" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="1302" Width="1782" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="1" YCoordinate="26" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations>
+    <Association Id="5679bc54-a640-4e78-9571-cb2cb41cf0d1" Source="5007ac12-6337-4e3f-b714-8318dbadf8b1" Target="55f8ed24-59ea-4ebd-9aec-8b883e91ca4d">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="789" YCoordinate="737" />
+          <Coordinates XCoordinate="789" YCoordinate="811" />
+          <Coordinates XCoordinate="890" YCoordinate="811" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+    <Association Id="19d58acb-b2c0-48c5-a7d0-25d3160aae8b" Source="55f8ed24-59ea-4ebd-9aec-8b883e91ca4d" Target="f0c50e1a-d08b-44da-9cfb-16384c121cc8">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="16">
+          <Coordinates XCoordinate="990" YCoordinate="811" />
+          <Coordinates XCoordinate="1005.5" YCoordinate="811" />
+          <Coordinates XCoordinate="1005.5" YCoordinate="736" />
+          <Coordinates XCoordinate="1021" YCoordinate="736" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+  </Associations>
+  <Artifacts>
+    <Artifact Id="55f8ed24-59ea-4ebd-9aec-8b883e91ca4d" ArtifactType="Annotation" TextAnnotation="?" Group="Annotation1" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="true" FillColor="-2763307">
+          <Coordinates XCoordinate="890" YCoordinate="781" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+  </Artifacts>
+  <WorkflowProcesses>
+    <WorkflowProcess Id="9b863c54-252d-4b53-9149-35ae9c9e5be6" Name="Main Prozeß">
+      <ProcessHeader>
+        <Created>2011-08-30T11:22:35.7919922+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="9b641558-ad12-4f00-b3f4-7a9bd1e0f4c8" Name="Was kann ich?">
+      <ProcessHeader>
+        <Created>2011-08-30T11:22:35.7939454+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="4d4b9a94-be59-4a6e-bdb8-af5499821e9f" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="100" YCoordinate="65" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3cc0367d-f590-4617-b45a-5aaf460bffcc" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1636" YCoordinate="1118" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="28aec046-7d07-404f-964d-1a52328ac648" Name="Herzlichen Glückwunsch! Sie haben somit Ihre erste Erfolgsgeschichte formuliert, der man gerne zuhört und die spannend ist, weil etwas schwierig oder herausfordernd war.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Bitte sammeln Sie jetzt noch mindestens zwei bis drei weitere Erfolgsgeschichten, in denen eine oder mehrere Ihrer Kompetenzen/Stärken deutlich werden. Diese sind das ideale Material, mit dem Sie später im Vorstellungsgespräch den Personalverantwortlichen überzeugen können.&#xD;&#xA;&#xD;&#xA;Bauen Sie Ihre Geschichten nach demselben Schema wie eben auf:&#xD;&#xA;&#xD;&#xA;1.Wie war die Situation?&#xD;&#xA;2.Was hat diese Situation schwierig gemacht?&#xD;&#xA;3.Wie haben Sie diese Schwierigkeiten gelöst?&#xD;&#xA;4.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen?&#xD;&#xA;5.Und letztens: welche Stärken lassen sich daraus ableiten?&#xD;&#xA;&#xD;&#xA;Los geht’s!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1322" YCoordinate="587" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3883deaf-8022-468b-b3ac-a4c00361b58d" Name="Sie werden im Vorstellungsgespräch auch häufig danach gefragt, welches Ihre Schwächen sind. Tun Sie sich einen Gefallen: heben Sie sich von den übrigen Bewerbern ab und sagen Sie NICHT, Sei seien zu zielstrebig, zu perfektionistisch oder zu ehrgeizig. Arbeitgeber hören diese Antworten hundertmal. Sie wirken nicht mehr glaubwürdig, wenn Sie sie wie alle anderen runterbeten.&#xD;&#xA;&#xD;&#xA;Hier einige Beispiele, die Ihnen helfen, sich über Ihre Schwächen klar zu werden:&#xD;&#xA;Vielleicht sind Sie eigentlich ein Teamplayer, nur fällt es Ihnen manchmal schwer, sich in einem Großraumbüro mit mehreren Kollegen zu konzentrieren und ziehen die Ruhe vor. Oder Sie mögen es nicht, wenn Dinge unstrukturiert ablaufen und sind deshalb der erste im Meeting, der nach einem konkreten Plan ruft. &#xD;&#xA;&#xD;&#xA;Wie Sie an den Beispielen sehen: Ihre Schwächen sollten nicht zu negativ sein. Sie wollen den potentiellen Arbeitgeber ja nicht verschrecken. Wichtig ist auch, dass Sie in Aussicht stellen, wie Sie mit Ihrer Schwäche umgehen bzw. was Sie tun, um daran zu arbeiten. Zum Beispiel könnten Sie sagen: &quot;Ich brauche ab und zu meine Ruhe zum Arbeiten - für solche Zwecke habe ich immer Oropax zur Hand.&quot;&#xD;&#xA;&#xD;&#xA;Fragen Sie auch hier wieder Freunde und gute Bekannte um Rat. Wie würden diese Ihre Schwächen beschreiben?&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="164" YCoordinate="878" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5d77b21e-b0cd-425f-90c2-65104737975a" Name="Die Arbeitswelt fordert vom heutigen Arbeitnehmer, dass er nicht nur über Fachwissen verfügt, sondern auch eine ganze Reihe weiterer Stärken mitbringt. &#xD;&#xA;&#xD;&#xA;Um ein möglichst vollständiges Bild von all Ihren Vorzügen zu bekommen, unterscheiden wir im Folgenden zwischen fachlichen, personalen, sozialen und methodischen Kompetenzen (= Ihren Stärken).&#xD;&#xA;Bitte lassen Sie sich von den Begriffen nicht verunsichern - wir werden die einzelnen Bereiche Schritt für Schritt mit Ihnen durchgehen. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="227" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="269" YCoordinate="50" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a45013cd-1637-4649-8fac-b09e5f51dcab" Name="Ihre fachlichen Kompetenzen&#xD;&#xA;&#xD;&#xA;Beginnen wir mit Ihren Fachkenntnissen und Qualifikationen. Diese beinhalten das Wissen, das Sie brauchen, um Ihren Job gut zu machen. Sie haben es meist in der Ausbildung, dem Studium oder durch Fortbildungen erworben und im Laufe Ihres Berufslebens erweitert. &#xD;&#xA;&#xD;&#xA;Ein Beispiel:&#xD;&#xA;Als Projektleiter/in benötigen Sie für Ihre Arbeit Kenntnisse im Controlling und haben zusätzlich eine Qualifikation im Bereich Qualitätsmanagement erworben. &#xD;&#xA;&#xD;&#xA;Als Vertriebsassistent/in haben Sie in der Regel eine kaufmännische Ausbildung im Bereich Handel abgeschlossen, während derer Sie die fachlichen Kompetenzen “Marketingkenntnisse” und “Kalkulation erstellen” erworben haben. Vielleicht beherrschen Sie zusätzlich spezielle Computerkenntnisse oder sprechen mehrere Sprachen.&#xD;&#xA;&#xD;&#xA;Unser Tipp: &#xD;&#xA;Alle fachlichen Kompetenzen, die über Ihre Ausbildung hinaus gehen, können Sie später in Ihrem Lebenslauf unter der Rubrik 'Qualifikationen und Kenntnisse' einbauen (z.B. Fortbildungen, Seminare, Software-Kenntnisse etc.).">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="227" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="615" YCoordinate="50" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e00cac2d-de41-4d6e-a26a-3c2bf908b0b8" Name="Ihre personalen und sozialen Kompetenzen &#xD;&#xA;&#xD;&#xA;Nach den harten Fakten kommen wir nun zu den “soft skills”:&#xD;&#xA;Soziale Kompetenzen sagen etwas darüber aus, wie Sie mit anderen Menschen umgehen. &#xD;&#xA;Arbeiten Sie z.B. im Team gut mit anderen zusammen, schaffen Sie es, andere zu überzeugen oder können Sie sich gut in andere hineinversetzen?  &#xD;&#xA;&#xD;&#xA;Personale Kompetenzen beziehen sich dagegen auf Aspekte Ihrer Persönlichkeit, also ob Sie z.B. flexibel sind, gerne gründlich arbeiten oder viel Eigeninitiative mitbringen.&#xD;&#xA; &#xD;&#xA;Im nächsten Schritt möchten wir Sie bitten, jeweils fünf soziale und personale Kompetenzen festzuhalten, die Sie sich selbst zuschreiben. Notieren Sie bitte auch wieder Beispiele, anhand derer Sie Ihre Kompetenzen im Gespräch belegen könnten.&#xD;&#xA;Natürlich decken die unten aufgeführten Listen nicht alle Kompetenzen ab. Wenn Ihnen also etwas einfällt, das Sie nicht in der Liste finden, schreiben Sie es bitte auch auf.&#xD;&#xA;Wenn Sie Hilfe benötigen, scheuen Sie sich nicht, unsere Experten zu kontaktieren, die Ihnen schnell weiterhelfen.&#xD;&#xA;&#xD;&#xA;Soziale Kompetenzen:&#xD;&#xA;&#xD;&#xA;Einfühlungsvermögen (verstehen können, wie jemand anders sich fühlt)&#xD;&#xA;Konfliktfähigkeit (Konflikte weder vermeiden noch eskalieren zu lassen, eine konstruktive Lösung finden)&#xD;&#xA;Gut Zuhören können&#xD;&#xA;Kritikbereitschaft (Kritik annehmen können)&#xD;&#xA;Kritikfähigkeit (Kritik sachlich aussprechen können, ohne den anderen vor den Kopf zu stoßen)&#xD;&#xA;Teamfähigkeit (im Team effizient arbeiten können)&#xD;&#xA;Kommunikationsfähigkeit (leicht mit anderen in Kontakt kommen)&#xD;&#xA;Kundenorientierung (im das Wohl des Kunden bemüht sein)&#xD;&#xA;Kompromissbereitschaft&#xD;&#xA;Hilfsbereitschaft&#xD;&#xA;Wertschätzender Umgang mit anderen&#xD;&#xA;Tolerenz gegenüber Schwächen anderer&#xD;&#xA;…&#xD;&#xA;&#xD;&#xA;Personale Kompetenzen:&#xD;&#xA;&#xD;&#xA;Eigeninitiative&#xD;&#xA;Kreativität&#xD;&#xA;Begeisterungsfähigkeit&#xD;&#xA;Selbstständiges Arbeiten&#xD;&#xA;Entscheidungsfähigkeit&#xD;&#xA;Gewissenhafigkeit (gründliches Arbeiten)&#xD;&#xA;Zuverlässigkeit&#xD;&#xA;Selbstdisziplin&#xD;&#xA;Belastbarkeit&#xD;&#xA;Ausdauer&#xD;&#xA;Leistungsbereitschaft&#xD;&#xA;Flexibilität&#xD;&#xA;Risikobereitschaft&#xD;&#xA;Anpassungsvermögen&#xD;&#xA;Aufgeschlossenheit&#xD;&#xA;Lernbereitschaft&#xD;&#xA;&#xD;&#xA;…">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="92" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1399" YCoordinate="110" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6f2d4db4-e629-4607-a51d-84dc7aa00dfb" Name="Falls Sie sich auf eine Position bewerben möchten, die Führungsaufgaben beinhaltet, sollten Sie sich außerdem Gedanken zu Ihren Führungskompetenzen machen.&#xD;&#xA;Hierzu zählen etwa das Entwickeln von Strategien und Visionen oder die Fähigkeit andere zu überzeugen und zu motivieren.&#xD;&#xA;Falls das für Sie nicht relevant ist, überspringen Sie diesen Punkt bitte einfach.&#xD;&#xA;&#xD;&#xA;Welche Führungskompetenzen besitzen Sie? Überlegen Sie auch: Haben Ihnen Ihre Mitarbeiter, Kollegen oder Ihr Vorgesetzter schon einmal Feedback zu Ihren Führungsqualitäten gegeben?&#xD;&#xA;&#xD;&#xA;Beispiele für Führungkompetenzen:&#xD;&#xA;&#xD;&#xA;Delegieren (Aufgaben abgeben, verteilen können)&#xD;&#xA;Entscheidungsfähigkeit (schnell aus möglichen Alternativen auswählen können)&#xD;&#xA;Konfliktfähigkeit (Spannungen aushalten können)&#xD;&#xA;Selbstreflexionsfähigkeit (eigene Schwächen erkennen können)&#xD;&#xA;Motivation der Mitarbeiter  (alle ins Boot holen)&#xD;&#xA;Präsentationskompetenz&#xD;&#xA;Ganzheitliches Denken&#xD;&#xA;Überzeugungskraft&#xD;&#xA;Verantwortung übernehmen&#xD;&#xA;…&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="120" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1594" YCoordinate="331" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="128e4663-a2ba-4242-bef3-59a62e27ae1c" Name="Sehr schön. Nun haben wir also eine Sammlung Ihrer Kompetenzen. Wir gehen die Listen nun nochmal der Reihe nach durch. Bitte sortieren Sie Ihre Angaben nun so, dass die aus Ihrer Sicht wichtigsten Kompetenzen an Stelle 1-3 in der Liste stehen. Ziehen Sie dafür bitte die Textfelder mit Ihrer Maus an die passende Stelle.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="114" Width="268" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="536" YCoordinate="435" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e2aae2ff-4577-4ddd-ab21-19b376e197e7" Name="Kein Mensch ist in allen Dingen gleich gut. Insofern hat auch jeder Mensch Schwächen.&#xD;&#xA;&#xD;&#xA;Als Tipp: &#xD;&#xA;Überlegen Sie sich beim Sammeln Ihrer Schwächen: wie könnte ich meinen Schwächen auch positive Seiten abgewinnen? &#xD;&#xA;Oder: Welche Strategie habe ich bereits entwickelt, meine Schwäche in etwas Positives zu verkehren?&#xD;&#xA;&#xD;&#xA;Dazu wieder einige Beispiele:&#xD;&#xA;&#xD;&#xA;* da Sie sich manchmal aus dem Großraumbüro zurückziehen, schaffen Sie Ihre Aufgaben konzentrierter und schneller &#xD;&#xA;* als Mensch, der Strukturen zum Arbeiten braucht, inspirieren Sie manchmal Ihre Kollegen, selbst Pläne für ihre Arbeit zu entwerfen&#xD;&#xA;* wenn Sie von sich selber wissen, dass Sie gerne Druck zum Arbeiten brauchen, setzen Sie sich vielleicht selbst Deadlines, die vor dem eigentlichen Abgabetermin liegen. So schaffen Sie Ihre Arbeit manchmal sogar schneller als erwartet&#xD;&#xA;&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="109" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="309" YCoordinate="878" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7900a4f6-1312-40be-9a6c-83d199dd4618" Name="Machen wir weiter mit Ihren methodischen Kompetenzen. &#xD;&#xA;Diese sagen etwas darüber aus, wie Sie sich Ihr Fachwissen aneignen und es einsetzen können. &#xD;&#xA;&#xD;&#xA;Ein Beispiel: &#xD;&#xA;Vielleicht sind Sie jemand, dem es leicht fällt, Informationen zu recherchieren und strukturiert zu erfassen. Oder Sie sind gut darin, vor anderen zu präsentieren und Besprechungen effektiv zu leiten. Dinge wie Informationsbeschaffung, Präsentationsfähigkeit oder Moderationsfähigkeit gehören  zu den methodischen Kompetenzen. &#xD;&#xA;&#xD;&#xA;Über welche methodischen Kompetenzen verfügen Sie? &#xD;&#xA;&#xD;&#xA;Beispiele für methodische Kompetenzen:&#xD;&#xA;&#xD;&#xA;Mündliche Kommunikation (Small talk, Telefonieren, Argumentation, Diskussion)&#xD;&#xA;Schriftliche Kommunikation (E-Mail, Brief, Konzepte, Zusammenfassungen)&#xD;&#xA;Recherche von Informationen&#xD;&#xA;Verhandlungsgeschick&#xD;&#xA;Projektmanagement&#xD;&#xA;Moderation &#xD;&#xA;Präsentation&#xD;&#xA;Kreativitätstechniken (Brainstorming, Mindmapping)&#xD;&#xA;Zeitmanagement (sich den Tag strukturieren und Termine einhalten können)&#xD;&#xA;Organisationstalent&#xD;&#xA;...&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="117" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="739" YCoordinate="331" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="04e4d2ae-76e2-45a2-913d-b012037ee437" Name="Damit sind wir am Ende des Coachings &quot;Was kann ich gut?&quot;.&#xD;&#xA;Im nächsten Coaching geht es weiter mit Ihren Charaktereigenschaften und Ihren beruflichen Interessen. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="173" Width="148" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1299" YCoordinate="823" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c379c2f2-4fcc-4871-8024-520af014fac0" Name="Intro Was kann ich gut?">
+          <Description>$Video("video":{"url":"JAC_Staerken_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"JAC_Staerken_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="136" YCoordinate="127" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c1c0ed1d-431b-4890-90c1-7352252ceccd" Name="Über welche Fachkenntnisse verfügen Sie? Notieren Sie nun bitte mindestens fünf! ">
+          <Description>$List:kar_potenzial_fachkenn("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_fachkenn("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="227" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="890" YCoordinate="110" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d8a746bb-aa2c-42b2-91ff-dcbdb5a1a21c" Name="Bitte ergänzen Sie nun Ihre Kompetenzen, um Beispiele, wann Sie diese Kenntnisse oder Qualifikationen angewendet haben!">
+          <Description>$List:kar_potenzial_fachkenn("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_fachkenn("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="105" Width="142" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1189" YCoordinate="88" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="78a5205a-d8d0-46c3-a2fe-51b73b4e02d1" Name="Bitte notieren Sie jetzt  fünf soziale Kompetenzen, die Sie sich selbst zuschreiben. ">
+          <Description>$List:kar_potenzial_sozkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_sozkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="67" Width="202" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1567" YCoordinate="106.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="af14f129-5aa2-4c6d-8cf6-921a75c3dc9b" Name="Ergänzen Sie bitte nun wieder Beispiele, anhand derer Sie Ihre sozialen Kompetenzen im Gespräch belegen könnten:">
+          <Description>$List:kar_potenzial_sozkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_sozkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="104" Width="131" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="145" YCoordinate="309" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="349633a2-7664-4dcb-a5e3-1d38b958c6ac" Name="Bitte notieren Sie jetzt  fünf personale Kompetenzen, die Sie sich selbst zuschreiben. ">
+          <Description>$List:kar_potenzial_perkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_perkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="99" Width="140" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="316" YCoordinate="311.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="173bea81-3119-4eea-8dbd-df55bc02c4e6" Name="Ergänzen Sie bitte nun wieder Beispiele, anhand derer Sie Ihre personalen Kompetenzen im Gespräch belegen könnten:">
+          <Description>$List:kar_potenzial_perkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_perkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="110" Width="146" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="516" YCoordinate="306" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="79f4d8f5-df0d-4895-979c-b5aad66de9dd" Name="Schreiben Sie bitte wiederum fünf Aspekte auf, die auf Sie zutreffen. Dabei können Sie sich wieder an unserer Liste orientieren. ">
+          <Description>$List:kar_potenzial_metkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_metkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="98" Width="227" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="929" YCoordinate="312" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="07c9e4b8-0967-404a-ab9a-54662a2d8a0f" Name="Bitte finden Sie nun wieder Beispiele für Ihre Kompetenzen!">
+          <Description>$List:kar_potenzial_metkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_metkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="270" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1240" YCoordinate="331" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3960ff44-e5b3-4e3f-bb20-f35bea9ab198" Name="Notieren Sie bitte fünf Ihrer Führungskompetenzen!">
+          <Description>$List:kar_potenzial_fuehrkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_fuehrkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="110" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="166" YCoordinate="448" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1b916aca-c7d0-4f63-a7e5-a345e7228de5" Name="Finden Sie jetzt wieder Beispiele für Ihre Kompetenzen!">
+          <Description>$List:kar_potenzial_fuehrkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_fuehrkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="132" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="344" YCoordinate="448" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2d3d36cc-68ce-4fc2-8f9b-9e02afcf2e37" Name="&#xD;&#xA;Bitte sortieren Sie Ihre Fachkompetenzen nach Relevanz!">
+          <Description>$List:kar_potenzial_fachkenn("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_fachkenn("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="99" Width="118" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="870" YCoordinate="442.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0042feb1-9a83-4b68-9711-67fc3d38a3ab" Name="Bitte sortieren Sie Ihre sozialen Kompetenzen nach Relevanz!">
+          <Description>$List:kar_potenzial_sozkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_sozkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="76" Width="168" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1038" YCoordinate="454" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2ac0db92-ad82-4271-b08e-25a1d247acd1" Name="Bitte sortieren Sie Ihre personalen Kompetenzen nach Relevanz!">
+          <Description>$List:kar_potenzial_perkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_perkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="72" Width="172" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1273" YCoordinate="456" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="35f1f9c5-e945-4e19-9150-90472af21da0" Name="Bitte sortieren Sie Ihre methodischen Kompetenzen nach Relevanz!">
+          <Description>$List:kar_potenzial_metkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_metkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="61" Width="190" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1508" YCoordinate="461.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6187d5a5-32a4-464c-95fd-15dd668a13f9" Name="Bitte sortieren Sie Ihre Führungs-Kompetenzen (falls zutreffend) nach Relevanz!">
+          <Description>$List:kar_potenzial_fuehrkom("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_fuehrkom("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="87" Width="186" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="162" YCoordinate="634" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c991b3df-e2fc-44e3-b048-7bec50192373" Name="Notieren Sie bitte jetzt drei Schwächen!">
+          <Description>$List:kar_potenzial_schwaechen("items":3)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_schwaechen("items":3)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="455" YCoordinate="878" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="186b9577-8dd8-462f-8fd5-f7864598c137" Name="Finden Sie bitte jetzt für jede Schwäche ein Beispiel aus Ihrem Berufsalltag!">
+          <Description>$List:kar_potenzial_schwaechen("items":3)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_schwaechen("items":3)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="94" Width="154" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="598" YCoordinate="861" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fc157fcc-4187-438f-96b4-7b1b26a5bd09" Name="Aufgaben zum Coaching &quot;Was kann ich?&quot;">
+          <Description>$Text()
+Bitte denken Sie bis zum nächsten Mal an die Aufgaben, die wir Ihnen ans Herz gelegt haben:
+
+- Sammeln von mindestens drei Erfolgsgeschichten inklusive Ableiten von Fähigkeiten oder Kompetenzen
+- Üben Ihrer Erfolgsgeschichten
+- Einholen von Feedback zu Ihrer Geschichten sowie Ihren Stärken und Schwächen
+
+Bis zum nächsten Mal!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Bitte denken Sie bis zum nächsten Mal an die Aufgaben, die wir Ihnen ans Herz gelegt haben:
+
+- Sammeln von mindestens drei Erfolgsgeschichten inklusive Ableiten von Fähigkeiten oder Kompetenzen
+- Üben Ihrer Erfolgsgeschichten
+- Einholen von Feedback zu Ihrer Geschichten sowie Ihren Stärken und Schwächen
+
+Bis zum nächsten Mal!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="114" Width="109" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1596.5" YCoordinate="852.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3feb0fe2-24d0-44dc-bac8-9afad9c5cbc3" Name="Was tun Sie jeweils, um an Ihrer Schwäche zu arbeiten? Bitte notieren Sie auch dies wiederum!">
+          <Description>$List:kar_potenzial_schwaechen("items":3)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_schwaechen("items":3)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="92" Width="142" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1099" YCoordinate="863.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9729333a-c733-4e2d-99c6-cbcdb93a1491" Name="Welche positiven Seiten könnte jede Schwäche haben? Schreiben Sie es auf!">
+          <Description>$List:kar_potenzial_schwaechen("items":3)
+
+
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_potenzial_schwaechen("items":3)
+
+
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="100" Width="206" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="795" YCoordinate="858" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bd2506d2-faf8-4faa-b200-6bb8fd52697d" Name="">
+          <Description>Sehr schön, das sind also Ihre Stärken und Kompetenzen, auf die Sie jederzeit zurückgreifen können.
+
+Nun möchten wir Ihre ganz persönlichen Erfolgsgeschichten entwickeln.
+
+Am Ende dieses Coachings haben Sie mit Ihren Erfolgsgeschichten dann...
+
+... eine souveräne Antwort im Bewerbungsgespräch, wenn Sie nach Ihren Stärken gefragt werden
+... gleich noch ein bisschen Ihr Selbstbewusstsein aufpoliert. Zu sehen, was man alles schon erreicht hat, gibt nämlich ein ziemlich gutes Gefühl!
+
+Versuchen Sie sich also bitte jetzt an einen beruflichen oder privaten Erfolg zu erinnern, in dem eine oder mehrere Ihrer Stärken zum Tragen kamen.
+Was fällt Ihnen ein? Nehmen Sie sich eine Minute Zeit und überlegen Sie: was haben Sie in der Vergangenheit getan beziehungsweise geleistet? Wann waren Sie so richtig stolz auf sich oder was ist Ihnen mal so richtig gut gelungen? 
+Das können kleine, alltägliche Erfolge sein, wo Ihnen mal jemand gesagt hat: "Das hast Du gut gemacht!" bis hin zu größeren Leistungen, die Ihnen viel Anerkennung eingebracht haben.
+
+Folgende Beispiele sollen Ihnen eine kleine Starthilfe sein: 
+
+Beispiel 1:
+Beispielsweise haben Sie einen gemeinsamen Radausflug über das Wochenende mit Ihren fünf Freunden organisiert. Sie haben die Route geplant, die Hotels gebucht und die Termine mit Ihren Freunden koordiniert. Alle waren begeistert vom Wochenende und Ihrer super Planung und sprechen heute noch davon, wie Sie alles in so kurzer Zeit organisiert haben!
+
+Beispiel 2:
+Um ein größeres Projekt in Ihrer Abteilung zu stemmen, war es notwendig geworden, eine neue Software zu kaufen. Sie haben sich dazu einen Termin bei Ihrem Chef geben lassen, um ihn vom Kauf zu überzeugen. Sie haben sich intensiv auf den Termin vorbereitet, sich Argumente dafür überlegt und alles in einer kleinen Präsentation zusammengefasst. Am Ende des Gesprächs war er überzeugt und hat dem Kauf zugestimmt.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Sehr schön, das sind also Ihre Stärken und Kompetenzen, auf die Sie jederzeit zurückgreifen können.
+
+Nun möchten wir Ihre ganz persönlichen Erfolgsgeschichten entwickeln.
+
+Am Ende dieses Coachings haben Sie mit Ihren Erfolgsgeschichten dann...
+
+... eine souveräne Antwort im Bewerbungsgespräch, wenn Sie nach Ihren Stärken gefragt werden
+... gleich noch ein bisschen Ihr Selbstbewusstsein aufpoliert. Zu sehen, was man alles schon erreicht hat, gibt nämlich ein ziemlich gutes Gefühl!
+
+Versuchen Sie sich also bitte jetzt an einen beruflichen oder privaten Erfolg zu erinnern, in dem eine oder mehrere Ihrer Stärken zum Tragen kamen.
+Was fällt Ihnen ein? Nehmen Sie sich eine Minute Zeit und überlegen Sie: was haben Sie in der Vergangenheit getan beziehungsweise geleistet? Wann waren Sie so richtig stolz auf sich oder was ist Ihnen mal so richtig gut gelungen? 
+Das können kleine, alltägliche Erfolge sein, wo Ihnen mal jemand gesagt hat: "Das hast Du gut gemacht!" bis hin zu größeren Leistungen, die Ihnen viel Anerkennung eingebracht haben.
+
+Folgende Beispiele sollen Ihnen eine kleine Starthilfe sein: 
+
+Beispiel 1:
+Beispielsweise haben Sie einen gemeinsamen Radausflug über das Wochenende mit Ihren fünf Freunden organisiert. Sie haben die Route geplant, die Hotels gebucht und die Termine mit Ihren Freunden koordiniert. Alle waren begeistert vom Wochenende und Ihrer super Planung und sprechen heute noch davon, wie Sie alles in so kurzer Zeit organisiert haben!
+
+Beispiel 2:
+Um ein größeres Projekt in Ihrer Abteilung zu stemmen, war es notwendig geworden, eine neue Software zu kaufen. Sie haben sich dazu einen Termin bei Ihrem Chef geben lassen, um ihn vom Kauf zu überzeugen. Sie haben sich intensiv auf den Termin vorbereitet, sich Argumente dafür überlegt und alles in einer kleinen Präsentation zusammengefasst. Am Ende des Gesprächs war er überzeugt und hat dem Kauf zugestimmt.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="432" YCoordinate="647.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5c68ba2e-d913-4381-ba08-f57bfffcba58" Name="">
+          <Description>$Text()
+Schreiben Sie im nächsten Schritt einen beruflichen oder privaten Erfolg auf und erwähnen Sie auch das Ergebnis!
+Wenn Ihnen im ersten Moment nichts einfällt, setzen Sie sich nicht unter Druck. In unserer Kultur ist es eher ungewöhnlich, seine positiven Eigenschaften zu benennen - es ist also normal, wenn Sie hier eine Aufwärmphase benötigen. 
+Lassen Sie Ihre Gedanken in aller Ruhe schweifen bis Ihnen die ersten Ideen kommen. Sammeln Sie alles, was Ihnen einfällt und wählen Sie dann das passendste für Ihre persönliche Erfolgsgeschichte aus. 
+Im Textfeld können Sie dann einen Fließtext oder Stichpunkte eingeben: wichtig ist, dass Sie Ihre Erfolgsgeschichte anhand Ihrer Aufzeichungen später frei erzählen können. 
+Zur Unterstützung können Sie auch Familienmitglieder oder Freunde nach ihrer Einschätzung fragen. Oder Sie kontaktieren unsere Experten!</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Schreiben Sie im nächsten Schritt einen beruflichen oder privaten Erfolg auf und erwähnen Sie auch das Ergebnis!
+Wenn Ihnen im ersten Moment nichts einfällt, setzen Sie sich nicht unter Druck. In unserer Kultur ist es eher ungewöhnlich, seine positiven Eigenschaften zu benennen - es ist also normal, wenn Sie hier eine Aufwärmphase benötigen. 
+Lassen Sie Ihre Gedanken in aller Ruhe schweifen bis Ihnen die ersten Ideen kommen. Sammeln Sie alles, was Ihnen einfällt und wählen Sie dann das passendste für Ihre persönliche Erfolgsgeschichte aus. 
+Im Textfeld können Sie dann einen Fließtext oder Stichpunkte eingeben: wichtig ist, dass Sie Ihre Erfolgsgeschichte anhand Ihrer Aufzeichungen später frei erzählen können. 
+Zur Unterstützung können Sie auch Familienmitglieder oder Freunde nach ihrer Einschätzung fragen. Oder Sie kontaktieren unsere Experten!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="593" YCoordinate="647.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2b867ed8-9242-4864-987f-3ff5c72addba" Name="">
+          <Description>$Text()
+Wenn Sie Ihre Geschichte notiert haben, möchten wir diese nun noch etwas verfeinern. 
+
+Überlegen Sie dazu bitte: 
+
+1.Was hat diese Situation schwierig gemacht? 
+(Was war herausfordernd an der Situation? Hatten Sie beispielsweise nicht genügend Informationen, um die Aufgabe korrekt zu beenden? Oder sind Sie mit einer anderen Person aneinandergeraten, was die Situation für Sie vielleicht kompliziert gemacht hat? Welche Schwierigkeit war es bei Ihnen?)
+
+2.Wie haben Sie diese Schwierigkeiten gelöst? 
+(Haben Sie beispielsweise besonders viel Ausdauer gezeigt, sind Sie bereit gewesen, mehr Kompromisse einzugehen oder haben Sie sich einen Partner gesucht, der mit Ihnen zusammen die Aufgabe gelöst hat?)
+
+3.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen? 
+(War das Ergebnis vielleicht, dass Ihr Arbeitgeber Kosten oder Zeit eingespart hat? Oder haben Sie es geschafft, dass Ihre Freunde eine unvergessliche Party gehabt haben, an die sie sich heute noch gern erinnern?)
+
+Schauen wir uns das bei unseren zwei Beispielen an:
+
+Beispiel 1: Die Wochenendradtour
+Die Herausforderung war es, ein Datum zu finden, an dem Sie alle Zeit hatten. Nach zahllosen Vorschlägen konnten Sie sich am Ende nur noch auf einen kurzfristigen Termin einigen. Die Zeit für die Organisation war also recht knapp. 
+Was haben Sie unternommen? Sie hatten alle Hände voll zu tun, noch ein geeignetes Hotel zu finden und die Route zu planen. Sie haben sich jeden Abend für zwei bis drei Stunden hingesetzt und intensiv recherchiert. Dadurch, dass Sie die Informationen übersichtlich in einer Excel-Datei organisierten, haben Sie so stets den Überblick behalten. Außerdem haben Sie sich einen genauen Plan für Ihre Route gemacht und zum Schluss die Hotels angerufen und die Buchung dingfest gemacht. Das Ergebnis war der gelungene Ausflug, von dem Ihre Freunde heute noch begeistert erzählen!
+
+Beispiel 2: Der Kauf der Software
+Die Herausforderung hierbei war die knappe Präsentationszeit und die Tatsache, dass die Entscheidung Ihres Chefs Ihre zukünftige Arbeit entweder erleichtert oder erschwert hätte, je nach Zustimmung oder Ablehnung. Die erste Schwierigkeit haben Sie gelöst, in dem Sie einen Zeitplan erstellt haben. Die zweite Herausforderung haben Sie gemeistert, indem Sie überzeugende Fakten gesammelt und Ihre Präsentation vorher ausreichend geübt haben. Das Ergebnis war der Kauf, wodurch Sie schneller in Ihrem Projekt vorangekommen sind. Das hat dem Unternehmen am Ende Zeit und Kosten gespart.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Wenn Sie Ihre Geschichte notiert haben, möchten wir diese nun noch etwas verfeinern. 
+
+Überlegen Sie dazu bitte: 
+
+1.Was hat diese Situation schwierig gemacht? 
+(Was war herausfordernd an der Situation? Hatten Sie beispielsweise nicht genügend Informationen, um die Aufgabe korrekt zu beenden? Oder sind Sie mit einer anderen Person aneinandergeraten, was die Situation für Sie vielleicht kompliziert gemacht hat? Welche Schwierigkeit war es bei Ihnen?)
+
+2.Wie haben Sie diese Schwierigkeiten gelöst? 
+(Haben Sie beispielsweise besonders viel Ausdauer gezeigt, sind Sie bereit gewesen, mehr Kompromisse einzugehen oder haben Sie sich einen Partner gesucht, der mit Ihnen zusammen die Aufgabe gelöst hat?)
+
+3.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen? 
+(War das Ergebnis vielleicht, dass Ihr Arbeitgeber Kosten oder Zeit eingespart hat? Oder haben Sie es geschafft, dass Ihre Freunde eine unvergessliche Party gehabt haben, an die sie sich heute noch gern erinnern?)
+
+Schauen wir uns das bei unseren zwei Beispielen an:
+
+Beispiel 1: Die Wochenendradtour
+Die Herausforderung war es, ein Datum zu finden, an dem Sie alle Zeit hatten. Nach zahllosen Vorschlägen konnten Sie sich am Ende nur noch auf einen kurzfristigen Termin einigen. Die Zeit für die Organisation war also recht knapp. 
+Was haben Sie unternommen? Sie hatten alle Hände voll zu tun, noch ein geeignetes Hotel zu finden und die Route zu planen. Sie haben sich jeden Abend für zwei bis drei Stunden hingesetzt und intensiv recherchiert. Dadurch, dass Sie die Informationen übersichtlich in einer Excel-Datei organisierten, haben Sie so stets den Überblick behalten. Außerdem haben Sie sich einen genauen Plan für Ihre Route gemacht und zum Schluss die Hotels angerufen und die Buchung dingfest gemacht. Das Ergebnis war der gelungene Ausflug, von dem Ihre Freunde heute noch begeistert erzählen!
+
+Beispiel 2: Der Kauf der Software
+Die Herausforderung hierbei war die knappe Präsentationszeit und die Tatsache, dass die Entscheidung Ihres Chefs Ihre zukünftige Arbeit entweder erleichtert oder erschwert hätte, je nach Zustimmung oder Ablehnung. Die erste Schwierigkeit haben Sie gelöst, in dem Sie einen Zeitplan erstellt haben. Die zweite Herausforderung haben Sie gemeistert, indem Sie überzeugende Fakten gesammelt und Ihre Präsentation vorher ausreichend geübt haben. Das Ergebnis war der Kauf, wodurch Sie schneller in Ihrem Projekt vorangekommen sind. Das hat dem Unternehmen am Ende Zeit und Kosten gespart.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="895" YCoordinate="647" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5007ac12-6337-4e3f-b714-8318dbadf8b1" Name="Bitte verfassen Sie nun Ihre persönliche Erfolgsgeschichte!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="152" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="713" YCoordinate="618" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f0c50e1a-d08b-44da-9cfb-16384c121cc8" Name="Bitte beantworten Sie nun für Ihre Erfolgsgeschichte diese drei Punkte:&#xD;&#xA;&#xD;&#xA;1.Was hat diese Situation schwierig gemacht? &#xD;&#xA;2.Wie haben Sie diese Schwierigkeiten gelöst? &#xD;&#xA;3.Was war das Ergebnis und der Gewinn oder Vorteil für Ihren Arbeitgeber oder beteiligte Personen? ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="150" Width="255" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1021" YCoordinate="602" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="6613ca82-1b22-4fbb-ab1b-00fceb7bbdd2" From="4d4b9a94-be59-4a6e-bdb8-af5499821e9f" To="c379c2f2-4fcc-4871-8024-520af014fac0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="1">
+              <Coordinates XCoordinate="130" YCoordinate="80" />
+              <Coordinates XCoordinate="181" YCoordinate="80" />
+              <Coordinates XCoordinate="181" YCoordinate="127" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5696240d-22f8-473d-907c-ec3d3090a96a" From="1b916aca-c7d0-4f63-a7e5-a345e7228de5" To="128e4663-a2ba-4242-bef3-59a62e27ae1c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="476" YCoordinate="492" />
+              <Coordinates XCoordinate="536" YCoordinate="492" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5ad9ec76-ff1b-4236-974d-6c48332f4231" From="c379c2f2-4fcc-4871-8024-520af014fac0" To="5d77b21e-b0cd-425f-90c2-65104737975a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="7">
+              <Coordinates XCoordinate="198" YCoordinate="187" />
+              <Coordinates XCoordinate="198" YCoordinate="201" />
+              <Coordinates XCoordinate="240" YCoordinate="201" />
+              <Coordinates XCoordinate="240" YCoordinate="140" />
+              <Coordinates XCoordinate="269" YCoordinate="140" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="90ac2b92-c491-45e6-9b77-cb8dcedbf235" From="07c9e4b8-0967-404a-ab9a-54662a2d8a0f" To="6f2d4db4-e629-4607-a51d-84dc7aa00dfb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1510" YCoordinate="361" />
+              <Coordinates XCoordinate="1594" YCoordinate="361" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f1f84040-d6ef-4d73-93ee-a2bef2d71400" From="bd2506d2-faf8-4faa-b200-6bb8fd52697d" To="5c68ba2e-d913-4381-ba08-f57bfffcba58" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="522" YCoordinate="677" />
+              <Coordinates XCoordinate="593" YCoordinate="677" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8872dc57-8428-43e2-aedb-27e88bd0a312" From="5007ac12-6337-4e3f-b714-8318dbadf8b1" To="2b867ed8-9242-4864-987f-3ff5c72addba" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="865" YCoordinate="677" />
+              <Coordinates XCoordinate="895" YCoordinate="677" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="759037cf-1f2c-4f8e-a79f-d1c955244f5e" From="2b867ed8-9242-4864-987f-3ff5c72addba" To="f0c50e1a-d08b-44da-9cfb-16384c121cc8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="985" YCoordinate="677" />
+              <Coordinates XCoordinate="1021" YCoordinate="677" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7413ef20-c844-457f-ae74-a9bd8e207b96" From="f0c50e1a-d08b-44da-9cfb-16384c121cc8" To="28aec046-7d07-404f-964d-1a52328ac648" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1276" YCoordinate="677" />
+              <Coordinates XCoordinate="1322" YCoordinate="677" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="69e093f1-a87e-4adf-8250-e49d3c3f7094" From="28aec046-7d07-404f-964d-1a52328ac648" To="3883deaf-8022-468b-b3ac-a4c00361b58d" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1472" YCoordinate="767" />
+              <Coordinates XCoordinate="1472" YCoordinate="800.5" />
+              <Coordinates XCoordinate="209" YCoordinate="800.5" />
+              <Coordinates XCoordinate="209" YCoordinate="878" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="800a8dd0-1f98-4e83-bb14-6a7d70fdfe0e" From="3883deaf-8022-468b-b3ac-a4c00361b58d" To="e2aae2ff-4577-4ddd-ab21-19b376e197e7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="254" YCoordinate="908" />
+              <Coordinates XCoordinate="281.5" YCoordinate="908" />
+              <Coordinates XCoordinate="281.5" YCoordinate="968" />
+              <Coordinates XCoordinate="309" YCoordinate="968" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="14d8a258-3de3-4d86-983b-8418b75dad6b" From="5d77b21e-b0cd-425f-90c2-65104737975a" To="a45013cd-1637-4649-8fac-b09e5f51dcab" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="4">
+              <Coordinates XCoordinate="496" YCoordinate="140" />
+              <Coordinates XCoordinate="615" YCoordinate="140" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c2f0a633-e884-4a89-baee-f975d24fbec5" From="d8a746bb-aa2c-42b2-91ff-dcbdb5a1a21c" To="e00cac2d-de41-4d6e-a26a-3c2bf908b0b8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1331" YCoordinate="139" />
+              <Coordinates XCoordinate="1365" YCoordinate="139" />
+              <Coordinates XCoordinate="1365" YCoordinate="140" />
+              <Coordinates XCoordinate="1399" YCoordinate="140" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7a4126cd-2d0d-4864-9733-78e0e9c1ea40" From="a45013cd-1637-4649-8fac-b09e5f51dcab" To="c1c0ed1d-431b-4890-90c1-7352252ceccd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="842" YCoordinate="140" />
+              <Coordinates XCoordinate="890" YCoordinate="140" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3ce01702-e400-4ba5-b1ba-fa0b2a146f47" From="e00cac2d-de41-4d6e-a26a-3c2bf908b0b8" To="78a5205a-d8d0-46c3-a2fe-51b73b4e02d1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1491" YCoordinate="140" />
+              <Coordinates XCoordinate="1529" YCoordinate="140" />
+              <Coordinates XCoordinate="1529" YCoordinate="139" />
+              <Coordinates XCoordinate="1567" YCoordinate="139" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="dd4bbbd2-0ec5-4029-a6e2-6e9d7026bb86" From="6f2d4db4-e629-4607-a51d-84dc7aa00dfb" To="3960ff44-e5b3-4e3f-bb20-f35bea9ab198" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1654" YCoordinate="391" />
+              <Coordinates XCoordinate="1654" YCoordinate="427" />
+              <Coordinates XCoordinate="221" YCoordinate="427" />
+              <Coordinates XCoordinate="221" YCoordinate="448" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="136a768f-99a1-4506-aebc-cb58d7ba1c2f" From="128e4663-a2ba-4242-bef3-59a62e27ae1c" To="2d3d36cc-68ce-4fc2-8f9b-9e02afcf2e37" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="804" YCoordinate="492" />
+              <Coordinates XCoordinate="828" YCoordinate="492" />
+              <Coordinates XCoordinate="828" YCoordinate="491" />
+              <Coordinates XCoordinate="870" YCoordinate="491" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="9197a1ef-8069-49cf-b393-3dd29e07765c" From="5c68ba2e-d913-4381-ba08-f57bfffcba58" To="5007ac12-6337-4e3f-b714-8318dbadf8b1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="683" YCoordinate="677" />
+              <Coordinates XCoordinate="713" YCoordinate="677" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="da46bb52-637a-48f6-83d8-76532176b7bc" From="e2aae2ff-4577-4ddd-ab21-19b376e197e7" To="c991b3df-e2fc-44e3-b048-7bec50192373" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="418" YCoordinate="968" />
+              <Coordinates XCoordinate="436.5" YCoordinate="968" />
+              <Coordinates XCoordinate="436.5" YCoordinate="908" />
+              <Coordinates XCoordinate="455" YCoordinate="908" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f935acc0-f382-4e0b-b2d9-1bffc3dbff59" From="c1c0ed1d-431b-4890-90c1-7352252ceccd" To="d8a746bb-aa2c-42b2-91ff-dcbdb5a1a21c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1117" YCoordinate="140" />
+              <Coordinates XCoordinate="1153" YCoordinate="140" />
+              <Coordinates XCoordinate="1153" YCoordinate="139" />
+              <Coordinates XCoordinate="1189" YCoordinate="139" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="969a2070-ade0-42f7-b6df-ec6bbd27b260" From="3960ff44-e5b3-4e3f-bb20-f35bea9ab198" To="1b916aca-c7d0-4f63-a7e5-a345e7228de5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="276" YCoordinate="492" />
+              <Coordinates XCoordinate="344" YCoordinate="492" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8a0963b6-6575-468a-a3b2-09607952eb51" From="c991b3df-e2fc-44e3-b048-7bec50192373" To="186b9577-8dd8-462f-8fd5-f7864598c137" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="545" YCoordinate="908" />
+              <Coordinates XCoordinate="598" YCoordinate="908" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="20a5ec5c-b48e-4aff-a654-598c301bf2a1" From="186b9577-8dd8-462f-8fd5-f7864598c137" To="9729333a-c733-4e2d-99c6-cbcdb93a1491" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="752" YCoordinate="908" />
+              <Coordinates XCoordinate="773.5" YCoordinate="908" />
+              <Coordinates XCoordinate="773.5" YCoordinate="909" />
+              <Coordinates XCoordinate="802" YCoordinate="909" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="044dbb2f-778b-409f-a1bf-499e51cad986" From="2d3d36cc-68ce-4fc2-8f9b-9e02afcf2e37" To="0042feb1-9a83-4b68-9711-67fc3d38a3ab" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="988" YCoordinate="491" />
+              <Coordinates XCoordinate="1013" YCoordinate="491" />
+              <Coordinates XCoordinate="1013" YCoordinate="492" />
+              <Coordinates XCoordinate="1038" YCoordinate="492" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="08934e94-1096-4857-ba30-0d790d6cc9a1" From="af14f129-5aa2-4c6d-8cf6-921a75c3dc9b" To="349633a2-7664-4dcb-a5e3-1d38b958c6ac" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="276" YCoordinate="361" />
+              <Coordinates XCoordinate="296" YCoordinate="361" />
+              <Coordinates XCoordinate="296" YCoordinate="360" />
+              <Coordinates XCoordinate="316" YCoordinate="360" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b37ac776-c622-479c-bc7b-58c0f6235ee2" From="78a5205a-d8d0-46c3-a2fe-51b73b4e02d1" To="af14f129-5aa2-4c6d-8cf6-921a75c3dc9b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1668" YCoordinate="173" />
+              <Coordinates XCoordinate="1668" YCoordinate="241" />
+              <Coordinates XCoordinate="210" YCoordinate="241" />
+              <Coordinates XCoordinate="210" YCoordinate="309" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c973fc51-1809-4397-aded-50158355b554" From="0042feb1-9a83-4b68-9711-67fc3d38a3ab" To="2ac0db92-ad82-4271-b08e-25a1d247acd1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1206" YCoordinate="492" />
+              <Coordinates XCoordinate="1273" YCoordinate="492" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d5b8e31a-37d1-4c41-941f-b542cb0035c3" From="2ac0db92-ad82-4271-b08e-25a1d247acd1" To="35f1f9c5-e945-4e19-9150-90472af21da0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1445" YCoordinate="492" />
+              <Coordinates XCoordinate="1476.5" YCoordinate="492" />
+              <Coordinates XCoordinate="1476.5" YCoordinate="491" />
+              <Coordinates XCoordinate="1508" YCoordinate="491" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ad656c37-3705-4d83-bb2c-0cdfb2d8fe5b" From="35f1f9c5-e945-4e19-9150-90472af21da0" To="6187d5a5-32a4-464c-95fd-15dd668a13f9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1603" YCoordinate="522" />
+              <Coordinates XCoordinate="1603" YCoordinate="573" />
+              <Coordinates XCoordinate="255" YCoordinate="573" />
+              <Coordinates XCoordinate="255" YCoordinate="634" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2deb5c54-a55b-46d3-8ce1-49bf102e0b62" From="6187d5a5-32a4-464c-95fd-15dd668a13f9" To="bd2506d2-faf8-4faa-b200-6bb8fd52697d" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="348" YCoordinate="677" />
+              <Coordinates XCoordinate="432" YCoordinate="677" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e8ed6cde-dfb5-4d88-9311-b34e59cd3ba2" From="349633a2-7664-4dcb-a5e3-1d38b958c6ac" To="173bea81-3119-4eea-8dbd-df55bc02c4e6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="456" YCoordinate="360" />
+              <Coordinates XCoordinate="486" YCoordinate="360" />
+              <Coordinates XCoordinate="486" YCoordinate="361" />
+              <Coordinates XCoordinate="516" YCoordinate="361" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="64d9c343-9069-4e68-bb33-863487e6ea68" From="173bea81-3119-4eea-8dbd-df55bc02c4e6" To="7900a4f6-1312-40be-9a6c-83d199dd4618" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="662" YCoordinate="361" />
+              <Coordinates XCoordinate="739" YCoordinate="361" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8a18f8d7-d789-40df-9ac1-6e360c7d6034" From="7900a4f6-1312-40be-9a6c-83d199dd4618" To="79f4d8f5-df0d-4895-979c-b5aad66de9dd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="856" YCoordinate="361" />
+              <Coordinates XCoordinate="929" YCoordinate="361" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e531f886-a306-43e0-8610-99c7aee9f008" From="79f4d8f5-df0d-4895-979c-b5aad66de9dd" To="07c9e4b8-0967-404a-ab9a-54662a2d8a0f" Name="">
+          <Condition />
+          <Description>Ihre Angaben:
+#showkey:MetKom
+Formulieren Sie jetzt bitte jeweils ein Beispiel, wann Sie diese Kompetenz bereits gezeigt haben!
+#list</Description>
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1156" YCoordinate="361" />
+              <Coordinates XCoordinate="1240" YCoordinate="361" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="078ca561-837d-4fa8-8a5f-1ff6989b1928" From="9729333a-c733-4e2d-99c6-cbcdb93a1491" To="3feb0fe2-24d0-44dc-bac8-9afad9c5cbc3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1008" YCoordinate="909" />
+              <Coordinates XCoordinate="1099" YCoordinate="909" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d3e0a2d3-360b-4c5e-b269-7cae071bb86f" From="3feb0fe2-24d0-44dc-bac8-9afad9c5cbc3" To="04e4d2ae-76e2-45a2-913d-b012037ee437" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1241" YCoordinate="909" />
+              <Coordinates XCoordinate="1299" YCoordinate="909" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="01201163-8af4-412e-8022-803e5b281456" From="04e4d2ae-76e2-45a2-913d-b012037ee437" To="fc157fcc-4187-438f-96b4-7b1b26a5bd09" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1447" YCoordinate="909" />
+              <Coordinates XCoordinate="1596" YCoordinate="909" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6d29da34-a3b6-40c8-8d1f-3176201c4908" From="fc157fcc-4187-438f-96b4-7b1b26a5bd09" To="3cc0367d-f590-4617-b45a-5aaf460bffcc" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1650" YCoordinate="966" />
+              <Coordinates XCoordinate="1650" YCoordinate="1015" />
+              <Coordinates XCoordinate="1651" YCoordinate="1015" />
+              <Coordinates XCoordinate="1651" YCoordinate="1118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

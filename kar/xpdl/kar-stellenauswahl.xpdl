@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="f26416d2-b17a-4dfd-8c2d-d9a9c50a345a" Name="kar-stellenauswahl" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-10-13T18:05:54.1914063+02:00</Created>
+    <ModificationDate>2011-08-25T17:27:28.6914063+02:00</ModificationDate>
+    <Description>kar-stellenauswahl</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-22T09:07:30.3646Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-08-24T14:51:50.2724609Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-25T15:27:28.6914063Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="8d05f9f4-1863-42aa-b256-567e117b1772" Process="4eea78ca-6261-4383-8b90-cf272f188988" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="ee242c2b-6c6f-4320-8eb1-88cdb08cf113" Name="Stellensuche" Process="8fcc2009-8bf3-4a7f-a1be-7488cef69540" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="867" Width="1879" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations>
+    <Association Id="4b288a8d-80ae-48a8-97d7-7de2f176edc1" Source="08d23763-ebb7-428d-b6c6-0d2029274a71" Target="e8c99c51-1dd9-4832-adb2-08701ff8becb" Name="">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="1720" YCoordinate="202" />
+          <Coordinates XCoordinate="1720" YCoordinate="262.5" />
+          <Coordinates XCoordinate="1786" YCoordinate="262.5" />
+          <Coordinates XCoordinate="1786" YCoordinate="323" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+    <Association Id="9f2b2121-9a72-4d93-9500-65c249016447" Source="12a8d150-e335-4f64-a923-39b85d458ba0" Target="9c0bd54c-2732-4ee0-b881-e46e16802d78" Name="">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="587" YCoordinate="733" />
+          <Coordinates XCoordinate="615.5" YCoordinate="733" />
+          <Coordinates XCoordinate="615.5" YCoordinate="651" />
+          <Coordinates XCoordinate="644" YCoordinate="651" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+    <Association Id="2ac0441b-43f4-4111-9dcd-8952e284d417" Source="57e77580-5637-4fe4-97df-8b0d5cd10496" Target="8396cb67-a665-43f7-a47b-42e0b89397e4" Name="">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="240" YCoordinate="724" />
+          <Coordinates XCoordinate="240" YCoordinate="750.5" />
+          <Coordinates XCoordinate="231" YCoordinate="750.5" />
+          <Coordinates XCoordinate="231" YCoordinate="777" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+  </Associations>
+  <Artifacts>
+    <Artifact Id="e8c99c51-1dd9-4832-adb2-08701ff8becb" ArtifactType="Annotation" TextAnnotation="Datei &quot;Leitfaden_Anruf_Firma&quot;" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="false" FillColor="-2763307">
+          <Coordinates XCoordinate="1736" YCoordinate="323" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+    <Artifact Id="9c0bd54c-2732-4ee0-b881-e46e16802d78" ArtifactType="Annotation" TextAnnotation="Liste &quot;Quellen  Stellensuche&quot; zum Download" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="false" FillColor="-2763307">
+          <Coordinates XCoordinate="644" YCoordinate="621" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+    <Artifact Id="8396cb67-a665-43f7-a47b-42e0b89397e4" ArtifactType="Annotation" TextAnnotation="Datei &quot;Bewerbungsfahrplan&quot; zum Download" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="false" FillColor="-2763307">
+          <Coordinates XCoordinate="181" YCoordinate="777" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+  </Artifacts>
+  <WorkflowProcesses>
+    <WorkflowProcess Id="4eea78ca-6261-4383-8b90-cf272f188988" Name="Main Prozeß">
+      <ProcessHeader>
+        <Created>2011-08-30T11:24:58.8476563+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="8fcc2009-8bf3-4a7f-a1be-7488cef69540" Name="Stellensuche">
+      <ProcessHeader>
+        <Created>2011-08-30T11:24:58.8486329+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="54668c7b-a6dc-4eb5-8c39-4e51c0a73a03" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="106" YCoordinate="157" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3c2933b4-b64b-4f31-81ce-9b33f2910e0f" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1725" YCoordinate="718" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="ffd06700-6659-4617-a470-8c738882d46a" Name="Willkommen im Coaching &quot;Wie suche ich nach einer Stelle?&quot;&#xD;&#xA;&#xD;&#xA;Starten wir gleich mit der klassischen Suche über Google. Gehen wir das Ganze wieder Stück für Stück gemeinsam an einem Beispiel durch, so dass Sie dann zu Hause in Ruhe für die anderen Unternehmen nach passenden Stellen suchen können.&#xD;&#xA;&#xD;&#xA;Fangen Sie dabei idealerweise mit der Firma an, die auf Ihrer Liste an Platz 1 steht. Sollten Sie Ihre Liste mit den Unternehmen noch nicht priorisiert haben, tun Sie es jetzt und entscheiden Sie, bei welcher Firma Sie zuerst auf Stellensuche gehen möchten.&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="123" Width="166" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="258" YCoordinate="110.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6b7781f8-6548-4129-a1a2-b0f4af7e78e1" Name="Geben Sie jetzt einfach mal den Namen Ihres Unternehmens zusammen mit dem Begriff &quot;Stellenanzeigen&quot; oder „Stellenangebote“ in die Suchmaschine ein. Nehmen wir uns wieder Siemens als Beispiel. Wenn ich „Siemens“ und „Stellenanzeigen“ in Google eintippe, gelange ich direkt auf die Jobseiten der Firma. Meist finden Sie die firmeninternen Stellenangebote unter den Links „Jobs“, „Karriere“ oder in Englisch „Career“ auf den jeweiligen Firmenseiten.&#xD;&#xA;Die Seite können Sie sofort bookmarken, so dass Sie sie später schnell wieder finden. Die Stellenanzeige brauchen wir nachher unbedingt für das Anpassen Ihrer Bewerbungsunterlagen!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="468" YCoordinate="82" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="35cb42d1-116a-4cb4-b4f9-802f488afbeb" Name="Am besten wäre es, Sie legen sich für Ihre Stellensuche auch gleich eine schön strukturierte Datei an. Das spart Ihnen später ungemein Zeit, wenn es an das Bewerben geht. Sie haben bereits für ihre Firmenliste eine Excel-Datei bzw. ein Blatt Papier. Arbeiten Sie am besten einfach weiter mit dem Dokument und legen Sie sich jetzt eine zusätzliche Spalte an. &#xD;&#xA;&#xD;&#xA;Hier tragen Sie alles ein, was für Ihre Bewerbung später wichtig ist: wie die Position, auf die Sie sich bewerben, heißt, wann Sie sich beworben haben, mit wem Sie gesprochen haben usw..">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="851" YCoordinate="82" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6951998f-b28b-49b9-9a17-373fbefac4ca" Name="Bei Firmen, wo Sie keine offenen Stellen auf den Firmenseiten finden: schauen sie auf Xing nach und suchen Sie nach Kontakten innerhalb des Unternehmens. Wenn Sie bei Xing noch keinen Premium-Account haben, überlegen Sie sich, ob Sie die fünf Euro im Monat doch investieren wollen oder bitten Sie einen Freund, für Sie zu recherchieren. &#xD;&#xA;Neben Xing können Sie auch bei LinkedIn nach Stellen der Firmen suchen. LinkedIn ist etwas globaler als Xing und Sie können dort auch ohne zu zahlen Nachrichten an Kontakte verschicken. Wenn Sie jemanden aus Ihrem Zielunternehmen auf einer der beiden Plattformen gefunden haben, schreiben Sie ihn an!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="236" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1205" YCoordinate="82" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="30261483-73db-465e-ac7c-a47dbc40ab16" Name="Lassen Sie sich auch ein Stück weit von Ihren Gefühlen lenken:&#xD;&#xA;* Welche Gedanken und Gefühle kommen bei Ihnen auf, wenn Sie die Stellenanzeige lesen? &#xD;&#xA;* Ist die Stellenanzeige eher aufwendig oder schlicht gestaltet? Handelt es sich demnach eher um ein traditionelles oder modernes Unternehmen? Passen meine Qualifikationen zu diesem Unternehmen? Kann ich mir vorstellen, gerne bei diesem Unternehmen zu arbeiten?&#xD;&#xA; ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="287" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="162" YCoordinate="392" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3edc5df1-697e-4dd1-8a36-996ab3ae7e4e" Name="Passen Sie Ihr Anschreiben nach Ihrem Telefonat an und beziehen Sie sich direkt auf Ihren Ansprechpartner – so ist Ihr Bewerbungsschreiben gleich viel persönlicher.&#xD;&#xA;&#xD;&#xA;Jetzt können Sie die Bewerbung auch schon verschicken.&#xA;Los geht’s!&#xA;&#xD;&#xA;Rufen Sie nach 2 Tagen unbedingt bei der Firma an und erkundigen Sie sich, ob Ihre Bewerbung eingetroffen ist.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1234" YCoordinate="392" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="686a3037-258b-447b-956c-9fcef87412ab" Name="Als Tipp: Schaffen Sie sich Routinen! &#xD;&#xA;&#xD;&#xA;Mit Hilfe unseres Bewerbungsfahrplans, können Sie effizienter und schneller Ihre Bewerbungen versenden.&#xD;&#xA;&#xD;&#xA;Wie? Das erfahren Sie im nächsten Schritt.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="84" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1616" YCoordinate="440" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5dc6bcc0-b2f8-478c-b7bc-7b78df309c17" Name="Dies war unser erstes Coaching im Kapitel &quot;Sich erfolgreich bewerben&quot;. &#xD;&#xA;&#xD;&#xA;Im zweiten Coaching des Kapitels decken wir den Bereich telefonische Kontaktaufnahme ab. Im dritten Teil des Kapitels  geht es dann um die Themen Onlinebewerbung, Kontakte nutzen und Intitiativbewerbung.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="746" YCoordinate="643" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2514b902-3667-4dec-bb7c-39eea85718d4" Name="Intro Kapitel Passende Angebote finden">
+          <Description>$Video("video":{"url":"JAC_PassAngebo_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"JAC_PassAngebo_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="148" YCoordinate="74" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="09308c73-18a5-40dc-b069-8dada5a092a5" Name="">
+          <Description>$Text()
+Wenn Sie eine Stellenanzeige bei ihrer Zielfirma gefunden haben: wunderbar! 
+
+Schauen Sie sich die Stellenanzeige gut an, um zu entscheiden, wie gut Sie die Anforderungen erfüllen.
+* Lassen sich schon erste Anforderungen aus der Unternehmensbeschreibung herauslesen (Fremdsprachenkenntnisse, Mobilität, besondere branchenspezifische Kenntnisse etc.)? 
+* Welche Aufgaben sind mit der zukünftigen Stelle verbunden und wie können Sie belegen, dass Sie ihnen gewachsen sind? 
+* Gibt es Vorgaben für die Bewerbung (Eintrittstermin, Angaben zu Gehaltsvorstellungen, etc.)? 
+* Welche Muss- und Kann-Anforderungen sind in der Stellenanzeige formuliert? 
+
+Im nächsten Schritt gibt es gleich einen kleinen Exkurs zu den so genannten Muss- und Kann-Kriterien:</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Wenn Sie eine Stellenanzeige bei ihrer Zielfirma gefunden haben: wunderbar! 
+
+Schauen Sie sich die Stellenanzeige gut an, um zu entscheiden, wie gut Sie die Anforderungen erfüllen.
+* Lassen sich schon erste Anforderungen aus der Unternehmensbeschreibung herauslesen (Fremdsprachenkenntnisse, Mobilität, besondere branchenspezifische Kenntnisse etc.)? 
+* Welche Aufgaben sind mit der zukünftigen Stelle verbunden und wie können Sie belegen, dass Sie ihnen gewachsen sind? 
+* Gibt es Vorgaben für die Bewerbung (Eintrittstermin, Angaben zu Gehaltsvorstellungen, etc.)? 
+* Welche Muss- und Kann-Anforderungen sind in der Stellenanzeige formuliert? 
+
+Im nächsten Schritt gibt es gleich einen kleinen Exkurs zu den so genannten Muss- und Kann-Kriterien:</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1531" YCoordinate="142" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="08d23763-ebb7-428d-b6c6-0d2029274a71" Name="">
+          <Description>Muss-Kriterien sind typischerweise erkennbar an Formulierungen wie "Sie haben", "Sie sind...", "Sie bringen mit..." und sollten zu 80% erfüllt werden. Kann-Kriterien erkennt man an solchen Formulierungen: "idealerweise", "von Vorteil wäre..." oder "wünschenswert ist...".
+
+Schauen Sie gleich, welche Muss-Kriterien Sie in Ihrer Stellenanzeige finden und klären Sie danach für sich: welche davon erfüllen Sie, welche nicht?
+
+Wie gesagt: ideal ist es, wenn Sie 80% der Muss-Kriterien erfüllen. Aber selbst wenn das nicht der Fall ist, sollten Sie dennoch keine Scheu davor haben, sich zu bewerben.
+
+Rufen Sie außerdem bei der Personalabteilung an und sagen Sie, worin Sie stark und weniger stark sind. Wenn Sie Glück haben, erhalten Sie eine klare Aussage vom Personaler, der Ihnen sagt, worauf das Unternehmen bei der Stellenbesetzung Wert legt.
+
+Wir haben Ihnen einen Leitfaden erstellt, mit dem Sie sicher und sympathisch bei Ihrem Anruf rüberkommen. Diesen können Sie sich mit dem untenstehenden Link herunterladen.
+
+$DocumentDownload("documents":[{"name":"Leifaden Anruf Firma","file":"Leitfaden_Anruf_Firma.pdf"}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Muss-Kriterien sind typischerweise erkennbar an Formulierungen wie "Sie haben", "Sie sind...", "Sie bringen mit..." und sollten zu 80% erfüllt werden. Kann-Kriterien erkennt man an solchen Formulierungen: "idealerweise", "von Vorteil wäre..." oder "wünschenswert ist...".
+
+Schauen Sie gleich, welche Muss-Kriterien Sie in Ihrer Stellenanzeige finden und klären Sie danach für sich: welche davon erfüllen Sie, welche nicht?
+
+Wie gesagt: ideal ist es, wenn Sie 80% der Muss-Kriterien erfüllen. Aber selbst wenn das nicht der Fall ist, sollten Sie dennoch keine Scheu davor haben, sich zu bewerben.
+
+Rufen Sie außerdem bei der Personalabteilung an und sagen Sie, worin Sie stark und weniger stark sind. Wenn Sie Glück haben, erhalten Sie eine klare Aussage vom Personaler, der Ihnen sagt, worauf das Unternehmen bei der Stellenbesetzung Wert legt.
+
+Wir haben Ihnen einen Leitfaden erstellt, mit dem Sie sicher und sympathisch bei Ihrem Anruf rüberkommen. Diesen können Sie sich mit dem untenstehenden Link herunterladen.
+
+$DocumentDownload("documents":[{"name":"Leifaden Anruf Firma","file":"Leitfaden_Anruf_Firma.pdf"}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1675" YCoordinate="142" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="713e6f20-5f64-4b62-933a-e8b58f2c91ab" Name="&#xD;Aufgabe zum Coaching &quot;Wo suche ich nach einer Stelle?&quot;&#xA;&#xA;&#xA;Bis zu unserem nächsten Coaching, schreiben Sie bitte weiter Bewerbungen mit Hilfe unseres Bewerbungsfahrplans. Sie sollten pro halben Tag, den Sie sich Zeit nehmen, eine Bewerbung geschrieben und verschickt haben. &#xD;&#xA;Bei Fragen wenden Sie sich an unsere Experten.&#xD;&#xA;&#xD;&#xA;Bis zum nächsten Mal!">
+          <Description>
+Bis zu unserem nächsten Coaching, schreiben Sie bitte weiter Bewerbungen mit Hilfe unseres Bewerbungsfahrplans. Sie sollten pro halben Tag, den Sie sich Zeit nehmen, eine Bewerbung geschrieben und verschickt haben. 
+Bei Fragen wenden Sie sich an unsere Experten.
+
+Bis zum nächsten Mal!</Description>
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+Bis zu unserem nächsten Coaching, schreiben Sie bitte weiter Bewerbungen mit Hilfe unseres Bewerbungsfahrplans. Sie sollten pro halben Tag, den Sie sich Zeit nehmen, eine Bewerbung geschrieben und verschickt haben. 
+Bei Fragen wenden Sie sich an unsere Experten.
+
+Bis zum nächsten Mal!</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="78" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1353" YCoordinate="694" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="46d4a68a-2834-491b-a4a3-d3aaeb91e1d3" Name="Jetzt geht es darum, Ihr Anschreiben so anzupassen, dass es zu den Anforderungen der Annonce passt. Das Gleiche machen Sie mit Ihrem Lebenslauf, so dass die für die Position relevanten Fähigkeiten und Erfahrungen deutlich rauskommen und oben stehen. &#xD;&#xA;Unser Coaching &quot;Meine Bewerbungsunterlagen&quot; hilft Ihnen mit konkreten Tipps weiter, wie Ihre Bewerbungsunterlagen aussehen sollten. Kontaktieren Sie auch gern unsere Experten. &#xD;&#xA;Schnappen Sie sich jetzt Ihre Unterlagen und los geht's!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="538" YCoordinate="392" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="63ce3ab5-8471-4259-a761-7bd28645ee4e" Name="Rufen Sie jetzt bei der Personalabteilung an und erfragen Sie, an wen Sie die Bewerbung richten sollen. So ist schon mal ein Kontakt zur Firma da und man hat bereits Ihren Namen gehört. Wo finden Sie die Telefonnummer? Entweder Sie rufen die Auskunft an oder schauen im Internet unter dem Link 'Kontakt'. Meist gelangen Sie vor allem bei großen Firmen erst an die Telefonzentrale. Lassen Sie sich zur Personalabteilung durchstellen und notieren Sie sich den Namen Ihres Ansprechpartners.&#xD;&#xA;Los geht's!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="880" YCoordinate="392" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="57e77580-5637-4fe4-97df-8b0d5cd10496" Name="">
+          <Description>Wie sieht unser Bewerbungsfahrplan für Sie aus?
+
+1. Sie haben eine Zielfirma gefunden
+2. Sie recherchieren mit Hilfe unserer Leitfragen für eine gute Stunde bis anderthalb Stunden. Jetzt wissen Sie, was das Unternehmen tut, was es brauchen könnte, haben Punkte gefunden, die Sie an dem Unternehmen mögen und sich kritische Fragen überlegt.
+3. Sie starten Ihre Suche nach Stellenanzeigen und wissen, welche Jobs die Firma anbietet und was Sie für diesen Job Passendes mitbringen könnten.
+4. Sie schnappen sich Ihre Bewerbungsunterlagen. Formulieren Sie Ihr Anschreiben und passen Sie es auf die Anforderungen der Annonce an. Das Gleiche machen Sie mit Ihrem Lebenslauf, so dass die relevanten Fähigkeiten und Erfahrungen deutlich rauskommen.
+5. Sie rufen bei der Personalabteilung an und fragen, an wen Sie Ihre Unterlagen schicken sollen.
+6. Gegebenfalls passen Sie Ihr Anschreiben nach dem Gespräch mit dem Personaler noch mal an und beziehen sich direkt auf Ihren Gesprächspartner.
+7. Sie schicken Ihre Bewerbungsunterlagen los! 
+8. Nach zwei Tagen rufen Sie erneut bei der Firma an und fragen, ob Ihre Unterlagen bereits angekommen sind.
+
+Wenn Sie den Bewerbungszyklus mit Ihrer ersten Firma durchlaufen sind, starten Sie direkt mit dem 2. Unternehmen und gehen Stück für Stück erneut durch unseren Bewerbungsfahrplan durch!
+So bekommen Sie Sicherheit und Routine im Bewerben und schaffen es, ein bis zwei und vielleicht sogar drei Bewerbungen pro Tag zu verschicken.
+
+Wir unterstützen Sie auch hier bei jedem Ihrer Schritte: Greifen Sie zum Hörer und kontaktieren Sie unsere Hotline.
+
+Den Bewerbungsfahrplan können sie unter dem untenstehenden Link herunterladen.
+
+
+$DocumentDownload("documents":[{"name":"Bewerbungsfahrplan","file":"Bewerbungsfahrplan.pdf"}])
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Wie sieht unser Bewerbungsfahrplan für Sie aus?
+
+1. Sie haben eine Zielfirma gefunden
+2. Sie recherchieren mit Hilfe unserer Leitfragen für eine gute Stunde bis anderthalb Stunden. Jetzt wissen Sie, was das Unternehmen tut, was es brauchen könnte, haben Punkte gefunden, die Sie an dem Unternehmen mögen und sich kritische Fragen überlegt.
+3. Sie starten Ihre Suche nach Stellenanzeigen und wissen, welche Jobs die Firma anbietet und was Sie für diesen Job Passendes mitbringen könnten.
+4. Sie schnappen sich Ihre Bewerbungsunterlagen. Formulieren Sie Ihr Anschreiben und passen Sie es auf die Anforderungen der Annonce an. Das Gleiche machen Sie mit Ihrem Lebenslauf, so dass die relevanten Fähigkeiten und Erfahrungen deutlich rauskommen.
+5. Sie rufen bei der Personalabteilung an und fragen, an wen Sie Ihre Unterlagen schicken sollen.
+6. Gegebenfalls passen Sie Ihr Anschreiben nach dem Gespräch mit dem Personaler noch mal an und beziehen sich direkt auf Ihren Gesprächspartner.
+7. Sie schicken Ihre Bewerbungsunterlagen los! 
+8. Nach zwei Tagen rufen Sie erneut bei der Firma an und fragen, ob Ihre Unterlagen bereits angekommen sind.
+
+Wenn Sie den Bewerbungszyklus mit Ihrer ersten Firma durchlaufen sind, starten Sie direkt mit dem 2. Unternehmen und gehen Stück für Stück erneut durch unseren Bewerbungsfahrplan durch!
+So bekommen Sie Sicherheit und Routine im Bewerben und schaffen es, ein bis zwei und vielleicht sogar drei Bewerbungen pro Tag zu verschicken.
+
+Wir unterstützen Sie auch hier bei jedem Ihrer Schritte: Greifen Sie zum Hörer und kontaktieren Sie unsere Hotline.
+
+Den Bewerbungsfahrplan können sie unter dem untenstehenden Link herunterladen.
+
+
+$DocumentDownload("documents":[{"name":"Bewerbungsfahrplan","file":"Bewerbungsfahrplan.pdf"}])
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="195" YCoordinate="664" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="12a8d150-e335-4f64-a923-39b85d458ba0" Name="">
+          <Description>Wo können Sie noch nach Stellen suchen?
+
+Wir haben Ihnen eine ausführliche Liste mit zahlreichen Kontaktadressen und Jobbörsen zusammengestellt.
+
+$DocumentDownload("documents":[{"name":"Quellen für Stellensuche","file":"Quellen_Stellensuche.pdf"}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Wo können Sie noch nach Stellen suchen?
+
+Wir haben Ihnen eine ausführliche Liste mit zahlreichen Kontaktadressen und Jobbörsen zusammengestellt.
+
+$DocumentDownload("documents":[{"name":"Quellen für Stellensuche","file":"Quellen_Stellensuche.pdf"}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="253" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="334" YCoordinate="643" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="17a8c50e-cb5b-4e60-9fe7-14df1b6540c6" From="54668c7b-a6dc-4eb5-8c39-4e51c0a73a03" To="2514b902-3667-4dec-bb7c-39eea85718d4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="6">
+              <Coordinates XCoordinate="136" YCoordinate="172" />
+              <Coordinates XCoordinate="175" YCoordinate="172" />
+              <Coordinates XCoordinate="175" YCoordinate="134" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2da08b7c-8a54-454e-80df-62cb12ce706f" From="ffd06700-6659-4617-a470-8c738882d46a" To="6b7781f8-6548-4129-a1a2-b0f4af7e78e1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="424" YCoordinate="171" />
+              <Coordinates XCoordinate="446" YCoordinate="171" />
+              <Coordinates XCoordinate="446" YCoordinate="172" />
+              <Coordinates XCoordinate="468" YCoordinate="172" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="965d91de-0ef0-4cb4-9a89-0ccb722c6b4e" From="6b7781f8-6548-4129-a1a2-b0f4af7e78e1" To="35cb42d1-116a-4cb4-b4f9-802f488afbeb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="768" YCoordinate="172" />
+              <Coordinates XCoordinate="851" YCoordinate="172" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="11ab0c7f-3b21-4fb5-97a5-af336d74196e" From="35cb42d1-116a-4cb4-b4f9-802f488afbeb" To="6951998f-b28b-49b9-9a17-373fbefac4ca" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1151" YCoordinate="172" />
+              <Coordinates XCoordinate="1205" YCoordinate="172" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c9fd32fc-0c7c-4163-847b-f0046a3f1f28" From="30261483-73db-465e-ac7c-a47dbc40ab16" To="46d4a68a-2834-491b-a4a3-d3aaeb91e1d3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="449" YCoordinate="482" />
+              <Coordinates XCoordinate="538" YCoordinate="482" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4985ae02-1159-451c-9f94-0b6c8e0fbf88" From="46d4a68a-2834-491b-a4a3-d3aaeb91e1d3" To="63ce3ab5-8471-4259-a761-7bd28645ee4e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="16">
+              <Coordinates XCoordinate="538" YCoordinate="553" />
+              <Coordinates XCoordinate="524" YCoordinate="553" />
+              <Coordinates XCoordinate="524" YCoordinate="586" />
+              <Coordinates XCoordinate="852" YCoordinate="586" />
+              <Coordinates XCoordinate="852" YCoordinate="482" />
+              <Coordinates XCoordinate="880" YCoordinate="482" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e07656bc-353e-4a71-99c0-0d3f6c2baba8" From="63ce3ab5-8471-4259-a761-7bd28645ee4e" To="3edc5df1-697e-4dd1-8a36-996ab3ae7e4e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1180" YCoordinate="482" />
+              <Coordinates XCoordinate="1234" YCoordinate="482" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a3bbfb73-bbc1-43a0-a8e3-fd9bf2f8a1f3" From="3edc5df1-697e-4dd1-8a36-996ab3ae7e4e" To="686a3037-258b-447b-956c-9fcef87412ab" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1534" YCoordinate="482" />
+              <Coordinates XCoordinate="1616" YCoordinate="482" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e7a93861-1a53-4f5a-8079-2d043718fc47" From="12a8d150-e335-4f64-a923-39b85d458ba0" To="5dc6bcc0-b2f8-478c-b7bc-7b78df309c17" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="587" YCoordinate="733" />
+              <Coordinates XCoordinate="746" YCoordinate="733" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e6fb7ff7-aa7f-49c1-a574-f85fecfbc9a4" From="08d23763-ebb7-428d-b6c6-0d2029274a71" To="30261483-73db-465e-ac7c-a47dbc40ab16" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1720" YCoordinate="202" />
+              <Coordinates XCoordinate="1720" YCoordinate="372" />
+              <Coordinates XCoordinate="305" YCoordinate="372" />
+              <Coordinates XCoordinate="305" YCoordinate="392" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7f279d0e-458e-447c-befe-8484a1b7d545" From="6951998f-b28b-49b9-9a17-373fbefac4ca" To="09308c73-18a5-40dc-b069-8dada5a092a5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1441" YCoordinate="172" />
+              <Coordinates XCoordinate="1531" YCoordinate="172" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b4b9368e-876a-4949-ad0d-aea3750870e6" From="09308c73-18a5-40dc-b069-8dada5a092a5" To="08d23763-ebb7-428d-b6c6-0d2029274a71" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1621" YCoordinate="172" />
+              <Coordinates XCoordinate="1675" YCoordinate="172" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e450d3b9-ff5f-4bfe-b813-7084c0464484" From="686a3037-258b-447b-956c-9fcef87412ab" To="57e77580-5637-4fe4-97df-8b0d5cd10496" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1661" YCoordinate="524" />
+              <Coordinates XCoordinate="1661" YCoordinate="588" />
+              <Coordinates XCoordinate="240" YCoordinate="588" />
+              <Coordinates XCoordinate="240" YCoordinate="664" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fe83919a-0eca-4850-b2fb-0c14267f3063" From="57e77580-5637-4fe4-97df-8b0d5cd10496" To="12a8d150-e335-4f64-a923-39b85d458ba0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="285" YCoordinate="694" />
+              <Coordinates XCoordinate="309.5" YCoordinate="694" />
+              <Coordinates XCoordinate="309.5" YCoordinate="733" />
+              <Coordinates XCoordinate="334" YCoordinate="733" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="95012bbd-580d-46b9-b11e-7db153e5661a" From="5dc6bcc0-b2f8-478c-b7bc-7b78df309c17" To="713e6f20-5f64-4b62-933a-e8b58f2c91ab" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1046" YCoordinate="733" />
+              <Coordinates XCoordinate="1353" YCoordinate="733" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="36a1df08-c657-4865-9b76-80110924a2e8" From="713e6f20-5f64-4b62-933a-e8b58f2c91ab" To="3c2933b4-b64b-4f31-81ce-9b33f2910e0f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="2">
+              <Coordinates XCoordinate="1653" YCoordinate="733" />
+              <Coordinates XCoordinate="1687" YCoordinate="733" />
+              <Coordinates XCoordinate="1687" YCoordinate="762" />
+              <Coordinates XCoordinate="1740" YCoordinate="762" />
+              <Coordinates XCoordinate="1740" YCoordinate="748" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="782d6dd5-26ee-4656-b5e1-d3dfb25216a8" From="2514b902-3667-4dec-bb7c-39eea85718d4" To="ffd06700-6659-4617-a470-8c738882d46a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="2">
+              <Coordinates XCoordinate="193" YCoordinate="134" />
+              <Coordinates XCoordinate="193" YCoordinate="171" />
+              <Coordinates XCoordinate="258" YCoordinate="171" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

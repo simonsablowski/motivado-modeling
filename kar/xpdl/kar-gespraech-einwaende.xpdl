@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="a8b5197e-8d1d-489e-ae2d-f6e683733687" Name="kar-gespraech-einwaende" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-10-13T18:05:54.2226563+02:00</Created>
+    <ModificationDate>2011-08-29T10:52:01.6513672+02:00</ModificationDate>
+    <Description>kar-gespraech-einwaende</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-22T13:49:40.0436Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-08-26T13:33:44.3818359Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-29T08:52:01.6513672Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="33101afa-b419-4c41-b000-8e27d2c58052" Process="e9500bcd-e5d5-4258-944c-541934f99da0" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="3ecc52d5-c1e5-4962-80bd-6aa4800c410c" Name="Umgang Einwände" Process="b764b04d-6554-42cb-9818-b2756f36dc2d" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="804" Width="1763" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations>
+    <Association Id="b6daaaba-e120-43aa-9cf9-a20f8e219e95" Source="f321abf7-40f1-4079-bf0c-c527053e0d73" Target="dbd2e093-d56c-4ae0-a6aa-4e9c1d9b596a" Name="">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="393" YCoordinate="220" />
+          <Coordinates XCoordinate="393" YCoordinate="207" />
+          <Coordinates XCoordinate="180" YCoordinate="207" />
+          <Coordinates XCoordinate="180" YCoordinate="360" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+  </Associations>
+  <Artifacts>
+    <Artifact Id="dbd2e093-d56c-4ae0-a6aa-4e9c1d9b596a" ArtifactType="Annotation" TextAnnotation="Datei: &quot;Fragen_Bewerbungsgespräch&quot;" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="false" FillColor="-2763307">
+          <Coordinates XCoordinate="130" YCoordinate="360" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+  </Artifacts>
+  <WorkflowProcesses>
+    <WorkflowProcess Id="e9500bcd-e5d5-4258-944c-541934f99da0" Name="Main Prozeß">
+      <ProcessHeader>
+        <Created>2011-08-29T10:52:04.7695313+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="b764b04d-6554-42cb-9818-b2756f36dc2d" Name="Umgang Einwände">
+      <ProcessHeader>
+        <Created>2011-08-29T10:52:04.7695313+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="32a32d57-0d6f-40bd-8152-eae70149be31" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="60" YCoordinate="76" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d38f1f9d-9fdf-4020-82fc-a51f5fef4e5f" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1670" YCoordinate="718" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="df0128f2-8f25-4fed-822c-ecf0790f2fa6" Name="Das war das Coaching &quot;Mit schwierigen Fragen und Einwänden umgehen&quot;. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="106" Width="171" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1429.5" YCoordinate="520" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6b647880-7405-4da3-b047-7f062b8dd958" Name="Generell gilt: kein  Einwand bleibt unbehandelt! Machen Sie sich bereits vorher Gedanken, welche Einwände (Alter, Erfahrung, Kinderbetreuung, fehlende Qualifikationen etc.) kommen könnten. Bereiten Sie Ihre Antworten darauf vor und vor allem: üben Sie Ihre Reaktion! Wenn Ihre Antwort „sitzt“, strahlen Sie Ruhe und Souveränität aus!&#xD;&#xA;&#xD;&#xA;Rufen Sie zudem unsere Experten an! Wir helfen Ihnen, überzeugende Antworten auf mögliche Einwände zu finden!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1429" YCoordinate="220" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="46fac428-0ff2-45eb-abae-043c1c0814d8" Name="Neben schwierigen Fragen sind Einwände eine weitere potentielle Hürde im Vorstellungsgespräch, der Bewerber immer wieder begegnen. Wir zeigen Ihnen daher in diesem Coaching typische Einwände, die Sie möglicherweise erwarten und wie Sie souverän und vor allem überzeugend darauf reagieren!&#xD;&#xA;&#xD;&#xA;Los geht‘s!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="139" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1074" YCoordinate="240.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="123eeeca-5518-496f-9389-7b6fb1b34fd1" Name="Willkommen im Coaching „Mit schwierigen Fragen und Einwänden umgehen“ &#xD;&#xA;&#xD;&#xA;Manche Personalverantwortliche wollen Sie im Vorstellungsgespräch ein wenig auf den Prüfstand stellen. Sie stellen knifflige bis hin zu unerlaubten Fragen und als Bewerber ist man häufig überrascht, da man damit nicht gerechnet hat. &#xD;&#xA;&#xD;&#xA;Wir wollen Sie in diesem Coaching bestmöglich auf solche „Schrecksekunden“ vorbereiten. Dazu schauen wir uns provozierende Fragen des Arbeitgebers an und wie Sie am besten damit umgehen.&#xD;&#xA;&#xD;&#xA;Auch unerlaubte Fragen werden häufiger im Bewerbungsgespräch gestellt. Lassen Sie sich davon nicht ins Boxhorn jagen. Wie, das zeigen wir Ihnen ebenfalls. &#xD;&#xA;&#xD;&#xA;Los geht‘s!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="164" YCoordinate="61" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e704845d-9716-414e-8c21-665a1f76486b" Name="Provozierende Fragen des Arbeitgebers&#xD;&#xA;&#xD;&#xA;Manche Fragen sollen Sie bewusst aus der Reserve locken, um zu sehen, wie Sie darauf reagieren.&#xD;&#xA;&#xD;&#xA;&quot;Wenn ich mir Sie so ansehe… Glauben Sie wirklich, dass Sie in unsere Firma passen?&quot;&#xD;&#xA;Was sagen Sie nun? Bei solchen Befragungstechniken geht es immer darum herauszufinden, ob und wie Sie reagieren. Also: werden Sie schnell aufbrausend und fangen Sie an, sich zu verteidigen oder gar andere zu beschuldigen? Oder bewahren Sie Ruhe und antworten Sie in gelassenem Tonfall? &#xD;&#xA;&#xD;&#xA;Wie reagieren Sie am besten, wenn Sie mit solchen Fragen konfrontiert werden?&#xD;&#xA;&#xD;&#xA;Erfahren Sie mehr dazu im nächsten Schritt!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="285" YCoordinate="61" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d02c73a7-4ecc-4d20-a98b-a048bddbd712" Name="Unerlaubte Fragen&#xD;&#xA;&#xD;&#xA;Einige Personalverantowrtliche stellen selbst Fragen, die ihnen per Gesetz untersagt sind. Doch selbst wenn der Arbeitgeber nicht alles fragen darf, halten sich in der Realität nur die Wenigsten an diese Vorgabe. Oft genug werden Bewerber in Vorstellungsgesprächen durch allzu private Fragen verunsichert und geraten dadurch in Gewissenskonflikte. &#xD;&#xA;&#xD;&#xA;Wie gehen Sie damit um, wenn Sie im Vorstellungsgespräch beispielsweise nach Ihren Familienplänen oder Ihrer Religionszugehörigkeit gefragt werden?&#xD;&#xA;&#xD;&#xA;Hier haben Sie vom Gesetz her uneingeschränktes Recht zur Lüge! Was viele nämlich nicht wissen: eine Lüge hat hier keine negativen Konsequenzen für ihren Arbeitsvertrag. Also gilt hier ausnahmsweise das Motto: &quot;Lügen erlaubt&quot;. Würden Sie dagegen die Antwort nur verweigern, wäre dadurch nicht viel gewonnen: der Arbeitgeber würde sich seinen Teil dann wahrscheinlich denken und Sie vielleicht aus dem Bewerbungsverfahren werfen.&#xD;&#xA;&#xD;&#xA;Sie sollten sich jedoch auch vorher mit den Fragen vertraut machen, die nicht zulässig sind.&#xD;&#xA;&#xD;&#xA;Und zu guter Letzt ist es ratsam, sich von vornherein Antworten auf unerlaubte Fragen zu überlegen - kleine Notlügen eingeschlossen. Nur so können Sie sicher sein, dass Sie in der entscheidenden Situation nicht anfangen rumzustammeln.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="635" YCoordinate="280" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6e7690ab-db21-4c64-a674-8dbfa98aecf6" Name="Doch was sind das eigentlich für Fragen, die unzulässig sind? Grundsätzlich sind es all jene, die nicht &quot;arbeitsbezogen&quot; sind, d. h. die mit dem zu besetzenden Arbeitsplatz in keinem direkten Zusammenhang stehen. &#xD;&#xA;&#xD;&#xA;Also: &#xD;&#xA;* die Frage nach der Religionszugehörigkeit (Ausnahme: Sie bewerben sich bei der Kirche)&#xD;&#xA;* die Frage nach gewerkschaftlichem Engagement&#xD;&#xA;* die Frage nach politischer Gesinnung&#xD;&#xA;* Fragen nach privaten Plänen wie Hochzeit oder Familienplanung&#xD;&#xA;* Fragen nach früheren Krankheiten (Ausnahme: Sie bewerben sich als Pilot)&#xD;&#xA;* die Frage nach einer Schwangerschaft&#xD;&#xA;* Fragen zu Ihrer Hetero-, Homo- und Transsexualität etc.&#xD;&#xA;* Fragen zu Berufen der Lebenspartner, der Familie und Freunden&#xD;&#xA;* Fragen zu privaten Vermögensverhältnissen und eventuellen Schulden&#xD;&#xA;* Fragen nach Vorstrafen, polizeilichem Führungszeugnis (es sei denn, man bewirbt sich auf staatliche Stellen) und laufenden Ermittlungsverfahren&#xD;&#xA;* die Frage nach früherem Lohn, es sei denn, man will Rückschlüsse auf Verantwortung in früheren Positionen daraus ableiten&#xD;&#xA;&#xD;&#xA;Ohne Einwilligung des Bewerbers sind genauso unzulässig:&#xD;&#xA;* Medizinische Untersuchungen&#xD;&#xA;* Psychologische Tests/ Gutachten&#xD;&#xA;* Sicherheitsüberprüfungen&#xD;&#xA;* Genomanalyse ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="784" YCoordinate="280" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e5360765-58e2-46c3-9b17-5e94ab935ad6" Name="Frauen werden zusätzlich häufiger mit so genannten &quot;Frauenfragen&quot; konfrontiert. Auch diese sind alles andere als erlaubt! Es gilt somit weiterhin: Lügen ist erlaubt!&#xD;&#xA;&#xD;&#xA;Schauen wir uns einige Fragen etwas genauer an:&#xD;&#xA;&#xD;&#xA;Frage 1: „Wie sind Ihre Kinder versorgt, während Sie Ihrem Job nachgehen?“ oder &quot;Wie sieht Ihre Familienplanung aus?“&#xD;&#xA;Unser Tipp: Stellen Sie klar, dass Ihre Kinder gut betreut sind. Bei Fragen nach Ihrer Familienplanung dürfen Sie lügen!&#xD;&#xA;&#xD;&#xA;Frage 2: „Sind Ihre Kinder öfters krank?“&#xD;&#xA;Wir raten Ihnen: Sagen Sie, dass Ihre Kinder gravierende Krankheiten bereits hinter sich haben und bei Ihnen alles bestens organisiert ist.&#xD;&#xA;&#xD;&#xA;Frage 3: „Wie wollen Sie Beruf und Familie miteinander vereinbaren?“&#xD;&#xA;Unser Tipp: Sie haben alles perfekt organisiert, Ihr Partner unterstützt Sie voll und ganz und die Kinderbetreuung ist gesichert.&#xD;&#xA;&#xD;&#xA;Frage 4: „Was sagt Ihr Partner zu Ihren beruflichen Plänen?“&#xD;&#xA;Antworten Sie, dass Sie alles mit ihm besprochen haben und Sie beide an einem Strang ziehen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="914" YCoordinate="280" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="eadcc4f3-d595-4ef4-b3e5-593fab723cca" Name="1.Vorbereitung ist alles!&#xD;&#xA;&#xD;&#xA;Bereiten Sie sich auf all die Fragen vor, die wir Ihnen in diesem Coaching zeigen und auf solche, die aus Ihrem Lebenslauf resultieren können. Machen Sie sich eine Liste von für Sie unangenehmen oder provozierenden Fragen. Welcher Punkt in Ihrem Lebenslauf könnte den Personaler zu einer provokanten Frage bringen?">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="416" YCoordinate="1" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="44f88c25-d310-48f1-8f19-ce7b3fc519f4" Name="Überlegen Sie sich jetzt, was Sie auf die Fragen antworten werden. &#xD;&#xA;&#xD;&#xA;Wenn Sie beispielsweise gefragt werden: &quot;Was spricht gegen Sie als Bewerber für diesen Arbeitsplatz?&quot;, sollten Sie Ihre Stärken nennen, auch wenn Sie dies vielleicht schon im Gespräch getan haben. Auch wenn Ihr Gesprächspartner darauf beharren sollte, Sie seien trotzdem nicht der richtige Kandidat oder eine Frage sei noch nicht ausreichend genug beantwortet, behalten Sie die Nerven und antworten Sie wie zuvor.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1080" YCoordinate="1" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d1f61e28-9bdb-482c-8059-bf5b23177d7c" Name="Wir stellen Ihnen hier drei klassische Methoden der Einwandbehandlung vor, mit denen Sie die häufigsten Einwände galant umschiffen können:&#xD;&#xA;&#xD;&#xA;1.Die bedingte Zustimmung &#xD;&#xA;&#xD;&#xA;Hierbei wird ein Teilaspekt des Einwandes aufgegriffen. Man stimmt diesem erst zu, um im Anschluss den eigenen Standpunkt zu präsentieren.&#xD;&#xA;&#xD;&#xA;Ein Beispiel: &#xD;&#xA;&#xD;&#xA;Der Vorgesetzte: &quot;Sie wirken noch recht unerfahren in diesem Bereich.&quot; &#xD;&#xA;&#xD;&#xA;Der Bewerber: &quot;Sie sprechen an, dass ich auf Sie noch unerfahren wirke. Es mag sein, dass mein Alter dies nahelegt. Bedenken Sie doch, dass ich in meiner letzten Tätigkeit als Hauptverantwortlicher für Projekt XYZ eingesetzt wurde. Man hat mir somit die Verantwortung voll und ganz zugetraut trotz meines jungen Alters.&quot;&#xD;&#xA;&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="123" YCoordinate="543" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4ff86263-4cea-4f97-b2e9-bf3300386f0e" Name="2. Die Umformulierungsmethode&#xD;&#xA; &#xD;&#xA;Hierbei wird der Einwand wird durch eine Umformulierung teilweise entschärft.&#xD;&#xA;&#xD;&#xA;Ein Beispiel: &#xD;&#xA;&#xD;&#xA;Der Vorgesetzte: &quot;Ihr Lebenslauf zeigt, dass Sie bislang noch nicht viel in diesem Bereich tätig waren.&quot; &#xD;&#xA;&#xD;&#xA;Der Bewerber: &quot;Wenn ich Sie richtig verstanden habe, kommt es Ihnen auf eine längere Berufserfahrung in dem Bereich an. Ich möchte nochmals betonen, dass ich in meinem letzten Job bereits alle Aufgaben bearbeitet habe, die Teil Ihrer Stellenanzeige sind. Ich habe beispielsweise...&quot;&#xD;&#xA;&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="577" YCoordinate="543" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="841f27a1-3700-41ab-952f-f33dfda9418d" Name="3.Die Vorteil-Nachteil-Methode&#xD;&#xA;&#xD;&#xA;Hierbei wird der Einwand scheinbar aufgenommen. Jetzt werden Vorteile und Nachteile abgewogen. Sie können so selbst die Nachteile entkräften und die Vorteile hervorheben.&#xD;&#xA;&#xD;&#xA;Ein Beispiel: &#xD;&#xA;&#xD;&#xA;Der Vorgesetzte: &quot;Sie wirken noch recht unerfahren in diesem Bereich.&quot;&#xD;&#xA;&#xD;&#xA;Der Bewerber: &quot;Sie meinen, dass ich dafür noch nicht genügend Erfahrung habe. Es gibt sicher Bewerber mit mehr Erfahrung als ich. Ich bringe dagegen eine frische Perspektive und Herangehenweise mit. In meiner letzten Position habe ich gerade durch meine Nähe zu meiner Ausbildung ein neues System für das interne Prozessmonitoring entwickeln können. Dadurch haben wir 20% Kosten gespart.“ &#xD;&#xA;&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="969" YCoordinate="543" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3ee223f7-0805-415d-8b63-6f6d89d36065" Name="Denken Sie kurz darüber nach und notieren Sie drei Fragen, die Ihnen spontan einfallen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="85" Width="251" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="776" YCoordinate="48.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f321abf7-40f1-4079-bf0c-c527053e0d73" Name="2. Nachfragen&#xD;&#xA;&#xD;&#xA;Fragen Sie zurück, ob Sie die Frage richtig verstanden haben. Möglicherweise will man nur etwas ganz Bestimmtes herausbekommen: Wie reagieren Sie, wenn Sie persönlich angegriffen, kritisiert oder hinterfragt werden?&#xD;&#xA;&#xD;&#xA;Im Arbeitsblatt haben wir Ihnen noch weitere provokante Fragen und mögliche Antworten für Sie zusammengestellt. Sie können diese unten für sich herunterladen. &#xD;&#xD;&#xA;&#xA;So sind Sie ideal vorbereitet, falls Sie eine davon in Ihrem Gespräch erwischen sollten.">
+          <Description>$DocumentDownload("documents":[{"name":"Fragen Bewerbungsgespräch","file":"Fragen_Bewerbungsgespräch.pdf"}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$DocumentDownload("documents":[{"name":"Fragen Bewerbungsgespräch","file":"Fragen_Bewerbungsgespräch.pdf"}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="243" YCoordinate="220" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="04fa74b2-8491-459c-bc4f-302ce2297372" Name="Üben wir direkt den Umgang mit diesem Einwand. Finden Sie eine passende Antwort auf den Einwurf des Arbeitgebers: &#xD;&#xA;&#xD;&#xA;Der Personaler: &quot;Sie haben durch Ihre Elternzeit zwei Jahre nicht mehr in diesem Beruf gearbeitet. Ich bin nicht sicher, ob Sie es schaffen, sich nach so langer Auszeit wieder ausreichend einzuarbeiten.&quot;&#xD;&#xA;&#xD;&#xA;Was antworten Sie hier? Schreiben Sie es auf!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="250" YCoordinate="483" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="25f851b7-f273-4141-b103-081fa9ded387" Name="Lassen Sie uns wieder üben: Entkräften Sie folgenden Einwand mit Hilfe der Vorteil-Nachteil-Methode!&#xD;&#xA;&#xD;&#xA;Der Vorgesetzte: &quot;Ihr Lebenslauf enthält viele Lücken. Ich frage mich, ob Sie nicht auch in diesem Job schnell wieder das Weite suchen, wenn Sie merken, dass es vielleicht nicht das Richtige für Sie ist.&quot;&#xD;&#xA;&#xD;&#xA;Was ist Ihre Antwort darauf?">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1073" YCoordinate="483" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="06fc0267-cac2-47f6-be22-ee54cf2a98d2" Name="Aufgabe zum Coaching &quot;Mit schwierigen Fragen und Einwänden umgehen&quot;">
+          <Description>Bis zu unserem nächsten Coaching überlegen Sie sich bitte, welche Einwände und Fragen in Ihren Vorstellungsgesprächen auftauchen könnten und schreiben Sie auf, wie Sie dann darauf reagieren möchten.
+$Text()</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Bis zu unserem nächsten Coaching überlegen Sie sich bitte, welche Einwände und Fragen in Ihren Vorstellungsgesprächen auftauchen könnten und schreiben Sie auf, wie Sie dann darauf reagieren möchten.
+$Text()</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="104" Width="204" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1413" YCoordinate="681" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e0b2d213-e30b-43c7-83f1-b65e6ad8aff3" Name="Schreiben Sie Ihre Antworten auf und rufen Sie unsere Experten an, wenn Sie nicht sicher sind, wie Sie am besten darauf reagieren sollen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="95" Width="263" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1429" YCoordinate="43.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f383c5d2-9da3-41df-ae9a-8689206a793a" Name="Üben wir den Umgang mit diesem Einwand. Formulieren Sie folgenden Einwand mit der Umformulierungsmethode um: &#xD;&#xA;&#xD;&#xA;Der Vorgesetzte: &quot;Ich weiß nicht, inwiefern Sie nach Ihrer langen Elternzeit wieder voll in Ihrem Job durchstarten können.&quot;&#xD;&#xA;&#xD;&#xA;Wie lautet Ihre Reaktion?">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="166" Width="244" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="706" YCoordinate="490" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="9bbbaa71-4bd8-4cc9-bdd9-b73607f18d93" From="46fac428-0ff2-45eb-abae-043c1c0814d8" To="6b647880-7405-4da3-b047-7f062b8dd958" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1374" YCoordinate="309" />
+              <Coordinates XCoordinate="1401.5" YCoordinate="309" />
+              <Coordinates XCoordinate="1401.5" YCoordinate="310" />
+              <Coordinates XCoordinate="1429" YCoordinate="310" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ca3fe2a7-ede6-4318-8888-9dbf550ffc9d" From="06fc0267-cac2-47f6-be22-ee54cf2a98d2" To="d38f1f9d-9fdf-4020-82fc-a51f5fef4e5f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1617" YCoordinate="733" />
+              <Coordinates XCoordinate="1670" YCoordinate="733" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1db6709a-bb4c-47ad-a4e1-57d1a4200453" From="32a32d57-0d6f-40bd-8152-eae70149be31" To="123eeeca-5518-496f-9389-7b6fb1b34fd1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="90" YCoordinate="91" />
+              <Coordinates XCoordinate="164" YCoordinate="91" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="74f7a0bf-8221-4194-839f-a2960e24bf24" From="123eeeca-5518-496f-9389-7b6fb1b34fd1" To="e704845d-9716-414e-8c21-665a1f76486b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="254" YCoordinate="91" />
+              <Coordinates XCoordinate="285" YCoordinate="91" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c461ca29-5c36-48a4-aa7d-6636452f7ef8" From="e704845d-9716-414e-8c21-665a1f76486b" To="eadcc4f3-d595-4ef4-b3e5-593fab723cca" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="375" YCoordinate="91" />
+              <Coordinates XCoordinate="416" YCoordinate="91" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0eeae6f7-8645-48fb-993d-96f354117745" From="3ee223f7-0805-415d-8b63-6f6d89d36065" To="44f88c25-d310-48f1-8f19-ce7b3fc519f4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1027" YCoordinate="90" />
+              <Coordinates XCoordinate="1066" YCoordinate="90" />
+              <Coordinates XCoordinate="1066" YCoordinate="91" />
+              <Coordinates XCoordinate="1080" YCoordinate="91" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="db2f89be-7540-4a45-9af9-172d91e9de16" From="e0b2d213-e30b-43c7-83f1-b65e6ad8aff3" To="f321abf7-40f1-4079-bf0c-c527053e0d73" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1560" YCoordinate="138" />
+              <Coordinates XCoordinate="1560" YCoordinate="195" />
+              <Coordinates XCoordinate="393" YCoordinate="195" />
+              <Coordinates XCoordinate="393" YCoordinate="220" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e5b97523-1043-4163-abfe-f697886c13b5" From="f321abf7-40f1-4079-bf0c-c527053e0d73" To="d02c73a7-4ecc-4d20-a98b-a048bddbd712" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="543" YCoordinate="310" />
+              <Coordinates XCoordinate="635" YCoordinate="310" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="84a271ab-68c8-43d4-8ab5-37388cd3cac7" From="d02c73a7-4ecc-4d20-a98b-a048bddbd712" To="6e7690ab-db21-4c64-a674-8dbfa98aecf6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="725" YCoordinate="310" />
+              <Coordinates XCoordinate="784" YCoordinate="310" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a5b26a67-ce1f-49ca-9285-e72361c6cb6f" From="6e7690ab-db21-4c64-a674-8dbfa98aecf6" To="e5360765-58e2-46c3-9b17-5e94ab935ad6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="874" YCoordinate="310" />
+              <Coordinates XCoordinate="914" YCoordinate="310" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="99cccb0e-f7b6-4dad-9b92-4abc544e45de" From="6b647880-7405-4da3-b047-7f062b8dd958" To="d1f61e28-9bdb-482c-8059-bf5b23177d7c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1579" YCoordinate="400" />
+              <Coordinates XCoordinate="1579" YCoordinate="469.5" />
+              <Coordinates XCoordinate="168" YCoordinate="469.5" />
+              <Coordinates XCoordinate="168" YCoordinate="543" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e127e4fe-a145-463c-ad50-afb73178eee0" From="04fa74b2-8491-459c-bc4f-302ce2297372" To="4ff86263-4cea-4f97-b2e9-bf3300386f0e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="550" YCoordinate="573" />
+              <Coordinates XCoordinate="577" YCoordinate="573" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c55444e5-46b7-4a92-aab4-14847a8e41c4" From="f383c5d2-9da3-41df-ae9a-8689206a793a" To="841f27a1-3700-41ab-952f-f33dfda9418d" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="950" YCoordinate="573" />
+              <Coordinates XCoordinate="969" YCoordinate="573" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0537b19c-727a-4848-b7b7-bbfb1a93b315" From="25f851b7-f273-4141-b103-081fa9ded387" To="df0128f2-8f25-4fed-822c-ecf0790f2fa6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1373" YCoordinate="573" />
+              <Coordinates XCoordinate="1429" YCoordinate="573" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="78089c71-2843-4f0b-a2d3-233619abd0b6" From="e5360765-58e2-46c3-9b17-5e94ab935ad6" To="46fac428-0ff2-45eb-abae-043c1c0814d8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1004" YCoordinate="310" />
+              <Coordinates XCoordinate="1039" YCoordinate="310" />
+              <Coordinates XCoordinate="1039" YCoordinate="309" />
+              <Coordinates XCoordinate="1074" YCoordinate="309" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="46eaa86e-2654-44b1-9f15-979dafdfe833" From="df0128f2-8f25-4fed-822c-ecf0790f2fa6" To="06fc0267-cac2-47f6-be22-ee54cf2a98d2" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1514" YCoordinate="626" />
+              <Coordinates XCoordinate="1514" YCoordinate="653.5" />
+              <Coordinates XCoordinate="1515" YCoordinate="653.5" />
+              <Coordinates XCoordinate="1515" YCoordinate="681" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="94f8714b-3b74-4386-9ec5-57152380eccf" From="eadcc4f3-d595-4ef4-b3e5-593fab723cca" To="3ee223f7-0805-415d-8b63-6f6d89d36065" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="716" YCoordinate="91" />
+              <Coordinates XCoordinate="746" YCoordinate="91" />
+              <Coordinates XCoordinate="746" YCoordinate="90" />
+              <Coordinates XCoordinate="776" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8396a2b7-9e5a-49dd-8301-f4cca897ebff" From="44f88c25-d310-48f1-8f19-ce7b3fc519f4" To="e0b2d213-e30b-43c7-83f1-b65e6ad8aff3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1380" YCoordinate="91" />
+              <Coordinates XCoordinate="1404.5" YCoordinate="91" />
+              <Coordinates XCoordinate="1404.5" YCoordinate="90" />
+              <Coordinates XCoordinate="1429" YCoordinate="90" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="092eda21-d5d0-4b78-96f2-a66747fa0f2c" From="d1f61e28-9bdb-482c-8059-bf5b23177d7c" To="04fa74b2-8491-459c-bc4f-302ce2297372" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="213" YCoordinate="573" />
+              <Coordinates XCoordinate="250" YCoordinate="573" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c51d2236-2108-46c4-b77c-d1926b16be7d" From="4ff86263-4cea-4f97-b2e9-bf3300386f0e" To="f383c5d2-9da3-41df-ae9a-8689206a793a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="667" YCoordinate="573" />
+              <Coordinates XCoordinate="706" YCoordinate="573" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="5f07b69e-56ae-42b7-97d0-ed53093cbe9a" From="841f27a1-3700-41ab-952f-f33dfda9418d" To="25f851b7-f273-4141-b103-081fa9ded387" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1059" YCoordinate="573" />
+              <Coordinates XCoordinate="1073" YCoordinate="573" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

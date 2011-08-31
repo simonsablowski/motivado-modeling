@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="1ae05cff-5f67-415c-897a-5fc73d615603" Name="kar-telefoninterview" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-10-13T18:05:54.2382813+02:00</Created>
+    <ModificationDate>2011-08-24T18:05:23.1279297+02:00</ModificationDate>
+    <Description>kar-telefoninterview</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-22T13:54:00.4626Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-08-24T16:05:23.1279297Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="9bc2d4fb-8271-4777-9c29-bd176f93c1e5" Process="df1e17ef-0c69-4692-ba44-cf30b229d3e1" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="664a5017-0de2-4818-8818-d0fb351c2b25" Name="Telefonisches Interview" Process="c56b6666-91de-463b-a6b9-eae621ae60b3" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="829" Width="1750" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="df1e17ef-0c69-4692-ba44-cf30b229d3e1" Name="Main Prozeß">
+      <ProcessHeader>
+        <Created>2011-08-30T11:26:09.4746094+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="c56b6666-91de-463b-a6b9-eae621ae60b3" Name="Telefonisches Interview">
+      <ProcessHeader>
+        <Created>2011-08-30T11:26:09.4765625+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="c0c8440e-99cb-425b-8498-97e22d0dd54f" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="62" YCoordinate="31" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="56fb315c-7112-42fd-a941-59e860427395" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1662" YCoordinate="545" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="7391e315-48b3-4c31-bbd6-e0e3062a8c34" Name="Wie können Sie sich jetzt gut darauf vorbereiten?&#xD;&#xA;&#xD;&#xA;Erstmal sollten Sie sich darauf einstellen, dass das Interview in der Regel 30 bis 45 Minuten dauert.&#xD;&#xA;&#xD;&#xA;Die Person, die es mit Ihnen führt, zeigt dabei folgende Eigenschaften: Sie arbeitet effizient, ist praktisch getrieben, bewertet die Fähigkeiten höher als Aussehen und Form und zeigt, dass sie kosteneffizient ist.&#xD;&#xA;&#xD;&#xA;Demonstrieren Sie also ebenso Effizienz und Effektivität, indem Sie Ihre Unterlagen parat haben und durch fachliche Fragen im Gespräch zeigen, dass Sie vorbereitet sind.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="443" YCoordinate="16" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f55b554e-cb1e-48f4-8a0a-4e473cda49dd" Name="Willkommen im Coaching zum Thema &quot;Telefonische Interviews&quot;!&#xD;&#xA;&#xD;&#xA;Beim telefonischen Interview gilt: es ist genauso vollwertig wie ein echtes Gegenüber-Gespräch. Sie sollten sich darauf genauso intensiv und gut vorbereiten wie auf ein persönliches Bewerbungsgespräch! &#xD;&#xA;&#xD;&#xA;Ein telefonisches Interview kommt immer dann zum Einsatz, wenn es sehr viele Bewerber gibt und man möglichst schnell wissen möchte: wo sind die Guten, wo sind die Schlechten? Aus diesem Grund ist es ein genauso ernstzunehmendes Interview wie jedes andere. Sollten Sie also zu einem Telefoninterview eingeladen werden, ist das ein gutes Zeichen: Sie sind im Gespräch! ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="126" YCoordinate="16" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="89de9246-b372-4b2c-9afe-28bf31d12fa9" Name="Nach dem Telefongespräch:&#xD;&#xA;&#xD;&#xA;Auch hier gilt: fassen Sie in jedem Fall nach und bedanken Sie sich für das Gespräch! Wir haben für Sie im Coaching &quot;Aktive Nachbereitung und Umgang mit Absagen&quot; Tipps zusammengestellt, wie Sie das Interview professionell nachbereiten. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="268" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1015" YCoordinate="499.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d79c0fc0-299d-4216-9b9f-9fef82029031" Name="Bei der Begrüßung:&#xD;&#xA;&#xD;&#xA;Schreiben Sie sich die Namen auf, die man Ihnen bei der Begrüßung im Gespräch sagt und notieren Sie sich auch die Positionen Ihrer Gegenüber. So können Sie sie später mit Ihren gezielten Fragen direkt ansprechen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="130" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="829" YCoordinate="243" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="59d7ee61-1c43-4173-aec7-0fda7f18d100" Name="Werden Sie selbst etwas im Gespräch gefragt, antworten Sie auch hier schnell mit entweder: &quot;Ja, hab ich gemacht und zwar da und dort...&quot; beziehungsweise mit &quot;Nein, hab ich nicht gemacht, aber ich war in einem Projekt involviert und habe dort ähnliche Aufgaben übernommen.&quot;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="171" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="67" YCoordinate="487" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0ce217e9-640c-496a-8151-1e16326a35cb" Name="Hier sind weitere Tipps für das laufende Gespräch:&#xD;&#xA;&#xD;&#xA;* auch im telefonischen Interview gilt: kein Einwand bleibt unbehandelt! Für Methoden der Einwandbehandlung besuchen Sie unser Coaching &quot;Mit Einwänden und schwierigen Fragen umgehen&quot;&#xD;&#xA;* bei Versprechern neigt man häufig dazu, schneller zu werden. Achten Sie daher darauf, dass Sie in diesem Moment ganz bewusst daran denken, langsam weiter zu sprechen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="685" YCoordinate="491" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="83ecbffa-3b65-4dca-ae10-9930287052a2" Name="Nehmen Sie außerdem eine aufrechte Körperhaltung ein - das beeinflusst auch Ihre Stimme und lässt sie selbstbewusster und ruhiger klingen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="463" YCoordinate="274" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="828cc2c3-3633-4ecf-b9a1-97fa557ea0db" Name="Im Telefoninterview folgt dann meist zuerst Ihre Kurzvorstellung, die der aus dem Gegenüber-Gespräch gleicht. Starten Sie auch hier mit einer knappen persönlichen Vorstellung, also beispielsweise: „Ich bin Peter Müller, bin 43 Jahre alt und bewerbe mich bei Ihnen auf die Position XYZ.“ &#xD;&#xA;Jetzt kommt die klassische Vorstellung, bei der es ganz wichtig ist, dass Sie schnell ihre guten Fragen unterbringen, da auch Ihr Gegenüber zeigt, dass er effizient und praktisch ist. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="165" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1207" YCoordinate="225.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1c25bec1-c026-48e8-8adb-5ffebcf55418" Name="Wenn es um Ihre Bewerbungsunterlagen geht, können Sie diese natürlich hier viel entspannter vorbereiten:&#xD;&#xA; &#xD;&#xA;1. Legen Sie Ihre Erfolgsgeschichten bereit. Setzen Sie hier jedesmal einen Haken dahinter, wenn Sie es geschafft haben, diese im Gespräch einfließen zu lassen. Das sollten Sie auf jeden Fall versuchen, wenn auch nicht zwanghaft!&#xD;&#xA;2. Haben Sie Ihren Lebenslauf und das Anschreiben offen, so dass Sie Punkte daraus aufgreifen können, während Sie reden.&#xD;&#xA;3. Legen Sie die Stellenausschreibung vor sich hin, so dass Sie noch einmal draufschauen können, wenn Sie die einzelnen Aufgaben und Anforderungen im Gespräch durchgehen.&#xD;&#xA;4. Öffnen Sie den Internetbrowser, so dass Sie Sachen auch mal schnell nachschlagen können. Haben Sie hier zudem die Firmenseite offen.&#xD;&#xA;5. Bereiten Sie auch Ihre Kurzvorstellung vor, die Sie bitte nicht ablesen! Arbeiten Sie diese vorher in Stichpunkten aus.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="803" YCoordinate="76" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="66727938-6ef9-480c-bc7c-3de91063d48c" Name="Im Gespräch selbst:&#xD;&#xA;&#xD;&#xA;Sorgen Sie dafür, dass der Raum, in dem Sie telefonieren, ruhig ist. Achten Sie beispielsweise darauf, dass es keine großartigen Hintergrundgeräusche gibt. Wenn Ihr Kind im Flur lärmt, mag das noch in Ordnung gehen. Auch wenn mal jemand reinkommt, wie Ihre Tochter oder Ihr Ehemann - das darf vorkommen, daraus dreht man Ihnen in der Regel keinen Strick. &#xD;&#xA;Nehmen Sie während des Telefoninterviews jedoch keine anderen Telefonate entgegen. Ihr Telefon darf klingeln und Sie dürfen SMS bekommen, sprechen sollten Sie jedoch in keinem Fall, also auch nicht der lieben Frau Mama sagen, dass Sie sie gleich zurückrufen werden.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68" Width="116" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1315" YCoordinate="72" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="46d35c3b-c1ef-44b1-8b0e-ec72a8d99837" Name="Denken Sie daran, dass Sie gerade am Anfang des Gesprächs lächeln. Ein Lächeln sieht man nicht nur, man hört es vor allem auch. Haben Sie deshalb einen Spiegel neben sich liegen. Mit einem Lächeln wirkt Ihre Stimme gleich viel sympathischer!&#xD;&#xA;Sie können zudem zusätzlich die Sympathie auf Seiten Ihres Gegenübers erhöhen, wenn Sie sich ein wenig (aber nicht übertrieben) Stimmlage und -geschwindigkeit des Gegenübers anpassen. Spricht er also besonders langsam, sollten Sie nicht ins Gegenteil verfallen, sondern sich seiner Geschwindigkeit etwas annähern. Vor allem Menschen, die uns ähnlich sind, sind uns meist auch sympathisch. Das kann man gut beobachten, wenn man plötzlich an sich feststellt, dass man ähnliche Worte wie der Partner oder die neue Freundin verwendet. Daran merken Sie, dass Ihnen die Person sympathisch ist. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68" Width="154" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="116" YCoordinate="274" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b4b68582-dc00-4e38-b625-0d0a4c100a69" Name="Das Interview per Skype&#xD;&#xA;&#xD;&#xA;Wenn man vorher ankündigt, dass es ein Skype-Interview wird, machen Sie sich darauf gefasst, dass es auch zu einem Videogespräch kommt. Achten Sie also auch hier auf Ihr Outfit, Ihr äußeres Erscheinungsbild und all die Dinge, die Sie auch bei einem „normalen“ Vorstellungsgespräch beachten würden. Achten Sie zudem auf einen klaren und aufgeräumten Hintergrund. Schmutziges Geschirr, ein chaotischer Schreibtisch oder ein &quot;Gelage&quot; vom letzten Abend mit Freunden kommt weniger gut an.&#xD;&#xA;&#xD;&#xA;Achten Sie auch darauf, dass Ton und Bild einwandfrei funktionieren. Sie können das vorher entspannt mit einem Freund oder Bekannten testen. Wenn Sie dann im Gespräch gebeten werden, auf Video umzuschalten, sollten Sie beides sofort einsatzbereit haben! Es wirkt extrem unprofessionell, wenn Sie dann erst nach einer Kamera kramen oder Ihr Gegenüber im schlimmsten Fall auf später vertrösten, weil Ihr Mikro streikt.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1324" YCoordinate="530" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c2064895-efba-4bdd-a876-38a165f6be77" Name="Das war das Coaching &quot;Telefonische Interviews&quot;. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1428" YCoordinate="530" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="ca573819-55bf-4e55-8eac-72b83f6e93d1" Name="Die einzelnen Phasen ähneln denen eines klassischen Vorstellungsgesprächs. Besuchen Sie daher unser Coaching &quot;Im Vorstellungsgespräch glänzen&quot; und bereiten Sie sich genaustens auf die einzelnen Inhalte vor!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="238" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="407" YCoordinate="491" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a3b109a2-c61f-402c-8401-1b92fc219a86" Name="Was gibt es noch zu beachten?&#xD;&#xA;&#xD;&#xA;Besprechen Sie Ihren Anrufbeantworter professionell, also mit Ihrem vollen Namen und der Bitte, die Telefonnummer und eine günstige Zeit für einen Rückruf zu hinterlassen. Falls dies noch nicht geschehen ist, tun Sie das bitte jetzt!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="109" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="933" YCoordinate="72" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b497d62c-66be-456f-a8b4-e1c643b6f7e3" Name="Aufgabe zum Coaching &quot;Telefonische Interviews&quot;">
+          <Description>$Text()
+
+Um auch auf Telefonate gut vorbereitet zu sein, führen Sie bis zum nächsten Mal bitte ein kleines Rollenspiel durch: Lassen Sie eine vertraute Person am Telefon den Interviewer spielen, der Sie auffordert sich kurz vorzustellen und auf Ihren beruflichen Hintergrund einzugehen. Antworten Sie mit Ihrer Einminutenpräsentation und lassen Sie sich Feedback dazu geben (Wie wirkt Ihre Stimme? Wie kommen die Inhalte rüber?)
+Viel Erfolg und bis zum nächsten Mal!
+#task</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Um auch auf Telefonate gut vorbereitet zu sein, führen Sie bis zum nächsten Mal bitte ein kleines Rollenspiel durch: Lassen Sie eine vertraute Person am Telefon den Interviewer spielen, der Sie auffordert sich kurz vorzustellen und auf Ihren beruflichen Hintergrund einzugehen. Antworten Sie mit Ihrer Einminutenpräsentation und lassen Sie sich Feedback dazu geben (Wie wirkt Ihre Stimme? Wie kommen die Inhalte rüber?)
+Viel Erfolg und bis zum nächsten Mal!
+#task</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1536" YCoordinate="530" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="bc84336e-db64-4d56-872e-f0ea0216cd74" From="c0c8440e-99cb-425b-8498-97e22d0dd54f" To="f55b554e-cb1e-48f4-8a0a-4e473cda49dd" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="92" YCoordinate="46" />
+              <Coordinates XCoordinate="111" YCoordinate="46" />
+              <Coordinates XCoordinate="111" YCoordinate="106" />
+              <Coordinates XCoordinate="126" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a2e765dc-e1a6-4853-a677-2618bb86bf22" From="f55b554e-cb1e-48f4-8a0a-4e473cda49dd" To="7391e315-48b3-4c31-bbd6-e0e3062a8c34" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="426" YCoordinate="106" />
+              <Coordinates XCoordinate="443" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d97a1c38-9342-40ab-a277-abca2c36bced" From="83ecbffa-3b65-4dca-ae10-9930287052a2" To="d79c0fc0-299d-4216-9b9f-9fef82029031" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="763" YCoordinate="308" />
+              <Coordinates XCoordinate="829" YCoordinate="308" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="810b4470-b385-4e86-bff8-efefaef3cfbc" From="d79c0fc0-299d-4216-9b9f-9fef82029031" To="828cc2c3-3633-4ecf-b9a1-97fa557ea0db" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1129" YCoordinate="308" />
+              <Coordinates XCoordinate="1172.5" YCoordinate="308" />
+              <Coordinates XCoordinate="1172.5" YCoordinate="307" />
+              <Coordinates XCoordinate="1207" YCoordinate="307" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8cd7273c-8cb6-48cb-8a05-1cad26efb182" From="828cc2c3-3633-4ecf-b9a1-97fa557ea0db" To="59d7ee61-1c43-4173-aec7-0fda7f18d100" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1357" YCoordinate="390" />
+              <Coordinates XCoordinate="1357" YCoordinate="468" />
+              <Coordinates XCoordinate="217" YCoordinate="468" />
+              <Coordinates XCoordinate="217" YCoordinate="487" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="49559263-6510-4fa1-8b88-08e3aaf1376e" From="59d7ee61-1c43-4173-aec7-0fda7f18d100" To="ca573819-55bf-4e55-8eac-72b83f6e93d1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="367" YCoordinate="572" />
+              <Coordinates XCoordinate="388" YCoordinate="572" />
+              <Coordinates XCoordinate="388" YCoordinate="581" />
+              <Coordinates XCoordinate="407" YCoordinate="581" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7d608263-7c3f-482f-b024-4f822d09c288" From="ca573819-55bf-4e55-8eac-72b83f6e93d1" To="0ce217e9-640c-496a-8151-1e16326a35cb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="645" YCoordinate="581" />
+              <Coordinates XCoordinate="685" YCoordinate="581" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c29515e2-2aeb-4b54-acba-c0a09627b978" From="0ce217e9-640c-496a-8151-1e16326a35cb" To="89de9246-b372-4b2c-9afe-28bf31d12fa9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="985" YCoordinate="581" />
+              <Coordinates XCoordinate="1000" YCoordinate="581" />
+              <Coordinates XCoordinate="1000" YCoordinate="589" />
+              <Coordinates XCoordinate="1015" YCoordinate="589" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="66f6b840-d0a3-4caa-9560-29c02e0ef6d5" From="7391e315-48b3-4c31-bbd6-e0e3062a8c34" To="1c25bec1-c026-48e8-8adb-5ffebcf55418" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="743" YCoordinate="106" />
+              <Coordinates XCoordinate="803" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a0c1beb3-664a-4574-8187-6170abb0222c" From="1c25bec1-c026-48e8-8adb-5ffebcf55418" To="a3b109a2-c61f-402c-8401-1b92fc219a86" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="893" YCoordinate="106" />
+              <Coordinates XCoordinate="913" YCoordinate="106" />
+              <Coordinates XCoordinate="913" YCoordinate="126" />
+              <Coordinates XCoordinate="933" YCoordinate="126" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1bab5cb7-8b89-4706-950b-e1464591b6da" From="a3b109a2-c61f-402c-8401-1b92fc219a86" To="66727938-6ef9-480c-bc7c-3de91063d48c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1233" YCoordinate="126" />
+              <Coordinates XCoordinate="1274" YCoordinate="126" />
+              <Coordinates XCoordinate="1274" YCoordinate="106" />
+              <Coordinates XCoordinate="1315" YCoordinate="106" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="353fa869-b632-4689-8299-cdf647c35868" From="66727938-6ef9-480c-bc7c-3de91063d48c" To="46d35c3b-c1ef-44b1-8b0e-ec72a8d99837" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1373" YCoordinate="140" />
+              <Coordinates XCoordinate="1373" YCoordinate="212" />
+              <Coordinates XCoordinate="193" YCoordinate="212" />
+              <Coordinates XCoordinate="193" YCoordinate="274" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="dde1e9f2-3462-402a-8e13-8b229a1eea7d" From="46d35c3b-c1ef-44b1-8b0e-ec72a8d99837" To="83ecbffa-3b65-4dca-ae10-9930287052a2" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="270" YCoordinate="308" />
+              <Coordinates XCoordinate="463" YCoordinate="308" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e99cae80-97b9-434c-a6bf-0ca36b1f4c28" From="89de9246-b372-4b2c-9afe-28bf31d12fa9" To="b4b68582-dc00-4e38-b625-0d0a4c100a69" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1283" YCoordinate="589" />
+              <Coordinates XCoordinate="1324" YCoordinate="589" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7d8ca0a9-4414-4dae-acf8-26ca26e22a59" From="b4b68582-dc00-4e38-b625-0d0a4c100a69" To="c2064895-efba-4bdd-a876-38a165f6be77" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1414" YCoordinate="589" />
+              <Coordinates XCoordinate="1428" YCoordinate="589" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b7aca5ae-c858-4d8a-92cb-b259a4815626" From="c2064895-efba-4bdd-a876-38a165f6be77" To="b497d62c-66be-456f-a8b4-e1c643b6f7e3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1518" YCoordinate="589" />
+              <Coordinates XCoordinate="1536" YCoordinate="589" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="61530658-914a-4cdc-8dee-432ac8182b32" From="b497d62c-66be-456f-a8b4-e1c643b6f7e3" To="56fb315c-7112-42fd-a941-59e860427395" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1626" YCoordinate="589" />
+              <Coordinates XCoordinate="1646" YCoordinate="589" />
+              <Coordinates XCoordinate="1646" YCoordinate="560" />
+              <Coordinates XCoordinate="1662" YCoordinate="560" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

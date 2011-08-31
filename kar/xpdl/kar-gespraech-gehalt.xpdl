@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3e703766-f4e4-4aa4-a388-e98ad70e256c" Name="kar-gespraech-gehalt" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-10-13T18:05:54.2226563+02:00</Created>
+    <ModificationDate>2011-08-29T10:41:38.0898438+02:00</ModificationDate>
+    <Description>kar-gespraech-gehalt</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-22T13:48:32.4486Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-08-26T14:11:22.0605468Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-29T08:41:38.0898438Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="db0ea3ca-e445-4074-9dec-9825211f045a" Process="8751617d-2902-45b7-9296-603154a42283" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="a195bc44-f18b-4532-9a69-e4d802f348e1" Name="Gehaltsverhandlung" Process="db7edda2-2085-4904-9d35-f17993e89805" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="1299" Width="2159" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="8751617d-2902-45b7-9296-603154a42283" Name="Main Prozeß">
+      <ProcessHeader>
+        <Created>2011-08-29T10:41:48.2539063+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="db7edda2-2085-4904-9d35-f17993e89805" Name="Gehaltsverhandlung">
+      <ProcessHeader>
+        <Created>2011-08-29T10:41:48.2539063+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="b7becf17-dc84-4c65-8f16-9cf3badfb53f" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="54" YCoordinate="43" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="50302f9c-2255-49e4-8904-b083b1a65d9f" Name="Die Gehalts- und Vertragsverhandlung ist natürlich auch Bestandteil des Bewerbungsgesprächs. Um beides für Sie erfolgreich zu gestalten, werden wir uns gemeinsam anschauen, welche Argumente Sie ins Feld führen können, um das von Ihnen angestrebte Ziel zu erreichen und wie Sie sich auf beides optimal vorbereiten.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="176" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="660" YCoordinate="30" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a62f4797-da0e-4878-a375-d67eaea41dea" Name="Für Ihre Gehaltsforderung kann man auch etwas pauschaler sagen: wenn Sie den Job wechseln wollen, sollten Sie 10 bis 20% mehr Gehalt von Ihrem neuen Arbeitgeber verlangen. &#xD;&#xA;Bei einem Gehaltswunsch von weniger als 10% erzeugen Sie als Kandidat Misstrauen. Der Arbeitgeber wird sich wahrscheinlich fragen, was Sie als Bewerber motiviert, für nicht mehr als 10% mehr Gehalt den Job zu wechseln. Wer sich als Bewerber eindeutig unter Wert anbietet, wird nicht geschätzt. &#xD;&#xA;&#xD;&#xA;Grundsätzlich gilt also: Trauen Sie sich ruhig, das Gehalt zu fordern, das Sie haben möchten! &#xD;&#xA;Wenn Sie hierzu noch Fragen haben, wenden Sie sich an unsere Experten!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1711" YCoordinate="28" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="75096709-b600-4eeb-b568-92e5d4e9c9ad" Name="Stellen Sie für sich auch eine Übersicht über Ihre derzeitigen bzw. letzten Neben- und Sonderleistungen zusammen, die Sie in Ihrer aktuellen/ letzten Firma erhalten haben. Nur so können Sie wirklich einen genauen Vergleich anstellen und sich entsprechend verbessern.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1318" YCoordinate="28" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fcd77fe4-e701-4a97-a8ea-fd467036d8c4" Name="Grundsätzlich gilt: wenn der Arbeitgeber ernsthaft an Ihnen interessiert ist, wird er versuchen, das Gehalt zugunsten des Bewerbers auszuhandeln und ihm entgegenzukommen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="117" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="299" YCoordinate="311" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="627ee36a-57a0-44a1-9199-0cebafdf3a09" Name="Die Vertrags- und Gehaltsverhandlung &#xD;&#xA;&#xD;&#xA;Hier gilt: wer nicht versucht, der nicht gewinnt! Wie wir grad eben schon gesagt haben: es wurde noch niemand wegen überzogener Gehaltswünsche abgelehnt! Lassen Sie sich also nicht frühzeitig mit weniger Gehalt als gefordert abspeisen!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="167" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="504" YCoordinate="509" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3616c2e6-8ff1-4a77-93c3-87a6f88336da" Name="Eine der wichtigsten Fragen in der Gehaltsverhandlung ist: wann sollten ich im Gespräch über mein Gehalt verhandeln? Hier gilt: Diskutieren Sie niemals über Ihr Geld, bevor das Gespräch zum Ende kommt und man Ihnen definitiv zu verstehen gegeben hat, dass man Sie haben will.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1294" YCoordinate="520" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5cb1ac73-40cf-4c48-9680-95cf5596413c" Name="Manche Arbeitgeber fragen Sie im Gespräch auch, was Sie derzeit verdienen, um eine Vorstellung davon zu bekommen, mit was Sie ggf. zufrieden sein könnten. Diese Frage ist im Prinzip nicht zulässig. Versuchen Sie daher die Frage anfangs galant zu umschiffen. Beispielsweise können Sie sagen: &quot;Ich habe in meinem letzten Job ähnlich viel verdient.&quot; &#xD;&#xA;Wenn der Arbeitgeber nicht locker lässt, können Sie hier Ihr derzeitiges oder letztes Gehalt großzügig aufrunden und auf weitere Vergünstigungen und Extras hinweisen. Eine weitere Antwortmöglichkeit wäre auch: &quot;Ich erwarte im Jahr mindestens 90.000€.&quot;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="954" YCoordinate="759" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a879fc1e-214d-4cab-a7be-b9b15c894c10" Name="Die zweite Möglichkeit ist: wenn Sie bei der Verhandlung des Einstiegsgehalts keinen Erfolg hatten, kündigen Sie jetzt schon an, dass Sie nach Ablauf der Probezeit nachverhandeln wollen. Tragen Sie sich den Termin gleich danach in Ihren Kalender ein. Nur Mitarbeiter, die nachfragen und Ihre Erfolge später auch belegen können, haben die besten Chancen, einen Gehaltssprung zu machen! &#xD;&#xA;&#xD;&#xA;Fragen Sie zudem unsere Experten, wenn Sie Hilfe bei Ihrer Gehaltsverhandlung benötigen!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="455" YCoordinate="759" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="81a5bb06-208d-40e2-bbc5-7f313d6c74a3" Name="Wir haben für Sie eine umfangreiche Liste mit möglichen Bestandteilen Ihrer Gehalts- und Vertragsverhandlungen zusammengestellt. Versuchen Sie jedoch nicht, alle Bestandteile mit dem zukünftigen Arbeitgeber zu verhandeln. Erfragen Sie vorab das im Unternehmen übliche Vergütungspaket.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="173" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="112" YCoordinate="762" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="6fcb3914-a759-413f-8ec1-da565498cd02" Name="Den Vertrag unter Dach und Fach bekommen&#xD;&#xA;&#xD;&#xA;Ein gutes Unternehmen wird Ihnen eine schriftliche Bestätigung der ausgehandelten Details schicken (Hier Achtung: wenn das Unternehmen dies nicht tut, können Sie sich darauf einstellen, auch in Zukunft um solche formalen Dinge selbst kümmern zu müssen!). &#xD;&#xA;&#xD;&#xA;Kündigen Sie jedoch nicht, bevor Sie nicht eine schriftliche Zusicherung oder noch besser: Ihre Unterschrift unter den neuen Arbeitsvertrag gesetzt haben! Sie sollten zudem nur Ihren Familienangehörigen und engsten Freunden von Ihrer neuen Position erzählen, solange Sie noch nichts schriftlich haben!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1480" YCoordinate="785" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="ff97cf01-97ee-4c7f-a7fc-8bf4d883e8f5" Name="Starten wir mit der Vorbereitung für Ihre Gehaltsverhandlung.&#xD;&#xA;&#xD;&#xA;1. Informieren Sie sich vor Ihrem Gespräch über aktuelle Gehälter! Hiervor drücken sich viele und lassen die Gehaltsfrage einfach auf sich zukommen. Riskieren Sie hier nicht, mit weitaus weniger aus der Verhandlung zu gehen, als eigentlich drin gewesen wäre, nur, weil Sie sich ein paar Stunden Zeit zur Recherche genommen haben! Ein paar Tausender mehr auf dem Gehaltscheck sollten ruhig etwas Aufwand wert sein, oder?&#xD;&#xA;&#xD;&#xA;Außerdem: nur der informierte Bewerber überzeugt stärker! Sie argumentieren viel selbstbewusster, wenn Sie genau wissen, was Ihre Qualifikationen Wert sind! So schnell kann Sie dann niemand an der Nase herumführen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1052" YCoordinate="88" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f4c2799c-5606-488d-8f90-b87958f9bc11" Name="Wenn Sie sich auf die Suche nach aktuellen Gehaltsstatistiken machen, berücksichtigen Sie Ihre Berufserfahrung, mögliche Personal- und Umsatzverantwortung, die Branche, Unternehmensgröße, die Region und die allgemeine wirtschaftliche Lage. &#xD;&#xA;&#xD;&#xA;Nutzen Sie für einen aktuellen Gehaltsüberblick die folgenden Quellen:&#xD;&#xA;&#xD;&#xA;Werfen Sie einen Blick auf einer der zahlreichen Gehaltstabellen im Internet (beispielsweise www.gehalts-check.de, www.karriere.de oder www.gehaltsvergleich.com). Hier finden Sie einen Überblick über aktuelle Gehälter, aufgelistet nach Region und Branche. Weitere Quellen finden Sie auf unserem Arbeitsblatt, welches hier für Sie zum Download bereitsteht.&#xD;&#xA;Fragen Sie Freunde, Verwandte oder Bekannte, die aus eigener Erfahrung berichten können.&#xD;&#xA;Ein gutes Wissen über die jetzige Gehaltslage für die verschiedensten Berufe können Sie auch bei Personalvermittlungsfirmen erfragen. Dadurch, dass diese von den Unternehmen den Auftrag erhalten, geeignetes Personal zu finden, haben Sie meist umfangreiche Datenbanken zu Gehaltsübersichten. Hier genügt ein kurzer Anruf, um in Erfahrung zu bringen, was Ihre Qualifikationen derzeit wert sind. Eine Liste mit einigen Personalvermittlungsfirmen haben wir Ihnen im Anhang zusammengestellt. Sie können Sie einfach runterladen und Ihre Recherche beginnen!&#xD;&#xA;Auch Wirtschaftszeitungen (z.Bsp. Capital, Wirtschaftswoche, Handelsblatt etc.) drucken regelmäßig ab, was in den verschiedenen Branchen und Positionen verdient wird.&#xD;&#xA;Zum Schluss lohnt auch ein Blick auf die Internetseiten von Gewerkschaften, der Industrie- und Handelskammer sowie Berufsverbänden. Auch hier werden Sie fündig bei der Suche nach aktuellen Gehaltsstatistiken.&#xD;&#xA;&#xD;&#xA;Schauen wir gleich mal, was Sie im Vorstellungsgespräch verlangen können! Öffnen Sie eine der beiden angegebenen Gehaltstabellen im Internet und geben Sie Ihre beruflich angestrebte Position bzw. die Bezeichnung der Position, auf die Sie sich beworben haben, ein. Achten Sie darauf, dass die angegebenen Zahlen auf aktuellen Vergleichsdaten von 2009/2010 beruhen. Wie Sie sehen, wird Ihnen das Jahresbruttogehalt angegeben - um dieses wird auch in der Gehaltsverhandlung verhandelt.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1206" YCoordinate="88" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f66bc539-8a51-4fcb-b130-47d46b3e6af1" Name="Die 20% müssen jedoch nicht die obere Grenze für Ihre Gehaltswünsche sein. Es wurde noch keiner abgelehnt, der anfangs zuviel gefordert hat! Vielleicht führt der Arbeitgeber bei einer Absage Ihre hohe Gehaltsforderung als Grund an. Hier können Sie davon ausgehen, dass das nur ein vorgeschobener Vorwand ist und es ganz andere Gründe für die Absage gab.&#xD;&#xA;Lassen Sie es also ruhig drauf ankommen und steigen Sie hoch ein! Vielleicht wird Ihr Gegenüber im Gespräch schmunzeln oder erschrocken gucken. Wenn er partout nicht auf Ihre Forderung eingeht und sie für überzogen hält, können Sie immer noch sagen: &quot;Einen Versuch ist es wert gewesen.&quot; Sie können auch anbringen, dass ein Freund von Ihnen in einem Konkurrenzunternehmen soviel bekommen hat.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="130" YCoordinate="339.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2b1db7cb-7fd0-4b57-aaf3-98d7d9b7457a" Name="Machen Sie sich jedoch vorher auf jeden Fall klar: eine Forderung von mehr als 20% provoziert Überlegungen seitens des Arbeitgebers, ob Sie als Bewerber das Geld auch wirklich wert sind. Häufig kommen dann Einwände, wie mangelnde Berufserfahrung, Alter, Einarbeitungszeit etc. Bereiten Sie sich darauf unbedingt vor, wenn Sie gleich zwei oder mehr Gehaltsstufen auf einmal nehmen wollen. In unserer Coaching-Unit &quot;Mit Einwänden und schwierigen Fragen umgehen&quot; lernen Sie, mit welchen sprachlichen Mitteln Sie Einwände entkräften können.&#xD;&#xA;Oft hat zudem nicht nur der Arbeitgeber Zweifel, ob das Gehalt gerechtfertigt ist. Auch bei Bewerbern findet man häufig die sogenannte &quot;Schere im Kopf&quot;, wenn das zukünftige Gehalt einen ordentlichen Gehaltssprung bedeutet, obwohl die beschriebene Stelle durchaus ihren Qualifikationen entspricht.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="640" YCoordinate="339.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="27e83a25-2cd5-4109-9927-bb4eb1c4abca" Name="2. Sammeln Sie starke Argumente&#xD;&#xA;&#xD;&#xA;Wenn Sie ein (weitaus) höheres Gehalt verlangen, möchte der Arbeitgeber von Ihnen wissen, warum er Ihnen soviel zahlen sollte. Denn er geht mit der Frage in das Gespräch: &quot;Wie viel wird der mich wohl kosten?&quot;&#xD;&#xA;&#xD;&#xA;Sammeln Sie somit überzeugende Argumente, um Ihre Qualitäten möglichst &quot;höchstbietend&quot; zu verkaufen. Wählen Sie dafür Beispiele für Ihre beruflichen Erfolge und Leistungen aus, mit denen Sie den Personalverantwortlichen später davon überzeugen können, dass Ihre Gehaltswünsche angemessen sind.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1609" YCoordinate="339.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="679936eb-1a5b-42ef-9078-ecf7e5a7e8c5" Name="Apropos frühzeitig: einige Arbeitgeber fragen bereits zu Beginn des Gesprächs, wie Ihre Gehaltswünsche aussehen. Hier sollten Sie sofort drei Antworten parat haben:&#xD;&#xA;&#xD;&#xA;Erste Antwort: &quot;Bevor Sie nicht endgültig entschieden haben, dass Sie mich einstellen wollen und bevor ich nicht endgültig beschlossen habe, dass ich Ihnen bei Ihrer Aufgabe helfen kann, ist es aus meiner Sicht zu früh, über dieses Thema zu reden.&quot; Diese Antwort funktioniert immer dann gut, wenn der Arbeitgeber ein angenehmer Zeitgenosse ist.&#xD;&#xA;&#xD;&#xA;Zweite Antwort: Der Arbeitgeber lässt sich nicht so leicht abwimmeln? Dann probieren Sie es mit: &quot;Ich möchte mich gern mit Ihnen über dieses Thema unterhalten, aber können Sie mir erst genauer erklären, was diese Position beinhaltet?&quot; Gerade, wenn Sie innerhalb der ersten paar Minuten zu Ihren Gehaltsvorstellungen gefragt werden, sollten Sie auf diese Reaktion zurückgreifen.&#xD;&#xA;&#xD;&#xA;Dritte Antwort: Wenn der Arbeitgeber immer noch nicht lockerlässt, nennen Sie eine Gehaltsspanne. Sagen Sie beispielsweise: &quot;Ich möchte ein Jahresgehalt zwischen 40000 und 50000 Euro.&quot; &#xD;&#xA;&#xD;&#xA;Versucht der Arbeitgeber weiterhin, Sie auf eine konkrete Summe festzunageln, wird es wahrscheinlich wohl nicht zu einer Gehalts&quot;verhandlung&quot; im Gespräch kommen. Wenn Sie den Job unbedingt wollen, heißt das für Sie, dass Sie nach den Gehaltsvorstellungen des Arbeitgebers fragen und dann eine Entscheidung treffen müssen, ob Sie das Angebot annehmen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="883" YCoordinate="562.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="48eba5e9-1110-4c40-b9d8-9a9b8ed84752" Name="Wenn es jedoch, wie in den meisten Fällen, zu einer Verhandlung kommt, gibt es einen guten Tipp: lassen Sie bei der Gehaltsverhandlung dem Arbeitgeber immer den Vortritt. In vielen Verhandlungen war es ein Vorteil, erst ein Angebot des Arbeitgebers zu erhalten, bevor man selbst seine Wünsche äußert. Man kann dann nämlich auf die Offerte reagieren und hat damit häufig die besseren Karten. Besonders erfahrene Personaler wissen das und werden Sie daher fragen: &quot;Was haben Sie sich denn als Gehalt vorgestellt?&quot; Sie erhoffen sich, dass Sie als Erstes einen Betrag nennen, weil sie wissen, dass sie dadurch im Vorteil sind.&#xD;&#xA;Daher antworten Sie auf diese Frage: &quot;Nun, Sie haben diese Position geschaffen, also haben Sie sicher einen Betrag im Kopf und mich würde sehr interessieren, wie hoch er ist.&quot;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1012" YCoordinate="562.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="998befe5-9c06-4bcd-b961-69efbcedb92c" Name="Hierzu sei gesagt, dass das Gehalt immer verhandelbar ist, wenn der Arbeitgeber nicht von Anfang an den Höchstbetrag nennt, der ihm vorschwebt, sondern die Verhandlung mit einem geringeren Angebot eröffnet. Für Sie ist es jetzt natürlich entscheidend zu wissen, ob die genannte Summe bereits das Höchstgebot darstellt oder ob noch Spielraum für Verhandlung ist. &#xD;&#xA;&#xD;&#xA;Wie finden Sie das heraus?&#xD;&#xA;Durch Recherche! Wenn Sie durch gründliches Nachforschen in Zukunft 5.000 Euro mehr im Jahr verdienen, lohnt es sich schon mal, sich dafür ausreichend Zeit zu nehmen, oder nicht? Wir haben Ihnen bereits innerhalb der Vorbereitung auf die Gehaltsverhandlung Tipps gegeben, wie Sie aktuelle Gehälter für Ihre Branche und Region in Erfahrung bringen können.&#xD;&#xA;&#xD;&#xA;Haben Sie dennoch im Hinterkopf, dass Personaler oft eine sehr harte Linie in Ihrer Verhandlung fahren, die sie nur selten überschreiten. Seien Sie daher nicht enttäuscht, wenn Ihrem Gehaltswunsch selbst nach zähen Verhandlungen nicht nachgegeben wird.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1145" YCoordinate="562.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9e6274e4-2187-4dc7-9c99-c89d930b01b9" Name="Ganz konkret bedeutet das, dass Sie erst über Ihr Gehalt verhandeln, wenn...&#xD;&#xA;* man Sie von Ihrer besten Seite kennengelernt hat und deutlich geworden ist, wodurch Sie sich von Ihren Mitbewerbern abheben&#xD;&#xA;* Sie das Unternehmen so umfassend wie möglich kennengelernt haben, so dass Sie wissen, wann es unnachgiebig und wann flexibel ist&#xD;&#xA;* Sie ganz genau wissen, was zu den Aufgaben gehört&#xD;&#xA;* Sie beschlossen haben, dass Sie den Job gerne haben wollen würden&#xD;&#xA;* man Ihnen klar signalisiert hat: &quot;Wir wollen Sie haben.&quot;&#xD;&#xA;* man Ihnen zu verstehen gegeben hat: &quot;Wir müssen Sie haben.&quot;&#xD;&#xA;&#xD;&#xA;Der Vorteil: wenn Sie mit Ihrer Gehaltsverhandlung bis zum Schluss warten, springt für Sie möglicherweise ein noch höheres Gehalt raus, als zu Beginn des Vorstellungsgesprächs.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1676" YCoordinate="580" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="45ff6621-d343-40ec-98fd-80bfb012fa5e" Name="Sollte das Unternehmen nicht auf Ihre Gehaltsvorstellungen eingehen, haben Sie folgende Möglichkeiten: &#xD;&#xA;&#xD;&#xA;Erstens: verlagern Sie den Schwerpunkt auf andere Bestandteile des Vergütungspakets. Neben dem eigentlichen Gehalt gibt es jedoch noch eine Reihe weiterer Punkte, die Gegenstand Ihrer Vertragsverhandlung sein können, beispielsweise:&#xD;&#xA;&#xD;&#xA;* die Stellenbeschreibung (zumindest Teile davon)&#xD;&#xA;* der Positionstitel&#xD;&#xA;* der Vertragsbeginn&#xD;&#xA;* die Dauer der Einarbeitungszeit&#xD;&#xA;* verkürzte Probezeit&#xD;&#xA;* Neuverhandlung des Vergütungspakets nach Ablauf der Probezeit&#xD;&#xA;* der Umfang der Entscheidungskompetenz&#xD;&#xA;* der Umfang des Budgets und Ressourcen&#xD;&#xA;* die Anzahl der Urlaubstage&#xD;&#xA;* evt. anfallende Umzugskosten&#xD;&#xA;* Zusatzversicherungen&#xD;&#xA;* Fort- und Weiterbildungen&#xD;&#xA;* Aktienoptionen&#xD;&#xA;* erfolgsabhängige Vergütung&#xD;&#xA;&#xD;&#xA;Es ist zwar unwahrscheinlich, dass Sie all diese Punkte mit Ihrem zukünftigen Arbeitgeber auszuhandeln haben. Sie sollten die zusätzlichen Zusatzleistungen in jedem Fall diskutieren. Dabei gilt: je höher die Position angesiedelt ist und je dringender sie besetzt werden soll, desto größer ist Ihr Verhandlungsspielraum. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1850" YCoordinate="580" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="12f57591-a76c-452e-9890-008cb09062b4" Name="Was kann noch in der Verhandlung passieren?&#xD;&#xA;&#xD;&#xA;Einige Arbeitgeber bieten Ihnen an, erst einmal mit einem niedrigeren Gehalt einsteigen und nach Ablauf der Probezeit über eine Gehaltssteigerung zu verhandeln. Lassen Sie sich nicht darauf ein! Argumentieren Sie stattdessen so: &quot;Die Probezeit dient ja gerade dazu, sich gegenseitig kennen zu lernen, abzuschätzen, ob man weiterhin miteinander arbeiten möchte und auf dieser Basis noch einmal über Gehalt und etwaige Konditionen neu zu verhandeln. Ich möchte daher noch einmal bekräftigen, dass ich Ihr finanzielles Angebot für nicht angemessen halte in Anbetracht meiner Qualifikationen und Fähigkeiten.&quot;&#xD;&#xA;Wenn der Arbeitgeber hier weiter auf stur schaltet, sollten Sie dennoch unbedingt Nägel mit Köpfen machen und jetzt schon schriftlich einen Termin für die Nachverhandlung festlegen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="816" YCoordinate="819" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fe4bad8e-c96c-4605-9319-4ed79b5f57a3" Name="Wenn Sie ein Angebot bekommen... &#xD;&#xA;Unabhängig davon, wie gut es ist - nehmen Sie es nicht sofort an. Bitten Sie um Bedenkzeit, beispielsweise: &quot;Ich freue mich über Ihr Angebot. Die Position und Ihr Unternehmen entsprechen genau meinen Vorstellungen. Ich möchte gerne eine Nacht über Ihr Angebot schlafen. Kann ich Sie am Montag anrufen?&quot;&#xD;&#xA;Vor allem, wenn Sie mit dem Ihnen angebotenen Gehalt nicht zufrieden sind, bitten Sie sich mit dieser Begründung einige Tage bis zu einer Woche Bedenkzeit aus! Die Entscheidung etwas rauszuzögern kann im Zweifelsfall sogar dazu führen, dass man Ihnen finanziell noch etwas entgegenkommt.&#xD;&#xA;&#xD;&#xA;Haben Sie mehrere Bewerbungen laufen und vielleicht noch weitere Angebote, packen Sie auf jeden Fall ein paar Tage Zeit zum Nachdenken mehr drauf. Erwartet man beispielsweise Ihre Antwort am Donnerstag, können Sie ruhig sagen, dass Sie noch weitere Bewerbungen offen bzw. konkrete Angebote haben und sich daher am Dienstag oder Mittwoch meldet. Sie erhöhen so den Druck auf den potentiellen Arbeitgeber und machen sich noch spannender als Bewerber!&#xD;&#xA;&#xD;&#xA;Grundsätzlich ist es bei mehreren Angebote wichtig, allen beteiligten Unternehmen den aktuellen Status zu kommunizieren. Falls Sie dabei mit dem Angebot eines Arbeitgebers nicht zufrieden sind, sagen Sie klar, dass Sie sich noch woanders beworben haben.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1360" YCoordinate="819" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="fcdfd136-d3e6-4d84-a109-adc0736cac67" Name="Da Frauen Ihre Arbeitskraft häufiger als geringwertiger als die von Männern ansehen, fordern Sie häufig dementsprechend weniger Gehalt. Dabei ist Ihre Familienarbeit von unschätzbarem Wert für die Gesellschaft! Zudem gibt es keine Beweise für die Theorie einiger Arbeitgeber, dass Frauen mit Kindern in ihrem Beruf weniger leistungsfähig sind als Frauen ohne familiäre Verpflichtungen. Und letztens: bei etwas mehr Gehalt können Sie sich für zu Hause professionelle Unterstützung leisten.&#xD;&#xA;Fordern Sie also auf jeden Fall mindestens 20% mehr Gehalt, wenn Sie in die Verhandlungen einsteigen und lassen Sie sich nicht mit weniger vertrösten!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="769" YCoordinate="339.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="92e0f998-073b-4070-88d0-3a3dafc8dddc" Name="Willkommen im Coaching &quot;Vertrags- und Gehaltsverhandlungen&quot;&#xD;&#xA;&#xD;&#xA;Nachdem Sie sich präsentiert haben, stellt sich das Unternehmen kurz vor: um welche Aufgaben geht es zukünftig, wie sehen die Arbeitskonditionen aus. Fragen Sie auch hier jederzeit interessiert nach und machen Sie sich Notizen. Sie demonstrieren so einmal mehr Ihr Interesse für die Stelle! ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="247" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="118" YCoordinate="28" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="ee1aaa4a-37d5-4893-9630-3e6261d5b825" Name="Wann das Gespräch vorbei ist, entscheidet der Arbeitgeber. &#xD;&#xA;Betonen Sie hier noch einmal, dass Sie sich über die Einladung und das persönliche Kennenlernen gefreut haben. Dann fragen Sie wann Sie wieder vom Arbeitgeber hören werden und erwähnen, dass Sie derzeit mehrere Bewerbungen laufen haben. Wenn der Gesprächspartner hier ausweichend reagiert, haken Sie noch einmal nach und sagen Sie, dass Sie für Ihre persönliche Planung gerne einen konkreten Tag wüssten, an dem Sie mit einer Nachricht rechnen können. Geben Sie hier möglichst einen Tag an, der nicht weiter als 4-5 Tage in der Zukunft liegt. Natürlich bleiben Sie dabei absolut höflich. So entsteht bei Ihrem Gegenüber der Eindruck, dass Sie tatsächlich noch andere Angebote haben und er sich daher schnell entscheiden sollte.&#xD;&#xA;&#xD;&#xA;Verzichten Sie dagegen darauf zu fragen, welchen Eindruck Sie hinterlassen haben. Diese Frage lässt Sie eher unsicher wirken.&#xD;&#xA;&#xD;&#xA;Sollte Ihnen sofort ein Angebot unterbreitet wird, freuen Sie sich, bitten Sie aber um einige Tage Bedenkzeit.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="252" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1896" YCoordinate="785" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="206746e9-03a4-43dc-baa4-6c8503777755" Name="Zusammengefasst für Sie:&#xD;&#xA;&#xD;&#xA;Was mögen Arbeitgeber - die größten Do's:&#xD;&#xA;1. Sie lächeln!&#xD;&#xA;2. Sie schauen Ihrem Gegenüber immer wieder in die Augen.&#xD;&#xA;3. Sie sprechen laut und deutlich, so dass der Hinterste im Raum Sie noch verstehen kann.&#xD;&#xA;4. Sie nehmen eine ähnliche Körperhaltung wie Ihr Gegenüber ein. Diese Form der Anpassung führt zum Aufbau von Sympathie.&#xD;&#xA;7. Sie bedanken sich freundlich nach dem Gespräch.&#xD;&#xA;&#xD;&#xA;Was mögen Arbeitgeber nicht - die größten Dont's:&#xD;&#xA;1. Sie lümmeln sich auf Ihrem Stuhl.&#xD;&#xA;2. Sie halten die Arme permanent verschränkt.&#xD;&#xA;3. Sie spielen nervös mit Haaren oder Schmuck und lassen die Finger knacken.&#xD;&#xA;4. Sie sprechen so leise, dass man Sie kaum versteht&#xD;&#xA;5. Sie fallen Ihrem Gegenüber ständig ins Wort.&#xD;&#xA;6. Sie spielen Ihre Leistungen und Fähigkeiten herunter.&#xD;&#xA;7. Sie lästern über frühere Arbeitgeber. &#xD;&#xA;8. Sie sprechen beim Smalltalk über Religion, Familie oder Politik.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="531" YCoordinate="1059.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b84e9817-6f30-4c17-85d1-0eeedf2a8212" Name="Das war das Coaching &quot;Die Vertrags- und Gehaltsverhandlung&quot;. Im nächsten Coaching lernen Sie, wie Sie mit schwierigen Fragen und Einwänden im Gespräch umgehen können.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="173" Width="243" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="688" YCoordinate="1003" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="44541b98-6354-489f-a9e6-63ad11417c4a" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="28.69999885559082" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1445" YCoordinate="1074.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3c133239-2b29-4cc3-8ebc-007617b9523b" Name="Überlegen Sie sich also eine Gehaltsspanne, die Sie angeben wollen, wenn Sie nach Ihren Gehaltswünschen gefragt werden. Sie haben dazu recherchiert, was man in Ihrer Branche üblicherweise zahlt, haben eine Gesamtübersicht über Ihre finanziellen Vergütungen plus allen Extras aufgestellt und wissen jetzt, dass es nicht weniger als 10 und nicht viel mehr als 20% sein sollte.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="908" YCoordinate="279.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="14bcf3a3-b0e7-415c-8589-99a5035b86c5" Name="Lassen Sie uns gleich zusammen überlegen: welchen Mehrwert haben Sie für Ihre früheren Arbeitgeber geleistet? Welche Erfolge haben Sie in Ihrem jetzigen oder letzten Job erzielt?">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="123" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1765" YCoordinate="308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0f4a294e-9088-4a53-ada7-183c13248eee" Name=" Wie sieht Ihre Gehaltsspanne demzufolge aus? Was ist Ihr minimal gefordertes Gehalt, welches das Maximale? Schreiben Sie's auf!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="123" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1260" YCoordinate="308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="f8f1d3f2-3849-49ce-beda-e75b410912a1" Name="Schreiben Sie jetzt mindestens 6 Erfolge auf, die Sie als Argumente für ihren Wert ins Feld führen können. Nutzen Sie dafür auch Ihre eingangs gesammelten Erfolgsgeschichten!">
+          <Description>$List:kar_gespraech_gehalt_ErfolgeGespraech("items":6)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:kar_gespraech_gehalt_ErfolgeGespraech("items":6)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="293" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="152" YCoordinate="533" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="195ed2be-55f6-44f3-8f50-e5ff6d5a1eee" Name="Wir haben hier für Sie noch einmal die häufigsten Fragen im Bewerbungsgespräch zusammengestellt. Laden Sie sich unser Arbeitsblatt gleich runter! &#xD;&#xA;&#xD;&#xA;Fassen wir zum Schluss auch noch einmal zusammen, was  Arbeitgeber mögen und was nicht. Klicken Sie dazu einfach auf &quot;weiter&quot;!">
+          <Description>$DocumentDownload("documents":[{"name":"Fragen Bewerbungsgespräch","file":"Fragen_Bewerbungsgespräch.pdf"}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$DocumentDownload("documents":[{"name":"Fragen Bewerbungsgespräch","file":"Fragen_Bewerbungsgespräch.pdf"}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="130" YCoordinate="999" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b2651027-e93a-498d-b835-8ed07feb50f6" Name="">
+          <Description>Ihre Fragen als Bewerber
+
+Spätestens hier kommen Sie mit Ihren Fragen zum Zug. 
+
+Gute Fragen sind wie ein guter Händedruck! Beweisen Sie somit durch Ihre Fragen, dass Sie sich tatsächlich Gedanken über die Stelle gemacht haben. Neben den Fragen, die wir für Sie vorbereitet haben, stellen Sie auch fachliche Fragen und beweisen Sie so Tiefgang.
+
+Stehlen Sie dem Personaler nicht seine kostbare Zeit, indem Sie Fragen stellen, die bereits im Gespräch geklärt worden sind oder die Sie selbst im Rahmen Ihrer Recherche hätten beantworten können. Sie wirken sonst unaufmerksam und unvorbereitet. 
+
+Mit welchen Fragen Sie neben fachlichen Fragen im Gespräch punkten, zeigt Ihnen unser Arbeitsblatt "Fragen des Bewerbers". 
+
+Um zu wissen, wie Sie schwierigen und unerlaubten Fragen im Vorstellungsgespräch souverän begegnen, besuchen Sie unser Coaching "Mit Einwänden und schwierigen Fragen umgehen".
+
+$DocumentDownload("documents":[{"name":"Fragen des Bewerber","file":"Fragen_Bewerber.pdf"}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Ihre Fragen als Bewerber
+
+Spätestens hier kommen Sie mit Ihren Fragen zum Zug. 
+
+Gute Fragen sind wie ein guter Händedruck! Beweisen Sie somit durch Ihre Fragen, dass Sie sich tatsächlich Gedanken über die Stelle gemacht haben. Neben den Fragen, die wir für Sie vorbereitet haben, stellen Sie auch fachliche Fragen und beweisen Sie so Tiefgang.
+
+Stehlen Sie dem Personaler nicht seine kostbare Zeit, indem Sie Fragen stellen, die bereits im Gespräch geklärt worden sind oder die Sie selbst im Rahmen Ihrer Recherche hätten beantworten können. Sie wirken sonst unaufmerksam und unvorbereitet. 
+
+Mit welchen Fragen Sie neben fachlichen Fragen im Gespräch punkten, zeigt Ihnen unser Arbeitsblatt "Fragen des Bewerbers". 
+
+Um zu wissen, wie Sie schwierigen und unerlaubten Fragen im Vorstellungsgespräch souverän begegnen, besuchen Sie unser Coaching "Mit Einwänden und schwierigen Fragen umgehen".
+
+$DocumentDownload("documents":[{"name":"Fragen des Bewerber","file":"Fragen_Bewerber.pdf"}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="480" YCoordinate="88" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="b74bc95b-d561-49c7-9118-c7b0e1353d5a" Name="Aufgabe zum Coaching &quot;Vertrags- und Gehaltsverhandlungen&quot;">
+          <Description>$Text()
+Um souverän rüberzukommen, ist es wichtig, ein paar Mal für sich das ausgesprochen zu haben, was Sie in der Verhandlung fordern möchten. Schnappen Sie sich also einen Freund und üben Sie Ihre Forderungen selbstbewusst auszusprechen. Alternativ können Sie auch alleine vorm Spiegel üben.
+Sagen Sie also z.B.: "Meine Gehaltsvorstellungen liegen zwischen 40.000 und 50.000 Euro brutto im Jahr."
+Dieser Satz muss flüssig klingen, deshalb sagen Sie ihn mindestens 15 Mal! Je öfter Sie üben, desto selbstbewusster werden Sie im Gespräch wirken und je selbstbewusster Sie wirken, desto größer ist Ihre Chance Ihr Wunschgehalt zu bekommen. 
+Viel Erfolg beim Üben!
+</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+Um souverän rüberzukommen, ist es wichtig, ein paar Mal für sich das ausgesprochen zu haben, was Sie in der Verhandlung fordern möchten. Schnappen Sie sich also einen Freund und üben Sie Ihre Forderungen selbstbewusst auszusprechen. Alternativ können Sie auch alleine vorm Spiegel üben.
+Sagen Sie also z.B.: "Meine Gehaltsvorstellungen liegen zwischen 40.000 und 50.000 Euro brutto im Jahr."
+Dieser Satz muss flüssig klingen, deshalb sagen Sie ihn mindestens 15 Mal! Je öfter Sie üben, desto selbstbewusster werden Sie im Gespräch wirken und je selbstbewusster Sie wirken, desto größer ist Ihre Chance Ihr Wunschgehalt zu bekommen. 
+Viel Erfolg beim Üben!
+</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="100" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1001" YCoordinate="1039.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="ce2ac94c-8d07-41cb-aa2c-f671fa4e1cfb" From="b7becf17-dc84-4c65-8f16-9cf3badfb53f" To="92e0f998-073b-4070-88d0-3a3dafc8dddc" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="84" YCoordinate="58" />
+              <Coordinates XCoordinate="101" YCoordinate="58" />
+              <Coordinates XCoordinate="101" YCoordinate="118" />
+              <Coordinates XCoordinate="118" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="86ebc249-fa59-43ea-9dd7-46f8f845bfbf" From="75096709-b600-4eeb-b568-92e5d4e9c9ad" To="a62f4797-da0e-4878-a375-d67eaea41dea" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1618" YCoordinate="118" />
+              <Coordinates XCoordinate="1711" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="caec9cf9-dd54-40b2-b4d1-8c02307d0a01" From="f8f1d3f2-3849-49ce-beda-e75b410912a1" To="627ee36a-57a0-44a1-9199-0cebafdf3a09" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="445" YCoordinate="592" />
+              <Coordinates XCoordinate="504" YCoordinate="592" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e89bcaed-8ba8-4d23-8caa-b4167e0f51af" From="81a5bb06-208d-40e2-bbc5-7f313d6c74a3" To="a879fc1e-214d-4cab-a7be-b9b15c894c10" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="412" YCoordinate="848" />
+              <Coordinates XCoordinate="433.5" YCoordinate="848" />
+              <Coordinates XCoordinate="433.5" YCoordinate="849" />
+              <Coordinates XCoordinate="455" YCoordinate="849" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="937b951e-ce38-45e3-976d-996974ce580e" From="6fcb3914-a759-413f-8ec1-da565498cd02" To="ee1aaa4a-37d5-4893-9630-3e6261d5b825" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1780" YCoordinate="875" />
+              <Coordinates XCoordinate="1896" YCoordinate="875" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="11cc59fb-5542-4fe1-abde-366e4f2f1dd8" From="50302f9c-2255-49e4-8904-b083b1a65d9f" To="ff97cf01-97ee-4c7f-a7fc-8bf4d883e8f5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="960" YCoordinate="118" />
+              <Coordinates XCoordinate="1052" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8fca0343-26c0-42e9-9652-a8d036655b40" From="ff97cf01-97ee-4c7f-a7fc-8bf4d883e8f5" To="f4c2799c-5606-488d-8f90-b87958f9bc11" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1142" YCoordinate="118" />
+              <Coordinates XCoordinate="1206" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a702c498-299e-45f5-8422-d6cc399464ff" From="f4c2799c-5606-488d-8f90-b87958f9bc11" To="75096709-b600-4eeb-b568-92e5d4e9c9ad" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1296" YCoordinate="118" />
+              <Coordinates XCoordinate="1318" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="27bf1388-a342-46ac-b5bb-3bfcf437f081" From="a62f4797-da0e-4878-a375-d67eaea41dea" To="f66bc539-8a51-4fcb-b130-47d46b3e6af1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1861" YCoordinate="208" />
+              <Coordinates XCoordinate="1861" YCoordinate="248" />
+              <Coordinates XCoordinate="175" YCoordinate="248" />
+              <Coordinates XCoordinate="175" YCoordinate="339" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d56e30ec-e634-4518-8c34-d697cedd550d" From="f66bc539-8a51-4fcb-b130-47d46b3e6af1" To="fcd77fe4-e701-4a97-a8ea-fd467036d8c4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="220" YCoordinate="369" />
+              <Coordinates XCoordinate="299" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="67a1ba8e-a6bb-4572-8808-52f9e432922a" From="fcd77fe4-e701-4a97-a8ea-fd467036d8c4" To="2b1db7cb-7fd0-4b57-aaf3-98d7d9b7457a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="599" YCoordinate="369" />
+              <Coordinates XCoordinate="640" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c8cf2e15-7181-48e4-9672-ea23d81d69d9" From="0f4a294e-9088-4a53-ada7-183c13248eee" To="27e83a25-2cd5-4109-9927-bb4eb1c4abca" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1560" YCoordinate="369" />
+              <Coordinates XCoordinate="1609" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="839f6747-8358-4970-bf30-4c817c9932c7" From="27e83a25-2cd5-4109-9927-bb4eb1c4abca" To="14bcf3a3-b0e7-415c-8589-99a5035b86c5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1699" YCoordinate="369" />
+              <Coordinates XCoordinate="1765" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="10b4b86b-5fa0-4e50-b542-27a9da6449f1" From="627ee36a-57a0-44a1-9199-0cebafdf3a09" To="679936eb-1a5b-42ef-9078-ecf7e5a7e8c5" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="804" YCoordinate="592" />
+              <Coordinates XCoordinate="883" YCoordinate="592" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="850c9a48-f87d-4add-a82b-8e0219a1f639" From="679936eb-1a5b-42ef-9078-ecf7e5a7e8c5" To="48eba5e9-1110-4c40-b9d8-9a9b8ed84752" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="973" YCoordinate="592" />
+              <Coordinates XCoordinate="1012" YCoordinate="592" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="93d85805-9ef8-465d-8114-433ba519a0d1" From="48eba5e9-1110-4c40-b9d8-9a9b8ed84752" To="998befe5-9c06-4bcd-b961-69efbcedb92c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1102" YCoordinate="592" />
+              <Coordinates XCoordinate="1145" YCoordinate="592" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="77cf6bda-f028-4a11-91c6-20ffe172cf91" From="998befe5-9c06-4bcd-b961-69efbcedb92c" To="3616c2e6-8ff1-4a77-93c3-87a6f88336da" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1235" YCoordinate="592" />
+              <Coordinates XCoordinate="1276.5" YCoordinate="592" />
+              <Coordinates XCoordinate="1276.5" YCoordinate="610" />
+              <Coordinates XCoordinate="1294" YCoordinate="610" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="14bb5788-608d-4c5f-b526-b3a205553824" From="3616c2e6-8ff1-4a77-93c3-87a6f88336da" To="9e6274e4-2187-4dc7-9c99-c89d930b01b9" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1594" YCoordinate="610" />
+              <Coordinates XCoordinate="1676" YCoordinate="610" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="c9281b4d-5603-4431-83df-33173bd8dc90" From="9e6274e4-2187-4dc7-9c99-c89d930b01b9" To="45ff6621-d343-40ec-98fd-80bfb012fa5e" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1766" YCoordinate="610" />
+              <Coordinates XCoordinate="1850" YCoordinate="610" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="401ecbe6-5a1b-430d-9975-e58dc988678c" From="45ff6621-d343-40ec-98fd-80bfb012fa5e" To="81a5bb06-208d-40e2-bbc5-7f313d6c74a3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1895" YCoordinate="640" />
+              <Coordinates XCoordinate="1895" YCoordinate="718.30767822265625" />
+              <Coordinates XCoordinate="262" YCoordinate="718.30767822265625" />
+              <Coordinates XCoordinate="262" YCoordinate="762" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="05e89721-cbf6-49ba-9891-001d773c5139" From="a879fc1e-214d-4cab-a7be-b9b15c894c10" To="12f57591-a76c-452e-9890-008cb09062b4" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="755" YCoordinate="849" />
+              <Coordinates XCoordinate="816" YCoordinate="849" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6f9a9539-63c1-4038-9b5b-e4167288a176" From="12f57591-a76c-452e-9890-008cb09062b4" To="5cb1ac73-40cf-4c48-9680-95cf5596413c" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="906" YCoordinate="849" />
+              <Coordinates XCoordinate="954" YCoordinate="849" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bb9d30d1-af6f-4038-bcc0-2fdacc36c9ea" From="5cb1ac73-40cf-4c48-9680-95cf5596413c" To="fe4bad8e-c96c-4605-9319-4ed79b5f57a3" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1254" YCoordinate="849" />
+              <Coordinates XCoordinate="1360" YCoordinate="849" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e8536f10-7ce5-4463-9a9c-ae515a82aa00" From="fe4bad8e-c96c-4605-9319-4ed79b5f57a3" To="6fcb3914-a759-413f-8ec1-da565498cd02" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1450" YCoordinate="849" />
+              <Coordinates XCoordinate="1465" YCoordinate="849" />
+              <Coordinates XCoordinate="1465" YCoordinate="875" />
+              <Coordinates XCoordinate="1480" YCoordinate="875" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="f83c3f08-186d-4c4a-9747-de379f60498a" From="2b1db7cb-7fd0-4b57-aaf3-98d7d9b7457a" To="fcdfd136-d3e6-4d84-a109-adc0736cac67" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="730" YCoordinate="369" />
+              <Coordinates XCoordinate="769" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d135ab47-26c2-429e-9068-4da1b86e1f9b" From="fcdfd136-d3e6-4d84-a109-adc0736cac67" To="3c133239-2b29-4cc3-8ebc-007617b9523b" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="859" YCoordinate="369" />
+              <Coordinates XCoordinate="908" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a5d07c1f-e3fa-444c-90e3-01e1941e2e59" From="92e0f998-073b-4070-88d0-3a3dafc8dddc" To="b2651027-e93a-498d-b835-8ed07feb50f6" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="365" YCoordinate="118" />
+              <Coordinates XCoordinate="480" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7eebcd85-8f15-426b-a145-981d0903a7ff" From="b2651027-e93a-498d-b835-8ed07feb50f6" To="50302f9c-2255-49e4-8904-b083b1a65d9f" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="570" YCoordinate="118" />
+              <Coordinates XCoordinate="660" YCoordinate="118" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4876db7d-1826-4bb6-8486-6297d24b67e3" From="ee1aaa4a-37d5-4893-9630-3e6261d5b825" To="195ed2be-55f6-44f3-8f50-e5ff6d5a1eee" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2022" YCoordinate="965" />
+              <Coordinates XCoordinate="2022" YCoordinate="982" />
+              <Coordinates XCoordinate="280" YCoordinate="982" />
+              <Coordinates XCoordinate="280" YCoordinate="999" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="61d64396-d9b3-49bf-8aa4-e026e0b1872c" From="195ed2be-55f6-44f3-8f50-e5ff6d5a1eee" To="206746e9-03a4-43dc-baa4-6c8503777755" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="430" YCoordinate="1089" />
+              <Coordinates XCoordinate="531" YCoordinate="1089" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="92acf6e6-365e-4911-96af-6df4f1aa727f" From="206746e9-03a4-43dc-baa4-6c8503777755" To="b84e9817-6f30-4c17-85d1-0eeedf2a8212" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="621" YCoordinate="1089" />
+              <Coordinates XCoordinate="688" YCoordinate="1089" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="da357487-9804-49f2-be9a-72074c8da122" From="b84e9817-6f30-4c17-85d1-0eeedf2a8212" To="b74bc95b-d561-49c7-9118-c7b0e1353d5a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="931" YCoordinate="1089" />
+              <Coordinates XCoordinate="1001" YCoordinate="1089" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b90917ff-afde-4458-acb0-a6c15f143c32" From="b74bc95b-d561-49c7-9118-c7b0e1353d5a" To="44541b98-6354-489f-a9e6-63ad11417c4a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1301" YCoordinate="1089" />
+              <Coordinates XCoordinate="1445" YCoordinate="1089" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6da30bad-3346-4ed6-9604-316d2aeb8261" From="3c133239-2b29-4cc3-8ebc-007617b9523b" To="0f4a294e-9088-4a53-ada7-183c13248eee" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1208" YCoordinate="369" />
+              <Coordinates XCoordinate="1260" YCoordinate="369" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0ce31067-5318-40d4-a4b3-6b09b58863da" From="14bcf3a3-b0e7-415c-8589-99a5035b86c5" To="f8f1d3f2-3849-49ce-beda-e75b410912a1" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1915" YCoordinate="431" />
+              <Coordinates XCoordinate="1915" YCoordinate="491" />
+              <Coordinates XCoordinate="298" YCoordinate="491" />
+              <Coordinates XCoordinate="298" YCoordinate="533" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
