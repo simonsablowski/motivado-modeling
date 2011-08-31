@@ -3,9 +3,10 @@
   <PackageHeader>
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
-    <Created>2011-06-28T16:29:48.948+02:00</Created>
+    <Created>2011-06-28T16:29:28.569+02:00</Created>
     <Description>bez-lk-1</Description>
     <Documentation />
+    <Modifications />
   </PackageHeader>
   <RedefinableHeader>
     <Author />
@@ -18,7 +19,7 @@
     <Pool Id="66cc1512-a937-43ab-9a2c-7ca11c786aaa" Name="Main Process" Process="53c62fe7-aa4b-41d9-b951-45a3164dcc9f" BoundaryVisible="false">
       <Lanes />
       <NodeGraphicsInfos>
-        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" FillColor="-1">
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
           <Coordinates XCoordinate="0" YCoordinate="0" />
         </NodeGraphicsInfo>
       </NodeGraphicsInfos>
@@ -26,7 +27,7 @@
     <Pool Id="ea9942b6-3a17-4550-b1be-a8ce2011dc40" Name="Liebeskummer A" Process="472c972c-bc71-4ef9-bd07-81be575a6327" BoundaryVisible="true">
       <Lanes />
       <NodeGraphicsInfos>
-        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="767" Width="1818" BorderColor="-16777216" FillColor="-1">
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="767" Width="1818" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
           <Coordinates XCoordinate="0" YCoordinate="0" />
         </NodeGraphicsInfo>
       </NodeGraphicsInfos>
@@ -38,7 +39,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="53c62fe7-aa4b-41d9-b951-45a3164dcc9f" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-06-28T16:29:48.948+02:00</Created>
+        <Created>2011-08-31T15:31:31.5146485+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -53,7 +54,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="472c972c-bc71-4ef9-bd07-81be575a6327" Name="Liebeskummer A">
       <ProcessHeader>
-        <Created>2011-06-28T16:29:48.948+02:00</Created>
+        <Created>2011-08-31T15:31:31.5166016+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -78,7 +79,7 @@
             <ExtendedAttribute Name="Attachment" />
           </ExtendedAttributes>
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="518" YCoordinate="17" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -86,14 +87,12 @@
         <Activity Id="a8c159f4-3422-45a0-b884-91093d75e3eb" Name="Mit Liebeskummer umgehen">
           <Description>In diesem Coaching zeigen wir Ihnen, was Sie tun können, damit es Ihnen schnell wieder besser geht.</Description>
           <Event>
-            <StartEvent Trigger="Signal">
-              <TriggerResultSignal />
-            </StartEvent>
+            <StartEvent Trigger="None" />
           </Event>
           <Documentation>In diesem Coaching zeigen wir Ihnen, was Sie tun können, damit es Ihnen schnell wieder besser geht.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" FillColor="-1638505">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
               <Coordinates XCoordinate="80" YCoordinate="92" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -101,32 +100,28 @@
         <Activity Id="7cdfb7cc-b3d5-4ccf-a137-4275f377dfb4" Name="">
           <Description />
           <Event>
-            <EndEvent Result="Signal">
-              <TriggerResultSignal CatchThrow="THROW" />
-            </EndEvent>
+            <EndEvent />
           </Event>
           <Documentation />
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" FillColor="-1135958">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
               <Coordinates XCoordinate="1326" YCoordinate="541" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="bdd73d03-f7f7-459d-a49e-25b5339693cd" Name="Bitte schreiben Sie nun alles auf, was Ihnen einfällt. Je mehr, desto besser!">
-          <Description>$List:rel_lkBasics_feelGood("video":{"url":"REL_Liebeskummer_A_V12.flv"},"items":3)
-</Description>
+          <Description>$List:rel_lkBasics_feelGood("video":{"url":"REL_Liebeskummer_A_V12.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":18}],"items":3)</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$List:rel_lkBasics_feelGood("video":{"url":"REL_Liebeskummer_A_V12.flv"},"items":3)
-</Documentation>
+          <Documentation>$List:rel_lkBasics_feelGood("video":{"url":"REL_Liebeskummer_A_V12.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":18}],"items":3)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="104" Width="167" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="104" Width="167" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1309" YCoordinate="279" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -142,7 +137,7 @@
           <Documentation>$List:rel_lkBasics_feelGood("video":{"url":"REL_Liebeskummer_A_V13.flv"},"items":3)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="123" Width="200" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="123" Width="200" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1529" YCoordinate="269.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -158,7 +153,7 @@
           <Documentation>$List:rel_lkBasics_letPainGo("video":{"url":"REL_Liebeskummer_A_V9A.flv"},"items":3)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="82" Width="179" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="82" Width="179" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="618" YCoordinate="290" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -174,7 +169,7 @@
           <Documentation>$List:rel_lkBasics_letPainGo("video":{"url":"REL_Liebeskummer_A_V10.flv"},"items":3)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="93" Width="155" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="93" Width="155" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="852" YCoordinate="284.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -192,7 +187,7 @@
           <Documentation />
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="139" Width="209" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="139" Width="209" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="345" YCoordinate="488.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -210,7 +205,7 @@
           <Documentation />
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="107" Width="147" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="107" Width="147" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="148" YCoordinate="53.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -228,7 +223,7 @@
           <Documentation />
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="112" Width="109" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="112" Width="109" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1173" YCoordinate="500" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -244,7 +239,7 @@
           <Documentation>$DocumentDownload("video":{"url":"REL_Liebeskummer_A_V14.flv"},"documents":[{"name":"Aktivitätenplan Beispiel","file":"LK_Aktivitaetenplan1_Beispiel.pdf"},{"name":"Aktivitätenplan Vorlage","file":"LK_Aktivitaetenplan1_Vorlage.pdf"}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="162" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="119" Width="162" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="110" YCoordinate="498.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -260,7 +255,7 @@
           <Documentation>$TextArea:rel_lkA_coachingBuddy()</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="163" Width="300" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="163" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="714" YCoordinate="474.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -280,7 +275,7 @@
 </Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="361" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -296,7 +291,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V2A.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="896" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -312,7 +307,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V3.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1005" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -328,7 +323,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V4.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1113" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -344,7 +339,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V5.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1216" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -360,7 +355,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V6.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1342" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -376,7 +371,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V6A.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1461" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -392,7 +387,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V7.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1563" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -408,7 +403,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V17.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1682" YCoordinate="77" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -424,7 +419,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V18.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="86" YCoordinate="298" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -440,7 +435,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V19.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="227" YCoordinate="298" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -456,7 +451,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V20.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="355" YCoordinate="298" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -472,7 +467,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V8.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="482" YCoordinate="301" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -488,7 +483,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V11.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1045" YCoordinate="301" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -504,7 +499,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V15.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="586" YCoordinate="526" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
@@ -520,7 +515,7 @@
           <Documentation>$Video("video":{"url":"REL_Liebeskummer_A_V16.flv"})</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281">
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1033" YCoordinate="526" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>

@@ -4,11 +4,14 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-08-17T12:08:43.2011719+02:00</Created>
-    <ModificationDate>2011-08-17T12:10:20.6269531+02:00</ModificationDate>
+    <ModificationDate>2011-08-31T14:35:13.515625+02:00</ModificationDate>
     <Description>bez-balance-weniger</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-08-17T10:10:20.6269531Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-17T14:56:09.2353516Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-17T15:21:19.1416016Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-31T12:35:13.515625Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -42,7 +45,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="a01d9a50-e704-4277-9a11-ec944dfe22d9" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-17T16:54:11.7617188+02:00</Created>
+        <Created>2011-08-31T14:35:18.8730469+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -57,7 +60,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="912c5a3c-132e-4464-9476-53238d814355" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-17T16:54:11.7617188+02:00</Created>
+        <Created>2011-08-31T14:35:18.8730469+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -142,16 +145,14 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="f5ee454d-996a-4be4-b747-8bed9436824e" Name="Übung: &#xA;Wie sind Ihre Visionen für Ihre Beziehung in einem Jahr?">
-          <Description>$Text("video":{"url":"REL_BalanceWen_V3.flv"})
-</Description>
+          <Description>$Text("video":{"url":"REL_BalanceWen_V3.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":148}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_BalanceWen_V3.flv"})
-</Documentation>
+          <Documentation>$Text("video":{"url":"REL_BalanceWen_V3.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":148}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="72" Width="252" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -242,7 +243,7 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="0e907a29-f532-4266-854e-9c5edc434b30" Name="Übung:&#xA;&#xA; 1.) Überlegen Sie jetzt WANN Sie mit Ihrem Partner über die schönen Dinge Ihrer Beziehung sprechen wollen und tragen Sie den Termin ein.&#xA; &#xA; &#xA; 2.) Sammeln Sie die schönen Erinnerungen und guten oder besonderen Dinge, die Ihnen spontan einfallen (Dauer 1 Minute)&#xA; &#xA; Dann klicken Sie auf weiter.&#xA;">
-          <Description>$Text("video":{"url":"REL_BalanceWen_V11.flv"})
+          <Description>$Text("video":{"url":"REL_BalanceWen_V11.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":4}])
 </Description>
           <Implementation>
             <Task>
@@ -250,7 +251,7 @@
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_BalanceWen_V11.flv"})
+          <Documentation>$Text("video":{"url":"REL_BalanceWen_V11.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":4}])
 </Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
@@ -292,20 +293,18 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="f20b2854-b47a-45b8-b33f-88975f527d6c" Name="Drei Aufmerksamkeiten für Ihren Partner planen">
-          <Description>$Text("video":{"url":"REL_BalanceWen_V14.flv"})
-Aufgabe: Überlegen Sie drei Minuten welche kleine Aufmerksamkeit Sie Ihrem Partner jetzt machen könnten. Planen Sie diese mit Ihrem Kalender ein. Und setzen Sie einen Punkt jetzt schon um.
+          <Description>Aufgabe: Überlegen Sie drei Minuten welche kleine Aufmerksamkeit Sie Ihrem Partner jetzt machen könnten. Planen Sie diese mit Ihrem Kalender ein. Und setzen Sie einen Punkt jetzt schon um.
 
-</Description>
+$Text("video":{"url":"REL_BalanceWen_V14.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":13}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_BalanceWen_V14.flv"})
-Aufgabe: Überlegen Sie drei Minuten welche kleine Aufmerksamkeit Sie Ihrem Partner jetzt machen könnten. Planen Sie diese mit Ihrem Kalender ein. Und setzen Sie einen Punkt jetzt schon um.
+          <Documentation>Aufgabe: Überlegen Sie drei Minuten welche kleine Aufmerksamkeit Sie Ihrem Partner jetzt machen könnten. Planen Sie diese mit Ihrem Kalender ein. Und setzen Sie einen Punkt jetzt schon um.
 
-</Documentation>
+$Text("video":{"url":"REL_BalanceWen_V14.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":13}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="127" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">

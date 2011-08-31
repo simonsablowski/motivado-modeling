@@ -4,12 +4,13 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-08-17T12:07:01.1845703+02:00</Created>
-    <ModificationDate>2011-08-17T16:13:27.3720703+02:00</ModificationDate>
+    <ModificationDate>2011-08-31T14:13:27.2021485+02:00</ModificationDate>
     <Description>bez-balance-mehr2</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-08-17T10:08:11.8876953Z" UserName="modellierung-pc_modellierung" />
       <Modification Date="2011-08-17T14:13:27.3720703Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-31T12:13:27.2021485Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -43,7 +44,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="5074e708-81e0-4d1e-a4d6-be74979db76e" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-17T16:13:34.1943359+02:00</Created>
+        <Created>2011-08-31T14:13:35.1865235+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -58,7 +59,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="596a960f-ec94-42c5-b1da-6555097c41ba" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-17T16:13:34.1943359+02:00</Created>
+        <Created>2011-08-31T14:13:35.1865235+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -194,14 +195,14 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="f1446a94-f1a9-4acc-a1b0-be1da35ba627" Name="Haben Sie das Gefühl, sich mit dem Anderen zu selten zu treffen?">
-          <Description>REL_BalanceMehr_V16.flv</Description>
+          <Description>$Options("video":{"url":"REL_BalanceMehr_V16.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":13}])</Description>
           <Implementation>
             <Task>
               <TaskReference />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>REL_BalanceMehr_V16.flv</Documentation>
+          <Documentation>$Options("video":{"url":"REL_BalanceMehr_V16.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":13}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
@@ -228,14 +229,14 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="a6d9331b-4340-4d5e-8fb2-c1dec326d9d4" Name="Wollen Sie mehr Nähe beim Einschlafen, im Bett? Bzw. wollen Sie das Teil-Coaching dazu?">
-          <Description>REL_BalanceMehr_V18.flv</Description>
+          <Description>$Options("video":{"url":"REL_BalanceMehr_V18.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":16}])</Description>
           <Implementation>
             <Task>
               <TaskReference />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>REL_BalanceMehr_V18.flv</Documentation>
+          <Documentation>$Options("video":{"url":"REL_BalanceMehr_V18.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":16}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="66" Width="300" BorderColor="-15858" BorderVisible="false" FillColor="-15858">
@@ -328,7 +329,7 @@
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="460" YCoordinate="75" />
+              <Coordinates XCoordinate="460" YCoordinate="72" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -463,7 +464,7 @@
         <Activity Id="4e8cbf2c-ca1d-4a4d-a6b6-6269cfda7e91" Name="Mehr genießen, was Sie haben">
           <Description>1. Aufgabe: Ziel ist mehr Dankbarkeit für Ihre Beziehung und mehr Freiheit für Ihren Partner zu spüren. Dazu gehört, sämtliche Punkte zu finden, die an dieser Beziehung, diesem Partner besonders schön und gut sind.
 
-$TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.flv"})
+$TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":69}])
 </Description>
           <Implementation>
             <Task>
@@ -473,7 +474,7 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
           <Performers />
           <Documentation>1. Aufgabe: Ziel ist mehr Dankbarkeit für Ihre Beziehung und mehr Freiheit für Ihren Partner zu spüren. Dazu gehört, sämtliche Punkte zu finden, die an dieser Beziehung, diesem Partner besonders schön und gut sind.
 
-$TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.flv"})
+$TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":69}])
 </Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
@@ -499,18 +500,16 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="93f02706-d236-43ac-b9a4-735c6d86e1ad" Name="Umsetzung der Strategien für Ihre Beziehung">
-          <Description>$Text("video":{"url":"REL_BalanceMehr_V27.flv"})
-2. Aufgabe: Versuchen Sie die vorgestellten Strategien, die für Ihre Beziehung passen könnten. Versuchen Sie sie länger aus! Und verlieren Sie nie ein Lachen, auch wenn Sie dazu zu unseren Tricks greifen müssen.
-</Description>
+          <Description>2. Aufgabe: Versuchen Sie die vorgestellten Strategien, die für Ihre Beziehung passen könnten. Versuchen Sie sie länger aus! Und verlieren Sie nie ein Lachen, auch wenn Sie dazu zu unseren Tricks greifen müssen.
+$Text("video":{"url":"REL_BalanceM ehr_V27.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":48}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_BalanceMehr_V27.flv"})
-2. Aufgabe: Versuchen Sie die vorgestellten Strategien, die für Ihre Beziehung passen könnten. Versuchen Sie sie länger aus! Und verlieren Sie nie ein Lachen, auch wenn Sie dazu zu unseren Tricks greifen müssen.
-</Documentation>
+          <Documentation>2. Aufgabe: Versuchen Sie die vorgestellten Strategien, die für Ihre Beziehung passen könnten. Versuchen Sie sie länger aus! Und verlieren Sie nie ein Lachen, auch wenn Sie dazu zu unseren Tricks greifen müssen.
+$Text("video":{"url":"REL_BalanceM ehr_V27.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":48}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="172" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -555,7 +554,7 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="5">
               <Coordinates XCoordinate="398" YCoordinate="163" />
               <Coordinates XCoordinate="470" YCoordinate="163" />
-              <Coordinates XCoordinate="470" YCoordinate="135" />
+              <Coordinates XCoordinate="470" YCoordinate="132" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -565,7 +564,7 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="8" ToPort="16">
-              <Coordinates XCoordinate="539" YCoordinate="135" />
+              <Coordinates XCoordinate="539" YCoordinate="132" />
               <Coordinates XCoordinate="539" YCoordinate="149" />
               <Coordinates XCoordinate="564" YCoordinate="149" />
               <Coordinates XCoordinate="564" YCoordinate="125" />
@@ -781,8 +780,8 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" ToPort="16">
               <Coordinates XCoordinate="742" YCoordinate="102" />
               <Coordinates XCoordinate="893.5" YCoordinate="102" />
-              <Coordinates XCoordinate="893.5" YCoordinate="127" />
-              <Coordinates XCoordinate="1026" YCoordinate="127" />
+              <Coordinates XCoordinate="893.5" YCoordinate="125" />
+              <Coordinates XCoordinate="1026" YCoordinate="125" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -840,8 +839,8 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="20">
-              <Coordinates XCoordinate="1116" YCoordinate="127" />
-              <Coordinates XCoordinate="1285" YCoordinate="127" />
+              <Coordinates XCoordinate="1116" YCoordinate="125" />
+              <Coordinates XCoordinate="1285" YCoordinate="125" />
               <Coordinates XCoordinate="1285" YCoordinate="164" />
               <Coordinates XCoordinate="1478" YCoordinate="164" />
             </ConnectorGraphicsInfo>
@@ -867,8 +866,7 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="5">
               <Coordinates XCoordinate="205" YCoordinate="1001" />
-              <Coordinates XCoordinate="356" YCoordinate="1001" />
-              <Coordinates XCoordinate="356" YCoordinate="1050" />
+              <Coordinates XCoordinate="205" YCoordinate="1050" />
               <Coordinates XCoordinate="397" YCoordinate="1050" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -893,8 +891,8 @@ $TextArea:rel_balance_mehr2_schoeneaspekte("video":{"url":"REL_BalanceMehr_V26.f
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1571" YCoordinate="254" />
-              <Coordinates XCoordinate="1571" YCoordinate="334" />
-              <Coordinates XCoordinate="460" YCoordinate="334" />
+              <Coordinates XCoordinate="1571" YCoordinate="307.5" />
+              <Coordinates XCoordinate="460" YCoordinate="307.5" />
               <Coordinates XCoordinate="460" YCoordinate="361" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>

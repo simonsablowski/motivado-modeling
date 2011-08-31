@@ -4,11 +4,12 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-08-19T18:40:26.4970703+02:00</Created>
-    <ModificationDate>2011-08-19T18:42:55.8935546+02:00</ModificationDate>
+    <ModificationDate>2011-08-22T11:30:53.1269531+02:00</ModificationDate>
     <Description>bez-ex-check</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-08-19T16:42:45.0478515Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-22T09:30:53.1269531Z" UserName="modellierung-pc_modellierung" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -42,7 +43,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="206603cd-fb5e-4bde-bea3-a89ef434c3f3" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-22T11:30:15.0888671+02:00</Created>
+        <Created>2011-08-31T16:01:44.7617188+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -57,7 +58,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="cd4b3713-c28c-4f36-9ab6-914e4708cda9" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-22T11:30:15.0888671+02:00</Created>
+        <Created>2011-08-31T16:01:44.7636719+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -580,14 +581,14 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="fbe63450-d723-44e1-9e8b-f21f1e924e52" Name="Gehen wir einen Schritt weiter: Wissen Sie, was sich Ihr Ex-Partner von Ihnen gewünscht hatte, bzw. worauf er oder sie Wert legte? Kennen Sie diese Wunschliste?">
-          <Description>readPartner</Description>
+          <Description>$Options:bez_ex-check_readPartner()</Description>
           <Implementation>
             <Task>
               <TaskReference />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>readPartner</Documentation>
+          <Documentation>$Options:bez_ex-check_readPartner()</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="80" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
