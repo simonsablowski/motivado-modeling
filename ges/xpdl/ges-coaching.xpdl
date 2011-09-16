@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="a65d8511-4a19-4628-94d0-06fd6d8bba17" Name="ges-coaching" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-08-26T15:11:30.805+02:00</Created>
+    <ModificationDate>2011-09-16T11:43:45.74+02:00</ModificationDate>
+    <Description>ges-coaching</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-08-30T09:11:49.784Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-09-16T09:43:45.74Z" UserName="vaio_motivado_motivado" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>MOTIVADO</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="61e4e722-dc2a-4db0-a4c2-7cad01997cfd" Name="Main Process" Process="5063cc0a-8c2b-4da8-b227-16c171929433" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="54c99633-90f1-4ad7-b041-9ac53f456386" Name="Process 1" Process="53eebca7-7344-44e0-9930-c8589dd61b14" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="5063cc0a-8c2b-4da8-b227-16c171929433" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-09-16T11:44:32.03+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="53eebca7-7344-44e0-9930-c8589dd61b14" Name="Process 1">
+      <ProcessHeader>
+        <Created>2011-09-16T11:44:32.03+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="939b8333-e4f1-4e17-abed-e362525c7601" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="true" FillColor="-1638505">
+              <Coordinates XCoordinate="154" YCoordinate="80" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="2b43e024-9a56-43df-9416-3d209a515de7" Name="Dieses Coaching befindet sich noch im Aufbau.  Bitte wenden Sie sich telefonisch oder per E-Mail an unsere Experten. Wir sind für Sie da!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="150" Width="300" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="283" YCoordinate="129" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4e7534ba-08c7-4b3b-bfb0-2a8741901142" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="642" YCoordinate="301" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="5f392cd7-c5e3-4b76-bb34-52d682f1ba07" From="939b8333-e4f1-4e17-abed-e362525c7601" To="2b43e024-9a56-43df-9416-3d209a515de7">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="184" YCoordinate="95" />
+              <Coordinates XCoordinate="246.5" YCoordinate="95" />
+              <Coordinates XCoordinate="246.5" YCoordinate="204" />
+              <Coordinates XCoordinate="283" YCoordinate="204" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3ab060f9-819a-4c74-a585-dbad1f34b34a" From="2b43e024-9a56-43df-9416-3d209a515de7" To="4e7534ba-08c7-4b3b-bfb0-2a8741901142">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="583" YCoordinate="204" />
+              <Coordinates XCoordinate="612.5" YCoordinate="204" />
+              <Coordinates XCoordinate="612.5" YCoordinate="316" />
+              <Coordinates XCoordinate="642" YCoordinate="316" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
