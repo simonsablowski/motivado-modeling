@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4" Name="slc-hilfsmittel" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-11-05T12:48:59.4597312+01:00</Created>
+    <ModificationDate>2011-09-05T14:46:25.0039062+02:00</ModificationDate>
+    <Description>slc-hilfsmittel</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-09-05T12:26:27.1132812Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-09-05T12:46:25.0039062Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="2e616130-f203-49d3-b76e-28c8a57b9610" Name="Main Process" Process="a8db0862-4346-4c54-ab5d-876400b88c2f" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="f991faef-f5fe-4880-8342-88a52482718e" Name="Einschlafhilfen" Process="94483b9e-b05b-41a1-b300-90abd96b822f" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="1348" Width="2213" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="a8db0862-4346-4c54-ab5d-876400b88c2f" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-09-05T14:46:29.0615234+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="94483b9e-b05b-41a1-b300-90abd96b822f" Name="Einschlafhilfen">
+      <ProcessHeader>
+        <Created>2011-09-05T14:46:29.0615234+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="b0d9b328-ebd3-46a5-ae44-e29d5f51ecc4" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="72" YCoordinate="13" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9506b5e2-8ec6-412f-9c04-f18cf8f3a463" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1902" YCoordinate="544" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4b387466-11bb-4733-8486-9078a51786af" Name="">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\4b387466-11bb-4733-8486-9078a51786af\06_01_einleitung.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="144" YCoordinate="33" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" Name="Hier finden Sie die pflanzlichen Produkte, für die die meisten positiven Erfahrungen und nachgewiesenen Wirksamkeiten vorliegen.">
+          <Description>$Options("video":{"url":"SLC_Hilfsmittel_V2.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Options("video":{"url":"SLC_Hilfsmittel_V2.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="206" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="821" YCoordinate="60" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e40b605e-37b5-4ebd-8557-95e6c53b06af" Name="Weiter">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="45" Width="50" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1893" YCoordinate="209" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="ca92f906-0fa5-43d0-a593-d8bf6f920246" Name="Zurück">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="43" Width="50" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1586" YCoordinate="19" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="Zurück zur Auswahl oder weiter?">
+          <Description>$Options("video":{"url":"SLC_Hilfsmittel_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskReference />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Options("video":{"url":"SLC_Hilfsmittel_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="73" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1566" YCoordinate="120" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9e69aedd-2f4d-4eb0-9daa-7b830395f9ec" Name="Naturheilkundliche Hilfsmittel - Baldrian&#xA;&#xA;Empfehlung&#xA;Baldrian (Valeriana officinalis).Was steckt dahinter?&#xA;Schon seit der griechischen Antike werden Baldraintropfen zur Beruhigung und vor allen Dingen Schlafförderung gegeben.&#xA;Inzwischen konnte wissenschaftlich nachgewiesen werden, dass das sogenannte Lignan, ein Inhaltsstoff des Baldrian im Gehirn als Gegenspieler des Koffeins wirkt, was seine schlaffördernde Wirkung erklärt.&#xA;&#xA;Einnahme&#xA;Um eine spürbaren Effekt zu bekommen, wird eine Tagesdosis von 2-3g empfohlen.&#xA;Dazu gibt es frei verkäuflich Dragees, Badezusätze und Tees.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\9e69aedd-2f4d-4eb0-9daa-7b830395f9ec\06_03_baldrian.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="158" Width="286" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1222" YCoordinate="224" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9e88907c-72db-40ee-bfca-9795b8989254" Name="Naturheilkundliche Hilfsmittel - Passionsblume&#xA;&#xA;Empfehlung&#xA;Passionsblume (Passiflora).Was steckt dahinter?&#xA;Eine ebenfalls seit Jahrhunderten bekannte Heilpflanze. &#xA;&#xA;Einnahme&#xA;Als Tee oder Tinktur 30 Minuten vor dem zu Bett gehen getrunken, wirkt auch sie schlaffördernd.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\9e88907c-72db-40ee-bfca-9795b8989254\06_04_passionsblume.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="96" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1224" YCoordinate="402" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="374c12d4-fd5d-4609-b27f-064f4f03c1d0" Name="Naturheilkundliche Hilfsmittel - Omas Rezept&#xA;&#xA;Empfehlung&#xA;Neben warmem Bier(!), warmer Milch mit Honig, hat sich besonders folgende Rezeptur bewährt: &#xA;&#xA;Teemischung gegen Schlaflosigkeit: &#xA;&#xA;    * Angelikawurzel 20,0 g&#xA;    * Rosmarinblätter 10,0 g&#xA;    * Melissenblätter 30,0 g&#xA;    * Lavendelblüten 10,0 g&#xA;    * Hopfendolden 20,0 g&#xA;    * Schafgarbenkraut 10,0 &#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\374c12d4-fd5d-4609-b27f-064f4f03c1d0\06_07_omas_rezept.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="167" Width="251" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1226" YCoordinate="837" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="56f81ed4-5a55-4b2a-a762-c4ca0003870a" Name="Naturheilkundliche Hilfsmittel - Hopfen&#xA;&#xA;Empfehlung&#xA;Hopfen (Humulus lupulus). Was steckt dahinter?&#xA;Hopfen ist eine der ältesten menschlichen Kulturpflanzen und wird neben der Bierherstellung für eine Vielzahl an medizinischen Indikationen verwendet.&#xA;&#xA;Die sogenannten Hopfendolden haben verschiedene wirksame Inhaltsstoffen, von denen uns jedoch nur die Harze mit den Hopfenbittersäuren Humulon und Lupulon interessieren, da diesen die beruhigende und schlaffördernde Wirkung zugeschrieben wird.&#xA;&#xA;Einnahme&#xA;Hopfen wird als Tee-Aufguss ca. 30 Minuten vor dem Schlafengehen genossen. 5 Minuten ziehen lassen.&#xA;&#xA;P.S.:&#xA;Hopfen können Sie selbst anbauen oder in Apotheken und Reformhäusern kaufen.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\56f81ed4-5a55-4b2a-a762-c4ca0003870a\06_02_hopfen.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1208" YCoordinate="14" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="aefef743-4b01-4fc3-aa06-4a1156a13ea8" Name="Omas Rezept">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1061" YCoordinate="853" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1bfc656d-9069-4028-9356-72bbec992f12" Name="Kawain">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1062" YCoordinate="729.5" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="cf256367-73a6-4263-8e3f-7ce28ee8f902" Name="Naturheilkundliche Hilfsmittel - Kawain&#xA;&#xA;Empfehlung&#xA;Kawain (Extractum Kava) und Kamille. Was steckt dahinter?&#xA;Kawain und Kamille sind weitere Pflanzen, denen, zwar geringere, aber trotz allem schlaffördernde Wirkungen zugeschrieben werden.&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\cf256367-73a6-4263-8e3f-7ce28ee8f902\06_06_kawain.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="83" Width="291" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1223" YCoordinate="718" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="01bc3393-ded7-44d3-a979-d640078209d8" Name="Naturheilkundliche Hilfsmittel - Melisse&#xA;&#xA;Empfehlung&#xA;Melisse (Mellissa officinalis).Was steckt dahinter?&#xA;Melisse wird in Deutschland auch als Zitronenmelisse bezeichnet.&#xA;Diese Pflanze wird seit der Antike als Beruhigungsmittel und Schlafmedikament verwendet. Melisse gibt es bereits als fertige Teemischungen im Supermarkt, meistens ist der tatsächliche Gehalt an Melisse dort eher gering.&#xA;Besser ist es daher Sie kaufen sich frische Melisse.&#xA;&#xA;Einnahme&#xA;5 Minuten Tee-Aufguss, den Sie 30 Minuten vor dem zu Bett gehen trinken sollten.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\01bc3393-ded7-44d3-a979-d640078209d8\06_05_melisse.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="230" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1221" YCoordinate="521" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="82e51906-85ba-494c-be39-832d30837cff" Name="Melisse">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1064" YCoordinate="581" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a92f9f4f-e3ca-48d9-b352-3ad4a7aff4f3" Name="Passionsblume">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1059" YCoordinate="420" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="719c5796-e753-4505-8bae-6581a12acb76" Name="Baldrian">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1060" YCoordinate="273" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="69569fde-5482-464e-a3a9-3c13201fdce1" Name="Hopfen">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1059" YCoordinate="74" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="702cba1a-5d03-4bce-afe0-fca2b901b316" Name="">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Attachment" Value="C:\Users\Modellierung\AppData\Local\Temp\BPM\b4d1915b-0440-4aa6-8325-52bb900b2e3b\95bd3cdb-cc7d-4a45-83ba-1b28b33b84a4\Files\702cba1a-5d03-4bce-afe0-fca2b901b316\06_10_Outro_hilfsmittel.txt" />
+          </ExtendedAttributes>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="1799.4444580078125" YCoordinate="292.22222900390625" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="d80452c6-6021-4374-81a7-346cf755c0f7" Name="Intro">
+          <Description>$Video("video":{"url":"SLC_Hilfsmittel_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"SLC_Hilfsmittel_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="406" YCoordinate="110.74073791503906" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bd4435f1-35bd-449f-b58d-a4a2b4e2f7bb" Name="Outro">
+          <Description>$Video("video":{"url":"SLC_Hilfsmittel_V4.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"SLC_Hilfsmittel_V4.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1872" YCoordinate="382" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="fd5abbbb-bf19-4d5d-8dd3-45e244f795bd" From="b0d9b328-ebd3-46a5-ae44-e29d5f51ecc4" To="d80452c6-6021-4374-81a7-346cf755c0f7" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="102" YCoordinate="28" />
+              <Coordinates XCoordinate="131" YCoordinate="28" />
+              <Coordinates XCoordinate="131" YCoordinate="140" />
+              <Coordinates XCoordinate="406" YCoordinate="140" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="453ed4b2-a841-4612-b098-7669f275967d" From="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" To="69569fde-5482-464e-a3a9-3c13201fdce1" Name="1">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1027" YCoordinate="104" />
+              <Coordinates XCoordinate="1059" YCoordinate="104" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bf6c6da2-6f14-4fa8-94a6-fc2116f865eb" From="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" To="719c5796-e753-4505-8bae-6581a12acb76" Name="2">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="924" YCoordinate="148" />
+              <Coordinates XCoordinate="924" YCoordinate="303" />
+              <Coordinates XCoordinate="1060" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="7fe7f1f1-c094-452d-97c0-fe02ddb25d21" From="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" To="a92f9f4f-e3ca-48d9-b352-3ad4a7aff4f3" Name="3">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="924" YCoordinate="148" />
+              <Coordinates XCoordinate="924" YCoordinate="450" />
+              <Coordinates XCoordinate="1059" YCoordinate="450" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="84aac239-258f-4762-8746-11cc9bbd1557" From="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" To="aefef743-4b01-4fc3-aa06-4a1156a13ea8" Name="6">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0" FromPort="4">
+              <Coordinates XCoordinate="1027" YCoordinate="104" />
+              <Coordinates XCoordinate="1044" YCoordinate="104" />
+              <Coordinates XCoordinate="1044" YCoordinate="883" />
+              <Coordinates XCoordinate="1061" YCoordinate="883" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="319ffa6f-46f2-4b1a-a53e-ca8f9e60f89c" From="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" To="e40b605e-37b5-4ebd-8557-95e6c53b06af" Name="2">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1656" YCoordinate="156" />
+              <Coordinates XCoordinate="1774.5" YCoordinate="156" />
+              <Coordinates XCoordinate="1774.5" YCoordinate="231" />
+              <Coordinates XCoordinate="1893" YCoordinate="231" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="06cc7805-a88d-4cb4-a960-6054d04543ea" From="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" To="ca92f906-0fa5-43d0-a593-d8bf6f920246" Name="1">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1611" YCoordinate="120" />
+              <Coordinates XCoordinate="1611" YCoordinate="62" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="14052fca-da1d-418a-8cc8-edf20e14db4f" From="e40b605e-37b5-4ebd-8557-95e6c53b06af" To="bd4435f1-35bd-449f-b58d-a4a2b4e2f7bb" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1918" YCoordinate="254" />
+              <Coordinates XCoordinate="1918" YCoordinate="366.22222900390625" />
+              <Coordinates XCoordinate="1917" YCoordinate="366.22222900390625" />
+              <Coordinates XCoordinate="1917" YCoordinate="382" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fdfde6a2-4722-48be-8f0c-da6725f19e9c" From="9e69aedd-2f4d-4eb0-9daa-7b830395f9ec" To="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1508" YCoordinate="303" />
+              <Coordinates XCoordinate="1536.5" YCoordinate="303" />
+              <Coordinates XCoordinate="1536.5" YCoordinate="156" />
+              <Coordinates XCoordinate="1566" YCoordinate="156" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="456544fc-2d7a-471e-b390-be1d5ada3be7" From="9e88907c-72db-40ee-bfca-9795b8989254" To="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1524" YCoordinate="450" />
+              <Coordinates XCoordinate="1611" YCoordinate="450" />
+              <Coordinates XCoordinate="1611" YCoordinate="193" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="d760c767-daf8-4aa6-93ba-8b03ca89055e" From="374c12d4-fd5d-4609-b27f-064f4f03c1d0" To="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1477" YCoordinate="920" />
+              <Coordinates XCoordinate="1611" YCoordinate="920" />
+              <Coordinates XCoordinate="1611" YCoordinate="193" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ef459c7e-79d2-431b-8d1d-0e34126fc8dc" From="56f81ed4-5a55-4b2a-a762-c4ca0003870a" To="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1508" YCoordinate="104" />
+              <Coordinates XCoordinate="1537.5" YCoordinate="104" />
+              <Coordinates XCoordinate="1537.5" YCoordinate="156" />
+              <Coordinates XCoordinate="1566" YCoordinate="156" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ff58dc4a-e25a-41df-ae18-bc3a5cc538a1" From="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" To="82e51906-85ba-494c-be39-832d30837cff" Name="4">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="924" YCoordinate="148" />
+              <Coordinates XCoordinate="924" YCoordinate="611" />
+              <Coordinates XCoordinate="1064" YCoordinate="611" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="bac29a0a-0c3e-43c3-a2ef-da939f5c66df" From="01bc3393-ded7-44d3-a979-d640078209d8" To="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1451" YCoordinate="611" />
+              <Coordinates XCoordinate="1611" YCoordinate="611" />
+              <Coordinates XCoordinate="1611" YCoordinate="193" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="035fae45-1e5a-49a9-839c-a3fd43ed0d00" From="cf256367-73a6-4263-8e3f-7ce28ee8f902" To="3a64c230-5a8f-4409-9c8a-a820c7f1ba75" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1514" YCoordinate="759" />
+              <Coordinates XCoordinate="1611" YCoordinate="759" />
+              <Coordinates XCoordinate="1611" YCoordinate="193" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="8e9158ed-4204-45df-b60f-b5370eb3facb" From="aefef743-4b01-4fc3-aa06-4a1156a13ea8" To="374c12d4-fd5d-4609-b27f-064f4f03c1d0" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1151" YCoordinate="883" />
+              <Coordinates XCoordinate="1188.5" YCoordinate="883" />
+              <Coordinates XCoordinate="1188.5" YCoordinate="920" />
+              <Coordinates XCoordinate="1226" YCoordinate="920" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="604bf1a0-741a-4893-be72-f1b353e38416" From="1bfc656d-9069-4028-9356-72bbec992f12" To="cf256367-73a6-4263-8e3f-7ce28ee8f902" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1152" YCoordinate="759" />
+              <Coordinates XCoordinate="1223" YCoordinate="759" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="48773c1f-21d2-4a7b-adac-674fd832fbfc" From="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" To="1bfc656d-9069-4028-9356-72bbec992f12" Name="5">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="924" YCoordinate="148" />
+              <Coordinates XCoordinate="924" YCoordinate="759" />
+              <Coordinates XCoordinate="1062" YCoordinate="759" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2ab5546f-1d2f-49f8-be6f-ae9941a398c6" From="82e51906-85ba-494c-be39-832d30837cff" To="01bc3393-ded7-44d3-a979-d640078209d8" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1154" YCoordinate="611" />
+              <Coordinates XCoordinate="1221" YCoordinate="611" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1a0b9aec-0aeb-4dab-9fb3-fe8613cb9192" From="a92f9f4f-e3ca-48d9-b352-3ad4a7aff4f3" To="9e88907c-72db-40ee-bfca-9795b8989254" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1149" YCoordinate="450" />
+              <Coordinates XCoordinate="1224" YCoordinate="450" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="3d0513a7-1d74-47f3-9279-58846ab7ca62" From="719c5796-e753-4505-8bae-6581a12acb76" To="9e69aedd-2f4d-4eb0-9daa-7b830395f9ec" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1150" YCoordinate="303" />
+              <Coordinates XCoordinate="1222" YCoordinate="303" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="e9cd2772-1280-4bef-b59d-1e2df228d5f8" From="69569fde-5482-464e-a3a9-3c13201fdce1" To="56f81ed4-5a55-4b2a-a762-c4ca0003870a" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1149" YCoordinate="104" />
+              <Coordinates XCoordinate="1208" YCoordinate="104" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="dbfc522f-ec4e-4fd9-86c2-39404708c84d" From="bd4435f1-35bd-449f-b58d-a4a2b4e2f7bb" To="9506b5e2-8ec6-412f-9c04-f18cf8f3a463" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1917" YCoordinate="442" />
+              <Coordinates XCoordinate="1917" YCoordinate="544" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="de9ed06c-f92f-4489-a972-123f0661904f" From="ca92f906-0fa5-43d0-a593-d8bf6f920246" To="0060ff70-a00c-4bf2-98d3-4d0b88eeaace" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1611" YCoordinate="19" />
+              <Coordinates XCoordinate="1611" YCoordinate="6" />
+              <Coordinates XCoordinate="924" YCoordinate="6" />
+              <Coordinates XCoordinate="924" YCoordinate="60" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="71f62d0c-5560-40a0-b30d-c97b1b2d9e5c" From="d80452c6-6021-4374-81a7-346cf755c0f7" To="0060ff70-a00c-4bf2-98d3-4d0b88eeaace">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="496" YCoordinate="140" />
+              <Coordinates XCoordinate="658.5" YCoordinate="140" />
+              <Coordinates XCoordinate="658.5" YCoordinate="104" />
+              <Coordinates XCoordinate="821" YCoordinate="104" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

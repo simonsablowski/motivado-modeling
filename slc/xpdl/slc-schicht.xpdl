@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="44d10cc0-0998-4a64-a674-db671aa7c9d6" Name="slc-schicht" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2011-09-07T11:01:41.4462891+02:00</Created>
+    <ModificationDate>2011-09-07T11:24:48.7587891+02:00</ModificationDate>
+    <Description>slc-schicht</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-09-07T09:24:48.7587891Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>Modellierung</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="8fe8c777-5c69-4845-b644-3c2fc375b6f8" Name="Main Process" Process="a15a960a-ded6-4521-a6a3-1419c6259656" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="0" Width="0" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="89268724-cb46-4d96-bc93-90d6bd37416c" Name="Schichtarbeit" Process="2b929062-cf03-406c-9926-246e7fd97d95" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="744" Width="1250" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="a15a960a-ded6-4521-a6a3-1419c6259656" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-09-07T11:25:01.9433594+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="2b929062-cf03-406c-9926-246e7fd97d95" Name="Schichtarbeit">
+      <ProcessHeader>
+        <Created>2011-09-07T11:25:01.9433594+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="6391791c-39ab-49da-b76d-ccab4d7d3954" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="true" FillColor="-1638505">
+              <Coordinates XCoordinate="120" YCoordinate="121" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e6ddb190-16a9-4a8b-98a6-5355abfc0a14" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="1229" YCoordinate="373" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="4ca35a99-7a0a-45de-9272-4b22a3533940" Name="Willkommen zu dem Kapitel &quot;Schichtarbeit&quot;&#xD;&#xA;&#xD;&#xA;In diesem Kapitel beschäftigen wir uns mit den Problemen der Schichtarbeit für Ihren Körper und ihren Schlaf und vor allem mit den Dingen die Sie abgesehen von unseren vorherigen Kapiteln noch ändern können, um mit diesem Problem besser umzugehen.&#xD;&#xA;&#xD;&#xA;Auf geht es!">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="247" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="193" YCoordinate="46" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="83a7319a-4444-4c44-b10d-6cab2ea3e712" Name="Der Einfluss von Schichtarbeit auf Ihren Schlaf&#xA;&#xA;Schichtarbeit ist gesundheitlich ein unterschätztes und viel zu wenig betrachtestes Thema. Mehrere Millionen Menschen in Deutschland arbeiten in Schichtarbeit. Als Krankenschwestern, in der Produktion und Überwachung, als Fahrer und so weiter. Es gibt dementsprechend auch eine Unmenge von verschiedenen Schichtarbeitsmodellen, was das ganze Thema sehr kompliziert macht. Aus diesem Grund ist eine einheitliche Empfehlung, was die ideale Lösung für Ihr Schichtmodell und Ihr Schlafverhalten angeht, äußerst schwer. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="299" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="549" YCoordinate="46" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="c3aedd13-3d2f-4379-b098-8f0743135d70" Name="Wie wir bereits in der Einführung zum Thema Schlaf gelernt haben, ist der Mensch von Natur aus ein Nachtschläfer. Natürlich gibt es Spätaktive und Frühaktive Typen, und zu einem gewissen Grad kann auch Schlaf tagsüber fehlenden Schlaf in der Nacht kompensieren - aber alles in allem ist der Schlaf nachts der gesündeste und erholsamste. Bei Schlaf, den Sie tagsüber haben/Nachholen verkürzt sich die Dauer von alleine um 30-120 Minuten, auf Kosten der Erholung bringenden Tiefschlafphasen.&#xA;Was bedeutet das jetzt alles für Sie als Schichtarbeitenden. Zunächst einmal ist es sinnvoll, wenn Sie im Wechselschicht-System arbeiten, dass die Schlafphasen im 'Uhrzeigersinn' verschoben werden. Das heißt auf die Frühschicht sollte die Spätschicht und darauf die Nachtschicht folgen. Nicht in andersherum. Warum? Dadurch hat Ihr Körper zumindest begrenzt die Möglichkeit sich auf die nach 'hinten' verschiebenden Schlafensgehnzeiten zu reagieren und sich besser anzupassen. Die meisten Betriebe nehmen in Deutschland heutzutage darauf Rücksicht. Sollte das bei Ihnen noch nicht der Fall sein, bemühen Sie sich auf jeden Fall um die Durchsetzung dieses Prinzips.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="912" YCoordinate="48" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="18fb6bab-b51a-4669-a341-7d7837a8cc12" Name="Ein weiterer wichtiger Baustein sind regelmäßige Pausen. Das heißt immer wieder kehrend kleine Pausen, in denen Sie sich köperlich regenerieren können. Das erhöht auch Ihre Konzetration und damit Produktivität. Auch Rufbereitschaften in denen Sie erreichbar aber nicht konstant geistig anspruchsvolle Aufgaben erledigen müssen, helfen ausreichend Schlaf zu bekommen. Es ist auch möglich, durch unregelmäßige kleine Nickerchen dem Körper eine ausreichende Menge an Schlaf zuzuführen. Das ist nicht ideal aber möglich. Dabei ist nur darauf zu achten, dass Sie in den 15-30 Minuten nach dem Aufwachen nicht extrem konzentrationsintensive Aufgaben erledigen, da Studien gezeigt haben, dass Ihr Gehirn erst eine gewisse Zeit braucht, um nach diesen Nickerchen wieder auf die volle Leistung zu kommen. ">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="244" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="189" YCoordinate="298" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="81adb3af-d5c2-4fc5-8d1c-3fa7ad41c2fd" Name="Sofern möglich oder bei einer gewissen Periodik der Schichtdienste, gewöhnen Sie es sich an feste Schlaf- und Aufwachzeiten für sich einzurichten. Gerade für Sie und Ihren Körper ist jede Möglichkeit Regelmäßigkeit in den Rhythmus zu bekommen elementar wichtig. Um Schlaf-Wach-Ryhthmen für Ihren Körper erkennbarer zu machen, sind auch für unsere Tipps zur Schlafhygiene sehr hilfreich. Auch ein Schlaftagebuch ist bei Ihnen mehr als empfehlenswert. Auch die Hell-Dunkel-Regulation sollten Sie gezielt für sich einsetzen lernen. Also beim Schlafen Augenmaske tragen bzw. in völlig abgedunkelten Räumen tagsüber schlafen, beim Aufstehen nachts idealerweise sofort High-Lux-Lampen anschalten. Der in der Einleitung angesprochene Botenstoff Melatonin gilt für Schichtarbeiter auch als mögliches Therapeutikum, da er - künstlich hergestellt - regelmäßig eingenommen dem Körper einen neuen Schlaf-Wach-Rhythmus vorgaukelt, ähnliches wie die eben erwähnte Hell-Dunkel-Methode. Auch neue Forschungen zu Medikamenten, die Lichtrezeptoren der Augen stimulieren, könnten eventuell Hoffnung für dauerhaft in Schicht arbeitende Menschen geben. Fragen Sie dazu einen spezialisierten Schlafmediziner nach Details. Wenn Sie perspektivisch keine Möglichkeit haben, beruflich die Schichtarbeit einzuschränken, tun Sie gut daran, möglichst viele der hier angesprochenen Ansätze umzusetzen. Im Folgenden finden Sie noch weiterführende Hinweise für generelle Schlafempfehlungen, von denen Sie sicher auch profitieren werden.">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="606" YCoordinate="358" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="bd094f39-08d9-4ff7-9047-51c97fd96887" Name="Wir sind nun am Ende unserer Kapitels &quot;Schichtarbeit&quot; angekommen.&#xD;&#xA;&#xD;&#xA;Ich hoffe Sie konnten in diesem Abschnitt etwas für sich mitnehmen.&#xA;&#xA;Falls Sie noch Fragen haben wenden Sie sich bitte an unsere Hotline.&#xD;&#xA;&#xD;&#xA;Vielleicht sehen wir uns zu einem weiteren Coaching wieder.&#xD;&#xA;&#xD;&#xA;Schlafen Sie gut, schlafen Sie besser!&#xD;&#xA;&#xD;&#xA;Ihr Motivado-Schlafcoach&#xD;&#xA;">
+          <Description />
+          <Implementation>
+            <Task>
+              <TaskScript>
+                <Script />
+              </TaskScript>
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="267" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="919" YCoordinate="298" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="0464be88-c0cd-4417-845f-c7338cabe1b2" From="6391791c-39ab-49da-b76d-ccab4d7d3954" To="4ca35a99-7a0a-45de-9272-4b22a3533940">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="150" YCoordinate="136" />
+              <Coordinates XCoordinate="193" YCoordinate="136" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="205b7bb3-c00f-4d9d-88a8-e867896c5bea" From="4ca35a99-7a0a-45de-9272-4b22a3533940" To="83a7319a-4444-4c44-b10d-6cab2ea3e712">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="440" YCoordinate="136" />
+              <Coordinates XCoordinate="549" YCoordinate="136" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="417c753a-d5e8-422f-bb82-a001b45b39cb" From="83a7319a-4444-4c44-b10d-6cab2ea3e712" To="c3aedd13-3d2f-4379-b098-8f0743135d70">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="848" YCoordinate="136" />
+              <Coordinates XCoordinate="912" YCoordinate="136" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b6931d60-e0ef-4471-ad55-627917de4c7a" From="c3aedd13-3d2f-4379-b098-8f0743135d70" To="18fb6bab-b51a-4669-a341-7d7837a8cc12">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1047" YCoordinate="226" />
+              <Coordinates XCoordinate="1047" YCoordinate="262" />
+              <Coordinates XCoordinate="311" YCoordinate="262" />
+              <Coordinates XCoordinate="311" YCoordinate="298" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="cd6f324d-19f6-4bed-bb0d-df0017eb819c" From="18fb6bab-b51a-4669-a341-7d7837a8cc12" To="81adb3af-d5c2-4fc5-8d1c-3fa7ad41c2fd">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="433" YCoordinate="388" />
+              <Coordinates XCoordinate="554" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="07b5ee21-27f1-4d33-8b6b-e011132326b1" From="81adb3af-d5c2-4fc5-8d1c-3fa7ad41c2fd" To="bd094f39-08d9-4ff7-9047-51c97fd96887">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="846" YCoordinate="388" />
+              <Coordinates XCoordinate="919" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="2b7a1ac2-19cb-4c64-bf85-cb89c70c83f6" From="bd094f39-08d9-4ff7-9047-51c97fd96887" To="e6ddb190-16a9-4a8b-98a6-5355abfc0a14">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1186" YCoordinate="388" />
+              <Coordinates XCoordinate="1229" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>

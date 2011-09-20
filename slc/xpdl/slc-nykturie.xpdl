@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="a94229e4-749b-4659-a5ad-5fdef6a40804" Name="slc-nykturie" OnlyOneProcess="false">
+  <PackageHeader>
+    <XPDLVersion>2.1</XPDLVersion>
+    <Vendor>BizAgi Process Modeler.</Vendor>
+    <Created>2010-11-05T12:48:59.4717319+01:00</Created>
+    <ModificationDate>2011-09-07T11:56:56.2060547+02:00</ModificationDate>
+    <Description>slc-nykturie</Description>
+    <Documentation />
+    <Modifications>
+      <Modification Date="2011-09-05T14:39:23.2021484Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-09-07T09:56:56.2060547Z" UserName="modellierung-pc_modellierung" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author />
+    <Version />
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Participants />
+  <Pools>
+    <Pool Id="87332f85-ccba-4c13-b76d-318ff8218d14" Name="Main Process" Process="da4685fc-f93f-4bcc-9131-d442bb1b32de" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="ed00f81f-19d1-4117-90f9-35ba79774039" Name="slc_ABC_geschlecht='Männlich' and " Process="a59447a1-6003-4f54-8f8b-e31a62033f6a" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="590" Width="1220" BorderColor="-16777216" BorderVisible="false" FillColor="-1">
+          <Coordinates XCoordinate="0" YCoordinate="0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <MessageFlows />
+  <Associations />
+  <Artifacts />
+  <WorkflowProcesses>
+    <WorkflowProcess Id="da4685fc-f93f-4bcc-9131-d442bb1b32de" Name="Main Process">
+      <ProcessHeader>
+        <Created>2011-09-07T11:56:59.5488281+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities />
+      <Transitions />
+      <ExtendedAttributes />
+    </WorkflowProcess>
+    <WorkflowProcess Id="a59447a1-6003-4f54-8f8b-e31a62033f6a" Name="slc_ABC_geschlecht='Männlich' and ">
+      <ProcessHeader>
+        <Created>2011-09-07T11:56:59.5488281+02:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <Activities>
+        <Activity Id="6fb36a2b-5380-4e9e-9aa0-bd3470a376a1" Name="">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="false" FillColor="-1638505">
+              <Coordinates XCoordinate="59" YCoordinate="17" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="a2409780-abed-43b0-9677-6ef91f48beed" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="false" FillColor="-1135958">
+              <Coordinates XCoordinate="1105" YCoordinate="373" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8f82f368-83c5-4e44-b8c3-d4626b240419" Name="Nachts auf die Toilette">
+          <Description>
+- Weniger trinken
+- Besser Schlafen
+
+$Video("video":{"url":"SLC_Nykturie_V1.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>
+- Weniger trinken
+- Besser Schlafen
+
+$Video("video":{"url":"SLC_Nykturie_V1.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="370" YCoordinate="298" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="8e48d44f-ffb3-4dab-8ab6-926a2a5a1af0" Name="">
+          <Description>Durchschlafstörungen - Häufige Toilettenbesuche
+
+Bei Männern im fortgeschritteneren Alter kommt es häufig vor, dass sie nachts zur Toilette aus dem Bett müssen.
+Das stört den Schlaf. Oft nicht einmal mit Erfolg, bei vielen Männern kommt es auch nur tröpfelnd. Häufig steckt die Prostata hinter diesen Symptomen.
+Die Prostata vergrößert sich im Laufe des Lebens langsam und führt dann häufig dazu, dass der Urin nicht mehr komplett aus der Blase abfließen kann und Sie deshalb das Gefühl haben, aufs Klo zu müssen.
+Diese gutartige Prostatavergrößerungkann mittlerweile sehr gut medikamentös behandelt werden, z.B. auch mit Sägepalmextrakten, was auch vorbeugend gegen Haarausfall wirkt.
+Es empfiehlt sich jedoch auf jeden Fall der Besuch beim Hausarzt oder Urologen, um das medizinisch abklären zu lassen.
+
+$Text("video":{"url":"SLC_Nykturie_V2.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":42}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>Durchschlafstörungen - Häufige Toilettenbesuche
+
+Bei Männern im fortgeschritteneren Alter kommt es häufig vor, dass sie nachts zur Toilette aus dem Bett müssen.
+Das stört den Schlaf. Oft nicht einmal mit Erfolg, bei vielen Männern kommt es auch nur tröpfelnd. Häufig steckt die Prostata hinter diesen Symptomen.
+Die Prostata vergrößert sich im Laufe des Lebens langsam und führt dann häufig dazu, dass der Urin nicht mehr komplett aus der Blase abfließen kann und Sie deshalb das Gefühl haben, aufs Klo zu müssen.
+Diese gutartige Prostatavergrößerungkann mittlerweile sehr gut medikamentös behandelt werden, z.B. auch mit Sägepalmextrakten, was auch vorbeugend gegen Haarausfall wirkt.
+Es empfiehlt sich jedoch auf jeden Fall der Besuch beim Hausarzt oder Urologen, um das medizinisch abklären zu lassen.
+
+$Text("video":{"url":"SLC_Nykturie_V2.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":42}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="157" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
+              <Coordinates XCoordinate="233" YCoordinate="15" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="af5811c8-c5ff-4eb1-b1d3-306e8ba304df" Name="Zusammenfassung Nykturie">
+          <Description>$Video("video":{"url":"SLC_Nykturie_V3.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"SLC_Nykturie_V3.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="897" YCoordinate="358" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="1c080a02-c431-4552-8f09-072eadd64bbf" From="6fb36a2b-5380-4e9e-9aa0-bd3470a376a1" To="8f82f368-83c5-4e44-b8c3-d4626b240419" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="89" YCoordinate="32" />
+              <Coordinates XCoordinate="103" YCoordinate="32" />
+              <Coordinates XCoordinate="103" YCoordinate="388" />
+              <Coordinates XCoordinate="370" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="0a0fcec9-7e73-4ac9-8301-443f739a4bbc" From="8e48d44f-ffb3-4dab-8ab6-926a2a5a1af0" To="af5811c8-c5ff-4eb1-b1d3-306e8ba304df" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="533" YCoordinate="93" />
+              <Coordinates XCoordinate="781" YCoordinate="93" />
+              <Coordinates XCoordinate="781" YCoordinate="388" />
+              <Coordinates XCoordinate="897" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="a0d7f785-7283-4093-ae6d-94fde7097173" From="af5811c8-c5ff-4eb1-b1d3-306e8ba304df" To="a2409780-abed-43b0-9677-6ef91f48beed" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="987" YCoordinate="388" />
+              <Coordinates XCoordinate="1105" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="44673823-c3d5-4904-85ee-446a1d66fc96" From="8f82f368-83c5-4e44-b8c3-d4626b240419" To="8e48d44f-ffb3-4dab-8ab6-926a2a5a1af0" Name="slc_ABC_alter gt '55' and slc_ABC_geschlecht is 1">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="520" YCoordinate="298" />
+              <Coordinates XCoordinate="520" YCoordinate="238.5" />
+              <Coordinates XCoordinate="383" YCoordinate="238.5" />
+              <Coordinates XCoordinate="383" YCoordinate="172" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="627f7596-9354-427d-a7ec-331cde4b0eb3" From="8f82f368-83c5-4e44-b8c3-d4626b240419" To="af5811c8-c5ff-4eb1-b1d3-306e8ba304df" Name="">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="670" YCoordinate="388" />
+              <Coordinates XCoordinate="897" YCoordinate="388" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes />
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
