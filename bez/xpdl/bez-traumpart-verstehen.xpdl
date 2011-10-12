@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-27T17:24:22.65625+02:00</Created>
-    <ModificationDate>2011-08-05T16:28:42.071289+02:00</ModificationDate>
+    <ModificationDate>2011-10-11T15:32:49.728+02:00</ModificationDate>
     <Description>bez-traumpart-verstehen</Description>
     <Documentation />
     <Modifications>
@@ -14,6 +14,14 @@
       <Modification Date="2011-08-05T12:13:15.5361328Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-08-05T12:25:21.0585937Z" UserName="MODELLIERUNG-PC_Modellierung" />
       <Modification Date="2011-08-05T14:28:42.071289Z" UserName="MODELLIERUNG-PC_Modellierung" />
+      <Modification Date="2011-09-29T15:30:57.4272Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-05T12:16:57.4064Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-05T12:33:06.1604Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-05T13:16:02.9582Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-05T13:41:06.8842Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-07T16:44:03.569Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-07T17:05:32.082Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-11T13:32:49.728Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -42,12 +50,49 @@
     </Pool>
   </Pools>
   <MessageFlows />
-  <Associations />
-  <Artifacts />
+  <Associations>
+    <Association Id="50cfe1c1-47af-417b-9dc6-066053bf3b90" Source="8a15a82e-cb50-4c86-8b9c-ba9e1b36ccdf" Target="aee10cf0-b780-402d-a741-dd89aaafc2fa">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="746" YCoordinate="180" />
+          <Coordinates XCoordinate="746" YCoordinate="242" />
+          <Coordinates XCoordinate="826" YCoordinate="242" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+    <Association Id="71e4f1ef-20e9-45eb-a06d-55b2184e83da" Source="38d51218-3fc7-4fb7-8dcf-c26a7d6ce4ab" Target="b34819ac-d183-428e-b2ac-0be7afa1bba0">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+          <Coordinates XCoordinate="1771" YCoordinate="150" />
+          <Coordinates XCoordinate="1821" YCoordinate="150" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+  </Associations>
+  <Artifacts>
+    <Artifact Id="aee10cf0-b780-402d-a741-dd89aaafc2fa" ArtifactType="Annotation" TextAnnotation="Na los, ein paar Leute fallen Ihnen doch noch ein" Group="Annotation1" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="true" FillColor="-2763307">
+          <Coordinates XCoordinate="826" YCoordinate="212" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+    <Artifact Id="b34819ac-d183-428e-b2ac-0be7afa1bba0" ArtifactType="Annotation" TextAnnotation="Cross selling &quot;Traumpartner/Alptraumpartner&quot;" Group="Annotation2" BizAgiArtifactTypeSpecified="false">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="true" FillColor="-2763307">
+          <Coordinates XCoordinate="1821" YCoordinate="120" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Documentation />
+    </Artifact>
+  </Artifacts>
   <WorkflowProcesses>
     <WorkflowProcess Id="c8cf303e-fca5-4c8c-bfd0-14eed28482ad" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-08-12T13:15:28.9472657+02:00</Created>
+        <Created>2011-10-11T15:32:56.633+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -62,7 +107,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="fa0e4ded-5554-4a24-a526-4bdef0f6b677" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-08-12T13:15:28.9492188+02:00</Created>
+        <Created>2011-10-11T15:32:56.633+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -102,7 +147,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="93a96823-025b-4ba8-a237-dcab40e347fe" Name="Haben Sie das Gefühl, besser zu wissen, was Traumpartner von Ihnen erwarten, bzw. wo Sie in der Vergangenheit die Latte gerissen haben?">
+        <Activity Id="93a96823-025b-4ba8-a237-dcab40e347fe" Name="Haben Sie das Gefühl, besser zu wissen, was Traumpartner von Ihnen erwarten bzw. wo Sie in der Vergangenheit die Latte gerissen haben?">
           <Description>REL_LearnAbDP_V11.flv</Description>
           <Implementation>
             <Task>
@@ -191,7 +236,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="3bdcb47e-164b-4c39-a363-3f479c25f87f" Name="Nein.">
+        <Activity Id="3bdcb47e-164b-4c39-a363-3f479c25f87f" Name="Nein">
           <Description />
           <Implementation>
             <Task />
@@ -201,11 +246,11 @@
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1743" YCoordinate="694" />
+              <Coordinates XCoordinate="1741" YCoordinate="693" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="aa5ac117-9f28-4bd1-9091-a6cbd13bfbda" Name="Ja.">
+        <Activity Id="aa5ac117-9f28-4bd1-9091-a6cbd13bfbda" Name="Ja">
           <Description />
           <Implementation>
             <Task />
@@ -379,23 +424,15 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="8a15a82e-cb50-4c86-8b9c-ba9e1b36ccdf" Name="Sammeln Sie Beispielpersonen, die Sie als Traumpartner einordnen würden.">
-          <Description>$Text("video":{"url":"REL_LearnAbDP_V5.flv"})
-
-Dabei ist nicht schlimm, wenn diese Personen gerade gebunden sind. Hauptsache, wir haben Beispielpersonen!
-
-Nicht ganz so günstig sind Ex-Partner, da hier vielleicht noch zuviel gemeinsame Vergangenheit zwischen Ihnen liegt, aber besser einen Ex-Partner als niemand.</Description>
+        <Activity Id="8a15a82e-cb50-4c86-8b9c-ba9e1b36ccdf" Name="Sammeln Sie Beispielpersonen, die Sie als Traumpartner einordnen würden:">
+          <Description>$List:bez_traumpartner_bsp("video":{"url":"REL_LearnAbDP_V5.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":10}],"items":5)</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_LearnAbDP_V5.flv"})
-
-Dabei ist nicht schlimm, wenn diese Personen gerade gebunden sind. Hauptsache, wir haben Beispielpersonen!
-
-Nicht ganz so günstig sind Ex-Partner, da hier vielleicht noch zuviel gemeinsame Vergangenheit zwischen Ihnen liegt, aber besser einen Ex-Partner als niemand.</Documentation>
+          <Documentation>$List:bez_traumpartner_bsp("video":{"url":"REL_LearnAbDP_V5.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":10}],"items":5)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -403,15 +440,15 @@ Nicht ganz so günstig sind Ex-Partner, da hier vielleicht noch zuviel gemeinsam
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="d97437c4-0003-4873-819b-f5b8eedd0b3e" Name="Was ist dierser Person wichitg?">
-          <Description>$Video("video":{"url":"REL_LearnAbDP_V6.flv"})</Description>
+        <Activity Id="d97437c4-0003-4873-819b-f5b8eedd0b3e" Name="Was ist diesen Personen wichtig?">
+          <Description>$List:bez_traumpartner_bsp("video":{"url":"REL_LearnAbDP_V6.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":23}],"items":5)</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Video("video":{"url":"REL_LearnAbDP_V6.flv"})</Documentation>
+          <Documentation>$List:bez_traumpartner_bsp("video":{"url":"REL_LearnAbDP_V6.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":23}],"items":5)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -448,15 +485,15 @@ Nicht ganz so günstig sind Ex-Partner, da hier vielleicht noch zuviel gemeinsam
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="d0b2c66c-43c1-4c94-97c5-0a0376222a7b" Name="Finden Sie heraus, was diesen Personen wichtig ist, indem Sie Freunde, Ex-Partner oder die betreffende Person selbst fragen.&#xD;&#xA;&#xD;&#xA;Je offener Sie fragen, desto offener wird man Ihnen antworten.&#xD;&#xA;Es geht jetzt nicht darum, gut dazustehen, sondern endlich zu lernen, wie diese Traumpartner denken.">
-          <Description>$Text("video":{"url":"REL_LearnAbDP_V8.flv"})</Description>
+        <Activity Id="d0b2c66c-43c1-4c94-97c5-0a0376222a7b" Name="So kommen Sie an weitere Informationen über Ihren Traumpartner:">
+          <Description>$BulletPoints("video":{"url":"REL_LearnAbDP_V8.flv"},"elements":[{"element":"Direktheit, Offenheit, Ehrlichkeit","second":11},{"element":"Fragen Sie Freunde","second":34},{"element":"Fragen Sie den Traumpartner","second":40},{"element":"Fragen Sie den (Ex-)Partner des Traumpartners","second":75}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_LearnAbDP_V8.flv"})</Documentation>
+          <Documentation>$BulletPoints("video":{"url":"REL_LearnAbDP_V8.flv"},"elements":[{"element":"Direktheit, Offenheit, Ehrlichkeit","second":11},{"element":"Fragen Sie Freunde","second":34},{"element":"Fragen Sie den Traumpartner","second":40},{"element":"Fragen Sie den (Ex-)Partner des Traumpartners","second":75}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="180" Width="300" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
@@ -465,7 +502,7 @@ Nicht ganz so günstig sind Ex-Partner, da hier vielleicht noch zuviel gemeinsam
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="ea36d32b-bca3-46b8-ba91-ac44c1dd443b" Name="Plan aufstellen zur Umsetzung des Kennenlernens">
-          <Description>$Text("video":{"url":"REL_LearnAbDP_V10.flv"})
+          <Description>$Text()
 Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern es Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)</Description>
           <Implementation>
             <Task>
@@ -473,7 +510,7 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text("video":{"url":"REL_LearnAbDP_V10.flv"})
+          <Documentation>$Text()
 Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie es tatsächlich planen, werden Sie auch etwas erfolgreich umsetzen. Fragen Sie die Ansprechpersonen nach 4 Wochen nach Feedback, inwiefern es Ihnen gelungen ist, Verbesserungen durchzuführen. Wenn Sie keine Ahnung haben, wie Sie diese Ziele erreichen sollen, fragen Sie unsere Experten! Lassen Sie auf jeden Fall diese Punkte neben dem weiteren Coaching nebenher laufen. (Check-up nach 3-5 Wochen!)</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
@@ -546,6 +583,38 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
+        <Activity Id="32304954-ed5a-423d-ba11-f68b2c878a62" Name="Stellen Sie einen Plan auf">
+          <Description>$Video("video":{"url":"REL_LearnAbDP_V10.flv"})</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Video("video":{"url":"REL_LearnAbDP_V10.flv"})</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1681" YCoordinate="217" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="aa9e44b4-f477-4f80-abbd-62079bcc9cda" Name="Tragen Sie ein: Wen können Sie wann fragen?">
+          <Description>$List:rel_traumpartner_freundefragen("items":5)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$List:rel_traumpartner_freundefragen("items":5)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1545" YCoordinate="120" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
       </Activities>
       <Transitions>
         <Transition Id="4d105a69-a242-4539-be23-6597c578c50d" From="f031c9c0-69c2-4a07-af38-163195f189f5" To="30c9f394-900b-43d8-a3f7-cbaba78d2dfb" Name="">
@@ -574,7 +643,7 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="9d53b966-d95a-43b3-bcf2-f4fe57e45443" From="93a96823-025b-4ba8-a237-dcab40e347fe" To="3bdcb47e-164b-4c39-a363-3f479c25f87f" Name="">
+        <Transition Id="9d53b966-d95a-43b3-bcf2-f4fe57e45443" From="93a96823-025b-4ba8-a237-dcab40e347fe" To="3bdcb47e-164b-4c39-a363-3f479c25f87f" Name="2">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -582,8 +651,8 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1726" YCoordinate="661" />
               <Coordinates XCoordinate="1726" YCoordinate="677.5" />
-              <Coordinates XCoordinate="1788" YCoordinate="677.5" />
-              <Coordinates XCoordinate="1788" YCoordinate="694" />
+              <Coordinates XCoordinate="1786" YCoordinate="677.5" />
+              <Coordinates XCoordinate="1786" YCoordinate="693" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -613,7 +682,7 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="af50e596-4a89-4281-8117-fb93d9834828" From="93a96823-025b-4ba8-a237-dcab40e347fe" To="aa5ac117-9f28-4bd1-9091-a6cbd13bfbda" Name="">
+        <Transition Id="af50e596-4a89-4281-8117-fb93d9834828" From="93a96823-025b-4ba8-a237-dcab40e347fe" To="aa5ac117-9f28-4bd1-9091-a6cbd13bfbda" Name="1">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -637,14 +706,14 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="932c0b31-d3c9-406d-9de4-f00ae2cb7ad0" From="38d51218-3fc7-4fb7-8dcf-c26a7d6ce4ab" To="ea36d32b-bca3-46b8-ba91-ac44c1dd443b" Name="">
+        <Transition Id="932c0b31-d3c9-406d-9de4-f00ae2cb7ad0" From="38d51218-3fc7-4fb7-8dcf-c26a7d6ce4ab" To="32304954-ed5a-423d-ba11-f68b2c878a62" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1726" YCoordinate="180" />
-              <Coordinates XCoordinate="1726" YCoordinate="325" />
+              <Coordinates XCoordinate="1726" YCoordinate="217" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -666,8 +735,8 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1788" YCoordinate="724" />
-              <Coordinates XCoordinate="1788" YCoordinate="745.5" />
+              <Coordinates XCoordinate="1786" YCoordinate="723" />
+              <Coordinates XCoordinate="1786" YCoordinate="745.5" />
               <Coordinates XCoordinate="1823" YCoordinate="745.5" />
               <Coordinates XCoordinate="1823" YCoordinate="767" />
             </ConnectorGraphicsInfo>
@@ -917,17 +986,6 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="55117d7f-ce6c-4e58-a3c2-6d6cf351dd0b" From="d0b2c66c-43c1-4c94-97c5-0a0376222a7b" To="38d51218-3fc7-4fb7-8dcf-c26a7d6ce4ab" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1510" YCoordinate="150" />
-              <Coordinates XCoordinate="1681" YCoordinate="150" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="d0c3a2d0-2c43-46f3-87d8-ebd37b4ce9e7" From="030788bb-5354-4f92-97fc-dc9d471cde9d" To="d0b2c66c-43c1-4c94-97c5-0a0376222a7b" Name="">
           <Condition />
           <Description />
@@ -949,6 +1007,39 @@ Stellen Sie einen Plan auf, wie Sie diese Punkte umsetzen können. Nur wenn Sie 
               <Coordinates XCoordinate="1823" YCoordinate="869" />
               <Coordinates XCoordinate="1708" YCoordinate="869" />
               <Coordinates XCoordinate="1708" YCoordinate="911" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="6db658ce-39ce-4b9a-b0cf-acd65f440e33" From="32304954-ed5a-423d-ba11-f68b2c878a62" To="ea36d32b-bca3-46b8-ba91-ac44c1dd443b">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1726" YCoordinate="277" />
+              <Coordinates XCoordinate="1726" YCoordinate="325" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="91229cd7-e666-44b2-a94a-1dd4ca26e4b2" From="d0b2c66c-43c1-4c94-97c5-0a0376222a7b" To="aa9e44b4-f477-4f80-abbd-62079bcc9cda">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1510" YCoordinate="150" />
+              <Coordinates XCoordinate="1545" YCoordinate="150" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="17839289-8479-4a55-a0df-02b78271457e" From="aa9e44b4-f477-4f80-abbd-62079bcc9cda" To="38d51218-3fc7-4fb7-8dcf-c26a7d6ce4ab">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1635" YCoordinate="150" />
+              <Coordinates XCoordinate="1681" YCoordinate="150" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
