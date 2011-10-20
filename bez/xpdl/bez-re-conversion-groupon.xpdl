@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-07-18T14:18:24.5322265+02:00</Created>
-    <ModificationDate>2011-10-19T17:54:34.5185416+02:00</ModificationDate>
+    <ModificationDate>2011-10-20T18:27:05.779+02:00</ModificationDate>
     <Description>bez-re-conversion-groupon</Description>
     <Documentation />
     <Modifications>
@@ -18,7 +18,9 @@
       <Modification Date="2011-10-19T14:52:12.5645416Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-19T15:27:46.9505416Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-19T15:41:52.8135416Z" UserName="vaio_motivado_motivado" />
-      <Modification Date="2011-10-19T15:54:34.5185416Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-19T15:58:35.7005416Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-20T10:14:07.621Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-20T16:27:05.779Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -52,7 +54,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="05c88371-cebc-466e-ac6a-7c3bade0fbc2" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-10-19T17:54:37.2255416+02:00</Created>
+        <Created>2011-10-20T18:27:15.059+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -67,7 +69,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="04cbfb9d-7043-4776-ab82-df181f3ecc0c" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-10-19T17:54:37.2255416+02:00</Created>
+        <Created>2011-10-20T18:27:15.059+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -339,7 +341,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="e01ce0ba-b4a3-447d-a102-4c6498c006af" Name="Nur selten">
+        <Activity Id="e01ce0ba-b4a3-447d-a102-4c6498c006af" Name="Ab und zu">
           <Description />
           <Implementation>
             <Task />
@@ -367,7 +369,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="0ed1b3e2-539d-4851-9200-525544fef79c" Name="Haben Sie im Moment noch Kontakt zu #rel_exvorname|'Ihrem/r Ex-Partner/in'">
+        <Activity Id="0ed1b3e2-539d-4851-9200-525544fef79c" Name="Haben Sie im Moment noch Kontakt zu #rel_exvorname|'Ihrem/r Ex-Partner/in'?">
           <Description>$Options("video":{"url":"REL_ExZurueck_V2.flv"})</Description>
           <Implementation>
             <Task>
@@ -384,30 +386,30 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="2b3c37c0-8805-4797-b7a5-7810be2ebefa" Name="Im Groupon Special erwartet Sie:">
-          <Description>$ListView("video":{"url":"REL_ExZurueck_Chancen_V25.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":23,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0}])</Description>
+          <Description>$ListView("video":{"url":"REL_ExZurueck_Chancen_V25A.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":22,"url":""}],"elements":[{"element":"Zugang zu allen 21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos, Aufgaben und Übungen","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0},{"element":"Vorbereitung auf das erste Treffen","second":0},{"element":"Ex-Zurück-Garantie oder Geld zurück","second":0}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$ListView("video":{"url":"REL_ExZurueck_Chancen_V25.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":23,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0}])</Documentation>
+          <Documentation>$ListView("video":{"url":"REL_ExZurueck_Chancen_V25A.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":22,"url":""}],"elements":[{"element":"Zugang zu allen 21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos, Aufgaben und Übungen","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0},{"element":"Vorbereitung auf das erste Treffen","second":0},{"element":"Ex-Zurück-Garantie oder Geld zurück","second":0}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2439" YCoordinate="549.5" />
+              <Coordinates XCoordinate="2416" YCoordinate="429" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="fe360f96-f1f6-4ece-b707-788fb92ae52a" Name="Womit wir Ihnen helfen:">
-          <Description>$ListView("video":{"url":"REL_ExZurueck_V5E.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":14},{"type":"hide","second":60},{"type":"slide","url":"weiter.png","second":61}],"elements":[{"element":"Do's und Don'ts","second":18},{"element":"richtiges Timing","second":19},{"element":"E-Mails und Sms","second":21},{"element":"beim Treffen","second":23},{"element":"Funkstille","second":25},{"element":"bessere Beziehung","second":33},{"element":"Liebeskummer","second":36},{"element":"persönliche E-Mail-Betreuung","second":47},{"element":"Telefonberatung","second":50}])</Description>
+          <Description>$ListView("video":{"url":"REL_ExZurueck_V5F.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":14},{"type":"hide","second":55},{"type":"slide","url":"weiter.png","second":55}],"elements":[{"element":"Do's und Don'ts","second":16},{"element":"richtiges Timing","second":19},{"element":"E-Mails und Sms","second":20},{"element":"beim Treffen","second":23},{"element":"Funkstille","second":25},{"element":"bessere Beziehung","second":32},{"element":"Liebeskummer","second":35},{"element":"persönliche E-Mail-Betreuung","second":43},{"element":"Telefonberatung","second":46}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$ListView("video":{"url":"REL_ExZurueck_V5E.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":14},{"type":"hide","second":60},{"type":"slide","url":"weiter.png","second":61}],"elements":[{"element":"Do's und Don'ts","second":18},{"element":"richtiges Timing","second":19},{"element":"E-Mails und Sms","second":21},{"element":"beim Treffen","second":23},{"element":"Funkstille","second":25},{"element":"bessere Beziehung","second":33},{"element":"Liebeskummer","second":36},{"element":"persönliche E-Mail-Betreuung","second":47},{"element":"Telefonberatung","second":50}])</Documentation>
+          <Documentation>$ListView("video":{"url":"REL_ExZurueck_V5F.flv"},"events":[{"type":"hide","second":0},{"type":"show","second":14},{"type":"hide","second":55},{"type":"slide","url":"weiter.png","second":55}],"elements":[{"element":"Do's und Don'ts","second":16},{"element":"richtiges Timing","second":19},{"element":"E-Mails und Sms","second":20},{"element":"beim Treffen","second":23},{"element":"Funkstille","second":25},{"element":"bessere Beziehung","second":32},{"element":"Liebeskummer","second":35},{"element":"persönliche E-Mail-Betreuung","second":43},{"element":"Telefonberatung","second":46}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -416,30 +418,30 @@
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="e2d571e7-0daa-463d-9e57-b24daa778c74" Name="Im Groupon Special erwartet Sie:">
-          <Description>$ListView("video":{"url":"REL_ExZurueck_Chancen_V26.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":23,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0}])</Description>
+          <Description>$ListView("video":{"url":"REL_ExZurueck_Chancen_V26A.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":23,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$ListView("video":{"url":"REL_ExZurueck_Chancen_V26.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":23,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0}])</Documentation>
+          <Documentation>$ListView("video":{"url":"REL_ExZurueck_Chancen_V26A.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":23,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2418" YCoordinate="531" />
+              <Coordinates XCoordinate="2414" YCoordinate="549.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="0ad52417-cd83-4e00-8bd9-743ca1fe37c9" Name="Im Groupon Special erwartet Sie:">
-          <Description>$ListView("video":{"url":"REL_ExZurueck_Chancen_V27.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0},{"element":"12-Wochen-Garantie: Ex zurück oder Geld zurück","second":0}])</Description>
+          <Description>$ListView("video":{"url":"REL_ExZurueck_Chancen_V27A.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0},{"element":"12-Wochen-Garantie: Ex zurück oder Geld zurück","second":0}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$ListView("video":{"url":"REL_ExZurueck_Chancen_V27.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0},{"element":"12-Wochen-Garantie: Ex zurück oder Geld zurück","second":0}])</Documentation>
+          <Documentation>$ListView("video":{"url":"REL_ExZurueck_Chancen_V27A.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"elements":[{"element":"21 Video-Coachings","second":0},{"element":"über 300 interaktive Videos","second":0},{"element":"10 Min. Beratung am Telefon","second":0},{"element":"Sms-Vorlagen und Formulierungshilfen","second":0},{"element":"12-Wochen-Garantie: Ex zurück oder Geld zurück","second":0}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -538,7 +540,7 @@
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="3c690925-764d-493f-b3e1-abf2564a6876" From="cfe74bcf-36ab-4f3b-ae20-bb65b04d5aa6" To="773f2c3f-3043-455e-8fa8-fe25e79e3463" Name="">
+        <Transition Id="3c690925-764d-493f-b3e1-abf2564a6876" From="cfe74bcf-36ab-4f3b-ae20-bb65b04d5aa6" To="773f2c3f-3043-455e-8fa8-fe25e79e3463" Name="2">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -561,7 +563,7 @@
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="716457a4-5290-413a-9a38-ef46b6445fd8" From="cfe74bcf-36ab-4f3b-ae20-bb65b04d5aa6" To="4903fff4-f7ab-4130-a675-ed64f517ff30" Name="">
+        <Transition Id="716457a4-5290-413a-9a38-ef46b6445fd8" From="cfe74bcf-36ab-4f3b-ae20-bb65b04d5aa6" To="4903fff4-f7ab-4130-a675-ed64f517ff30" Name="1">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -587,7 +589,7 @@
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="e54b5b35-fba5-42c9-a303-d9a16315949f" From="cfe74bcf-36ab-4f3b-ae20-bb65b04d5aa6" To="bc64a4f1-6eef-4498-b003-7bd04f929262" Name="">
+        <Transition Id="e54b5b35-fba5-42c9-a303-d9a16315949f" From="cfe74bcf-36ab-4f3b-ae20-bb65b04d5aa6" To="bc64a4f1-6eef-4498-b003-7bd04f929262" Name="3">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -715,9 +717,7 @@
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2277" YCoordinate="579" />
-              <Coordinates XCoordinate="2352.5" YCoordinate="579" />
-              <Coordinates XCoordinate="2352.5" YCoordinate="561" />
-              <Coordinates XCoordinate="2419" YCoordinate="561" />
+              <Coordinates XCoordinate="2414" YCoordinate="579" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -727,9 +727,9 @@
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2518" YCoordinate="459" />
-              <Coordinates XCoordinate="2597" YCoordinate="459" />
-              <Coordinates XCoordinate="2597" YCoordinate="579" />
+              <Coordinates XCoordinate="2506" YCoordinate="459" />
+              <Coordinates XCoordinate="2649" YCoordinate="459" />
+              <Coordinates XCoordinate="2649" YCoordinate="579" />
               <Coordinates XCoordinate="2676" YCoordinate="579" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -741,7 +741,7 @@
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2277" YCoordinate="459" />
-              <Coordinates XCoordinate="2428" YCoordinate="459" />
+              <Coordinates XCoordinate="2416" YCoordinate="459" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -829,9 +829,7 @@
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2509" YCoordinate="561" />
-              <Coordinates XCoordinate="2592.5" YCoordinate="561" />
-              <Coordinates XCoordinate="2592.5" YCoordinate="579" />
+              <Coordinates XCoordinate="2504" YCoordinate="579" />
               <Coordinates XCoordinate="2676" YCoordinate="579" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
