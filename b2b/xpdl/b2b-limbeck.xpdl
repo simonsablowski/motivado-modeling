@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-09-01T10:26:00.431+02:00</Created>
-    <ModificationDate>2011-10-20T19:02:23.632+02:00</ModificationDate>
+    <ModificationDate>2011-10-24T18:43:27.775+02:00</ModificationDate>
     <Description>b2b-limbeck</Description>
     <Documentation />
     <Modifications>
@@ -28,6 +28,7 @@
       <Modification Date="2011-10-20T15:38:01.551Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-20T16:40:38.199Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-20T17:00:02.965Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-24T16:43:27.775Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -61,7 +62,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="da377147-e362-49bf-abd6-f568503a7f05" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-10-20T19:02:28.308+02:00</Created>
+        <Created>2011-10-24T18:43:31.172+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -76,7 +77,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="2b054f6b-1780-415e-b979-aa70e1b1f5e1" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-10-20T19:02:28.308+02:00</Created>
+        <Created>2011-10-24T18:43:31.172+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -96,19 +97,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" BorderVisible="true" FillColor="-1638505">
               <Coordinates XCoordinate="111" YCoordinate="51" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="c8c3d304-e83c-4a0f-a435-d062c118af53" Name="">
-          <Description />
-          <Event>
-            <EndEvent />
-          </Event>
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
-              <Coordinates XCoordinate="2346" YCoordinate="1747" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -148,7 +136,7 @@ Stellen Sie sich vor, Sie begegnen gerade einem neuen Kunden. Was sagen Sie? Spr
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1761.5" YCoordinate="935" />
+              <Coordinates XCoordinate="1763" YCoordinate="1047" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -228,181 +216,7 @@ Schreiben Sie mindestens 5 Punkte auf, über die Sie sich heute oder sogar regel
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1965" YCoordinate="112" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="c829a068-870e-455b-9ff2-2662d4ac76b0" Name="Möchten Sie das Coaching in der vorgesehenen Reihenfolge durchlaufen oder direkt zu bestimmten Punkten springen?">
-          <Description>$Options:b2b_limbeck_durchlauf()</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>$Options:b2b_limbeck_durchlauf()</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="55" Width="254" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="166" YCoordinate="328" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="5f8ecd3b-d0c9-4db2-9b0b-de6b856badae" Name="In der Reihenfolge durchlaufen">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="582" YCoordinate="203" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="caa716e2-63ac-46b1-9af2-8156416a0679" Name="Direkt zu bestimmten Punkten">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="517" YCoordinate="1396" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="74659fb1-1fe3-4030-a5be-ed988d4c1c47" Name="Welchen Punkt möchten Sie gerne sehen?">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="980" YCoordinate="1420" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="bf99535a-7925-450a-828d-2945323c36eb" Name="Einstellung">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1219" YCoordinate="288" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="a38fbc26-7eb1-4c19-87f3-3f4f8571eb66" Name="Weiterbildung">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1340" YCoordinate="715" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="d8496798-3af8-4e8c-a727-98298e054299" Name="Begrüßung">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1357" YCoordinate="916" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="25960701-8bc3-40ab-9457-300b995aed39" Name="Zur Übung">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1308" YCoordinate="1396" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="7a42c06d-321d-433f-afd1-11a734c27117" Name="Das war das Coaching &quot;Hardselling&quot; mit Martin Limbeck. Haben Sie das Gefühl, dass Sie schon mehr darüber wissen, wie man ein Hardseller wird?">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="57" Width="300" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1563" YCoordinate="1641.5" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="d86a3836-7478-4813-96f4-0ca985195cf1" Name="Ja">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1889" YCoordinate="1670" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="ea002f39-12f1-4876-8515-cd5e3ddd4b8a" Name="Nein">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1781" YCoordinate="1736" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="2fcdb832-c63a-41f8-9bf4-74189b20f8b7" Name="Diesen Bereich verlassen">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1316" YCoordinate="1640" />
+              <Coordinates XCoordinate="1963" YCoordinate="112" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -450,50 +264,6 @@ $List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="4e7667bb-5580-45df-8dd0-b5831c3dc8d8" Name="Ja">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2083" YCoordinate="1791" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="9c7a99db-2bfc-4f31-a159-2a11bc81a3ef" Name="Nein, weiter zum nächsten Punkt">
-          <Description />
-          <Implementation>
-            <Task />
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2091" YCoordinate="1893" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="ccb52913-d8b8-44b6-bd3b-5f8d959c2321" Name="Das ist völlig normal! Viele Kunden merken erst bei der Umsetzung der Übungen, was zu einem Hardseller macht. Möchten Sie einzelne Punkte noch einmal wiederholen?">
-          <Description>$Options:b2b_limbeck_durchlauf()</Description>
-          <Implementation>
-            <Task>
-              <TaskReference />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>$Options:b2b_limbeck_durchlauf()</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="58" Width="88" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1963" YCoordinate="1792" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="d8bf0607-4086-4ec7-b81a-bbaaf67cfb6c" Name="Willkommen im Coaching Hardselling mit Martin Limbeck.  Sie möchten gerne ein Hardseller werden? In diesem Coaching verbessern Sie:">
           <Description>$BulletPoints:b2b_limbeck_name("elements":[{"element":"Ihre Einstellung","second":3},{"element":"Ihre Weiterbildung","second":5},{"element":"Ihre Begrüßung ","second":7}])</Description>
           <Implementation>
@@ -506,14 +276,14 @@ $List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="88" Width="206" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="190" YCoordinate="87" />
+              <Coordinates XCoordinate="478" YCoordinate="125" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="e5565082-0af9-43c2-a84a-383242ec0429" Name="#b2b_limbeck_weiterbildung|'Das' ist schon eine ganz gute Zahl.">
-          <Description>Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken?
+          <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)
+Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Ergänzen Sie Ihre Liste!
 
 </Description>
           <Implementation>
@@ -522,9 +292,9 @@ $List:b2b_limbeck_weiterbildung2("items":3)
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken?
+          <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)
+Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Ergänzen Sie Ihre Liste!
 
 </Documentation>
           <ExtendedAttributes />
@@ -535,18 +305,18 @@ $List:b2b_limbeck_weiterbildung2("items":3)
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="323b2fac-3939-4b47-a7c5-6f3e4ad78c3f" Name="#b2b_limbeck_weiterbildung|'Das' ist zuwenig!">
-          <Description>Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.
+          <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)</Description>
+Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.
+          <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
+Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -555,18 +325,22 @@ $List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="f8d4bc89-762c-4c60-ac59-f562690232ff" Name="#b2b_limbeck_weiterbildung|'Das' ist sehr gut. Sie arbeiten offensichtlich kontinuierlich an sich.">
-          <Description>Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken?
+          <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)</Description>
+Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken?
+
+</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken?
+          <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
+Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken?
+
+</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -575,22 +349,22 @@ $List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="f62a687b-1c8c-4dbb-ba79-d0fc55ccc46c" Name="Es fallen Ihnen bestimmt noch ein paar Sachen ein.">
-          <Description>Was können Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.
+          <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)</Description>
+Was können Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Was können Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.
+          <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
-$List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
+Was können Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2269" YCoordinate="626" />
+              <Coordinates XCoordinate="2451" YCoordinate="522" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -614,43 +388,39 @@ $List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="9b11e3d1-e44d-4476-9a72-0bf9553875b9" Name="Jetzt haben Sie #b2b_limbeck_beschwerden|'einige' Punkte gesammelt. ">
-          <Description>$List:b2b_limbeck_beschwerden("items":8)
+        <Activity Id="9b11e3d1-e44d-4476-9a72-0bf9553875b9" Name="">
+          <Description>$ListView:b2b_limbeck_beschwerden2("elements":"#b2b_limbeck_beschwerden","startIndex":1,"endIndex":1)
 
-Schreiben Sie nun zu den ersten zwei Punkten jeweils eine kurze Erfolgsgeschichte. Sie werden sehen: Je klarer Sie Ihre Erfolge vortragen können, umso positiver kommen Sie rüber. </Description>
+Schreiben Sie zu Ihrem ersten Punkt eine kurze Erfolgsgeschichte. Sie werden sehen: Je klarer Sie Ihre Erfolge vortragen können, umso positiver kommen Sie rüber. </Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$List:b2b_limbeck_beschwerden("items":8)
+          <Documentation>$ListView:b2b_limbeck_beschwerden2("elements":"#b2b_limbeck_beschwerden","startIndex":1,"endIndex":1)
 
-Schreiben Sie nun zu den ersten zwei Punkten jeweils eine kurze Erfolgsgeschichte. Sie werden sehen: Je klarer Sie Ihre Erfolge vortragen können, umso positiver kommen Sie rüber. </Documentation>
+Schreiben Sie zu Ihrem ersten Punkt eine kurze Erfolgsgeschichte. Sie werden sehen: Je klarer Sie Ihre Erfolge vortragen können, umso positiver kommen Sie rüber. </Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2356" YCoordinate="183" />
+              <Coordinates XCoordinate="2372" YCoordinate="273" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="95729ead-90b7-44ea-9468-e92387f79e97" Name="Übung 1">
-          <Description>$Text()
+          <Description>$TextArea:b2b_limbeck_storiezu1()
 
-Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Sehen Sie, wie Ihre Gesprächspartner reagieren, wenn Sie auf die Frage "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?" antworten:
-
-TextArea</Description>
+Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Sehen Sie, wie Ihre Gesprächspartner reagieren, wenn Sie auf die Frage "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?" antworten:</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text()
+          <Documentation>$TextArea:b2b_limbeck_storiezu1()
 
-Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Sehen Sie, wie Ihre Gesprächspartner reagieren, wenn Sie auf die Frage "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?" antworten:
-
-TextArea</Documentation>
+Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Sehen Sie, wie Ihre Gesprächspartner reagieren, wenn Sie auf die Frage "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?" antworten:</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -678,7 +448,7 @@ Wenn Sie in den nächsten 7 Tagen einen neuen Kunden treffen, stellen Sie sich v
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="63b5fdd4-5edd-4e20-8ac3-e8fafeb54fc7" Name="Mich kennen Sie vielleicht schon, ich bin Martin Limbeck, Martin Limbeck vom Martin Limbeck Trainings Team. Und Sie sind?">
+        <Activity Id="63b5fdd4-5edd-4e20-8ac3-e8fafeb54fc7" Name="Mich kennen Sie vielleicht schon, ich bin Martin Limbeck: Martin Limbeck vom Martin Limbeck Trainings Team. Und Sie sind?">
           <Description>$TextInput:b2b_limbeck_name("type":"char")</Description>
           <Implementation>
             <Task>
@@ -690,25 +460,7 @@ Wenn Sie in den nächsten 7 Tagen einen neuen Kunden treffen, stellen Sie sich v
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="248" YCoordinate="219" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="08c19730-a935-4a30-8403-25de6ab52693" Name="Sehr gut! ">
-          <Description>$Text()
-Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darüber wissen, was ein Hardseller ist. Sie werden jeden Tag ein besserer Hardseller werden.</Description>
-          <Implementation>
-            <Task>
-              <TaskManual />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>$Text()
-Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darüber wissen, was ein Hardseller ist. Sie werden jeden Tag ein besserer Hardseller werden.</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2030" YCoordinate="1670" />
+              <Coordinates XCoordinate="1074" YCoordinate="162" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -762,7 +514,72 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2159" YCoordinate="826" />
+              <Coordinates XCoordinate="1763" YCoordinate="943" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9b9f730e-9d7f-4bd8-a2e3-a630f02f58cc" Name="">
+          <Description />
+          <Event>
+            <EndEvent />
+          </Event>
+          <Documentation />
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" BorderVisible="true" FillColor="-1135958">
+              <Coordinates XCoordinate="2183.333251953125" YCoordinate="1720" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="e36337b6-f101-4fe3-a1c2-76e6d343af6a" Name="Herzlichen Glückwunsch!">
+          <Description>$Text()
+
+Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder ein und berichten Sie, wie es mit den Übungen gelaufen ist.</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Text()
+
+Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder ein und berichten Sie, wie es mit den Übungen gelaufen ist.</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="2045" YCoordinate="1580" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="9b8ddb8f-fd2e-4544-9d20-62cbf1b587ab" Name="Jetzt haben Sie #b2b_limbeck_beschwerden|'einige' Punkte gesammelt. ">
+          <Description>$Group("count":2)</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$Group("count":2)</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="2280" YCoordinate="263.33331298828125" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="903cdd6c-e125-4ab6-bd90-1ec8adc3f1fa" Name="">
+          <Description>$TextArea:b2b_limbeck_storiezu1()</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$TextArea:b2b_limbeck_storiezu1()</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="2248.333251953125" YCoordinate="341.66665649414062" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -779,13 +596,15 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="59cfcf19-e4cd-4e4e-801d-819a76efe7e8" From="68b205c4-30a3-4b2f-8a8e-40930d4857e2" To="4de61066-04f9-43da-8663-22330e5880f6" Name="b2b_limbeck_durchlauf is 'a_order'">
+        <Transition Id="59cfcf19-e4cd-4e4e-801d-819a76efe7e8" From="68b205c4-30a3-4b2f-8a8e-40930d4857e2" To="4de61066-04f9-43da-8663-22330e5880f6" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1806" YCoordinate="995" />
+              <Coordinates XCoordinate="1808" YCoordinate="1107" />
+              <Coordinates XCoordinate="1808" YCoordinate="1144.5" />
+              <Coordinates XCoordinate="1806" YCoordinate="1144.5" />
               <Coordinates XCoordinate="1806" YCoordinate="1182" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -798,12 +617,12 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="141" YCoordinate="66" />
               <Coordinates XCoordinate="171.5" YCoordinate="66" />
-              <Coordinates XCoordinate="171.5" YCoordinate="131" />
-              <Coordinates XCoordinate="190" YCoordinate="131" />
+              <Coordinates XCoordinate="171.5" YCoordinate="169" />
+              <Coordinates XCoordinate="478" YCoordinate="169" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="3d0bba17-f9a9-444e-a44c-2e7c67dcba78" From="4de61066-04f9-43da-8663-22330e5880f6" To="1a870d6d-e77e-462f-9384-1bfffe29ff65" Name="b2b_limbeck_durchlauf is 'a_order'">
+        <Transition Id="3d0bba17-f9a9-444e-a44c-2e7c67dcba78" From="4de61066-04f9-43da-8663-22330e5880f6" To="1a870d6d-e77e-462f-9384-1bfffe29ff65" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -811,17 +630,6 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1806" YCoordinate="1242" />
               <Coordinates XCoordinate="1806" YCoordinate="1366" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="304e5cbd-8054-457b-ad06-dd42c28baf02" From="5f8ecd3b-d0c9-4db2-9b0b-de6b856badae" To="af175507-0666-4c6d-aa86-c5340d34f7d2">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="672" YCoordinate="233" />
-              <Coordinates XCoordinate="1352" YCoordinate="233" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -844,10 +652,9 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1933" YCoordinate="233" />
-              <Coordinates XCoordinate="1949" YCoordinate="233" />
-              <Coordinates XCoordinate="1949" YCoordinate="142" />
-              <Coordinates XCoordinate="1965" YCoordinate="142" />
+              <Coordinates XCoordinate="1888" YCoordinate="203" />
+              <Coordinates XCoordinate="1888" YCoordinate="142" />
+              <Coordinates XCoordinate="1963" YCoordinate="142" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -857,7 +664,7 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2055" YCoordinate="142" />
+              <Coordinates XCoordinate="2053" YCoordinate="142" />
               <Coordinates XCoordinate="2104" YCoordinate="142" />
               <Coordinates XCoordinate="2104" YCoordinate="183" />
             </ConnectorGraphicsInfo>
@@ -869,212 +676,10 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="293" YCoordinate="175" />
-              <Coordinates XCoordinate="293" YCoordinate="219" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="8c176de5-4f58-4965-aeda-21d0a9db9c7b" From="c829a068-870e-455b-9ff2-2662d4ac76b0" To="5f8ecd3b-d0c9-4db2-9b0b-de6b856badae" Name="a_order">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="420" YCoordinate="355" />
-              <Coordinates XCoordinate="441" YCoordinate="355" />
-              <Coordinates XCoordinate="441" YCoordinate="233" />
-              <Coordinates XCoordinate="582" YCoordinate="233" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="04f8b6fc-36de-4ef4-b5fd-0463895ad095" From="c829a068-870e-455b-9ff2-2662d4ac76b0" To="caa716e2-63ac-46b1-9af2-8156416a0679" Name="b_jump">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="293" YCoordinate="383" />
-              <Coordinates XCoordinate="293" YCoordinate="1426" />
-              <Coordinates XCoordinate="517" YCoordinate="1426" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="f8e84a1b-931b-4ccf-8e32-5d20a15509c1" From="caa716e2-63ac-46b1-9af2-8156416a0679" To="74659fb1-1fe3-4030-a5be-ed988d4c1c47">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="607" YCoordinate="1426" />
-              <Coordinates XCoordinate="793.5" YCoordinate="1426" />
-              <Coordinates XCoordinate="793.5" YCoordinate="1450" />
-              <Coordinates XCoordinate="980" YCoordinate="1450" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="b6cb88a1-0367-47b3-80fb-60fffe587f99" From="74659fb1-1fe3-4030-a5be-ed988d4c1c47" To="bf99535a-7925-450a-828d-2945323c36eb">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1025" YCoordinate="1420" />
-              <Coordinates XCoordinate="1025" YCoordinate="318" />
-              <Coordinates XCoordinate="1219" YCoordinate="318" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="6cfbf474-1913-4a0b-b95d-e6b69a653545" From="74659fb1-1fe3-4030-a5be-ed988d4c1c47" To="a38fbc26-7eb1-4c19-87f3-3f4f8571eb66">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1025" YCoordinate="1420" />
-              <Coordinates XCoordinate="1025" YCoordinate="745" />
-              <Coordinates XCoordinate="1340" YCoordinate="745" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="0be43123-7b51-43a5-a293-e24de4ff89df" From="74659fb1-1fe3-4030-a5be-ed988d4c1c47" To="d8496798-3af8-4e8c-a727-98298e054299">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1025" YCoordinate="1420" />
-              <Coordinates XCoordinate="1025" YCoordinate="946" />
-              <Coordinates XCoordinate="1357" YCoordinate="946" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="0a4650e4-e682-4f23-af02-eb689216a4f4" From="bf99535a-7925-450a-828d-2945323c36eb" To="5fd4a17d-0fbf-4727-b34c-02496924de8e">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1309" YCoordinate="318" />
-              <Coordinates XCoordinate="1606" YCoordinate="318" />
-              <Coordinates XCoordinate="1606" YCoordinate="233" />
-              <Coordinates XCoordinate="1843" YCoordinate="233" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="b7256a8a-8250-4c37-915d-c98da613f3f0" From="d8496798-3af8-4e8c-a727-98298e054299" To="68b205c4-30a3-4b2f-8a8e-40930d4857e2">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1447" YCoordinate="946" />
-              <Coordinates XCoordinate="1595" YCoordinate="946" />
-              <Coordinates XCoordinate="1595" YCoordinate="965" />
-              <Coordinates XCoordinate="1761" YCoordinate="965" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="3abf3193-1e42-4866-ac08-72a1c05edce5" From="74659fb1-1fe3-4030-a5be-ed988d4c1c47" To="25960701-8bc3-40ab-9457-300b995aed39">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1070" YCoordinate="1450" />
-              <Coordinates XCoordinate="1189" YCoordinate="1450" />
-              <Coordinates XCoordinate="1189" YCoordinate="1426" />
-              <Coordinates XCoordinate="1308" YCoordinate="1426" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="55a2aa81-bc66-4ce0-b96d-72637cab5582" From="2fcdb832-c63a-41f8-9bf4-74189b20f8b7" To="7a42c06d-321d-433f-afd1-11a734c27117">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1406" YCoordinate="1670" />
-              <Coordinates XCoordinate="1484.5" YCoordinate="1670" />
-              <Coordinates XCoordinate="1484.5" YCoordinate="1669" />
-              <Coordinates XCoordinate="1563" YCoordinate="1669" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="869299c5-e73b-42bc-afcf-ed5827bbdc12" From="7a42c06d-321d-433f-afd1-11a734c27117" To="d86a3836-7478-4813-96f4-0ca985195cf1">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1863" YCoordinate="1669" />
-              <Coordinates XCoordinate="1876" YCoordinate="1669" />
-              <Coordinates XCoordinate="1876" YCoordinate="1700" />
-              <Coordinates XCoordinate="1889" YCoordinate="1700" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="e34b43c8-4605-4775-ac59-b45810030e51" From="7a42c06d-321d-433f-afd1-11a734c27117" To="ea002f39-12f1-4876-8515-cd5e3ddd4b8a">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1713" YCoordinate="1698" />
-              <Coordinates XCoordinate="1713" YCoordinate="1717.5" />
-              <Coordinates XCoordinate="1826" YCoordinate="1717.5" />
-              <Coordinates XCoordinate="1826" YCoordinate="1736" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="d7008a64-289e-4636-82d5-b07f4fc55847" From="a38fbc26-7eb1-4c19-87f3-3f4f8571eb66" To="900f1faf-c480-44fb-9ea7-3280689f1b5e">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1430" YCoordinate="745" />
-              <Coordinates XCoordinate="1491.5" YCoordinate="745" />
-              <Coordinates XCoordinate="1491.5" YCoordinate="656" />
-              <Coordinates XCoordinate="1923" YCoordinate="656" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="97c75110-51d1-4826-8642-93eb77650dfa" From="9b11e3d1-e44d-4476-9a72-0bf9553875b9" To="74659fb1-1fe3-4030-a5be-ed988d4c1c47" Name="b2b_limbeck_durchlauf is 'b_jump'">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2401" YCoordinate="243" />
-              <Coordinates XCoordinate="2401" YCoordinate="812" />
-              <Coordinates XCoordinate="1025" YCoordinate="812" />
-              <Coordinates XCoordinate="1025" YCoordinate="1420" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="261a4382-baf3-4dae-a532-3772575a342c" From="4de61066-04f9-43da-8663-22330e5880f6" To="74659fb1-1fe3-4030-a5be-ed988d4c1c47" Name="b2b_limbeck_durchlauf is 'b_jump'">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1806" YCoordinate="1242" />
-              <Coordinates XCoordinate="1806" YCoordinate="1277" />
-              <Coordinates XCoordinate="1025" YCoordinate="1277" />
-              <Coordinates XCoordinate="1025" YCoordinate="1420" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="7ef7e087-cb3a-4fee-beff-7306378a12f9" From="74659fb1-1fe3-4030-a5be-ed988d4c1c47" To="2fcdb832-c63a-41f8-9bf4-74189b20f8b7">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1070" YCoordinate="1450" />
-              <Coordinates XCoordinate="1193" YCoordinate="1450" />
-              <Coordinates XCoordinate="1193" YCoordinate="1670" />
-              <Coordinates XCoordinate="1316" YCoordinate="1670" />
+              <Coordinates XCoordinate="684" YCoordinate="169" />
+              <Coordinates XCoordinate="771" YCoordinate="169" />
+              <Coordinates XCoordinate="771" YCoordinate="192" />
+              <Coordinates XCoordinate="1074" YCoordinate="192" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1089,119 +694,33 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="dca1dc4c-8d68-4fbc-89c9-9b3e9f75d14b" From="25960701-8bc3-40ab-9457-300b995aed39" To="1a870d6d-e77e-462f-9384-1bfffe29ff65">
+        <Transition Id="fb59e601-a0e0-46f5-92d2-cbe2440f4379" From="327ede8a-cfec-4316-8f20-4f4118caaa7d" To="5b23babe-85e2-4ff8-82e3-351ecfd025e5" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1398" YCoordinate="1426" />
-              <Coordinates XCoordinate="1579.5" YCoordinate="1426" />
-              <Coordinates XCoordinate="1579.5" YCoordinate="1396" />
-              <Coordinates XCoordinate="1761" YCoordinate="1396" />
+              <Coordinates XCoordinate="2514" YCoordinate="836" />
+              <Coordinates XCoordinate="2514" YCoordinate="889.5" />
+              <Coordinates XCoordinate="1808" YCoordinate="889.5" />
+              <Coordinates XCoordinate="1808" YCoordinate="943" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="fcd24033-d109-452d-b37d-574145529274" From="d86a3836-7478-4813-96f4-0ca985195cf1" To="08c19730-a935-4a30-8403-25de6ab52693">
+        <Transition Id="96f57dc0-21d4-4855-94db-f90c70888ebe" From="9b11e3d1-e44d-4476-9a72-0bf9553875b9" To="903cdd6c-e125-4ab6-bd90-1ec8adc3f1fa" Name="">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1979" YCoordinate="1700" />
-              <Coordinates XCoordinate="2030" YCoordinate="1700" />
+              <Coordinates XCoordinate="2417" YCoordinate="333" />
+              <Coordinates XCoordinate="2417" YCoordinate="337.5" />
+              <Coordinates XCoordinate="2293" YCoordinate="337.5" />
+              <Coordinates XCoordinate="2293" YCoordinate="342" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="e372592c-b10f-4810-bfe5-3bbfc5e928a2" From="ea002f39-12f1-4876-8515-cd5e3ddd4b8a" To="ccb52913-d8b8-44b6-bd3b-5f8d959c2321">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1871" YCoordinate="1766" />
-              <Coordinates XCoordinate="1911" YCoordinate="1766" />
-              <Coordinates XCoordinate="1911" YCoordinate="1821" />
-              <Coordinates XCoordinate="1963" YCoordinate="1821" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="b4885feb-9328-4778-a831-70b760abf244" From="08c19730-a935-4a30-8403-25de6ab52693" To="c8c3d304-e83c-4a0f-a435-d062c118af53">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2120" YCoordinate="1700" />
-              <Coordinates XCoordinate="2233" YCoordinate="1700" />
-              <Coordinates XCoordinate="2233" YCoordinate="1762" />
-              <Coordinates XCoordinate="2346" YCoordinate="1762" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="fb59e601-a0e0-46f5-92d2-cbe2440f4379" From="327ede8a-cfec-4316-8f20-4f4118caaa7d" To="5b23babe-85e2-4ff8-82e3-351ecfd025e5" Name="b2b_limbeck_durchlauf is 'a_order'">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2514" YCoordinate="776" />
-              <Coordinates XCoordinate="2514" YCoordinate="763" />
-              <Coordinates XCoordinate="2204" YCoordinate="763" />
-              <Coordinates XCoordinate="2204" YCoordinate="826" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="ed3ccc7f-8ec0-4742-baa5-e8d83a585073" From="4e7667bb-5580-45df-8dd0-b5831c3dc8d8" To="74659fb1-1fe3-4030-a5be-ed988d4c1c47">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2128" YCoordinate="1791" />
-              <Coordinates XCoordinate="2128" YCoordinate="1635.5" />
-              <Coordinates XCoordinate="1025" YCoordinate="1635.5" />
-              <Coordinates XCoordinate="1025" YCoordinate="1480" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="601f2248-aaf8-4381-958a-4ad9aa0e4480" From="ccb52913-d8b8-44b6-bd3b-5f8d959c2321" To="4e7667bb-5580-45df-8dd0-b5831c3dc8d8">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2051" YCoordinate="1821" />
-              <Coordinates XCoordinate="2083" YCoordinate="1821" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="6e3606b4-3632-4a1f-9e2c-3d983ac82c9b" From="ccb52913-d8b8-44b6-bd3b-5f8d959c2321" To="9c7a99db-2bfc-4f31-a159-2a11bc81a3ef" Name="b_jump">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2007" YCoordinate="1850" />
-              <Coordinates XCoordinate="2007" YCoordinate="1923" />
-              <Coordinates XCoordinate="2091" YCoordinate="1923" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="96f57dc0-21d4-4855-94db-f90c70888ebe" From="9b11e3d1-e44d-4476-9a72-0bf9553875b9" To="1487a3fd-e257-433d-abab-9c865de31811" Name="b2b_limbeck_durchlauf is 'a_order'">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2401" YCoordinate="243" />
-              <Coordinates XCoordinate="2401" YCoordinate="323" />
-              <Coordinates XCoordinate="2186" YCoordinate="323" />
-              <Coordinates XCoordinate="2186" YCoordinate="403" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="a7ed441a-f7d9-4aca-aa0d-a9f0f675610b" From="900f1faf-c480-44fb-9ea7-3280689f1b5e" To="e5565082-0af9-43c2-a84a-383242ec0429" Name="b2b_limbeck_weiterbildung lt 5 and b2b_limbeck_weiterbildung gt 0">
+        <Transition Id="a7ed441a-f7d9-4aca-aa0d-a9f0f675610b" From="900f1faf-c480-44fb-9ea7-3280689f1b5e" To="e5565082-0af9-43c2-a84a-383242ec0429" Name="b2b_limbeck_weiterbildung lt 5 and b2b_limbeck_weiterbildung gt 2">
           <Condition />
           <Description />
           <ExtendedAttributes />
@@ -1258,9 +777,7 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2152" YCoordinate="552" />
-              <Coordinates XCoordinate="2183.5" YCoordinate="552" />
-              <Coordinates XCoordinate="2183.5" YCoordinate="656" />
-              <Coordinates XCoordinate="2269" YCoordinate="656" />
+              <Coordinates XCoordinate="2451" YCoordinate="552" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1277,29 +794,16 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="31438c20-f690-4a4e-abcb-63271b371ea3" From="e5565082-0af9-43c2-a84a-383242ec0429" To="327ede8a-cfec-4316-8f20-4f4118caaa7d">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2158" YCoordinate="656" />
-              <Coordinates XCoordinate="2220.5" YCoordinate="656" />
-              <Coordinates XCoordinate="2220.5" YCoordinate="806" />
-              <Coordinates XCoordinate="2469" YCoordinate="806" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="65289809-4022-4902-81dc-cf7f95220223" From="f62a687b-1c8c-4dbb-ba79-d0fc55ccc46c" To="327ede8a-cfec-4316-8f20-4f4118caaa7d">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2359" YCoordinate="656" />
-              <Coordinates XCoordinate="2411" YCoordinate="656" />
-              <Coordinates XCoordinate="2411" YCoordinate="806" />
-              <Coordinates XCoordinate="2469" YCoordinate="806" />
+              <Coordinates XCoordinate="2496" YCoordinate="582" />
+              <Coordinates XCoordinate="2496" YCoordinate="668.5" />
+              <Coordinates XCoordinate="2514" YCoordinate="668.5" />
+              <Coordinates XCoordinate="2514" YCoordinate="776" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1310,7 +814,9 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2158" YCoordinate="656" />
-              <Coordinates XCoordinate="2269" YCoordinate="656" />
+              <Coordinates XCoordinate="2204.5" YCoordinate="656" />
+              <Coordinates XCoordinate="2204.5" YCoordinate="552" />
+              <Coordinates XCoordinate="2451" YCoordinate="552" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1322,32 +828,19 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2165" YCoordinate="751" />
               <Coordinates XCoordinate="2212" YCoordinate="751" />
-              <Coordinates XCoordinate="2212" YCoordinate="656" />
-              <Coordinates XCoordinate="2269" YCoordinate="656" />
+              <Coordinates XCoordinate="2212" YCoordinate="552" />
+              <Coordinates XCoordinate="2451" YCoordinate="552" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="928a5dae-a60f-4b95-9cb4-321aec2fea3e" From="327ede8a-cfec-4316-8f20-4f4118caaa7d" To="74659fb1-1fe3-4030-a5be-ed988d4c1c47" Name="b2b_limbeck_durchlauf is 'b_jump'">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2514" YCoordinate="836" />
-              <Coordinates XCoordinate="2514" YCoordinate="1128" />
-              <Coordinates XCoordinate="1025" YCoordinate="1128" />
-              <Coordinates XCoordinate="1025" YCoordinate="1420" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="b7286e46-3e3f-4400-bccb-986abb99e693" From="fdff845f-7615-4778-b687-2dfd1f34b5ab" To="9b11e3d1-e44d-4476-9a72-0bf9553875b9">
+        <Transition Id="b7286e46-3e3f-4400-bccb-986abb99e693" From="fdff845f-7615-4778-b687-2dfd1f34b5ab" To="9b8ddb8f-fd2e-4544-9d20-62cbf1b587ab">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2288" YCoordinate="213" />
-              <Coordinates XCoordinate="2356" YCoordinate="213" />
+              <Coordinates XCoordinate="2372" YCoordinate="213" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1359,43 +852,6 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="1949" YCoordinate="1426" />
               <Coordinates XCoordinate="1949" YCoordinate="1507" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="824bcfa9-5e83-4a46-8bfd-5bffa5ed07af" From="7306ccb1-acfa-4353-92d3-c6b7b54722bf" To="7a42c06d-321d-433f-afd1-11a734c27117">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1949" YCoordinate="1567" />
-              <Coordinates XCoordinate="1949" YCoordinate="1601.5" />
-              <Coordinates XCoordinate="1713" YCoordinate="1601.5" />
-              <Coordinates XCoordinate="1713" YCoordinate="1641" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="984bfb5f-1146-4900-bdae-1d4b83fdd912" From="63b5fdd4-5edd-4e20-8ac3-e8fafeb54fc7" To="c829a068-870e-455b-9ff2-2662d4ac76b0">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="293" YCoordinate="279" />
-              <Coordinates XCoordinate="293" YCoordinate="328" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="5ec1b8e0-1a81-4191-be26-586cef079c41" From="9c7a99db-2bfc-4f31-a159-2a11bc81a3ef" To="c8c3d304-e83c-4a0f-a435-d062c118af53">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2181" YCoordinate="1923" />
-              <Coordinates XCoordinate="2263.5" YCoordinate="1923" />
-              <Coordinates XCoordinate="2263.5" YCoordinate="1762" />
-              <Coordinates XCoordinate="2346" YCoordinate="1762" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -1429,10 +885,84 @@ Und wenn Sie nun die Übungen täglich umsetzen, werden Sie nicht nur mehr darü
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2204" YCoordinate="886" />
-              <Coordinates XCoordinate="2204" YCoordinate="910.5" />
-              <Coordinates XCoordinate="1806" YCoordinate="910.5" />
-              <Coordinates XCoordinate="1806" YCoordinate="935" />
+              <Coordinates XCoordinate="1808" YCoordinate="1003" />
+              <Coordinates XCoordinate="1808" YCoordinate="1047" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="b89e490b-18af-40e5-a7d6-9e0518e0087b" From="7306ccb1-acfa-4353-92d3-c6b7b54722bf" To="e36337b6-f101-4fe3-a1c2-76e6d343af6a">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1994" YCoordinate="1537" />
+              <Coordinates XCoordinate="2019.5" YCoordinate="1537" />
+              <Coordinates XCoordinate="2019.5" YCoordinate="1610" />
+              <Coordinates XCoordinate="2045" YCoordinate="1610" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="282ba4aa-4905-4fbf-8f13-d393bca43c4a" From="e36337b6-f101-4fe3-a1c2-76e6d343af6a" To="9b9f730e-9d7f-4bd8-a2e3-a630f02f58cc">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2135" YCoordinate="1610" />
+              <Coordinates XCoordinate="2159" YCoordinate="1610" />
+              <Coordinates XCoordinate="2159" YCoordinate="1735" />
+              <Coordinates XCoordinate="2183" YCoordinate="1735" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="fcb88e9c-161b-42b9-8960-4c272ff85030" From="63b5fdd4-5edd-4e20-8ac3-e8fafeb54fc7" To="af175507-0666-4c6d-aa86-c5340d34f7d2">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1164" YCoordinate="192" />
+              <Coordinates XCoordinate="1258" YCoordinate="192" />
+              <Coordinates XCoordinate="1258" YCoordinate="233" />
+              <Coordinates XCoordinate="1352" YCoordinate="233" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="896e8c57-4c26-46d0-b137-790c3c7cb759" From="e5565082-0af9-43c2-a84a-383242ec0429" To="327ede8a-cfec-4316-8f20-4f4118caaa7d">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2158" YCoordinate="656" />
+              <Coordinates XCoordinate="2313.5" YCoordinate="656" />
+              <Coordinates XCoordinate="2313.5" YCoordinate="806" />
+              <Coordinates XCoordinate="2469" YCoordinate="806" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="89a9c61c-afd6-43b1-93ed-4f87199fc7e1" From="9b8ddb8f-fd2e-4544-9d20-62cbf1b587ab" To="9b11e3d1-e44d-4476-9a72-0bf9553875b9">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2417" YCoordinate="243" />
+              <Coordinates XCoordinate="2417" YCoordinate="273" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="4897daad-e220-439d-a899-e19094c9eb26" From="903cdd6c-e125-4ab6-bd90-1ec8adc3f1fa" To="1487a3fd-e257-433d-abab-9c865de31811">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2293" YCoordinate="402" />
+              <Coordinates XCoordinate="2293" YCoordinate="402.5" />
+              <Coordinates XCoordinate="2186" YCoordinate="402.5" />
+              <Coordinates XCoordinate="2186" YCoordinate="403" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
