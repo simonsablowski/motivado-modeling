@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-09-01T10:26:00.431+02:00</Created>
-    <ModificationDate>2011-10-24T18:43:27.775+02:00</ModificationDate>
+    <ModificationDate>2011-10-25T18:12:40.199+02:00</ModificationDate>
     <Description>b2b-limbeck</Description>
     <Documentation />
     <Modifications>
@@ -29,6 +29,7 @@
       <Modification Date="2011-10-20T16:40:38.199Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-20T17:00:02.965Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-24T16:43:27.775Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-25T16:12:40.199Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -62,7 +63,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="da377147-e362-49bf-abd6-f568503a7f05" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-10-24T18:43:31.172+02:00</Created>
+        <Created>2011-10-25T18:12:44.474+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -77,7 +78,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="2b054f6b-1780-415e-b979-aa70e1b1f5e1" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-10-24T18:43:31.172+02:00</Created>
+        <Created>2011-10-25T18:12:44.474+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -220,23 +221,15 @@ Schreiben Sie mindestens 5 Punkte auf, über die Sie sich heute oder sogar regel
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="1a870d6d-e77e-462f-9384-1bfffe29ff65" Name="Teil 4: Übungen">
-          <Description>$Text()
-
-Wir sind nun fast am Ende dieses Bereichs. Wichtig ist, dass Sie das Gelernte jetzt praktisch anwenden.
-
-Klicken Sie auf "Weiter", um zu Ihren beiden persönlichen Übungsaufgaben zu gelangen. </Description>
+        <Activity Id="1a870d6d-e77e-462f-9384-1bfffe29ff65" Name="">
+          <Description>$ImageStack("elements":[{"element":"title4_uebungen.png","second":0}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>$Text()
-
-Wir sind nun fast am Ende dieses Bereichs. Wichtig ist, dass Sie das Gelernte jetzt praktisch anwenden.
-
-Klicken Sie auf "Weiter", um zu Ihren beiden persönlichen Übungsaufgaben zu gelangen. </Documentation>
+          <Documentation>$ImageStack("elements":[{"element":"title4_uebungen.png","second":0}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -464,60 +457,6 @@ Wenn Sie in den nächsten 7 Tagen einen neuen Kunden treffen, stellen Sie sich v
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="1487a3fd-e257-433d-abab-9c865de31811" Name="Teil 2: Die Weiterbildung">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2141" YCoordinate="403" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="af175507-0666-4c6d-aa86-c5340d34f7d2" Name="Teil 1: Die Einstellung">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1352" YCoordinate="203" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="5b23babe-85e2-4ff8-82e3-351ecfd025e5" Name="Teil 3: Die Begrüßung">
-          <Description />
-          <Implementation>
-            <Task>
-              <TaskScript>
-                <Script />
-              </TaskScript>
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation />
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="1763" YCoordinate="943" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
         <Activity Id="9b9f730e-9d7f-4bd8-a2e3-a630f02f58cc" Name="">
           <Description />
           <Event>
@@ -534,7 +473,7 @@ Wenn Sie in den nächsten 7 Tagen einen neuen Kunden treffen, stellen Sie sich v
         <Activity Id="e36337b6-f101-4fe3-a1c2-76e6d343af6a" Name="Herzlichen Glückwunsch!">
           <Description>$Text()
 
-Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder ein und berichten Sie, wie es mit den Übungen gelaufen ist.</Description>
+Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder an und berichten Sie, wie es mit den Übungen gelaufen ist.</Description>
           <Implementation>
             <Task>
               <TaskManual />
@@ -543,7 +482,7 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <Performers />
           <Documentation>$Text()
 
-Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder ein und berichten Sie, wie es mit den Übungen gelaufen ist.</Documentation>
+Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie sich in 7 Tagen wieder an und berichten Sie, wie es mit den Übungen gelaufen ist.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -580,6 +519,54 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
               <Coordinates XCoordinate="2248.333251953125" YCoordinate="341.66665649414062" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="5b23babe-85e2-4ff8-82e3-351ecfd025e5" Name="">
+          <Description>$ImageStack("elements":[{"element":"title3_begruessung.png","second":0}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ImageStack("elements":[{"element":"title3_begruessung.png","second":0}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1763" YCoordinate="943" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="1487a3fd-e257-433d-abab-9c865de31811" Name="">
+          <Description>$ImageStack("elements":[{"element":"title2_begruessung.png","second":0}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ImageStack("elements":[{"element":"title2_begruessung.png","second":0}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="2141" YCoordinate="403" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="af175507-0666-4c6d-aa86-c5340d34f7d2" Name="">
+          <Description>$ImageStack("elements":[{"element":"title1_einstellung.png","second":0}])</Description>
+          <Implementation>
+            <Task>
+              <TaskManual />
+            </Task>
+          </Implementation>
+          <Performers />
+          <Documentation>$ImageStack("elements":[{"element":"title1_einstellung.png","second":0}])</Documentation>
+          <ExtendedAttributes />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
+              <Coordinates XCoordinate="1352" YCoordinate="203" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -714,9 +701,9 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2417" YCoordinate="333" />
-              <Coordinates XCoordinate="2417" YCoordinate="337.5" />
-              <Coordinates XCoordinate="2293" YCoordinate="337.5" />
-              <Coordinates XCoordinate="2293" YCoordinate="342" />
+              <Coordinates XCoordinate="2417" YCoordinate="337" />
+              <Coordinates XCoordinate="2293" YCoordinate="337" />
+              <Coordinates XCoordinate="2293" YCoordinate="341" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -839,8 +826,10 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2288" YCoordinate="213" />
-              <Coordinates XCoordinate="2372" YCoordinate="213" />
+              <Coordinates XCoordinate="2243" YCoordinate="243" />
+              <Coordinates XCoordinate="2243" YCoordinate="253" />
+              <Coordinates XCoordinate="2325" YCoordinate="253" />
+              <Coordinates XCoordinate="2325" YCoordinate="263" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -948,8 +937,10 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2417" YCoordinate="243" />
-              <Coordinates XCoordinate="2417" YCoordinate="273" />
+              <Coordinates XCoordinate="2370" YCoordinate="293" />
+              <Coordinates XCoordinate="2371" YCoordinate="293" />
+              <Coordinates XCoordinate="2371" YCoordinate="303" />
+              <Coordinates XCoordinate="2372" YCoordinate="303" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -959,9 +950,9 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="2293" YCoordinate="401" />
               <Coordinates XCoordinate="2293" YCoordinate="402" />
-              <Coordinates XCoordinate="2293" YCoordinate="402.5" />
-              <Coordinates XCoordinate="2186" YCoordinate="402.5" />
+              <Coordinates XCoordinate="2186" YCoordinate="402" />
               <Coordinates XCoordinate="2186" YCoordinate="403" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
