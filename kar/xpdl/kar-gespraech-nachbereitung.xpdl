@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2010-10-13T18:05:54.2382813+02:00</Created>
-    <ModificationDate>2011-10-26T17:33:24.159+02:00</ModificationDate>
+    <ModificationDate>2011-10-26T18:18:01.449+02:00</ModificationDate>
     <Description>kar-gespraech-nachbereitung</Description>
     <Documentation />
     <Modifications>
@@ -13,6 +13,7 @@
       <Modification Date="2011-08-29T14:21:26.9003907Z" UserName="modellierung-pc_modellierung" />
       <Modification Date="2011-08-29T15:12:58.0361329Z" UserName="modellierung-pc_modellierung" />
       <Modification Date="2011-10-26T15:33:24.159Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-26T16:18:01.449Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -46,7 +47,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="dba5fdf2-d7ef-4ed1-aa13-7cffec4d6dec" Name="Main Prozeß">
       <ProcessHeader>
-        <Created>2011-10-26T17:54:58.816+02:00</Created>
+        <Created>2011-10-26T18:18:15.553+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -61,7 +62,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="00bb064e-8bd5-45f4-b415-54b2972484fb" Name="Aktive Nachbereitung">
       <ProcessHeader>
-        <Created>2011-10-26T17:54:58.818+02:00</Created>
+        <Created>2011-10-26T18:18:15.553+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -957,7 +958,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="e3215f12-3d5d-4468-a21c-f4246b529484" Name="Wir haben hierfür einen Telefonleitfaden für Sie bereitgestellt, den Sie sich unten herunterladen können!">
+        <Activity Id="e3215f12-3d5d-4468-a21c-f4246b529484" Name="Wir haben hierfür einen Telefonleitfaden für Sie bereitgestellt, den Sie sich unten herunterladen können! Darin ist auch ein E-Mail-Leitfaden enthalten, falls Sie sich doch dafür entscheiden, den Weg der schriftlichen Kommunikation zu gehen.">
           <Description>$DocumentDownload("documents":[{"name":"Leitfaden Nachfassen","file":"Leitfaden_Nachfassen.pdf"}])</Description>
           <Implementation>
             <Task>
@@ -970,22 +971,6 @@
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="98" Width="276" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
               <Coordinates XCoordinate="1153" YCoordinate="1005.5" />
-            </NodeGraphicsInfo>
-          </NodeGraphicsInfos>
-        </Activity>
-        <Activity Id="62e9635e-1868-4800-911a-b1392ccbe2ce" Name="Wenn Sie sich doch dafür entscheiden, den Weg der schriftlichen Kommunikation zu gehen, haben wir hier für Sie unseren E-Mail-Leitfaden, den Sie sich auch bequem runterladen und ausdrucken können.">
-          <Description>$DocumentDownload("documents":[{"name":"Leitfaden Mail nachfassen","file":"Leitfaden_nachfassen_Mail.pdf"}])</Description>
-          <Implementation>
-            <Task>
-              <TaskManual />
-            </Task>
-          </Implementation>
-          <Performers />
-          <Documentation>$DocumentDownload("documents":[{"name":"Leitfaden Mail nachfassen","file":"Leitfaden_nachfassen_Mail.pdf"}])</Documentation>
-          <ExtendedAttributes />
-          <NodeGraphicsInfos>
-            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="135" Width="229" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
-              <Coordinates XCoordinate="1472" YCoordinate="986.5" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -1618,30 +1603,6 @@ $Text()</Documentation>
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="9803fa16-a8aa-4d75-8422-7d4f98937f4a" From="e3215f12-3d5d-4468-a21c-f4246b529484" To="62e9635e-1868-4800-911a-b1392ccbe2ce" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1429" YCoordinate="1054" />
-              <Coordinates XCoordinate="1450.5" YCoordinate="1054" />
-              <Coordinates XCoordinate="1450.5" YCoordinate="1053" />
-              <Coordinates XCoordinate="1472" YCoordinate="1053" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
-        <Transition Id="83cf81c7-7d27-4d58-a554-107fe469d768" From="62e9635e-1868-4800-911a-b1392ccbe2ce" To="5e3e8ec3-5295-4778-bc62-5593a7796afe" Name="">
-          <Condition />
-          <Description />
-          <ExtendedAttributes />
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="1701" YCoordinate="1053" />
-              <Coordinates XCoordinate="1717" YCoordinate="1053" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="c33da46b-0f52-4b3e-8fb2-b1c94da41624" From="d2d52713-6d70-4173-b1a8-82732971f52d" To="21003a77-227e-4864-99bf-bf2349d7d7d2" Name="">
           <Condition />
           <Description />
@@ -1882,6 +1843,19 @@ $Text()</Documentation>
               <Coordinates XCoordinate="1855" YCoordinate="1198" />
               <Coordinates XCoordinate="382" YCoordinate="1198" />
               <Coordinates XCoordinate="382" YCoordinate="1270" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="1c02d69f-b07f-409d-a08a-0ff1278f9853" From="e3215f12-3d5d-4468-a21c-f4246b529484" To="5e3e8ec3-5295-4778-bc62-5593a7796afe">
+          <Condition />
+          <Description />
+          <ExtendedAttributes />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
+              <Coordinates XCoordinate="1429" YCoordinate="1054" />
+              <Coordinates XCoordinate="1573" YCoordinate="1054" />
+              <Coordinates XCoordinate="1573" YCoordinate="1053" />
+              <Coordinates XCoordinate="1717" YCoordinate="1053" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>

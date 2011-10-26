@@ -4,14 +4,15 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2010-10-13T18:05:54.1914063+02:00</Created>
-    <ModificationDate>2011-08-29T11:09:52.1064454+02:00</ModificationDate>
+    <ModificationDate>2011-10-26T18:29:09.118+02:00</ModificationDate>
     <Description>kar-erster-anruf</Description>
     <Documentation />
     <Modifications>
       <Modification Date="2011-08-22T12:03:36.8556Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-08-24T15:42:16.9628906Z" UserName="modellierung-pc_modellierung" />
       <Modification Date="2011-08-25T15:27:13.875Z" UserName="modellierung-pc_modellierung" />
-      <Modification Date="2011-08-29T09:09:52.1064454Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-08-29T09:19:20.03125Z" UserName="modellierung-pc_modellierung" />
+      <Modification Date="2011-10-26T16:29:09.118Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -41,17 +42,6 @@
   </Pools>
   <MessageFlows />
   <Associations>
-    <Association Id="4ff5905d-3eea-4bc9-95a6-735ad1f76278" Source="93fea790-cb76-4ca0-9420-ec67428c2681" Target="98696613-6638-404b-96e6-868c2c67adea" Name="">
-      <ConnectorGraphicsInfos>
-        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-          <Coordinates XCoordinate="673" YCoordinate="146" />
-          <Coordinates XCoordinate="673" YCoordinate="165.5" />
-          <Coordinates XCoordinate="621" YCoordinate="165.5" />
-          <Coordinates XCoordinate="621" YCoordinate="185" />
-        </ConnectorGraphicsInfo>
-      </ConnectorGraphicsInfos>
-      <ExtendedAttributes />
-    </Association>
     <Association Id="8628725e-cc89-4a38-a679-54af4fd853e3" Source="37321984-7d3f-4c85-b035-139008760e25" Target="d9038271-7a03-4db0-b50d-b40b208e92f7" Name="">
       <ConnectorGraphicsInfos>
         <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
@@ -87,14 +77,6 @@
     </Association>
   </Associations>
   <Artifacts>
-    <Artifact Id="98696613-6638-404b-96e6-868c2c67adea" ArtifactType="Annotation" TextAnnotation="Datei: &quot;Fragen_Bewerber&quot;" BizAgiArtifactTypeSpecified="false">
-      <NodeGraphicsInfos>
-        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="false" FillColor="-2763307">
-          <Coordinates XCoordinate="571" YCoordinate="185" />
-        </NodeGraphicsInfo>
-      </NodeGraphicsInfos>
-      <Documentation />
-    </Artifact>
     <Artifact Id="d9038271-7a03-4db0-b50d-b40b208e92f7" ArtifactType="Annotation" TextAnnotation="Datei: &quot;Leitfaden_Anruf_Firma&quot;" BizAgiArtifactTypeSpecified="false">
       <NodeGraphicsInfos>
         <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="100" BorderColor="-2763307" BorderVisible="false" FillColor="-2763307">
@@ -123,7 +105,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="b1b28891-b5a8-4100-829d-e7d98eeda2b4" Name="Main Prozeß">
       <ProcessHeader>
-        <Created>2011-08-29T11:13:50.4951172+02:00</Created>
+        <Created>2011-10-26T18:29:20.701+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -138,7 +120,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="99eec003-28f6-4745-9935-87f88aa6f10a" Name="Telefonische Kontaktaufnahme">
       <ProcessHeader>
-        <Created>2011-08-29T11:13:50.4951172+02:00</Created>
+        <Created>2011-10-26T18:29:20.701+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -556,7 +538,7 @@ Welche Fragen kommen gut an?
 
 In unserem Handout "Fragen des Bewerbers" haben wir noch mehr Fragen für Sie vorbereitet, die Sie bei Ihrem Anruf stellen können. Diese können sie unter dem untenstehenden Link herunterladen.
 
-$DocumentDownload("documents":[{"name":"Fragen des Bewerbers","file":"Leitfaden_Anruf_Firma_Kontaktaufnahme.pdf"}])</Description>
+$DocumentDownload("documents":[{"name":"Fragen des Bewerbers","file":"Fragen_Bewerber.pdf"}])</Description>
           <Implementation>
             <Task>
               <TaskManual />
@@ -576,7 +558,7 @@ Welche Fragen kommen gut an?
 
 In unserem Handout "Fragen des Bewerbers" haben wir noch mehr Fragen für Sie vorbereitet, die Sie bei Ihrem Anruf stellen können. Diese können sie unter dem untenstehenden Link herunterladen.
 
-$DocumentDownload("documents":[{"name":"Fragen des Bewerbers","file":"Leitfaden_Anruf_Firma_Kontaktaufnahme.pdf"}])</Documentation>
+$DocumentDownload("documents":[{"name":"Fragen des Bewerbers","file":"Fragen_Bewerber.pdf"}])</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="false" FillColor="-1249281">
