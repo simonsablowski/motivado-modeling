@@ -4,7 +4,7 @@
     <XPDLVersion>2.1</XPDLVersion>
     <Vendor>BizAgi Process Modeler.</Vendor>
     <Created>2011-09-01T10:26:00.431+02:00</Created>
-    <ModificationDate>2011-10-25T18:12:40.199+02:00</ModificationDate>
+    <ModificationDate>2011-10-28T14:45:46.382+02:00</ModificationDate>
     <Description>b2b-limbeck</Description>
     <Documentation />
     <Modifications>
@@ -30,6 +30,10 @@
       <Modification Date="2011-10-20T17:00:02.965Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-24T16:43:27.775Z" UserName="vaio_motivado_motivado" />
       <Modification Date="2011-10-25T16:12:40.199Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-27T09:44:56.51Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-27T10:20:20.883Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-27T10:37:30.099Z" UserName="vaio_motivado_motivado" />
+      <Modification Date="2011-10-28T12:45:46.382Z" UserName="vaio_motivado_motivado" />
     </Modifications>
   </PackageHeader>
   <RedefinableHeader>
@@ -63,7 +67,7 @@
   <WorkflowProcesses>
     <WorkflowProcess Id="da377147-e362-49bf-abd6-f568503a7f05" Name="Main Process">
       <ProcessHeader>
-        <Created>2011-10-25T18:12:44.474+02:00</Created>
+        <Created>2011-10-28T14:45:52.506+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -78,7 +82,7 @@
     </WorkflowProcess>
     <WorkflowProcess Id="2b054f6b-1780-415e-b979-aa70e1b1f5e1" Name="Process 1">
       <ProcessHeader>
-        <Created>2011-10-25T18:12:44.474+02:00</Created>
+        <Created>2011-10-28T14:45:52.506+02:00</Created>
         <Description />
       </ProcessHeader>
       <RedefinableHeader>
@@ -238,18 +242,18 @@ Schreiben Sie mindestens 5 Punkte auf, über die Sie sich heute oder sogar regel
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="900f1faf-c480-44fb-9ea7-3280689f1b5e" Name="Was tun Sie, um sich beruflich auf dem Laufenden zu halten?">
-          <Description>Bitte tragen Sie ein.
+          <Description>$List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"items":3)
 
-$List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"items":3)</Description>
+Bitte tragen Sie ein, womit Sie sich regelmäßig weiterbilden.</Description>
           <Implementation>
             <Task>
               <TaskManual />
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Bitte tragen Sie ein.
+          <Documentation>$List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"items":3)
 
-$List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{"type":"hide","second":0,"url":""},{"type":"show","second":33,"url":""}],"items":3)</Documentation>
+Bitte tragen Sie ein, womit Sie sich regelmäßig weiterbilden.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -276,7 +280,15 @@ $List:b2b_limbeck_weiterbildung("video":{"url":"B2B_Limbeck_V6.flv"},"events":[{
         <Activity Id="e5565082-0af9-43c2-a84a-383242ec0429" Name="#b2b_limbeck_weiterbildung|'Das' ist schon eine ganz gute Zahl.">
           <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
-Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Ergänzen Sie Ihre Liste!
+Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Es gibt so viele Möglichkeiten, sich weiterzubilden: 
+* Seminare, Workshops, Fortbildungen
+* Bücher, Zeitschriften, Fachliteratur
+* Digitale Lernprogramme
+* Austausch über Kollegen und Experten-Netzwerke
+* Konkurrenz beobachten
+* ...
+
+Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie eine Liste:
 
 </Description>
           <Implementation>
@@ -287,7 +299,15 @@ Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue
           <Performers />
           <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
-Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Ergänzen Sie Ihre Liste!
+Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue Impulse bleiben. Es gibt so viele Möglichkeiten, sich weiterzubilden: 
+* Seminare, Workshops, Fortbildungen
+* Bücher, Zeitschriften, Fachliteratur
+* Digitale Lernprogramme
+* Austausch über Kollegen und Experten-Netzwerke
+* Konkurrenz beobachten
+* ...
+
+Was könnten Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie eine Liste:
 
 </Documentation>
           <ExtendedAttributes />
@@ -300,6 +320,13 @@ Trotzdem ist es wichtig, dass Sie nicht einrosten, sondern immer offen für neue
         <Activity Id="323b2fac-3939-4b47-a7c5-6f3e4ad78c3f" Name="#b2b_limbeck_weiterbildung|'Das' ist zuwenig!">
           <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
+Es gibt so viele Möglichkeiten, sich weiterzubilden: 
+* Seminare, Workshops, Fortbildungen
+* Bücher, Zeitschriften, Fachliteratur
+* Digitale Lernprogramme
+* Austausch über Kollegen und Experten-Netzwerke
+* Konkurrenz beobachten
+* ...
 Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.</Description>
           <Implementation>
             <Task>
@@ -309,6 +336,13 @@ Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schr
           <Performers />
           <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
+Es gibt so viele Möglichkeiten, sich weiterzubilden: 
+* Seminare, Workshops, Fortbildungen
+* Bücher, Zeitschriften, Fachliteratur
+* Digitale Lernprogramme
+* Austausch über Kollegen und Experten-Netzwerke
+* Konkurrenz beobachten
+* ...
 Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schreiben Sie auf.</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
@@ -320,8 +354,15 @@ Was können Sie tun, um sich weiterzubilden und als Hardseller zu stärken? Schr
         <Activity Id="f8d4bc89-762c-4c60-ac59-f562690232ff" Name="#b2b_limbeck_weiterbildung|'Das' ist sehr gut. Sie arbeiten offensichtlich kontinuierlich an sich.">
           <Description>$List:b2b_limbeck_weiterbildung2("items":3)
 
-Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken?
+Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken? Es gibt so viele Möglichkeiten, sich weiterzubilden: 
+* Seminare, Workshops, Fortbildungen
+* Bücher, Zeitschriften, Fachliteratur
+* Digitale Lernprogramme
+* Austausch über Kollegen und Experten-Netzwerke
+* Konkurrenz beobachten
+* ...
 
+Schreiben Sie eine Liste:
 </Description>
           <Implementation>
             <Task>
@@ -331,8 +372,15 @@ Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubild
           <Performers />
           <Documentation>$List:b2b_limbeck_weiterbildung2("items":3)
 
-Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken?
+Fallen Ihnen trotzdem noch Sachen ein, die Sie tun können, um sich weiterzubilden und als Hardseller zu stärken? Es gibt so viele Möglichkeiten, sich weiterzubilden: 
+* Seminare, Workshops, Fortbildungen
+* Bücher, Zeitschriften, Fachliteratur
+* Digitale Lernprogramme
+* Austausch über Kollegen und Experten-Netzwerke
+* Konkurrenz beobachten
+* ...
 
+Schreiben Sie eine Liste:
 </Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
@@ -362,7 +410,7 @@ Was können Sie noch tun, um sich weiterzubilden und als Hardseller zu stärken?
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="327ede8a-cfec-4316-8f20-4f4118caaa7d" Name="Schön, Sie haben also #b2b_limbeck_weiterbildung2|'einige' Punkte gefunden, mit denen Sie sich weiterbilden können.">
-          <Description>Tragen Sie hinter jedem Punkt ein, wann Sie die einzelnen Punkte konkret umsetzen möchten. Markieren Sie sich auch Ihren Kalender bzw. Ihre To-Do-Liste.
+          <Description>Tragen Sie hinter jedem Punkt ein, wann Sie ihn konkret umsetzen möchten. Markieren Sie sich auch Ihren Kalender bzw. Ihre To-Do-Liste.
 
 $List:b2b_limbeck_weiterbildung2("items":3)</Description>
           <Implementation>
@@ -371,7 +419,7 @@ $List:b2b_limbeck_weiterbildung2("items":3)</Description>
             </Task>
           </Implementation>
           <Performers />
-          <Documentation>Tragen Sie hinter jedem Punkt ein, wann Sie die einzelnen Punkte konkret umsetzen möchten. Markieren Sie sich auch Ihren Kalender bzw. Ihre To-Do-Liste.
+          <Documentation>Tragen Sie hinter jedem Punkt ein, wann Sie ihn konkret umsetzen möchten. Markieren Sie sich auch Ihren Kalender bzw. Ihre To-Do-Liste.
 
 $List:b2b_limbeck_weiterbildung2("items":3)</Documentation>
           <ExtendedAttributes />
@@ -397,14 +445,14 @@ Schreiben Sie zu Ihrem ersten Punkt eine kurze Erfolgsgeschichte. Sie werden seh
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2372" YCoordinate="273" />
+              <Coordinates XCoordinate="2398" YCoordinate="273" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
         <Activity Id="95729ead-90b7-44ea-9468-e92387f79e97" Name="Übung 1">
           <Description>$TextArea:b2b_limbeck_storiezu1()
 
-Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Sehen Sie, wie Ihre Gesprächspartner reagieren, wenn Sie auf die Frage "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?" antworten:</Description>
+Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Wenn Sie also das nächste Mal gefragt werden "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?", dann antworten Sie:</Description>
           <Implementation>
             <Task>
               <TaskManual />
@@ -413,7 +461,7 @@ Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschich
           <Performers />
           <Documentation>$TextArea:b2b_limbeck_storiezu1()
 
-Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Sehen Sie, wie Ihre Gesprächspartner reagieren, wenn Sie auf die Frage "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?" antworten:</Documentation>
+Bauen Sie in den nächsten 7 Tagen jeden Tag einmal die folgende Erfolgsgeschichte ein. Das muss nicht nur im beruflichen Kontext sein. Beginnen Sie ruhig bei Ihrer Familie und Ihren Freunden. Wenn Sie also das nächste Mal gefragt werden "Wie geht's denn so, #b2b_limbeck_name|'wie läuft das Geschäft'?", dann antworten Sie:</Documentation>
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
@@ -502,7 +550,7 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2280" YCoordinate="263.33331298828125" />
+              <Coordinates XCoordinate="2280" YCoordinate="273" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -518,7 +566,7 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2248.333251953125" YCoordinate="341.66665649414062" />
+              <Coordinates XCoordinate="2445" YCoordinate="373" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -550,7 +598,7 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" BorderVisible="true" FillColor="-1249281">
-              <Coordinates XCoordinate="2141" YCoordinate="403" />
+              <Coordinates XCoordinate="1941" YCoordinate="468" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
@@ -700,10 +748,10 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2417" YCoordinate="333" />
-              <Coordinates XCoordinate="2417" YCoordinate="337" />
-              <Coordinates XCoordinate="2293" YCoordinate="337" />
-              <Coordinates XCoordinate="2293" YCoordinate="341" />
+              <Coordinates XCoordinate="2443" YCoordinate="333" />
+              <Coordinates XCoordinate="2443" YCoordinate="351.5" />
+              <Coordinates XCoordinate="2490" YCoordinate="351.5" />
+              <Coordinates XCoordinate="2490" YCoordinate="373" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -827,9 +875,9 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
               <Coordinates XCoordinate="2243" YCoordinate="243" />
-              <Coordinates XCoordinate="2243" YCoordinate="253" />
-              <Coordinates XCoordinate="2325" YCoordinate="253" />
-              <Coordinates XCoordinate="2325" YCoordinate="263" />
+              <Coordinates XCoordinate="2243" YCoordinate="258" />
+              <Coordinates XCoordinate="2325" YCoordinate="258" />
+              <Coordinates XCoordinate="2325" YCoordinate="273" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
@@ -861,9 +909,9 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2186" YCoordinate="463" />
-              <Coordinates XCoordinate="2186" YCoordinate="508" />
-              <Coordinates XCoordinate="1968" YCoordinate="508" />
+              <Coordinates XCoordinate="1986" YCoordinate="528" />
+              <Coordinates XCoordinate="1986" YCoordinate="577" />
+              <Coordinates XCoordinate="1968" YCoordinate="577" />
               <Coordinates XCoordinate="1968" YCoordinate="626" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
@@ -937,23 +985,21 @@ Sie haben bereits die erste Schritte zum neuen Hardselling gemacht. Melden Sie s
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2370" YCoordinate="293" />
-              <Coordinates XCoordinate="2371" YCoordinate="293" />
-              <Coordinates XCoordinate="2371" YCoordinate="303" />
-              <Coordinates XCoordinate="2372" YCoordinate="303" />
+              <Coordinates XCoordinate="2370" YCoordinate="303" />
+              <Coordinates XCoordinate="2398" YCoordinate="303" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="4897daad-e220-439d-a899-e19094c9eb26" From="903cdd6c-e125-4ab6-bd90-1ec8adc3f1fa" To="1487a3fd-e257-433d-abab-9c865de31811">
+        <Transition Id="bbadb097-fe5b-4e9f-92a9-a1de4eb8a8a8" From="903cdd6c-e125-4ab6-bd90-1ec8adc3f1fa" To="1487a3fd-e257-433d-abab-9c865de31811">
           <Condition />
           <Description />
           <ExtendedAttributes />
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="0">
-              <Coordinates XCoordinate="2293" YCoordinate="401" />
-              <Coordinates XCoordinate="2293" YCoordinate="402" />
-              <Coordinates XCoordinate="2186" YCoordinate="402" />
-              <Coordinates XCoordinate="2186" YCoordinate="403" />
+              <Coordinates XCoordinate="2490" YCoordinate="433" />
+              <Coordinates XCoordinate="2490" YCoordinate="450.5" />
+              <Coordinates XCoordinate="1986" YCoordinate="450.5" />
+              <Coordinates XCoordinate="1986" YCoordinate="468" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
